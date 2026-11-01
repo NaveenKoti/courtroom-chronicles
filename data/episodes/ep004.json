@@ -1,0 +1,63 @@
+{
+"id": "ep004",
+"title": "The Unfallen Bath Towel and the Cooling of Blood",
+"hook": "A naval officer shoots his spouse's lover, claiming an accidental discharge during a sudden struggle, but a perfectly undisturbed bath towel unravels his defense.",
+"topics": ["Criminal law","Criminal procedure","Evidence","Sentencing","Constitutional law"],
+"laws": ["IPC → BNS","Evidence Act → BSA","Constitution of India"],
+"facts": [
+{"label":"Court","value":"Supreme Court of India"},
+{"label":"Year","value":"1961"},
+{"label":"Legal Question","value":"Whether hours between confession and shooting negate grave and sudden provocation"},
+{"label":"Key Forensic Evidence","value":"Undisturbed towel around victim indicating absence of physical struggle"}
+],
+"summary": [
+"When a naval second-in-command discovered that his spouse was in an intimate relationship with a wealthy automobile merchant, he did not react with immediate physical violence in their residence. Instead, he calmly dropped his family off at an afternoon movie theatre matinee, drove to his naval warship to secure a service revolver and ammunition under a false pretext, and travelled to the lover's residence. Entering the bedroom where the victim had just stepped out of a bath, three shots were discharged in rapid succession, resulting in instant death.",
+"The accused surrendered to the authorities and argued before the trial jury that the shooting was accidental during an unforeseen physical struggle following an insult. However, medical and crime-scene investigators observed that the white terrycloth bath towel knotted around the deceased's waist remained completely undisturbed, directly contradicting any claim of a violent struggle. While a jury initially returned an acquittal, the presiding judge rejected the verdict as unreasonable and referred the case to the high court, which convicted the officer of intentional murder.",
+"On final appeal, the Supreme Court of India established the definitive legal test for grave and sudden provocation under criminal law. The bench held that while sudden verbal admissions may provoke emotional distress, any lapse of time sufficient for a reasonable person to regain composure constitutes a cooling-off period that destroys the defense. Because more than three hours had passed between the marital disclosure and the fatal confrontation, the act was held to be deliberate premeditated murder rather than culpable homicide.",
+"The trial also marked a constitutional milestone regarding executive clemency when the provincial governor attempted to suspend the officer's sentence during the appeal. A constitution bench held that executive powers cannot override judicial proceedings while a case remains actively under consideration by the courts. The public sensation surrounding the jury's verdict also accelerated the eventual legislative abolition of jury trials across the country."
+],
+"timeline": [
+{"date":"1959-04-27","title":"The Afternoon Disclosure","text":"The spouse discloses the extramarital relationship to the accused during an afternoon discussion.","key":false},
+{"date":"1959-04-27","title":"Securing the Service Weapon","text":"The accused obtains a service firearm and ammunition from his naval vessel under the pretext of self-protection.","key":false},
+{"date":"1959-04-27","title":"The Fatal Confrontation","text":"The accused enters the victim's apartment bedroom, resulting in fatal firearm discharge while the victim wears an intact bath towel.","key":true},
+{"date":"1959-10-22","title":"The Sessions Jury Verdict","text":"A special jury votes eight to one to acquit the accused, which the presiding judge refuses to accept.","key":false},
+{"date":"1960-03-11","title":"The High Court Conviction","text":"The high court reviews the record upon judicial reference and convicts the accused of murder.","key":false},
+{"date":"1961-11-24","title":"The Supreme Court Judgment","text":"The Supreme Court of India affirms the murder conviction and defines the objective cooling-off test for provocation.","key":true}
+],
+"judgment": {
+"outcome": "The Supreme Court of India dismissed the appeal, affirming the life sentence for murder and holding that the three-hour interval between disclosure and shooting provided ample time for passion to cool.",
+"points": [
+"The test of grave and sudden provocation requires assessing whether an ordinary reasonable person in similar circumstances would have lost self-control.",
+"A fatal assault cannot qualify for the provocation exception if sufficient time elapsed between the provocation and the act for reasonable passion to cool.",
+"The statutory burden placed upon an accused to prove a general exception does not extinguish the fundamental prosecution duty to prove guilt beyond reasonable doubt.",
+"Under judicial reference provisions, an appellate court possesses complete authority to review evidence afresh and overturn an unreasonable jury verdict."
+]
+},
+"principles": [
+{"name":"Doctrine of Provocation and Cooling Time","meaning":"Homicide is reduced from murder to culpable homicide only if committed while the accused is deprived of self-control by grave and sudden provocation, without a cooling period intervening.","inThisCase":"The passage of over three hours between the marital admission and the shooting was held sufficient for reason to resume control, precluding any claim of sudden provocation."},
+{"name":"Presumption of Innocence and Shifting Burden","latin":"semper praesumitur pro negante","meaning":"The accused is presumed innocent until proven guilty, and the prosecution retains the burden of proving each element of the crime even when statutory exceptions are pleaded.","inThisCase":"The court clarified that while the accused must show circumstances supporting an accidental firing exception, the prosecution's burden of proving intentional homicide never disappears."},
+{"name":"Rule Against Sub-Judice Executive Interference","meaning":"Executive powers of pardon and sentence suspension cannot be exercised in a manner that defeats the authority of an appellate court while a matter is actively pending before it.","inThisCase":"The governor's suspension order was held subordinate to the court's jurisdiction while the appeal remained sub judice."}
+],
+"takeaways": [
+"A lapse of several hours between emotional shock and a fatal assault constitutes cooling time that bars the plea of sudden provocation.",
+"Forensic details such as undisturbed clothing or intact towel knots can conclusively disprove claims of a mutual violent grapple.",
+"An accused pleading an accident or provocation bears the burden of establishing those facts, but the prosecution must still prove guilt beyond reasonable doubt.",
+"The case established that executive clemency cannot circumvent judicial appellate proceedings while a case remains pending before the court."
+],
+"lawMapping": [
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 302","title":"Punishment for murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 103","title":"Punishment for murder","url":"@BNS"},"change":"Substantially unchanged; restructured under Chapter VI of the new penal code."},
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 300","title":"Murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 101","title":"Murder","url":"@BNS"},"change":"Substantially unchanged; Exception 1 retains the defense of grave and sudden provocation."},
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 80","title":"Accident in doing a lawful act","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 18","title":"Accident in doing a lawful act","url":"@BNS"},"change":"Substantially unchanged general exception for accidental acts performed with proper care and caution."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 105","title":"Burden of proving that case of accused comes within exceptions","url":"@BSA"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 108","title":"Burden of proving that case of accused comes within exceptions","url":"@BSACMP"},"change":"Substantially unchanged statutory burden requiring the accused to prove circumstances bringing the case within exceptions."},
+{"old":{"act":"Constitution of India","section":"Article 161","title":"Power of Governor to grant pardons, etc., and to suspend, remit or commute sentences in certain cases","url":"@CONST"},"change":"Unchanged."}
+],
+"lawNote": "The alleged offences occurred in April 1959, so the substantive and procedural provisions of the Indian Penal Code, 1860, the Code of Criminal Procedure, 1898, and the Indian Evidence Act, 1872 applied to the trial and appeals. The Bharatiya Nyaya Sanhita, 2023, Bharatiya Nagarik Suraksha Sanhita, 2023, and Bharatiya Sakshya Adhiniyam, 2023 took effect on 1 July 2024 and apply to offences committed on or after that date.",
+"sources": [
+{"label":"Judgment of the Supreme Court of India, 1961","url":"https://indiankanoon.org/doc/1596139/"},
+{"label":"Indian Penal Code, 1860 (High Court of Tripura Official Text)","url":"@IPC"},
+{"label":"Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)","url":"@BNS"},
+{"label":"Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)","url":"@BSA"},
+{"label":"Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)","url":"@BSACMP"},
+{"label":"Constitution of India (Legislative Department Official Text)","url":"@CONST"}
+]
+}

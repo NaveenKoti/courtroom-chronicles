@@ -1,0 +1,59 @@
+{
+"id": "ep008",
+"title": "The Five Golden Principles of Circumstantial Proof",
+"hook": "When a young chemist dies of potassium cyanide poisoning, the Supreme Court defines the definitive five golden principles governing circumstantial evidence.",
+"topics": ["Criminal law","Evidence","Sentencing"],
+"laws": ["IPC → BNS","Evidence Act → BSA"],
+"facts": [
+{"label":"Court","value":"Supreme Court of India"},
+{"label":"Year","value":"1984"},
+{"label":"Legal Question","value":"Whether circumstantial evidence excluding suicide is required to convict for poisoning"},
+{"label":"Key Forensic Evidence","value":"Toxicological detection of potassium cyanide and three personal letters"}
+],
+"summary": [
+"Barely four months after an arranged marriage, a young bride holding a master's degree in chemistry was discovered lifeless in her bedroom on an early summer morning. The family physician examined the body, noticed immediate rigor mortis without external signs of physical trauma, and refused to issue a death certificate. Subsequent toxicological analysis revealed that the deceased had ingested a fatal quantity of potassium cyanide.",
+"Police investigators focused their attention on the husband, a chemical engineer managing an industrial chemical manufacturing unit who had maintained an intense extramarital relationship. The prosecution argued that the husband administered the lethal poison in darkness to escape the marriage, relying on personal letters written by the deceased describing marital isolation and distress. Both the trial court and the high court convicted the husband of murder and sentenced him to death.",
+"On final appeal, the Supreme Court of India set aside the conviction and acquitted the husband, delivering the definitive judgment on circumstantial evidence in Indian jurisprudence. The apex court formulated the five golden principles, often described as the panchsheel of circumstantial proof, requiring every link in the evidentiary chain to be conclusively established. The bench held that suspicion, however grave, cannot substitute for legal proof, and that the prosecution cannot cure gaps in its case by pointing to a weak defense.",
+"The court established four mandatory criteria for proving murder by poisoning, holding that the prosecution completely failed to prove that the husband ever possessed potassium cyanide. Furthermore, because the deceased was an accomplished chemist suffering from documented emotional depression, a reasonable hypothesis of suicide could not be ruled out. Applying the fundamental rule of criminal jurisprudence, the court ruled that where two reasonable views exist, the accused is entitled to the benefit of doubt."
+],
+"timeline": [
+{"date":"1982-02-11","title":"The Arranged Marriage","text":"A marriage is solemnized between a chemical engineer and an accomplished graduate in chemistry.","key":false},
+{"date":"1982-06-12","title":"The Fatal Morning","text":"The bride is found deceased in the master bedroom, and toxicological analysis detects potassium cyanide.","key":true},
+{"date":"1983-04-30","title":"The Trial Court Sentence","text":"The trial court finds the husband guilty of murder and imposes the death penalty.","key":false},
+{"date":"1983-07-22","title":"High Court Confirmation","text":"The high court confirms the murder conviction and the capital sentence.","key":false},
+{"date":"1984-07-17","title":"The Supreme Court Acquittal","text":"The Supreme Court of India acquits the husband and establishes the five golden principles of circumstantial evidence.","key":true}
+],
+"judgment": {
+"outcome": "The Supreme Court of India allowed the appeal, set aside the conviction and death sentence, and acquitted the accused of all charges.",
+"points": [
+"Circumstantial evidence must satisfy the five golden principles: circumstances must be fully established, consistent only with guilt, conclusive, exclusive of other hypotheses, and unbroken.",
+"In a case of murder by poisoning, the prosecution must establish motive, death by poison, possession of the poison by the accused, and an opportunity to administer it.",
+"Suspicion, however strong or grave, cannot take the place of legal proof, and moral conviction cannot support a criminal judgment.",
+"Where the evidence leaves open two reasonable possibilities—one pointing to guilt and the other consistent with innocence—the accused is entitled to the benefit of doubt."
+]
+},
+"principles": [
+{"name":"The Five Golden Principles of Circumstantial Evidence","meaning":"Circumstances establishing guilt must be fully proven, conclusive in nature, consistent only with guilt, exclusive of any innocent hypothesis, and unbroken in their chain.","inThisCase":"The court formulated this five-part test to overturn a capital conviction where the prosecution failed to prove the accused possessed the fatal poison."},
+{"name":"Benefit of Doubt and Competing Hypotheses","meaning":"When the evidence permits two plausible interpretations, one pointing to guilt and the other to innocence, the court must adopt the hypothesis favorable to the accused.","inThisCase":"Because the evidence supported both homicidal administration and voluntary suicide by an educated chemist, the court gave the accused the benefit of doubt."},
+{"name":"Relevancy of Ante-Mortem Statements on Circumstances of Death","meaning":"Statements made by a deceased person regarding the circumstances of the transaction resulting in death are admissible, whether the death is homicide or suicide.","inThisCase":"Letters written by the deceased bride detailing marital unhappiness were admitted as relevant evidence under statutory exceptions to the hearsay rule."}
+],
+"takeaways": [
+"Circumstantial evidence must form an unbroken chain that rules out every reasonable hypothesis consistent with the innocence of the accused.",
+"In poisoning cases, the prosecution must strictly prove that the accused had physical possession of the specific toxic substance.",
+"A court cannot use a false or weak defense plea to fill in missing evidentiary links in the prosecution's case.",
+"Dying declarations and letters regarding circumstances of death are admissible to evaluate both homicidal and suicidal possibilities."
+],
+"lawMapping": [
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 302","title":"Punishment for murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 103","title":"Punishment for murder","url":"@BNS"},"change":"Substantially unchanged; restructured under Chapter VI of the new penal code."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 3","title":"Interpretation-clause","url":"@BSA"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 2","title":"Definitions","url":"@BSACMP"},"change":"Consolidated evidentiary definitions including 'proved', 'disproved', and 'not proved' under Section 2."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 32","title":"Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant","url":"@BSA"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 26","title":"Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant","url":"@BSACMP"},"change":"Substantially unchanged; clause (a) covers statements relating to the cause of death or circumstances of the transaction."}
+],
+"lawNote": "The alleged incident occurred in June 1982, and the trial and appeals were governed by the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new penal and evidence codes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+"sources": [
+{"label":"Judgment of the Supreme Court of India, 1984","url":"https://indiankanoon.org/doc/1505859/"},
+{"label":"Indian Penal Code, 1860 (High Court of Tripura Official Text)","url":"@IPC"},
+{"label":"Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)","url":"@BNS"},
+{"label":"Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)","url":"@BSA"},
+{"label":"Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)","url":"@BSACMP"}
+]
+}

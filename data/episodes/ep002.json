@@ -1,0 +1,66 @@
+{
+"id": "ep002",
+"title": "The Poison Without a Trace and the Pauper's Cremation",
+"hook": "When a physician registered a comatose widow under a false name and left her body to be cremated as a pauper, the Supreme Court decided whether murder by poison can be proved without chemical trace.",
+"topics": ["Criminal law","Evidence","Sentencing"],
+"laws": ["Indian Penal Code, 1860 → Bharatiya Nyaya Sanhita, 2023","Indian Evidence Act, 1872 → Bharatiya Sakshya Adhiniyam, 2023"],
+"facts": [
+{"label":"Court","value":"Supreme Court of India (three-judge bench)"},
+{"label":"Year","value":"1959"},
+{"label":"Offence Date","value":"12–13 November 1956"},
+{"label":"Legal Question","value":"Whether murder by poisoning can be proved by circumstantial evidence and conduct when the autopsy and chemical analysis detect no poison in the body"},
+{"label":"Bench Decision","value":"2:1 majority upholding conviction and death sentence"}
+],
+"summary": [
+"In Poona, a wealthy widow living on her family estate came under the complete influence of her family physician, who moved his dispensary into the front room of her residence in 1955 and began managing her bank accounts, share dividends, and medical care. In November 1956, the physician arranged an appointment for her with a specialist in Bombay and accompanied her on the overnight passenger train on the night of 12 November 1956. Multiple neighbours, her lawyer, and her tenant saw her walking briskly and in good health just before departure, while her domestic servant saw the physician administer two injections to her that day.",
+"When the train arrived at Bombay on the morning of 13 November 1956, the widow was in a deep coma with contracted pupils and laboured breathing. The physician took her to a public hospital, registered her under an altered version of her pre-marriage maiden name, understated her age, and gave a fictitious address for a non-existent brother in Calcutta. When she died six hours later without regaining consciousness, the physician left the hospital without claiming the body or informing her family, and later replied to a hospital telegram by postal letter refusing to come to Bombay.",
+"Because the corpse remained unclaimed, it was sent to a medical college morgue under the Bombay Anatomy Act, 1949. Before dissection, police noticed a post-mortem mark on the neck and ordered an autopsy and visceral test, both of which returned negative for known poisons, after which the municipal authorities cremated the remains as an unclaimed pauper. Meanwhile, for 14 months in Poona, the physician forged letters and newspaper notices claiming the widow had gone on a pilgrimage and remarried in Rajasthan, forged clinic ledger entries dated months after her cremation, and liquidated her electrical company shares, debentures, and bank deposits.",
+"After family friends petitioned the State Government and the widow's son filed a police report, the physician was arrested in March 1958. Both the Sessions Court in Poona and the High Court at Bombay convicted him of murder and sentenced him to death. Before the Supreme Court of India, defence counsel argued that the body of the crime—known in Latin as corpus delicti—was unproven because chemical tests found no poison and natural diabetic coma could not be ruled out.",
+"By a two-to-one majority on 14 December 1959, the Supreme Court dismissed the appeal and upheld the death sentence. While the dissenting judge considered the medical evidence inconclusive as to unnatural death, the majority held that a killer whose own fraud and abandonment of the victim's body prevented timely toxicological detection cannot rely on the absence of chemical proof when clinical symptoms, opportunity, motive, and relentless post-crime deception exclude every hypothesis except homicide by an unrecognised poison or drug."
+],
+"timeline": [
+{"date":"1955","title":"Physician Moves into the Household","text":"The family physician relocates his clinic into the front suite of the widow's Poona home and assumes control over her financial and medical affairs.","key":false},
+{"date":"12 November 1956","title":"Injections and Overnight Train Departure","text":"Witnesses see the widow active and cheerful collecting rent; her domestic maid sees the physician give her two injections before they board the 10:00 PM train to Bombay.","key":false},
+{"date":"13 November 1956","title":"False Hospital Registration and Death","text":"Arriving comatose at 5:10 AM, the widow is admitted to a public hospital under a false name and fictitious Calcutta address, dies at 11:30 AM, and is abandoned by the physician.","key":true},
+{"date":"19 November 1956","title":"Negative Autopsy and Pauper Cremation","text":"An autopsy and chemical examination of the unclaimed body detect no standard poison, and the corpse is cremated as an unidentified pauper.","key":false},
+{"date":"Nov 1956 – Feb 1958","title":"Fourteen-Month Ghost Trail and Plunder","text":"The physician circulates forged letters and newspaper notices claiming the widow is on pilgrimage while forging her signatures to liquidate her shares, debentures, and bank funds.","key":false},
+{"date":"12 March 1958","title":"Arrest of the Physician","text":"Following petitions to the Chief Minister and a formal complaint by the victim's son, police arrest the physician and uncover false clinic entries dated months after her death.","key":false},
+{"date":"27 October 1958","title":"Trial Conviction and Death Sentence","text":"The Court of Session in Poona convicts the physician of murder by administering an unrecognised poison and sentences him to death; the High Court confirms the sentence in January 1959.","key":false},
+{"date":"14 December 1959","title":"Supreme Court Majority Verdict","text":"By a 2:1 majority, the Supreme Court of India affirms the murder conviction and death penalty, holding that poisoning can be proved by circumstantial evidence despite a negative chemical report.","key":true}
+],
+"judgment": {
+"outcome": "By a two-to-one majority, the Supreme Court of India upheld the murder conviction and confirmed the sentence of death.",
+"points": [
+"In a trial for murder by poisoning, the fact of death by poison may be proved by circumstantial evidence even when the autopsy and chemical analysis fail to detect any poison.",
+"An accused who deliberately conceals the victim's identity, provides a false medical history, and abandons the corpse so that timely forensic examination becomes impossible cannot plead the resulting absence of chemical proof to claim immunity.",
+"Where a death occurs under circumstances that could suggest either natural disease or homicide, the court must evaluate the accused's conduct both before and after the death alongside clinical symptoms and medical expert testimony.",
+"Circumstantial evidence justifies conviction when the cumulative chain of motive, opportunity, clinical progression, and subsequent conduct is so decisive that it excludes every reasonable hypothesis of natural death."
+]
+},
+"principles": [
+{"name":"Body of the crime","latin":"Corpus delicti","meaning":"Before punishing a person for an offence, the prosecution must establish that the crime itself was actually committed, such as proving unnatural homicidal death in a murder trial.","inThisCase":"The court ruled that the body of the crime in a poisoning case does not depend solely on isolating a toxin in a test tube, and can be established through clinical symptoms and an unbroken chain of conduct that rules out natural death."},
+{"name":"No one can take advantage of their own wrong","latin":"Nullus commodum capere potest de injuria sua propria","meaning":"A person who intentionally creates a wrongful state of affairs or destroys the means of proof cannot rely on that resulting gap to escape legal liability.","inThisCase":"By admitting the patient under an alias, inventing a fictitious relative, and abandoning her corpse to be cremated as an unknown pauper, the accused prevented targeted toxicological testing and could not use the negative report as a shield."},
+{"name":"Relevancy of previous and subsequent conduct","meaning":"The conduct of an accused person before and after an alleged offence—including preparation, concealment, false explanations, and fabrication of evidence—is relevant when it influences a fact in issue.","inThisCase":"The physician's 14-month campaign of forged letters, fake newspaper notices, post-dated clinic entries for a dead patient, and systematic embezzlement destroyed any hypothesis of innocent medical care."},
+{"name":"Standard of proof in circumstantial evidence","meaning":"To convict on circumstantial evidence alone, the proved facts must be consistent only with the guilt of the accused and must exclude every reasonable hypothesis of innocence.","inThisCase":"The majority found that the sudden coma in a healthy traveller after two injections, combined with the false hospital admission and subsequent plunder, left no reasonable possibility of natural diabetic collapse, whereas the dissenting judge felt natural death was not wholly excluded."}
+],
+"takeaways": [
+"A negative chemical examiner's report is not fatal to a poisoning prosecution if clinical symptoms, medical testimony, and surrounding circumstances prove homicidal poisoning beyond reasonable doubt.",
+"In poisoning trials resting on circumstantial evidence, courts examine four key elements: motive, death by poison, possession or access to the agent, and opportunity to administer it.",
+"Subsequent conduct under the law of evidence—such as disguising a victim's identity and staging false proof that she is still alive—can decisively bridge gaps in physical forensics.",
+"A medical practitioner's specialised access to drugs and clinical knowledge is a relevant factor when evaluating possession and opportunity in an undetected poisoning case."
+],
+"lawMapping": [
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 302","title":"Punishment for murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 103","title":"Punishment for murder","url":"@BNS"},"change":"Retains death or imprisonment for life and fine for murder under sub-section (1), and adds a separate sub-section (2) for murder committed by a group of five or more persons on specified grounds."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 3","title":"Interpretation-clause","url":"@BSACMP"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 2","title":"Definitions","url":"@BSA"},"change":"Retains the statutory definitions of proved, disproved, and not proved based on the standard of a prudent person, while expanding documentary definitions to include electronic and digital records."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 8","title":"Motive, preparation and previous or subsequent conduct","url":"@BSACMP"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 6","title":"Motive, preparation and previous or subsequent conduct","url":"@BSA"},"change":"Re-enacts the rule making motive, preparation, and previous or subsequent conduct of a party or accused person relevant."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 114","title":"Court may presume existence of certain facts","url":"@BSACMP"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 119","title":"Court may presume existence of certain facts","url":"@BSA"},"change":"Preserves the court's power to presume the existence of facts likely to have happened having regard to the common course of natural events and human conduct."}
+],
+"lawNote": "Because the offence occurred in November 1956, long before 1 July 2024, the Indian Penal Code, 1860 and the Indian Evidence Act, 1872 applied to the case.",
+"sources": [
+{"label":"Judgment of the Supreme Court of India, 14 December 1959","url":"https://indiankanoon.org/doc/1813863/"},
+{"label":"Indian Penal Code, 1860 (High Court of Tripura Repository)","url":"@IPC"},
+{"label":"Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Repository)","url":"@BSA"},
+{"label":"Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (Uttar Pradesh Police)","url":"@BNS"},
+{"label":"Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (Uttar Pradesh Police)","url":"@BSACMP"}
+]
+}
