@@ -1,73 +1,283 @@
 {
-"id": "ep003",
-"title": "The Winter Courtyard Stove and the Conflicting Dying Declarations",
-"hook": "When a pregnant bride burned in a freezing Delhi courtyard, the Supreme Court weighed her spontaneous cries to rescuing neighbours against a thumb-marked police statement claiming a stove accident.",
-"topics": ["Criminal law","Evidence","Criminal procedure","Family law","Sentencing"],
-"laws": ["Indian Penal Code, 1860 → Bharatiya Nyaya Sanhita, 2023","Indian Evidence Act, 1872 → Bharatiya Sakshya Adhiniyam, 2023","Constitution of India"],
-"facts": [
-{"label":"Court","value":"Supreme Court of India (two-judge bench)"},
-{"label":"Year","value":"1985"},
-{"label":"Offence Date","value":"1 December 1980"},
-{"label":"Legal Question","value":"How an appellate court should evaluate conflicting oral and written dying declarations alongside physical forensic realities in an appeal against acquittal"},
-{"label":"Statutory Legacy","value":"Catalysed anti-dowry cruelty and dowry death reforms in Indian criminal and evidence law"}
-],
-"summary": [
-"In February 1980, a 20-year-old woman married into a Delhi trading family and moved into a ground-floor apartment. Soon after the wedding, her husband and in-laws began harassing her with demands for cash, a refrigerator, and a two-wheeler scooter, repeating the ultimatum as she entered the final month of her pregnancy in late 1980.",
-"Shortly after 9:00 PM on 1 December 1980, neighbours heard cries for help from the flat and rushed to the entrance, where they saw the husband attempting to hold the front door shut and his brother standing with his hand on the courtyard latch. Forcing their way inside, four neighbours found the heavily pregnant woman standing engulfed in flames in the open courtyard. The rescuers tore off her burning nylon garment and smothered the fire with a gunny bag and a blanket, blistering their own hands while the husband's hands remained completely unburned.",
-"Immediately after the flames were put out, the dying woman pointed at her mother-in-law in front of the neighbours and declared that her mother-in-law had poured kerosene on her and set her on fire—an accusation she repeated while being carried to a taxi and again to her elder sister en route to the hospital. However, at the hospital later that night, a police sub-inspector recorded a written statement—without summoning a judicial magistrate or obtaining a formal medical fitness certificate, and bearing only a blurred thumb impression despite the victim being literate—claiming her garment caught fire accidentally while heating milk on a kerosene stove.",
-"The victim and her unborn child died early the next morning. Crime scene inspection revealed that the kerosene stove in the freezing outdoor courtyard had not burst, the milk pan beside it was completely cold and dry, and a working liquefied petroleum gas (LPG) stove was sitting inside the warm kitchen. The trial court rejected the police statement and sentenced the husband, mother-in-law, and brother-in-law to death, but in November 1983 the High Court of Delhi accepted the accidental stove theory and acquitted all three.",
-"Hearing appeals by the Delhi Administration and a women's legal federation under Article 136 of the Constitution of India, the Supreme Court of India reversed the acquittals of the husband and mother-in-law in September 1985. Taking judicial notice of the December winter cold and the physical impossibility of the stove defence, the Court discarded the compromised police paper, accepted the corroborated oral declarations made to independent neighbours, and sentenced the husband and mother-in-law to life imprisonment while giving the brother-in-law the benefit of doubt."
-],
-"timeline": [
-{"date":"16 February 1980","title":"Marriage and Dowry Demands","text":"The 20-year-old bride marries the accused and moves into the Delhi apartment, where she faces persistent demands for a scooter, a refrigerator, and cash.","key":false},
-{"date":"1 December 1980 (9:00 PM)","title":"The Courtyard Fire and Rescue","text":"Neighbours hear screams, force past the husband at the door, extinguish the flames consuming the nine-month-pregnant bride, and hear her accuse her mother-in-law of pouring kerosene and setting her ablaze.","key":true},
-{"date":"1 December 1980 (11:00 PM)","title":"Contested Hospital Police Statement","text":"Without calling a magistrate, a police sub-inspector records a thumb-marked statement at the hospital claiming the fire was an accident while boiling milk on a kerosene stove.","key":false},
-{"date":"2 December 1980","title":"Death of the Victim","text":"The bride succumbs to 70 percent burn injuries along with her full-term unborn child in the early hours of the morning.","key":false},
-{"date":"27 May 1982","title":"Trial Court Death Sentence","text":"The Additional Sessions Judge in Delhi rejects the stove accident defence, convicts the husband, mother-in-law, and brother-in-law of murder, and sentences all three to death.","key":false},
-{"date":"3 November 1983","title":"High Court Acquittal","text":"The High Court of Delhi overturns the convictions, accepts the written police statement and stove accident theory, and acquits all three accused.","key":false},
-{"date":"23 September 1985","title":"Supreme Court Reversal","text":"The Supreme Court of India sets aside the perverse acquittal of the husband and mother-in-law, convicts them of murder with common intention, and sentences them to life imprisonment.","key":true}
-],
-"judgment": {
-"outcome": "The Supreme Court of India set aside the High Court's acquittal of the husband and mother-in-law, convicted them of murder read with common intention, and sentenced them to imprisonment for life while granting the brother-in-law the benefit of doubt.",
-"points": [
-"Under Article 136 of the Constitution of India, the Supreme Court will set aside an acquittal where the High Court's appreciation of evidence is perverse and ignores glaring physical facts.",
-"A written dying declaration recorded by a police officer in violation of police rules—without summoning a magistrate, without a proper medical fitness endorsement, and using a thumb impression for a literate declarant—is unreliable.",
-"Spontaneous oral dying declarations made immediately after the incident to independent, disinterested rescuing neighbours are admissible and carry strong weight when corroborated by physical circumstances.",
-"Courts may take judicial notice of ordinary human conduct and physical realities—such as a heavily pregnant woman in thin clothing not squatting in a freezing December courtyard to pump a slow kerosene stove when a working gas stove is inside the kitchen.",
-"Because two years had elapsed since the High Court's acquittal, the Supreme Court awarded life imprisonment rather than restoring the trial court's sentence of death."
-]
-},
-"principles": [
-{"name":"Dying declaration","latin":"Nemo moriturus praesumitur mentiri","meaning":"A statement made by a person as to the cause of their death or the circumstances of the transaction resulting in their death is admissible in evidence, grounded on the maxim that a person on the verge of death is not presumed to lie.","inThisCase":"The court rejected the suspicious police-recorded hospital paper and relied on the victim's three spontaneous oral dying declarations made to rescuing neighbours and her sister, which were fully corroborated by the crime scene forensics."},
-{"name":"Facts forming part of the same transaction","latin":"Res gestae","meaning":"Spontaneous statements or acts so closely connected with the main event in time and circumstance that they exclude the possibility of fabrication are relevant as part of the same transaction.","inThisCase":"The victim's immediate cry to the neighbours who had just extinguished the flames—pointing to her mother-in-law as the person who poured kerosene and lit the match—carried high probative value."},
-{"name":"Joint criminal liability by common intention","meaning":"When a criminal act is done by several persons in furtherance of the common intention of all, each such person is liable for that act in the same manner as if it were done by them alone.","inThisCase":"By holding the entrance door shut to prevent neighbours from entering while his wife burned inside the courtyard, the husband acted in concert with his mother and shared full liability for murder."},
-{"name":"Judicial notice of natural events and human conduct","meaning":"A court may take notice of indisputable facts of nature, climate, and ordinary human behaviour without requiring formal proof.","inThisCase":"The Supreme Court took notice of the biting December night cold in Delhi and the availability of an indoor gas stove to conclude that the defence story of the pregnant victim choosing to pump an outdoor kerosene stove was impossible."},
-{"name":"Benefit of the doubt","meaning":"Where the evidence against an individual accused in a multi-accused trial lies on the borderline and does not exclude reasonable doubt as to their specific participation, they are entitled to acquittal.","inThisCase":"While the husband's and mother-in-law's guilt was conclusively established, the court gave the brother-in-law the benefit of doubt regarding his active participation in the burning."}
-],
-"takeaways": [
-"A written police dying declaration is not superior to oral dying declarations if the written record violates procedural safeguards and contradicts physical evidence.",
-"Independent neighbours who intervene in a domestic emergency and bear physical injuries from the rescue are highly credible witnesses whose testimony cannot be brushed aside as over-enthusiastic.",
-"Forensic inspection of household appliances—such as an unburst stove, a cold dry pan, and an unused indoor gas cylinder—can decisively refute a staged domestic accident defence.",
-"Public outcry and judicial findings from bride-burning trials of the early 1980s directly led Parliament to enact specific provisions for marital cruelty, dowry death, and statutory presumptions."
-],
-"lawMapping": [
-{"old":{"act":"Indian Penal Code, 1860","section":"Section 302","title":"Punishment for murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 103","title":"Punishment for murder","url":"@BNS"},"change":"Retains death or imprisonment for life and fine for murder under sub-section (1), and adds sub-section (2) for murder committed by a group of five or more persons on specified grounds."},
-{"old":{"act":"Indian Penal Code, 1860","section":"Section 34","title":"Acts done by several persons in furtherance of common intention","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 3(5)","title":"General explanations","url":"@BNS"},"change":"Consolidates the principle of joint liability for acts done by several persons in furtherance of common intention into sub-section (5) of Section 3."},
-{"old":{"act":"Indian Penal Code, 1860","section":"Section 304B","title":"Dowry death","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 80","title":"Dowry death","url":"@BNS"},"change":"Re-enacts the offence and punishment for dowry death when a woman dies of burns or bodily injury or otherwise than under normal circumstances within seven years of marriage following dowry cruelty."},
-{"old":{"act":"Indian Penal Code, 1860","section":"Section 498A","title":"Husband or relative of husband of a woman subjecting her to cruelty","url":"@BNS"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 85","title":"Husband or relative of husband of a woman subjecting her to cruelty","url":"@BNS"},"change":"Retains the offence of cruelty by a husband or his relatives in Section 85 and places the definition of cruelty in a separate Section 86."},
-{"old":{"act":"Indian Evidence Act, 1872","section":"Section 32","title":"Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant","url":"@BSACMP"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 26","title":"Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant","url":"@BSA"},"change":"Preserves the admissibility of dying declarations relating to the cause of death or circumstances of the transaction resulting in death under clause (a)."},
-{"old":{"act":"Indian Evidence Act, 1872","section":"Section 6","title":"Relevancy of facts forming part of same transaction","url":"@BSACMP"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 4","title":"Relevancy of facts forming part of same transaction","url":"@BSA"},"change":"Re-enacts the rule making facts so connected with a fact in issue as to form part of the same transaction relevant."},
-{"old":{"act":"Indian Evidence Act, 1872","section":"Section 113B","title":"Presumption as to dowry death","url":"@BSACMP"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 118","title":"Presumption as to dowry death","url":"@BSA"},"change":"Retains the mandatory presumption that a person caused a dowry death when it is shown that soon before her death the woman was subjected by that person to cruelty or harassment in connection with a dowry demand."},
-{"old":{"act":"Constitution of India","section":"Article 136","title":"Special leave to appeal by the Supreme Court","url":"@CONST"},"change":"Unchanged."}
-],
-"lawNote": "Because the offence took place in December 1980, prior to 1 July 2024, the Indian Penal Code, 1860 and the Indian Evidence Act, 1872 governed the trial and appeal; Sections 498A and 304B of the Indian Penal Code and Section 113B of the Indian Evidence Act were enacted in the 1980s following the public and legislative response to dowry burnings.",
-"sources": [
-{"label":"Judgment of the Supreme Court of India, 23 September 1985","url":"https://indiankanoon.org/doc/433126/"},
-{"label":"Judgment of the High Court of Delhi, 3 November 1983","url":"https://indiankanoon.org/doc/296472/"},
-{"label":"Constitution of India (Legislative Department)","url":"@CONST"},
-{"label":"Indian Penal Code, 1860 (High Court of Tripura Repository)","url":"@IPC"},
-{"label":"Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Repository)","url":"@BSA"},
-{"label":"Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (Uttar Pradesh Police)","url":"@BNS"},
-{"label":"Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (Uttar Pradesh Police)","url":"@BSACMP"}
-]
+  "id": "ep003",
+  "title": "The Winter Courtyard Stove and the Conflicting Dying Declarations",
+  "hook": "When a pregnant bride burned in a freezing Delhi courtyard, the Supreme Court weighed her spontaneous cries to rescuing neighbours against a thumb-marked police statement claiming a stove accident.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Criminal procedure",
+    "Family law",
+    "Sentencing"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 → Bharatiya Nyaya Sanhita, 2023",
+    "Indian Evidence Act, 1872 → Bharatiya Sakshya Adhiniyam, 2023",
+    "Constitution of India"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (two-judge bench)"
+    },
+    {
+      "label": "Year",
+      "value": "1985"
+    },
+    {
+      "label": "Offence Date",
+      "value": "1 December 1980"
+    },
+    {
+      "label": "Legal Question",
+      "value": "How an appellate court should evaluate conflicting oral and written dying declarations alongside physical forensic realities in an appeal against acquittal"
+    },
+    {
+      "label": "Statutory Legacy",
+      "value": "Catalysed anti-dowry cruelty and dowry death reforms in Indian criminal and evidence law"
+    }
+  ],
+  "summary": [
+    "In February 1980, a 20-year-old woman married into a Delhi trading family and moved into a ground-floor apartment. Soon after the wedding, her husband and in-laws began harassing her with demands for cash, a refrigerator, and a two-wheeler scooter, repeating the ultimatum as she entered the final month of her pregnancy in late 1980.",
+    "Shortly after 9:00 PM on 1 December 1980, neighbours heard cries for help from the flat and rushed to the entrance, where they saw the husband attempting to hold the front door shut and his brother standing with his hand on the courtyard latch. Forcing their way inside, four neighbours found the heavily pregnant woman standing engulfed in flames in the open courtyard. The rescuers tore off her burning nylon garment and smothered the fire with a gunny bag and a blanket, blistering their own hands while the husband's hands remained completely unburned.",
+    "Immediately after the flames were put out, the dying woman pointed at her mother-in-law in front of the neighbours and declared that her mother-in-law had poured kerosene on her and set her on fire—an accusation she repeated while being carried to a taxi and again to her elder sister en route to the hospital. However, at the hospital later that night, a police sub-inspector recorded a written statement—without summoning a judicial magistrate or obtaining a formal medical fitness certificate, and bearing only a blurred thumb impression despite the victim being literate—claiming her garment caught fire accidentally while heating milk on a kerosene stove.",
+    "The victim and her unborn child died early the next morning. Crime scene inspection revealed that the kerosene stove in the freezing outdoor courtyard had not burst, the milk pan beside it was completely cold and dry, and a working liquefied petroleum gas (LPG) stove was sitting inside the warm kitchen. The trial court rejected the police statement and sentenced the husband, mother-in-law, and brother-in-law to death, but in November 1983 the High Court of Delhi accepted the accidental stove theory and acquitted all three.",
+    "Hearing appeals by the Delhi Administration and a women's legal federation under Article 136 of the Constitution of India, the Supreme Court of India reversed the acquittals of the husband and mother-in-law in September 1985. Taking judicial notice of the December winter cold and the physical impossibility of the stove defence, the Court discarded the compromised police paper, accepted the corroborated oral declarations made to independent neighbours, and sentenced the husband and mother-in-law to life imprisonment while giving the brother-in-law the benefit of doubt."
+  ],
+  "timeline": [
+    {
+      "date": "16 February 1980",
+      "title": "Marriage and Dowry Demands",
+      "text": "The 20-year-old bride marries the accused and moves into the Delhi apartment, where she faces persistent demands for a scooter, a refrigerator, and cash.",
+      "key": false
+    },
+    {
+      "date": "1 December 1980 (9:00 PM)",
+      "title": "The Courtyard Fire and Rescue",
+      "text": "Neighbours hear screams, force past the husband at the door, extinguish the flames consuming the nine-month-pregnant bride, and hear her accuse her mother-in-law of pouring kerosene and setting her ablaze.",
+      "key": true
+    },
+    {
+      "date": "1 December 1980 (11:00 PM)",
+      "title": "Contested Hospital Police Statement",
+      "text": "Without calling a magistrate, a police sub-inspector records a thumb-marked statement at the hospital claiming the fire was an accident while boiling milk on a kerosene stove.",
+      "key": false
+    },
+    {
+      "date": "2 December 1980",
+      "title": "Death of the Victim",
+      "text": "The bride succumbs to 70 percent burn injuries along with her full-term unborn child in the early hours of the morning.",
+      "key": false
+    },
+    {
+      "date": "27 May 1982",
+      "title": "Trial Court Death Sentence",
+      "text": "The Additional Sessions Judge in Delhi rejects the stove accident defence, convicts the husband, mother-in-law, and brother-in-law of murder, and sentences all three to death.",
+      "key": false
+    },
+    {
+      "date": "3 November 1983",
+      "title": "High Court Acquittal",
+      "text": "The High Court of Delhi overturns the convictions, accepts the written police statement and stove accident theory, and acquits all three accused.",
+      "key": false
+    },
+    {
+      "date": "23 September 1985",
+      "title": "Supreme Court Reversal",
+      "text": "The Supreme Court of India sets aside the perverse acquittal of the husband and mother-in-law, convicts them of murder with common intention, and sentences them to life imprisonment.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India set aside the High Court's acquittal of the husband and mother-in-law, convicted them of murder read with common intention, and sentenced them to imprisonment for life while granting the brother-in-law the benefit of doubt.",
+    "points": [
+      "Under Article 136 of the Constitution of India, the Supreme Court will set aside an acquittal where the High Court's appreciation of evidence is perverse and ignores glaring physical facts.",
+      "A written dying declaration recorded by a police officer in violation of police rules—without summoning a magistrate, without a proper medical fitness endorsement, and using a thumb impression for a literate declarant—is unreliable.",
+      "Spontaneous oral dying declarations made immediately after the incident to independent, disinterested rescuing neighbours are admissible and carry strong weight when corroborated by physical circumstances.",
+      "Courts may take judicial notice of ordinary human conduct and physical realities—such as a heavily pregnant woman in thin clothing not squatting in a freezing December courtyard to pump a slow kerosene stove when a working gas stove is inside the kitchen.",
+      "Because two years had elapsed since the High Court's acquittal, the Supreme Court awarded life imprisonment rather than restoring the trial court's sentence of death."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Dying declaration",
+      "latin": "Nemo moriturus praesumitur mentiri",
+      "meaning": "A statement made by a person as to the cause of their death or the circumstances of the transaction resulting in their death is admissible in evidence, grounded on the maxim that a person on the verge of death is not presumed to lie.",
+      "inThisCase": "The court rejected the suspicious police-recorded hospital paper and relied on the victim's three spontaneous oral dying declarations made to rescuing neighbours and her sister, which were fully corroborated by the crime scene forensics."
+    },
+    {
+      "name": "Facts forming part of the same transaction",
+      "latin": "Res gestae",
+      "meaning": "Spontaneous statements or acts so closely connected with the main event in time and circumstance that they exclude the possibility of fabrication are relevant as part of the same transaction.",
+      "inThisCase": "The victim's immediate cry to the neighbours who had just extinguished the flames—pointing to her mother-in-law as the person who poured kerosene and lit the match—carried high probative value."
+    },
+    {
+      "name": "Joint criminal liability by common intention",
+      "meaning": "When a criminal act is done by several persons in furtherance of the common intention of all, each such person is liable for that act in the same manner as if it were done by them alone.",
+      "inThisCase": "By holding the entrance door shut to prevent neighbours from entering while his wife burned inside the courtyard, the husband acted in concert with his mother and shared full liability for murder."
+    },
+    {
+      "name": "Judicial notice of natural events and human conduct",
+      "meaning": "A court may take notice of indisputable facts of nature, climate, and ordinary human behaviour without requiring formal proof.",
+      "inThisCase": "The Supreme Court took notice of the biting December night cold in Delhi and the availability of an indoor gas stove to conclude that the defence story of the pregnant victim choosing to pump an outdoor kerosene stove was impossible."
+    },
+    {
+      "name": "Benefit of the doubt",
+      "meaning": "Where the evidence against an individual accused in a multi-accused trial lies on the borderline and does not exclude reasonable doubt as to their specific participation, they are entitled to acquittal.",
+      "inThisCase": "While the husband's and mother-in-law's guilt was conclusively established, the court gave the brother-in-law the benefit of doubt regarding his active participation in the burning."
+    }
+  ],
+  "takeaways": [
+    "A written police dying declaration is not superior to oral dying declarations if the written record violates procedural safeguards and contradicts physical evidence.",
+    "Independent neighbours who intervene in a domestic emergency and bear physical injuries from the rescue are highly credible witnesses whose testimony cannot be brushed aside as over-enthusiastic.",
+    "Forensic inspection of household appliances—such as an unburst stove, a cold dry pan, and an unused indoor gas cylinder—can decisively refute a staged domestic accident defence.",
+    "Public outcry and judicial findings from bride-burning trials of the early 1980s directly led Parliament to enact specific provisions for marital cruelty, dowry death, and statutory presumptions."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Retains death or imprisonment for life and fine for murder under sub-section (1), and adds sub-section (2) for murder committed by a group of five or more persons on specified grounds."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 34",
+        "title": "Acts done by several persons in furtherance of common intention",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 3(5)",
+        "title": "General explanations",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidates the principle of joint liability for acts done by several persons in furtherance of common intention into sub-section (5) of Section 3."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 304B",
+        "title": "Dowry death",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 80",
+        "title": "Dowry death",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacts the offence and punishment for dowry death when a woman dies of burns or bodily injury or otherwise than under normal circumstances within seven years of marriage following dowry cruelty."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 498A",
+        "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 85",
+        "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Retains the offence of cruelty by a husband or his relatives in Section 85 and places the definition of cruelty in a separate Section 86."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 32",
+        "title": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 26",
+        "title": "Cases in which statement of relevant fact by person who is dead or cannot be found, etc., is relevant",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "change": "Preserves the admissibility of dying declarations relating to the cause of death or circumstances of the transaction resulting in death under clause (a)."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 6",
+        "title": "Relevancy of facts forming part of same transaction",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 4",
+        "title": "Relevancy of facts forming part of same transaction",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "change": "Re-enacts the rule making facts so connected with a fact in issue as to form part of the same transaction relevant."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 113B",
+        "title": "Presumption as to dowry death",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 118",
+        "title": "Presumption as to dowry death",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "change": "Retains the mandatory presumption that a person caused a dowry death when it is shown that soon before her death the woman was subjected by that person to cruelty or harassment in connection with a dowry demand."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 136",
+        "title": "Special leave to appeal by the Supreme Court",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the offence took place in December 1980, prior to 1 July 2024, the Indian Penal Code, 1860 and the Indian Evidence Act, 1872 governed the trial and appeal; Sections 498A and 304B of the Indian Penal Code and Section 113B of the Indian Evidence Act were enacted in the 1980s following the public and legislative response to dowry burnings.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 23 September 1985",
+      "url": "https://indiankanoon.org/doc/433126/"
+    },
+    {
+      "label": "Judgment of the High Court of Delhi, 3 November 1983",
+      "url": "https://indiankanoon.org/doc/296472/"
+    },
+    {
+      "label": "Constitution of India (Legislative Department)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Repository)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Repository)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (Uttar Pradesh Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (Uttar Pradesh Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
 }
