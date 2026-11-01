@@ -1,56 +1,142 @@
 {
-"id": "ep010",
-"title": "The Forty-Storey Shadow on the Lawn",
-"hook": "When a commercial real estate conglomerate constructs twin forty-storey skyscrapers on a designated residential lawn, elderly homeowners take the battle to the Supreme Court.",
-"topics": ["Property law","Commercial law","Environmental law","Natural justice"],
-"laws": ["Constitution of India","Consumer Protection Law"],
-"facts": [
-{"label":"Court","value":"Supreme Court of India"},
-{"label":"Year","value":"2021"},
-{"label":"Legal Question","value":"Whether high-rise residential towers built in violation of distance norms must be demolished"},
-{"label":"Key Forensic Evidence","value":"Survey measuring distance of nine meters between towers against statutory sixteen-meter norm"}
-],
-"summary": [
-"A residential real estate project was marketed to middle-class homebuyers and retired military personnel with the promise of unhindered open skies, natural ventilation, and a sprawling manicured green lawn. Based on the sanctioned architectural layout, hundreds of buyers invested their retirement savings and executed purchase agreements. However, five years later, heavy excavators moved directly onto the designated green space to construct two massive forty-storey residential skyscrapers.",
-"The planned skyscrapers soared over one hundred meters into the air, rising just nine meters away from the balconies of existing residential blocks. This narrow gap obstructed sunlight, eliminated natural air circulation, and severely violated mandatory fire safety separation distances. When the residents' welfare association demanded access to planning records, municipal authorities refused disclosure and colluded with the developer to approve successive retrospective revisions.",
-"The residents approached the high court, which ordered the demolition of the illegal towers at the developer's expense and directed criminal prosecution of municipal officials. The developer appealed to the Supreme Court of India, arguing that substantial financial capital had already been invested and that minor structural alterations could regularize the buildings. Rejecting the plea, the apex court affirmed that commercial investment cannot sanitize fundamental violations of urban planning norms and statutory building bye-laws.",
-"The Supreme Court held that the developer and municipal officials had engaged in a nexus of pervasive corruption that trampled upon the statutory rights of existing homeowners. The bench ordered the controlled explosive demolition of both towers, complete monetary refunds with twelve percent interest to purchasers, and compensation to the residents' association. The ruling established that environmental well-being, fire safety, and the public trust doctrine supersede corporate balance sheets in urban development."
-],
-"timeline": [
-{"date":"2006-06-20","title":"First Sanctioned Plan","text":"The development authority sanctions a residential layout showing fourteen mid-rise towers and an open garden park.","key":false},
-{"date":"2009-11-26","title":"Second Plan Revision","text":"The planning authority secretly sanctions two additional high-rise towers on the designated green park without resident consent.","key":false},
-{"date":"2012-03-02","title":"Third Plan Revision","text":"A revised sanction raises the height of the twin towers to forty storeys, positioned nine meters from existing balconies.","key":true},
-{"date":"2014-04-11","title":"High Court Demolition Order","text":"The high court rules the towers illegal, directing their demolition and criminal prosecution of planning officials.","key":false},
-{"date":"2021-08-31","title":"Supreme Court Final Affirmation","text":"The Supreme Court affirms the demolition, ordering full refunds with interest and reinforcing the public trust doctrine.","key":true},
-{"date":"2022-08-28","title":"The Controlled Implosion","text":"The twin skyscrapers are reduced to rubble in a nine-second controlled explosive demolition.","key":false}
-],
-"judgment": {
-"outcome": "The Supreme Court of India dismissed the appeals, affirmed the high court's demolition order, and directed full refunds with twelve percent interest to affected homebuyers.",
-"points": [
-"The construction of high-rise towers in breach of mandatory fire separation and inter-building distance regulations cannot be regularized on grounds of substantial financial investment.",
-"The modification of common areas and designated open green spaces without the statutory consent of existing apartment owners violates property rights.",
-"Municipal planning authorities act as trustees of the public and cannot collude with private developers to sanction illegal architectural alterations.",
-"Courts must order the complete demolition of structures raised through administrative collusion to preserve the rule of law in urban development."
-]
-},
-"principles": [
-{"name":"The Public Trust Doctrine in Urban Planning","meaning":"Public regulatory authorities hold land and planning powers in trust for the public and must exercise them for environmental safety rather than private corporate enrichment.","inThisCase":"The court held that the development authority breached its fiduciary duty as a public trustee by colluding with the private developer to wipe out common green spaces."},
-{"name":"Principle Against Indirect Evasion of Law","latin":"quando aliquid prohibetur ex directo, prohibetur et per obliquum","meaning":"What cannot be done directly by law cannot be done indirectly through clever procedural stratagems or piecemeal sanctions.","inThisCase":"The developer could not indirectly bypass mandatory inter-building distance requirements by claiming separate buildings formed a single connected architectural block."},
-{"name":"Primacy of Safety and Environmental Well-being","meaning":"The fundamental rights to life and a healthy environment encompass access to sunlight, ventilation, and adequate fire safety buffers in residential housing.","inThisCase":"The apex court held that constructing forty-storey towers nine meters from residential balconies created severe safety hazards that mandated structural demolition."}
-],
-"takeaways": [
-"Economic investment or physical completion of a structure cannot legalize buildings erected in violation of planning regulations.",
-"Common green areas shown in initial sales layouts become the collective property of apartment purchasers and cannot be eliminated without consent.",
-"Inter-building distance rules are mandatory safety provisions designed for fire tender access and natural ventilation.",
-"Regulatory officials who collude in illegal building sanctions face severe criminal investigation and institutional liability."
-],
-"lawMapping": [
-{"old":{"act":"Constitution of India","section":"Article 21","title":"Protection of life and personal liberty","url":"@CONST"},"change":"Unchanged."},
-{"old":{"act":"Constitution of India","section":"Article 142","title":"Enforcement of decrees and orders of Supreme Court and orders as to discovery, etc.","url":"@CONST"},"change":"Unchanged."}
-],
-"lawNote": "The dispute centered on statutory development rules including the Uttar Pradesh Industrial Area Development Act, 1976, the Uttar Pradesh Apartments (Promotion of Construction, Ownership and Maintenance) Act, 2010, and municipal building regulations. The proceedings concluded under the established constitutional and civil framework of India.",
-"sources": [
-{"label":"Judgment of the Supreme Court of India, 2021","url":"https://indiankanoon.org/doc/85406425/"},
-{"label":"Constitution of India (Legislative Department Official Text)","url":"@CONST"}
-]
+  "id": "ep010",
+  "title": "The Forty-Storey Shadow on the Lawn",
+  "hook": "When a commercial real estate conglomerate constructs twin forty-storey skyscrapers on a designated residential lawn, elderly homeowners take the battle to the Supreme Court.",
+  "topics": [
+    "Property law",
+    "Commercial law",
+    "Environmental law",
+    "Natural justice"
+  ],
+  "laws": [
+    "Constitution of India",
+    "Consumer Protection Law"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "2021"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether high-rise residential towers built in violation of distance norms must be demolished"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Survey measuring distance of nine meters between towers against statutory sixteen-meter norm"
+    }
+  ],
+  "summary": [
+    "A residential real estate project was marketed to middle-class homebuyers and retired military personnel with the promise of unhindered open skies, natural ventilation, and a sprawling manicured green lawn. Based on the sanctioned architectural layout, hundreds of buyers invested their retirement savings and executed purchase agreements. However, five years later, heavy excavators moved directly onto the designated green space to construct two massive forty-storey residential skyscrapers.",
+    "The planned skyscrapers soared over one hundred meters into the air, rising just nine meters away from the balconies of existing residential blocks. This narrow gap obstructed sunlight, eliminated natural air circulation, and severely violated mandatory fire safety separation distances. When the residents' welfare association demanded access to planning records, municipal authorities refused disclosure and colluded with the developer to approve successive retrospective revisions.",
+    "The residents approached the high court, which ordered the demolition of the illegal towers at the developer's expense and directed criminal prosecution of municipal officials. The developer appealed to the Supreme Court of India, arguing that substantial financial capital had already been invested and that minor structural alterations could regularize the buildings. Rejecting the plea, the apex court affirmed that commercial investment cannot sanitize fundamental violations of urban planning norms and statutory building bye-laws.",
+    "The Supreme Court held that the developer and municipal officials had engaged in a nexus of pervasive corruption that trampled upon the statutory rights of existing homeowners. The bench ordered the controlled explosive demolition of both towers, complete monetary refunds with twelve percent interest to purchasers, and compensation to the residents' association. The ruling established that environmental well-being, fire safety, and the public trust doctrine supersede corporate balance sheets in urban development."
+  ],
+  "timeline": [
+    {
+      "date": "2006-06-20",
+      "title": "First Sanctioned Plan",
+      "text": "The development authority sanctions a residential layout showing fourteen mid-rise towers and an open garden park.",
+      "key": false
+    },
+    {
+      "date": "2009-11-26",
+      "title": "Second Plan Revision",
+      "text": "The planning authority secretly sanctions two additional high-rise towers on the designated green park without resident consent.",
+      "key": false
+    },
+    {
+      "date": "2012-03-02",
+      "title": "Third Plan Revision",
+      "text": "A revised sanction raises the height of the twin towers to forty storeys, positioned nine meters from existing balconies.",
+      "key": true
+    },
+    {
+      "date": "2014-04-11",
+      "title": "High Court Demolition Order",
+      "text": "The high court rules the towers illegal, directing their demolition and criminal prosecution of planning officials.",
+      "key": false
+    },
+    {
+      "date": "2021-08-31",
+      "title": "Supreme Court Final Affirmation",
+      "text": "The Supreme Court affirms the demolition, ordering full refunds with interest and reinforcing the public trust doctrine.",
+      "key": true
+    },
+    {
+      "date": "2022-08-28",
+      "title": "The Controlled Implosion",
+      "text": "The twin skyscrapers are reduced to rubble in a nine-second controlled explosive demolition.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India dismissed the appeals, affirmed the high court's demolition order, and directed full refunds with twelve percent interest to affected homebuyers.",
+    "points": [
+      "The construction of high-rise towers in breach of mandatory fire separation and inter-building distance regulations cannot be regularized on grounds of substantial financial investment.",
+      "The modification of common areas and designated open green spaces without the statutory consent of existing apartment owners violates property rights.",
+      "Municipal planning authorities act as trustees of the public and cannot collude with private developers to sanction illegal architectural alterations.",
+      "Courts must order the complete demolition of structures raised through administrative collusion to preserve the rule of law in urban development."
+    ]
+  },
+  "principles": [
+    {
+      "name": "The Public Trust Doctrine in Urban Planning",
+      "meaning": "Public regulatory authorities hold land and planning powers in trust for the public and must exercise them for environmental safety rather than private corporate enrichment.",
+      "inThisCase": "The court held that the development authority breached its fiduciary duty as a public trustee by colluding with the private developer to wipe out common green spaces."
+    },
+    {
+      "name": "Principle Against Indirect Evasion of Law",
+      "latin": "quando aliquid prohibetur ex directo, prohibetur et per obliquum",
+      "meaning": "What cannot be done directly by law cannot be done indirectly through clever procedural stratagems or piecemeal sanctions.",
+      "inThisCase": "The developer could not indirectly bypass mandatory inter-building distance requirements by claiming separate buildings formed a single connected architectural block."
+    },
+    {
+      "name": "Primacy of Safety and Environmental Well-being",
+      "meaning": "The fundamental rights to life and a healthy environment encompass access to sunlight, ventilation, and adequate fire safety buffers in residential housing.",
+      "inThisCase": "The apex court held that constructing forty-storey towers nine meters from residential balconies created severe safety hazards that mandated structural demolition."
+    }
+  ],
+  "takeaways": [
+    "Economic investment or physical completion of a structure cannot legalize buildings erected in violation of planning regulations.",
+    "Common green areas shown in initial sales layouts become the collective property of apartment purchasers and cannot be eliminated without consent.",
+    "Inter-building distance rules are mandatory safety provisions designed for fire tender access and natural ventilation.",
+    "Regulatory officials who collude in illegal building sanctions face severe criminal investigation and institutional liability."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 142",
+        "title": "Enforcement of decrees and orders of Supreme Court and orders as to discovery, etc.",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "The dispute centered on statutory development rules including the Uttar Pradesh Industrial Area Development Act, 1976, the Uttar Pradesh Apartments (Promotion of Construction, Ownership and Maintenance) Act, 2010, and municipal building regulations. The proceedings concluded under the established constitutional and civil framework of India.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2021",
+      "url": "https://indiankanoon.org/doc/85406425/"
+    },
+    {
+      "label": "Constitution of India (Legislative Department Official Text)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
 }
