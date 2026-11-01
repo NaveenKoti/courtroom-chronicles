@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-GITHUB-USERNAME.github.io/courtroom-chronicles/sitemap.xml
+Sitemap: https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml
