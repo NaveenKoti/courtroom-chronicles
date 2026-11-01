@@ -1,63 +1,207 @@
 {
-"id": "ep005",
-"title": "The Midnight Embers and the Genetic Blueprint",
-"hook": "When charred human remains are uncovered inside a hotel clay oven, pioneering DNA evidence and a second autopsy reconstruct an otherwise unidentifiable crime.",
-"topics": ["Criminal law","Criminal procedure","Evidence","Sentencing"],
-"laws": ["IPC → BNS","Evidence Act → BSA","CrPC → BNSS"],
-"facts": [
-{"label":"Court","value":"Supreme Court of India"},
-{"label":"Year","value":"2013"},
-{"label":"Legal Question","value":"Whether grotesque post-murder body disposal automatically mandates the death penalty"},
-{"label":"Key Forensic Evidence","value":"DNA profiling of bone marrow and ballistic recovery of bullets during second autopsy"}
-],
-"summary": [
-"Late on a July night, beat constables alerted by a street vendor investigated smoke billowing from the rear open-air restaurant of a capital hotel. Scaling the perimeter wall, the officers caught an employee actively stoking a commercial clay oven with wooden logs, claiming to burn political banners. When the flames were extinguished, investigators discovered a severely charred human torso whose limbs and facial features were completely incinerated.",
-"A vehicle registered to the political leader who operated the restaurant was later found abandoned with blood traces, and the primary suspect absconded across multiple states before being arrested with a licensed firearm. Because the initial medical examination failed to identify the corpse or determine a precise cause of death, a board of medical examiners conducted a second post-mortem examination. Utilizing radiological imaging, examiners extracted two lead bullets from the victim's skull and neck, which ballistic testing matched directly to the seized firearm.",
-"To establish identity beyond doubt, scientists performed pioneering forensic DNA profiling by extracting intact genetic material from deep bone marrow and matching it with blood samples from the victim's parents. This landmark forensic demonstration defeated the defense's claim that no identifiable body had been established. The trial court and high court convicted the accused and imposed capital punishment, relying on the gruesome manner in which the remains were burned.",
-"The Supreme Court of India upheld the murder conviction but commuted the death sentence to life imprisonment. The bench emphasized that under the rarest of rare doctrine, the horror of post-murder conduct in concealing evidence cannot be substituted for premeditated extreme depravity against society. Concluding that the crime arose from strained domestic relationships without prior criminal history or societal threat, the court affirmed that the potential for prisoner reform precluded the death penalty."
-],
-"timeline": [
-{"date":"1995-07-02","title":"The Midnight Discovery","text":"Patrolling officers discover charred human remains burning inside a commercial clay oven at an open-air restaurant.","key":true},
-{"date":"1995-07-10","title":"Arrest and Weapon Seizure","text":"The accused is arrested in another state, and a licensed revolver and ammunition are recovered from his possession.","key":false},
-{"date":"1995-07-12","title":"The Second Post-Mortem","text":"A board of doctors uses radiological imaging to discover and extract two bullets lodged in the victim's skull.","key":false},
-{"date":"1995-08-01","title":"Pioneering DNA Identification","text":"Forensic scientists match DNA extracted from charred bone marrow with blood samples from the victim's parents.","key":true},
-{"date":"2003-11-07","title":"The Trial Court Sentence","text":"The trial court convicts the accused of murder and imposes capital punishment.","key":false},
-{"date":"2007-02-19","title":"The High Court Confirmation","text":"The high court confirms the murder conviction and the death sentence.","key":false},
-{"date":"2013-10-08","title":"The Supreme Court Commutation","text":"The Supreme Court of India upholds the murder conviction but commutes the death penalty to life imprisonment.","key":true}
-],
-"judgment": {
-"outcome": "The Supreme Court of India affirmed the conviction for murder and destruction of evidence but commuted the death sentence to life imprisonment.",
-"points": [
-"DNA profiling constitutes reliable scientific evidence under expert opinion provisions to establish the identity of severely charred remains.",
-"The gruesome destruction of a body after death does not automatically elevate an offence to the rarest of rare category for capital punishment.",
-"In capital sentencing, courts must balance aggravating circumstances against mitigating factors, including the probability of offender rehabilitation.",
-"Circumstantial evidence consisting of forensic ballistics, DNA matching, and post-offence flight forms a complete chain establishing guilt beyond reasonable doubt."
-]
-},
-"principles": [
-{"name":"The Rarest of Rare Doctrine","meaning":"Capital punishment may only be imposed when the alternative option of life imprisonment is unquestionably foreclosed after weighing aggravating and mitigating factors.","inThisCase":"The court held that although the destruction of the body was grotesque, the domestic nature of the dispute and the absence of prior criminal records meant life imprisonment was sufficient."},
-{"name":"Corpus Delicti in Forensic Identification","latin":"corpus delicti","meaning":"The body of the crime; the requirement that the fact of death by criminal agency must be established before an accused can be convicted of murder.","inThisCase":"The court relied on forensic DNA matching and ballistic extraction from skull bone to conclusively establish that the charred remains belonged to the victim."},
-{"name":"Relevancy of Subsequent Conduct","meaning":"Conduct of an accused immediately following an offence, including absconding and attempting to destroy evidence, is admissible to corroborate guilt.","inThisCase":"The accused's immediate flight across multiple states and efforts to incinerate the body provided strong corroborative evidence under the statutory rules of conduct."}
-],
-"takeaways": [
-"Advanced forensic science, including DNA profiling from charred bone marrow, provides conclusive legal identification even when visual recognition is impossible.",
-"A thorough second autopsy with radiological imaging can uncover vital ballistic evidence overlooked during initial medical inspections.",
-"Post-murder cruelty in disposing of remains does not automatically justify the death penalty if the underlying homicide lacks premeditated societal terror.",
-"Circumstantial evidence must form an unbroken chain pointing solely to the guilt of the accused and excluding every reasonable hypothesis of innocence."
-],
-"lawMapping": [
-{"old":{"act":"Indian Penal Code, 1860","section":"Section 302","title":"Punishment for murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 103","title":"Punishment for murder","url":"@BNS"},"change":"Substantially unchanged; restructured under Chapter VI of the new penal code."},
-{"old":{"act":"Indian Penal Code, 1860","section":"Section 120B","title":"Punishment of criminal conspiracy","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 61","title":"Criminal conspiracy","url":"@BNS"},"change":"Consolidated definition and punishment of criminal conspiracy into Section 61."},
-{"old":{"act":"Indian Evidence Act, 1872","section":"Section 45","title":"Opinions of experts","url":"@BSA"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 39","title":"Opinions of experts","url":"@BSACMP"},"change":"Substantially unchanged; expert scientific opinions on DNA and ballistics are preserved under Section 39."},
-{"old":{"act":"Indian Evidence Act, 1872","section":"Section 27","title":"How much of information received from accused may be proved","url":"@BSA"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 23","title":"Confession to police officer","url":"@BSACMP"},"change":"Substantially unchanged doctrine of custodial discovery enacted as a proviso to Section 23."}
-],
-"lawNote": "The incident occurred in July 1995, and the trial and appeals were conducted under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new criminal codes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply only to offences committed after that date.",
-"sources": [
-{"label":"Judgment of the Supreme Court of India, 2013","url":"https://indiankanoon.org/doc/119404246/"},
-{"label":"Indian Penal Code, 1860 (High Court of Tripura Official Text)","url":"@IPC"},
-{"label":"Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)","url":"@BNS"},
-{"label":"Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)","url":"@BSA"},
-{"label":"Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)","url":"@BSACMP"},
-{"label":"Code of Criminal Procedure, 1973 (Official S3waas Text)","url":"@CRPC"}
-]
+  "id": "ep005",
+  "title": "The Midnight Embers and the Genetic Blueprint",
+  "hook": "When charred human remains are uncovered inside a hotel clay oven, pioneering DNA evidence and a second autopsy reconstruct an otherwise unidentifiable crime.",
+  "topics": [
+    "Criminal law",
+    "Criminal procedure",
+    "Evidence",
+    "Sentencing"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA",
+    "CrPC → BNSS"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "2013"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether grotesque post-murder body disposal automatically mandates the death penalty"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "DNA profiling of bone marrow and ballistic recovery of bullets during second autopsy"
+    }
+  ],
+  "summary": [
+    "Late on a July night, beat constables alerted by a street vendor investigated smoke billowing from the rear open-air restaurant of a capital hotel. Scaling the perimeter wall, the officers caught an employee actively stoking a commercial clay oven with wooden logs, claiming to burn political banners. When the flames were extinguished, investigators discovered a severely charred human torso whose limbs and facial features were completely incinerated.",
+    "A vehicle registered to the political leader who operated the restaurant was later found abandoned with blood traces, and the primary suspect absconded across multiple states before being arrested with a licensed firearm. Because the initial medical examination failed to identify the corpse or determine a precise cause of death, a board of medical examiners conducted a second post-mortem examination. Utilizing radiological imaging, examiners extracted two lead bullets from the victim's skull and neck, which ballistic testing matched directly to the seized firearm.",
+    "To establish identity beyond doubt, scientists performed pioneering forensic DNA profiling by extracting intact genetic material from deep bone marrow and matching it with blood samples from the victim's parents. This landmark forensic demonstration defeated the defense's claim that no identifiable body had been established. The trial court and high court convicted the accused and imposed capital punishment, relying on the gruesome manner in which the remains were burned.",
+    "The Supreme Court of India upheld the murder conviction but commuted the death sentence to life imprisonment. The bench emphasized that under the rarest of rare doctrine, the horror of post-murder conduct in concealing evidence cannot be substituted for premeditated extreme depravity against society. Concluding that the crime arose from strained domestic relationships without prior criminal history or societal threat, the court affirmed that the potential for prisoner reform precluded the death penalty."
+  ],
+  "timeline": [
+    {
+      "date": "1995-07-02",
+      "title": "The Midnight Discovery",
+      "text": "Patrolling officers discover charred human remains burning inside a commercial clay oven at an open-air restaurant.",
+      "key": true
+    },
+    {
+      "date": "1995-07-10",
+      "title": "Arrest and Weapon Seizure",
+      "text": "The accused is arrested in another state, and a licensed revolver and ammunition are recovered from his possession.",
+      "key": false
+    },
+    {
+      "date": "1995-07-12",
+      "title": "The Second Post-Mortem",
+      "text": "A board of doctors uses radiological imaging to discover and extract two bullets lodged in the victim's skull.",
+      "key": false
+    },
+    {
+      "date": "1995-08-01",
+      "title": "Pioneering DNA Identification",
+      "text": "Forensic scientists match DNA extracted from charred bone marrow with blood samples from the victim's parents.",
+      "key": true
+    },
+    {
+      "date": "2003-11-07",
+      "title": "The Trial Court Sentence",
+      "text": "The trial court convicts the accused of murder and imposes capital punishment.",
+      "key": false
+    },
+    {
+      "date": "2007-02-19",
+      "title": "The High Court Confirmation",
+      "text": "The high court confirms the murder conviction and the death sentence.",
+      "key": false
+    },
+    {
+      "date": "2013-10-08",
+      "title": "The Supreme Court Commutation",
+      "text": "The Supreme Court of India upholds the murder conviction but commutes the death penalty to life imprisonment.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India affirmed the conviction for murder and destruction of evidence but commuted the death sentence to life imprisonment.",
+    "points": [
+      "DNA profiling constitutes reliable scientific evidence under expert opinion provisions to establish the identity of severely charred remains.",
+      "The gruesome destruction of a body after death does not automatically elevate an offence to the rarest of rare category for capital punishment.",
+      "In capital sentencing, courts must balance aggravating circumstances against mitigating factors, including the probability of offender rehabilitation.",
+      "Circumstantial evidence consisting of forensic ballistics, DNA matching, and post-offence flight forms a complete chain establishing guilt beyond reasonable doubt."
+    ]
+  },
+  "principles": [
+    {
+      "name": "The Rarest of Rare Doctrine",
+      "meaning": "Capital punishment may only be imposed when the alternative option of life imprisonment is unquestionably foreclosed after weighing aggravating and mitigating factors.",
+      "inThisCase": "The court held that although the destruction of the body was grotesque, the domestic nature of the dispute and the absence of prior criminal records meant life imprisonment was sufficient."
+    },
+    {
+      "name": "Corpus Delicti in Forensic Identification",
+      "latin": "corpus delicti",
+      "meaning": "The body of the crime; the requirement that the fact of death by criminal agency must be established before an accused can be convicted of murder.",
+      "inThisCase": "The court relied on forensic DNA matching and ballistic extraction from skull bone to conclusively establish that the charred remains belonged to the victim."
+    },
+    {
+      "name": "Relevancy of Subsequent Conduct",
+      "meaning": "Conduct of an accused immediately following an offence, including absconding and attempting to destroy evidence, is admissible to corroborate guilt.",
+      "inThisCase": "The accused's immediate flight across multiple states and efforts to incinerate the body provided strong corroborative evidence under the statutory rules of conduct."
+    }
+  ],
+  "takeaways": [
+    "Advanced forensic science, including DNA profiling from charred bone marrow, provides conclusive legal identification even when visual recognition is impossible.",
+    "A thorough second autopsy with radiological imaging can uncover vital ballistic evidence overlooked during initial medical inspections.",
+    "Post-murder cruelty in disposing of remains does not automatically justify the death penalty if the underlying homicide lacks premeditated societal terror.",
+    "Circumstantial evidence must form an unbroken chain pointing solely to the guilt of the accused and excluding every reasonable hypothesis of innocence."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Substantially unchanged; restructured under Chapter VI of the new penal code."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61",
+        "title": "Criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated definition and punishment of criminal conspiracy into Section 61."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 45",
+        "title": "Opinions of experts",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 39",
+        "title": "Opinions of experts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Substantially unchanged; expert scientific opinions on DNA and ballistics are preserved under Section 39."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 27",
+        "title": "How much of information received from accused may be proved",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 23",
+        "title": "Confession to police officer",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Substantially unchanged doctrine of custodial discovery enacted as a proviso to Section 23."
+    }
+  ],
+  "lawNote": "The incident occurred in July 1995, and the trial and appeals were conducted under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new criminal codes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply only to offences committed after that date.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2013",
+      "url": "https://indiankanoon.org/doc/119404246/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    },
+    {
+      "label": "Code of Criminal Procedure, 1973 (Official S3waas Text)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
 }
