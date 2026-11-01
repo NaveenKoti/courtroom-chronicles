@@ -31,23 +31,73 @@
     apply();
   }
 
+  /* ---------- law finder filter ---------- */
+  var lq = document.getElementById("lq");
+  if (lq) {
+    var rows = document.querySelectorAll(".lawlist li");
+    lq.addEventListener("input", function () {
+      var terms = norm(lq.value).split(" ").filter(Boolean);
+      rows.forEach(function (r) { var s = r.getAttribute("data-s"); r.hidden = !terms.every(function (t) { return s.indexOf(t) > -1; }); });
+      document.querySelectorAll(".lawgroup").forEach(function (g) { g.hidden = !g.querySelector("li:not([hidden])"); });
+    });
+  }
+
+  /* ---------- share / copy ---------- */
+  var cp = document.querySelector("[data-copy]");
+  if (cp) cp.addEventListener("click", function () {
+    var u = cp.getAttribute("data-copy");
+    (navigator.clipboard ? navigator.clipboard.writeText(u) : Promise.reject()).then(function () { cp.textContent = "Link copied"; }, function () { window.prompt("Copy this link", u); });
+  });
+  var sh = document.querySelector("[data-share]");
+  if (sh && navigator.share) {
+    sh.hidden = false;
+    sh.addEventListener("click", function () { navigator.share({ title: sh.getAttribute("data-share"), url: sh.getAttribute("data-url") }).catch(function () {}); });
+  }
+
   /* ---------- episode page: player ---------- */
   var p = document.querySelector(".player");
   if (!p) return;
   var audio = p.querySelector("audio"), stat = p.querySelector(".pstat"), speed = p.querySelector(".speed"),
       embed = p.querySelector(".embed"), key = "cc-pos-" + p.getAttribute("data-id");
 
+  function frame(kind) {
+    var f = document.createElement("iframe");
+    f.loading = "lazy";
+    if (kind === "apple") {
+      f.src = p.getAttribute("data-apple"); f.title = "Courtroom Chronicles on Apple Podcasts"; f.style.minHeight = "450px";
+      f.allow = "autoplay *; encrypted-media *; fullscreen *; clipboard-write";
+      f.setAttribute("sandbox", "allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation");
+    } else {
+      f.src = "https://open.spotify.com/embed/show/" + encodeURIComponent(p.getAttribute("data-spotify")) + "?utm_source=generator";
+      f.title = "Courtroom Chronicles on Spotify";
+      f.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
+    }
+    return f;
+  }
+
   function showEmbed(msg) {
     audio.hidden = true; speed.hidden = true;
-    var id = p.getAttribute("data-spotify");
     stat.textContent = msg || "";
-    if (id && embed.hidden) {
-      var f = document.createElement("iframe");
-      f.src = "https://open.spotify.com/embed/show/" + encodeURIComponent(id) + "?utm_source=generator";
-      f.title = "Courtroom Chronicles on Spotify"; f.loading = "lazy";
-      f.allow = "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture";
-      embed.appendChild(f); embed.hidden = false;
+    if (!embed.hidden) return;
+    var sp = p.getAttribute("data-spotify"), ap = p.getAttribute("data-apple");
+    if (!sp && !ap) return;
+    var holder = document.createElement("div"), cur = null;
+    function pick(kind, btn) {
+      if (cur === kind) return; cur = kind;
+      holder.innerHTML = ""; holder.appendChild(frame(kind));
+      if (btn) Array.prototype.forEach.call(embed.querySelectorAll(".tabs button"), function (b) { b.setAttribute("aria-pressed", b === btn ? "true" : "false"); });
     }
+    if (sp && ap) {
+      var tabs = document.createElement("div"); tabs.className = "tabs";
+      [["spotify", "Spotify"], ["apple", "Apple Podcasts"]].forEach(function (k) {
+        var b = document.createElement("button"); b.type = "button"; b.className = "btn ghost"; b.textContent = k[1];
+        b.setAttribute("aria-pressed", k[0] === "spotify" ? "true" : "false");
+        b.addEventListener("click", function () { pick(k[0], b); }); tabs.appendChild(b);
+      });
+      embed.appendChild(tabs);
+    }
+    embed.appendChild(holder); embed.hidden = false;
+    pick(sp ? "spotify" : "apple");
   }
 
   function ready() {

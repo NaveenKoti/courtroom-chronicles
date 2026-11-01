@@ -1,196 +1,61 @@
 {
-  "id": "ep007",
-  "title": "Nineteen Shards and the DNA Blueprint",
-  "hook": "When a law student is stalked and murdered in her apartment, nineteen broken visor shards and pioneering DNA evidence shatter an influential suspect's alibi.",
-  "topics": [
-    "Criminal law",
-    "Criminal procedure",
-    "Evidence",
-    "Sentencing"
-  ],
-  "laws": [
-    "IPC → BNS",
-    "Evidence Act → BSA",
-    "CrPC → BNSS"
-  ],
-  "facts": [
-    {
-      "label": "Court",
-      "value": "Supreme Court of India"
-    },
-    {
-      "label": "Year",
-      "value": "2010"
-    },
-    {
-      "label": "Legal Question",
-      "value": "Whether scientific DNA evidence and physical fracture analysis outweigh flawed police investigation"
-    },
-    {
-      "label": "Key Forensic Evidence",
-      "value": "Nineteen acrylic helmet visor shards and DNA profiling matching the accused"
-    }
-  ],
-  "summary": [
-    "On a cold winter afternoon, a young law student was brutally assaulted and strangled inside her family's suburban apartment. The domestic worker, returning from an errand, discovered her lifeless body beneath a bedframe with an electric heater cord knotted tightly around her neck. Scattered across the bedroom floor were nineteen sharp fragments of black acrylic plastic alongside severe facial fractures caused by blunt-force impact.",
-    "Suspicion immediately centered on a senior student and practicing advocate whose persistent stalking had triggered multiple formal police complaints and the assignment of a personal protection officer. Investigators recovered a damaged motorcycle helmet belonging to the suspect with its front visor completely missing. Central forensic scientists meticulously reassembled the nineteen acrylic shards found beside the victim, proving they physically fitted into the broken hinges of the suspect's seized helmet.",
-    "Molecular biologists performed groundbreaking DNA fingerprinting, matching cellular swabs recovered from the crime scene directly to the accused's genetic profile. Despite this scientific evidence, the trial court initially acquitted the accused due to administrative discrepancies in police property records, prompting widespread public outrage. On appeal against acquittal, the high court reversed the verdict and imposed capital punishment, holding that credible scientific proof overrides procedural police lapses.",
-    "The Supreme Court of India upheld the conviction for rape and murder, affirming that DNA profiling conducted under established protocols constitutes unimpeachable expert evidence. The bench also held that false alibis regarding fresh hand fractures permitted adverse judicial inferences under evidentiary burden rules. However, balancing mitigating factors including youth, lack of prior criminal history, and the passage of over fourteen years, the apex court commuted the death penalty to life imprisonment."
-  ],
-  "timeline": [
-    {
-      "date": "1996-01-23",
-      "title": "The Afternoon Assault",
-      "text": "A law student is fatally assaulted and strangled inside her residence, leaving nineteen plastic shards on the floor.",
-      "key": true
-    },
-    {
-      "date": "1996-01-25",
-      "title": "Seizure of Damaged Helmet",
-      "text": "Police seize a motorcycle helmet with a missing visor belonging to the primary suspect.",
-      "key": false
-    },
-    {
-      "date": "1996-02-01",
-      "title": "DNA Profiling Analysis",
-      "text": "Biological samples and crime-scene swabs are submitted to premier national laboratories for DNA fingerprinting.",
-      "key": false
-    },
-    {
-      "date": "1999-12-03",
-      "title": "Trial Court Acquittal",
-      "text": "The trial court acquits the accused citing procedural defects in police custody handling, despite acknowledging strong moral suspicion.",
-      "key": true
-    },
-    {
-      "date": "2006-10-27",
-      "title": "High Court Conviction",
-      "text": "The high court overturns the acquittal, convicting the accused of rape and murder and imposing capital punishment.",
-      "key": false
-    },
-    {
-      "date": "2010-10-06",
-      "title": "Supreme Court Commutation",
-      "text": "The Supreme Court of India affirms the conviction but commutes the death penalty to life imprisonment.",
-      "key": true
-    }
-  ],
-  "judgment": {
-    "outcome": "The Supreme Court of India upheld the convictions for rape and murder but commuted the death sentence to life imprisonment.",
-    "points": [
-      "DNA fingerprinting conducted by qualified experts under rigorous protocols provides conclusive scientific identification that cannot be discarded for trivial handling irregularities.",
-      "Physical fracture matching of broken fragments constitutes definitive circumstantial proof linking an object to a crime scene.",
-      "When the prosecution proves the presence of the accused near the scene and a fresh bodily injury, a false explanation permits an adverse inference.",
-      "Under the rarest of rare doctrine, the absence of prior criminal convictions and the realistic potential for reformation justify commuting capital punishment to life imprisonment."
-    ]
-  },
-  "principles": [
-    {
-      "name": "Conclusive Value of DNA Evidence",
-      "meaning": "DNA profiling conducted by specialized scientific institutions represents definitive biological evidence that establishes identity beyond reasonable doubt when uncontaminated.",
-      "inThisCase": "The court held that scientific DNA matching between vaginal swabs and the accused conclusively proved sexual assault, overriding procedural errors in police station registers."
-    },
-    {
-      "name": "Physical Fit and Forensic Fracture Matching",
-      "meaning": "When fragments found at a crime scene mechanically fit into the missing portions of an object seized from a suspect, it creates an unbreakable physical link.",
-      "inThisCase": "The nineteen acrylic shards found beside the victim were proven by forensic physicists to fit the broken visor frame of the accused's motorcycle helmet."
-    },
-    {
-      "name": "Adverse Inference from False Alibi",
-      "meaning": "While the prosecution must prove guilt, when an accused puts forward a false explanation regarding facts specially within their knowledge, the court may draw an adverse inference.",
-      "inThisCase": "The accused's false explanation regarding a fresh fracture of his hand sustained around the time of the homicide fortified the circumstantial chain of guilt."
-    }
-  ],
-  "takeaways": [
-    "Rigorous scientific evidence, such as DNA profiling and physical fracture analysis, can overcome deficiencies and lapses in police record-keeping.",
-    "Fabricating a false defense or timeline regarding fresh injuries allows appellate courts to draw an adverse inference against the accused.",
-    "A trial judge cannot acquit an accused while simultaneously observing in the judgment that personal conscience believes the person committed the crime.",
-    "Appellate courts will commute capital punishment to life imprisonment if the state fails to show that the possibility of reform is entirely foreclosed."
-  ],
-  "lawMapping": [
-    {
-      "old": {
-        "act": "Indian Penal Code, 1860",
-        "section": "Section 302",
-        "title": "Punishment for murder",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nyaya Sanhita, 2023",
-        "section": "Section 103",
-        "title": "Punishment for murder",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-      },
-      "change": "Substantially unchanged; restructured under Chapter VI of the new penal code."
-    },
-    {
-      "old": {
-        "act": "Indian Penal Code, 1860",
-        "section": "Section 376",
-        "title": "Punishment for rape",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nyaya Sanhita, 2023",
-        "section": "Section 64",
-        "title": "Punishment for rape",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-      },
-      "change": "Substantially unchanged; categorized under Chapter V (Offences Against Woman and Child)."
-    },
-    {
-      "old": {
-        "act": "Indian Evidence Act, 1872",
-        "section": "Section 45",
-        "title": "Opinions of experts",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Sakshya Adhiniyam, 2023",
-        "section": "Section 39",
-        "title": "Opinions of experts",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
-      },
-      "change": "Substantially unchanged; preserves admissibility of biological and forensic expert testimony."
-    },
-    {
-      "old": {
-        "act": "Indian Evidence Act, 1872",
-        "section": "Section 106",
-        "title": "Burden of proving fact especially within knowledge",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Sakshya Adhiniyam, 2023",
-        "section": "Section 109",
-        "title": "Burden of proving fact especially within knowledge",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
-      },
-      "change": "Substantially unchanged burden of proof regarding facts specially within personal knowledge."
-    }
-  ],
-  "lawNote": "The offence occurred in January 1996, and the trial and appeals were conducted under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The modern criminal statutes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) came into effect on 1 July 2024 and apply to offences committed on or after that date.",
-  "sources": [
-    {
-      "label": "Judgment of the Supreme Court of India, 2010",
-      "url": "https://indiankanoon.org/doc/760449/"
-    },
-    {
-      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
-      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-    },
-    {
-      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
-      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-    },
-    {
-      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
-      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
-    },
-    {
-      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
-      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
-    }
-  ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+"id": "ep007",
+"title": "Nineteen Shards and the DNA Blueprint",
+"hook": "When a law student is stalked and murdered in her apartment, nineteen broken visor shards and pioneering DNA evidence shatter an influential suspect's alibi.",
+"topics": ["Criminal law","Criminal procedure","Evidence","Sentencing"],
+"laws": ["IPC → BNS","Evidence Act → BSA","CrPC → BNSS"],
+"facts": [
+{"label":"Court","value":"Supreme Court of India"},
+{"label":"Year","value":"2010"},
+{"label":"Legal Question","value":"Whether scientific DNA evidence and physical fracture analysis outweigh flawed police investigation"},
+{"label":"Key Forensic Evidence","value":"Nineteen acrylic helmet visor shards and DNA profiling matching the accused"}
+],
+"summary": [
+"On a cold winter afternoon, a young law student was brutally assaulted and strangled inside her family's suburban apartment. The domestic worker, returning from an errand, discovered her lifeless body beneath a bedframe with an electric heater cord knotted tightly around her neck. Scattered across the bedroom floor were nineteen sharp fragments of black acrylic plastic alongside severe facial fractures caused by blunt-force impact.",
+"Suspicion immediately centered on a senior student and practicing advocate whose persistent stalking had triggered multiple formal police complaints and the assignment of a personal protection officer. Investigators recovered a damaged motorcycle helmet belonging to the suspect with its front visor completely missing. Central forensic scientists meticulously reassembled the nineteen acrylic shards found beside the victim, proving they physically fitted into the broken hinges of the suspect's seized helmet.",
+"Molecular biologists performed groundbreaking DNA fingerprinting, matching cellular swabs recovered from the crime scene directly to the accused's genetic profile. Despite this scientific evidence, the trial court initially acquitted the accused due to administrative discrepancies in police property records, prompting widespread public outrage. On appeal against acquittal, the high court reversed the verdict and imposed capital punishment, holding that credible scientific proof overrides procedural police lapses.",
+"The Supreme Court of India upheld the conviction for rape and murder, affirming that DNA profiling conducted under established protocols constitutes unimpeachable expert evidence. The bench also held that false alibis regarding fresh hand fractures permitted adverse judicial inferences under evidentiary burden rules. However, balancing mitigating factors including youth, lack of prior criminal history, and the passage of over fourteen years, the apex court commuted the death penalty to life imprisonment."
+],
+"timeline": [
+{"date":"1996-01-23","title":"The Afternoon Assault","text":"A law student is fatally assaulted and strangled inside her residence, leaving nineteen plastic shards on the floor.","key":true},
+{"date":"1996-01-25","title":"Seizure of Damaged Helmet","text":"Police seize a motorcycle helmet with a missing visor belonging to the primary suspect.","key":false},
+{"date":"1996-02-01","title":"DNA Profiling Analysis","text":"Biological samples and crime-scene swabs are submitted to premier national laboratories for DNA fingerprinting.","key":false},
+{"date":"1999-12-03","title":"Trial Court Acquittal","text":"The trial court acquits the accused citing procedural defects in police custody handling, despite acknowledging strong moral suspicion.","key":true},
+{"date":"2006-10-27","title":"High Court Conviction","text":"The high court overturns the acquittal, convicting the accused of rape and murder and imposing capital punishment.","key":false},
+{"date":"2010-10-06","title":"Supreme Court Commutation","text":"The Supreme Court of India affirms the conviction but commutes the death penalty to life imprisonment.","key":true}
+],
+"judgment": {
+"outcome": "The Supreme Court of India upheld the convictions for rape and murder but commuted the death sentence to life imprisonment.",
+"points": [
+"DNA fingerprinting conducted by qualified experts under rigorous protocols provides conclusive scientific identification that cannot be discarded for trivial handling irregularities.",
+"Physical fracture matching of broken fragments constitutes definitive circumstantial proof linking an object to a crime scene.",
+"When the prosecution proves the presence of the accused near the scene and a fresh bodily injury, a false explanation permits an adverse inference.",
+"Under the rarest of rare doctrine, the absence of prior criminal convictions and the realistic potential for reformation justify commuting capital punishment to life imprisonment."
+]
+},
+"principles": [
+{"name":"Conclusive Value of DNA Evidence","meaning":"DNA profiling conducted by specialized scientific institutions represents definitive biological evidence that establishes identity beyond reasonable doubt when uncontaminated.","inThisCase":"The court held that scientific DNA matching between vaginal swabs and the accused conclusively proved sexual assault, overriding procedural errors in police station registers."},
+{"name":"Physical Fit and Forensic Fracture Matching","meaning":"When fragments found at a crime scene mechanically fit into the missing portions of an object seized from a suspect, it creates an unbreakable physical link.","inThisCase":"The nineteen acrylic shards found beside the victim were proven by forensic physicists to fit the broken visor frame of the accused's motorcycle helmet."},
+{"name":"Adverse Inference from False Alibi","meaning":"While the prosecution must prove guilt, when an accused puts forward a false explanation regarding facts specially within their knowledge, the court may draw an adverse inference.","inThisCase":"The accused's false explanation regarding a fresh fracture of his hand sustained around the time of the homicide fortified the circumstantial chain of guilt."}
+],
+"takeaways": [
+"Rigorous scientific evidence, such as DNA profiling and physical fracture analysis, can overcome deficiencies and lapses in police record-keeping.",
+"Fabricating a false defense or timeline regarding fresh injuries allows appellate courts to draw an adverse inference against the accused.",
+"A trial judge cannot acquit an accused while simultaneously observing in the judgment that personal conscience believes the person committed the crime.",
+"Appellate courts will commute capital punishment to life imprisonment if the state fails to show that the possibility of reform is entirely foreclosed."
+],
+"lawMapping": [
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 302","title":"Punishment for murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 103","title":"Punishment for murder","url":"@BNS"},"change":"Substantially unchanged; restructured under Chapter VI of the new penal code."},
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 376","title":"Punishment for rape","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 64","title":"Punishment for rape","url":"@BNS"},"change":"Substantially unchanged; categorized under Chapter V (Offences Against Woman and Child)."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 45","title":"Opinions of experts","url":"@BSA"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 39","title":"Opinions of experts","url":"@BSACMP"},"change":"Substantially unchanged; preserves admissibility of biological and forensic expert testimony."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 106","title":"Burden of proving fact especially within knowledge","url":"@BSA"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 109","title":"Burden of proving fact especially within knowledge","url":"@BSACMP"},"change":"Substantially unchanged burden of proof regarding facts specially within personal knowledge."}
+],
+"lawNote": "The offence occurred in January 1996, and the trial and appeals were conducted under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The modern criminal statutes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) came into effect on 1 July 2024 and apply to offences committed on or after that date.",
+"sources": [
+{"label":"Judgment of the Supreme Court of India, 2010","url":"https://indiankanoon.org/doc/760449/"},
+{"label":"Indian Penal Code, 1860 (High Court of Tripura Official Text)","url":"@IPC"},
+{"label":"Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)","url":"@BNS"},
+{"label":"Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)","url":"@BSA"},
+{"label":"Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)","url":"@BSACMP"}
+]
 }

@@ -1,275 +1,72 @@
 {
-  "id": "ep001",
-  "title": "The Courtyard Casket and the Meaning of Life Imprisonment",
-  "hook": "Three years after a wealthy landowner vanished from her estate, a video-recorded exhumation beneath her own patio forced the Supreme Court of India to redefine life imprisonment.",
-  "topics": [
-    "Criminal law",
-    "Sentencing",
-    "Evidence",
-    "Criminal procedure"
-  ],
-  "laws": [
-    "Indian Penal Code, 1860 → Bharatiya Nyaya Sanhita, 2023",
-    "Code of Criminal Procedure, 1973 → Bharatiya Nagarik Suraksha Sanhita, 2023",
-    "Indian Evidence Act, 1872 → Bharatiya Sakshya Adhiniyam, 2023"
-  ],
-  "facts": [
-    {
-      "label": "Court",
-      "value": "Supreme Court of India (three-judge bench)"
-    },
-    {
-      "label": "Year",
-      "value": "2008"
-    },
-    {
-      "label": "Offence Date",
-      "value": "28 May 1991"
-    },
-    {
-      "label": "Legal Question",
-      "value": "Whether a court commuting a death sentence can direct that life imprisonment shall last for the rest of the convict's natural life without executive remission"
-    },
-    {
-      "label": "Evidence Type",
-      "value": "Circumstantial evidence, custodial disclosure discovery, skull photo-superimposition, and deoxyribonucleic acid (DNA) profiling"
-    }
-  ],
-  "summary": [
-    "In 1986, a wealthy landowner in Bangalore married a property advisor who promised to protect her urban estates from statutory land ceiling limits. She executed a general power of attorney in his favour, opened joint bank accounts and lockers, and formed a private real estate company with him as the sole other partner. On 28 May 1991, after the domestic staff left on family leave, she vanished from her residence.",
-    "For nearly three years, the husband told her daughters and relatives that she was travelling in Hyderabad, Kutch, London, and New York. When her elder daughter found the victim's unused Indian passport in a Bombay hotel room with no foreign travel stamps, she filed a missing person complaint in June 1992. Meanwhile, using the power of attorney, the husband sold 34 plots of her land over two days in March 1992 and emptied their joint bank lockers.",
-    "In March 1994, the Central Crime Branch took over the investigation and interrogated the husband. Under Section 27 of the Indian Evidence Act, 1872, which allows a statement made in police custody to be proved to the extent it leads to the discovery of a physical fact, the accused led a magisterial team and video crew to the enclosed courtyard outside the master bedroom. Eight feet beneath cemented stone slabs, investigators unearthed a seven-foot wooden box containing a foam mattress, a pillow, family rings, and a human skeleton in a sleeping gown.",
-    "Forensic scientists matched the skull to photographs of the deceased using photo-superimposition and confirmed her parentage through deoxyribonucleic acid (DNA) fingerprinting, while chemical analysis detected sedative residues. Both the trial court and the High Court of Karnataka convicted the accused of murder and causing disappearance of evidence, sentencing him to death. On appeal, a two-judge bench of the Supreme Court of India unanimously upheld his conviction in 2007 but divided on whether a purely circumstantial case warranted execution, referring the sentencing question to a three-judge bench.",
-    "In July 2008, the three-judge bench noted that routine executive remission under the Code of Criminal Procedure, 1973 often reduced life sentences to roughly 14 years, creating a vast gap between a 14-year term and death. Holding that imprisonment for life legally means imprisonment for the remainder of a convict's natural life, the Supreme Court substituted the death penalty with imprisonment for the rest of his natural life and directed that he shall not be released on remission."
-  ],
-  "timeline": [
-    {
-      "date": "17 April 1986",
-      "title": "Marriage and Power of Attorney",
-      "text": "The landowner marries the accused under the Special Marriage Act, 1954 and grants him a general power of attorney over her properties and joint accounts.",
-      "key": false
-    },
-    {
-      "date": "28 May 1991",
-      "title": "Disappearance from the Estate",
-      "text": "Domestic staff see the victim asleep in the master bedroom while helping move a large wooden box into the room before leaving on approved leave; she is never seen alive again.",
-      "key": false
-    },
-    {
-      "date": "30–31 March 1992",
-      "title": "Rapid Liquidation of Land",
-      "text": "Acting on the general power of attorney, the accused executes 34 registered sale deeds in 48 hours to liquidate the missing landowner's real estate.",
-      "key": false
-    },
-    {
-      "date": "10 June 1992",
-      "title": "Missing Person Complaint",
-      "text": "After discovering the victim's blank passport in a hotel room, her daughter files a formal missing person complaint with the Bangalore police.",
-      "key": false
-    },
-    {
-      "date": "30 March 1994",
-      "title": "Courtyard Exhumation",
-      "text": "Following a custodial disclosure statement, police and an executive magistrate dig beneath the cemented courtyard slabs and exhume the wooden box containing skeletal remains.",
-      "key": true
-    },
-    {
-      "date": "20 May 2005",
-      "title": "Trial Court Conviction",
-      "text": "The City Sessions Court in Bangalore convicts the accused of murder and destruction of evidence, sentencing him to death; the High Court confirms the sentence in September 2005.",
-      "key": false
-    },
-    {
-      "date": "18 May 2007",
-      "title": "Division Bench Split on Sentence",
-      "text": "A two-judge bench of the Supreme Court affirms the conviction but splits on whether to award the death penalty or life imprisonment without release.",
-      "key": false
-    },
-    {
-      "date": "22 July 2008",
-      "title": "Landmark Sentencing Verdict",
-      "text": "A three-judge bench of the Supreme Court commutes the death sentence to imprisonment for the remainder of natural life without any executive remission.",
-      "key": true
-    }
-  ],
-  "judgment": {
-    "outcome": "The Supreme Court of India commuted the death sentence to imprisonment for the remainder of the convict's natural life, directing that he shall not be granted executive remission.",
-    "points": [
-      "Under Section 45 and Section 53 of the Indian Penal Code, 1860, a sentence of imprisonment for life legally means rigorous imprisonment for the whole of the remaining period of the convicted person's natural life.",
-      "Statutory provisions in the Code of Criminal Procedure, 1973 governing executive remission are enabling rules of prison administration and cannot override a judicial sentence passed by a constitutional court in a capital case.",
-      "When a case falls short of the narrow rarest of rare standard for execution, yet an ordinary life term that works out to 14 years through remission is grossly inadequate, the court may bridge the gap by ordering life imprisonment without remission.",
-      "Sentencing cannot be reduced to rigid categories; judges must weigh the specific planning, betrayal of trust, and evidentiary posture of each individual trial."
-    ]
-  },
-  "principles": [
-    {
-      "name": "Discovery of fact from custodial disclosure",
-      "meaning": "While a confession made to a police officer is inadmissible to prove guilt, the specific part of an accused person's statement in custody that leads directly to the discovery of a physical fact may be proved in court.",
-      "inThisCase": "The accused's statement offering to point out the burial spot became admissible when digging beneath the cemented patio slabs uncovered the concealed wooden box and human remains, proving his exclusive knowledge of where the body was hidden."
-    },
-    {
-      "name": "Rarest of rare sentencing principle",
-      "meaning": "Life imprisonment is the general rule for murder and the death penalty is an exception reserved only for extreme cases where the alternative option of imprisonment is unquestionably foreclosed.",
-      "inThisCase": "Because the conviction rested entirely on circumstantial evidence and the benches differed on execution, the court held that the death penalty could be avoided only by ensuring the substitute life sentence meant actual imprisonment until natural death."
-    },
-    {
-      "name": "Life imprisonment means natural life",
-      "meaning": "In criminal law, a sentence of imprisonment for life denotes incarceration for the entire remaining span of the convict's natural life unless curtailed by a valid exercise of remission.",
-      "inThisCase": "The court relied on this foundational rule to establish a middle path between the death penalty and premature release after 14 years, barring routine statutory remission for the remainder of the convict's life."
-    },
-    {
-      "name": "Burden of explaining facts within special knowledge",
-      "meaning": "When a fact is especially within the knowledge of a person, the burden of proving or explaining that fact lies upon them.",
-      "inThisCase": "Because the victim was last seen asleep in the bedroom shared exclusively with the accused and her remains were buried in the enclosed courtyard accessible only through their quarters, his fabricated stories of foreign travel fortified the chain of guilt."
-    }
-  ],
-  "takeaways": [
-    "Imprisonment for life in Indian law means the remainder of the convict's natural life; release after 14 years occurs only if the executive grants remission.",
-    "Constitutional courts commuting a death sentence can create a special sentencing category that places a convict beyond the reach of statutory remission under the Code of Criminal Procedure, 1973.",
-    "A statement to police is admissible under the discovery exception only to the extent it reveals the physical object or location and the accused's exclusive knowledge of it.",
-    "Post-crime conduct—such as forging signatures, liquidating assets under a power of attorney, and inventing false travel stories—forms a critical link in a circumstantial evidence chain."
-  ],
-  "lawMapping": [
-    {
-      "old": {
-        "act": "Indian Penal Code, 1860",
-        "section": "Section 302",
-        "title": "Punishment for murder",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nyaya Sanhita, 2023",
-        "section": "Section 103",
-        "title": "Punishment for murder",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-      },
-      "change": "Retains death or imprisonment for life and fine for murder under sub-section (1), and adds a separate sub-section (2) addressing murder committed by a group of five or more persons on specified grounds."
-    },
-    {
-      "old": {
-        "act": "Indian Penal Code, 1860",
-        "section": "Section 45",
-        "title": "\"Life\"",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nyaya Sanhita, 2023",
-        "section": "Section 2(17)",
-        "title": "'life'",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-      },
-      "change": "Moves the definition of life—meaning the life of a human being unless the contrary appears from the context—into the consolidated definitions clause."
-    },
-    {
-      "old": {
-        "act": "Indian Penal Code, 1860",
-        "section": "Section 53",
-        "title": "\"Punishments\"",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nyaya Sanhita, 2023",
-        "section": "Section 4",
-        "title": "Punishments",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-      },
-      "change": "Retains death and imprisonment for life among statutory punishments and adds community service as a new form of punishment."
-    },
-    {
-      "old": {
-        "act": "Code of Criminal Procedure, 1973",
-        "section": "Section 354",
-        "title": "Language and contents of judgment",
-        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
-        "section": "Section 393",
-        "title": "Language and contents of judgment",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
-      },
-      "change": "Preserves the requirement in sub-section (3) that a court must state special reasons when awarding a sentence of death for an offence punishable with death or, in the alternative, imprisonment for life."
-    },
-    {
-      "old": {
-        "act": "Code of Criminal Procedure, 1973",
-        "section": "Section 432",
-        "title": "Power to suspend or remit sentences",
-        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
-        "section": "Section 473",
-        "title": "Power to suspend or remit sentences",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
-      },
-      "change": "Re-enacts the executive power to suspend or remit sentences subject to procedural safeguards."
-    },
-    {
-      "old": {
-        "act": "Code of Criminal Procedure, 1973",
-        "section": "Section 433A",
-        "title": "Restriction on powers of remission or commutation in certain cases",
-        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
-        "section": "Section 475",
-        "title": "Restriction on powers of remission or commutation in certain cases",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
-      },
-      "change": "Continues the statutory bar prohibiting the release of a life convict on remission before completing at least 14 years of actual imprisonment where the offence carries death as a punishment."
-    },
-    {
-      "old": {
-        "act": "Indian Evidence Act, 1872",
-        "section": "Section 27",
-        "title": "How much of information received from accused may be proved",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Sakshya Adhiniyam, 2023",
-        "section": "Section 23",
-        "title": "Confession to police officer",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
-      },
-      "change": "Incorporates the rule on proving information received from an accused in custody that distinctly leads to the discovery of a fact as a proviso to Section 23."
-    }
-  ],
-  "lawNote": "Because the offence was committed in May 1991, long before 1 July 2024, the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872 applied to the investigation, trial, and appeal.",
-  "sources": [
-    {
-      "label": "Judgment of the Supreme Court of India (Three-Judge Bench), 22 July 2008",
-      "url": "https://indiankanoon.org/doc/989335/"
-    },
-    {
-      "label": "Judgment of the Supreme Court of India (Division Bench), 18 May 2007",
-      "url": "https://indiankanoon.org/doc/604676/"
-    },
-    {
-      "label": "Indian Penal Code, 1860 (High Court of Tripura Repository)",
-      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-    },
-    {
-      "label": "Code of Criminal Procedure, 1973 (Official Government Repository)",
-      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
-    },
-    {
-      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Repository)",
-      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
-    },
-    {
-      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (Uttar Pradesh Police)",
-      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-    },
-    {
-      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 and Code of Criminal Procedure, 1973 Comparative Table (Uttar Pradesh Police)",
-      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
-    },
-    {
-      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (Uttar Pradesh Police)",
-      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
-    }
-  ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+"id": "ep001",
+"title": "The Courtyard Casket and the Meaning of Life Imprisonment",
+"hook": "Three years after a wealthy landowner vanished from her estate, a video-recorded exhumation beneath her own patio forced the Supreme Court of India to redefine life imprisonment.",
+"topics": ["Criminal law","Sentencing","Evidence","Criminal procedure"],
+"laws": ["Indian Penal Code, 1860 → Bharatiya Nyaya Sanhita, 2023","Code of Criminal Procedure, 1973 → Bharatiya Nagarik Suraksha Sanhita, 2023","Indian Evidence Act, 1872 → Bharatiya Sakshya Adhiniyam, 2023"],
+"facts": [
+{"label":"Court","value":"Supreme Court of India (three-judge bench)"},
+{"label":"Year","value":"2008"},
+{"label":"Offence Date","value":"28 May 1991"},
+{"label":"Legal Question","value":"Whether a court commuting a death sentence can direct that life imprisonment shall last for the rest of the convict's natural life without executive remission"},
+{"label":"Evidence Type","value":"Circumstantial evidence, custodial disclosure discovery, skull photo-superimposition, and deoxyribonucleic acid (DNA) profiling"}
+],
+"summary": [
+"In 1986, a wealthy landowner in Bangalore married a property advisor who promised to protect her urban estates from statutory land ceiling limits. She executed a general power of attorney in his favour, opened joint bank accounts and lockers, and formed a private real estate company with him as the sole other partner. On 28 May 1991, after the domestic staff left on family leave, she vanished from her residence.",
+"For nearly three years, the husband told her daughters and relatives that she was travelling in Hyderabad, Kutch, London, and New York. When her elder daughter found the victim's unused Indian passport in a Bombay hotel room with no foreign travel stamps, she filed a missing person complaint in June 1992. Meanwhile, using the power of attorney, the husband sold 34 plots of her land over two days in March 1992 and emptied their joint bank lockers.",
+"In March 1994, the Central Crime Branch took over the investigation and interrogated the husband. Under Section 27 of the Indian Evidence Act, 1872, which allows a statement made in police custody to be proved to the extent it leads to the discovery of a physical fact, the accused led a magisterial team and video crew to the enclosed courtyard outside the master bedroom. Eight feet beneath cemented stone slabs, investigators unearthed a seven-foot wooden box containing a foam mattress, a pillow, family rings, and a human skeleton in a sleeping gown.",
+"Forensic scientists matched the skull to photographs of the deceased using photo-superimposition and confirmed her parentage through deoxyribonucleic acid (DNA) fingerprinting, while chemical analysis detected sedative residues. Both the trial court and the High Court of Karnataka convicted the accused of murder and causing disappearance of evidence, sentencing him to death. On appeal, a two-judge bench of the Supreme Court of India unanimously upheld his conviction in 2007 but divided on whether a purely circumstantial case warranted execution, referring the sentencing question to a three-judge bench.",
+"In July 2008, the three-judge bench noted that routine executive remission under the Code of Criminal Procedure, 1973 often reduced life sentences to roughly 14 years, creating a vast gap between a 14-year term and death. Holding that imprisonment for life legally means imprisonment for the remainder of a convict's natural life, the Supreme Court substituted the death penalty with imprisonment for the rest of his natural life and directed that he shall not be released on remission."
+],
+"timeline": [
+{"date":"17 April 1986","title":"Marriage and Power of Attorney","text":"The landowner marries the accused under the Special Marriage Act, 1954 and grants him a general power of attorney over her properties and joint accounts.","key":false},
+{"date":"28 May 1991","title":"Disappearance from the Estate","text":"Domestic staff see the victim asleep in the master bedroom while helping move a large wooden box into the room before leaving on approved leave; she is never seen alive again.","key":false},
+{"date":"30–31 March 1992","title":"Rapid Liquidation of Land","text":"Acting on the general power of attorney, the accused executes 34 registered sale deeds in 48 hours to liquidate the missing landowner's real estate.","key":false},
+{"date":"10 June 1992","title":"Missing Person Complaint","text":"After discovering the victim's blank passport in a hotel room, her daughter files a formal missing person complaint with the Bangalore police.","key":false},
+{"date":"30 March 1994","title":"Courtyard Exhumation","text":"Following a custodial disclosure statement, police and an executive magistrate dig beneath the cemented courtyard slabs and exhume the wooden box containing skeletal remains.","key":true},
+{"date":"20 May 2005","title":"Trial Court Conviction","text":"The City Sessions Court in Bangalore convicts the accused of murder and destruction of evidence, sentencing him to death; the High Court confirms the sentence in September 2005.","key":false},
+{"date":"18 May 2007","title":"Division Bench Split on Sentence","text":"A two-judge bench of the Supreme Court affirms the conviction but splits on whether to award the death penalty or life imprisonment without release.","key":false},
+{"date":"22 July 2008","title":"Landmark Sentencing Verdict","text":"A three-judge bench of the Supreme Court commutes the death sentence to imprisonment for the remainder of natural life without any executive remission.","key":true}
+],
+"judgment": {
+"outcome": "The Supreme Court of India commuted the death sentence to imprisonment for the remainder of the convict's natural life, directing that he shall not be granted executive remission.",
+"points": [
+"Under Section 45 and Section 53 of the Indian Penal Code, 1860, a sentence of imprisonment for life legally means rigorous imprisonment for the whole of the remaining period of the convicted person's natural life.",
+"Statutory provisions in the Code of Criminal Procedure, 1973 governing executive remission are enabling rules of prison administration and cannot override a judicial sentence passed by a constitutional court in a capital case.",
+"When a case falls short of the narrow rarest of rare standard for execution, yet an ordinary life term that works out to 14 years through remission is grossly inadequate, the court may bridge the gap by ordering life imprisonment without remission.",
+"Sentencing cannot be reduced to rigid categories; judges must weigh the specific planning, betrayal of trust, and evidentiary posture of each individual trial."
+]
+},
+"principles": [
+{"name":"Discovery of fact from custodial disclosure","meaning":"While a confession made to a police officer is inadmissible to prove guilt, the specific part of an accused person's statement in custody that leads directly to the discovery of a physical fact may be proved in court.","inThisCase":"The accused's statement offering to point out the burial spot became admissible when digging beneath the cemented patio slabs uncovered the concealed wooden box and human remains, proving his exclusive knowledge of where the body was hidden."},
+{"name":"Rarest of rare sentencing principle","meaning":"Life imprisonment is the general rule for murder and the death penalty is an exception reserved only for extreme cases where the alternative option of imprisonment is unquestionably foreclosed.","inThisCase":"Because the conviction rested entirely on circumstantial evidence and the benches differed on execution, the court held that the death penalty could be avoided only by ensuring the substitute life sentence meant actual imprisonment until natural death."},
+{"name":"Life imprisonment means natural life","meaning":"In criminal law, a sentence of imprisonment for life denotes incarceration for the entire remaining span of the convict's natural life unless curtailed by a valid exercise of remission.","inThisCase":"The court relied on this foundational rule to establish a middle path between the death penalty and premature release after 14 years, barring routine statutory remission for the remainder of the convict's life."},
+{"name":"Burden of explaining facts within special knowledge","meaning":"When a fact is especially within the knowledge of a person, the burden of proving or explaining that fact lies upon them.","inThisCase":"Because the victim was last seen asleep in the bedroom shared exclusively with the accused and her remains were buried in the enclosed courtyard accessible only through their quarters, his fabricated stories of foreign travel fortified the chain of guilt."}
+],
+"takeaways": [
+"Imprisonment for life in Indian law means the remainder of the convict's natural life; release after 14 years occurs only if the executive grants remission.",
+"Constitutional courts commuting a death sentence can create a special sentencing category that places a convict beyond the reach of statutory remission under the Code of Criminal Procedure, 1973.",
+"A statement to police is admissible under the discovery exception only to the extent it reveals the physical object or location and the accused's exclusive knowledge of it.",
+"Post-crime conduct—such as forging signatures, liquidating assets under a power of attorney, and inventing false travel stories—forms a critical link in a circumstantial evidence chain."
+],
+"lawMapping": [
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 302","title":"Punishment for murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 103","title":"Punishment for murder","url":"@BNS"},"change":"Retains death or imprisonment for life and fine for murder under sub-section (1), and adds a separate sub-section (2) addressing murder committed by a group of five or more persons on specified grounds."},
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 45","title":"\"Life\"","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 2(17)","title":"'life'","url":"@BNS"},"change":"Moves the definition of life—meaning the life of a human being unless the contrary appears from the context—into the consolidated definitions clause."},
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 53","title":"\"Punishments\"","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 4","title":"Punishments","url":"@BNS"},"change":"Retains death and imprisonment for life among statutory punishments and adds community service as a new form of punishment."},
+{"old":{"act":"Code of Criminal Procedure, 1973","section":"Section 354","title":"Language and contents of judgment","url":"@CRPC"},"new":{"act":"Bharatiya Nagarik Suraksha Sanhita, 2023","section":"Section 393","title":"Language and contents of judgment","url":"@BNSSCMP"},"change":"Preserves the requirement in sub-section (3) that a court must state special reasons when awarding a sentence of death for an offence punishable with death or, in the alternative, imprisonment for life."},
+{"old":{"act":"Code of Criminal Procedure, 1973","section":"Section 432","title":"Power to suspend or remit sentences","url":"@CRPC"},"new":{"act":"Bharatiya Nagarik Suraksha Sanhita, 2023","section":"Section 473","title":"Power to suspend or remit sentences","url":"@BNSSCMP"},"change":"Re-enacts the executive power to suspend or remit sentences subject to procedural safeguards."},
+{"old":{"act":"Code of Criminal Procedure, 1973","section":"Section 433A","title":"Restriction on powers of remission or commutation in certain cases","url":"@CRPC"},"new":{"act":"Bharatiya Nagarik Suraksha Sanhita, 2023","section":"Section 475","title":"Restriction on powers of remission or commutation in certain cases","url":"@BNSSCMP"},"change":"Continues the statutory bar prohibiting the release of a life convict on remission before completing at least 14 years of actual imprisonment where the offence carries death as a punishment."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 27","title":"How much of information received from accused may be proved","url":"@BSACMP"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 23","title":"Confession to police officer","url":"@BSA"},"change":"Incorporates the rule on proving information received from an accused in custody that distinctly leads to the discovery of a fact as a proviso to Section 23."}
+],
+"lawNote": "Because the offence was committed in May 1991, long before 1 July 2024, the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872 applied to the investigation, trial, and appeal.",
+"sources": [
+{"label":"Judgment of the Supreme Court of India (Three-Judge Bench), 22 July 2008","url":"https://indiankanoon.org/doc/989335/"},
+{"label":"Judgment of the Supreme Court of India (Division Bench), 18 May 2007","url":"https://indiankanoon.org/doc/604676/"},
+{"label":"Indian Penal Code, 1860 (High Court of Tripura Repository)","url":"@IPC"},
+{"label":"Code of Criminal Procedure, 1973 (Official Government Repository)","url":"@CRPC"},
+{"label":"Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Repository)","url":"@BSA"},
+{"label":"Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (Uttar Pradesh Police)","url":"@BNS"},
+{"label":"Bharatiya Nagarik Suraksha Sanhita, 2023 and Code of Criminal Procedure, 1973 Comparative Table (Uttar Pradesh Police)","url":"@BNSSCMP"},
+{"label":"Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (Uttar Pradesh Police)","url":"@BSACMP"}
+]
 }

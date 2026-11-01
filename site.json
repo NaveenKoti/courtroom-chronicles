@@ -8,8 +8,8 @@
   "links": {
     "spotify": "https://open.spotify.com/show/6fCXO2BKUUPL6sx4agVMUN",
     "spotifyShowId": "6fCXO2BKUUPL6sx4agVMUN",
-    "apple": null,
-    "youtube": null,
+    "apple": "https://podcasts.apple.com/in/podcast/courtroom-chronicles/id6818802315",
+    "youtube": "https://youtube.com/playlist?list=PLd8jjXKA-Z-s",
     "rss": "https://anchor.fm/s/1180f6a90/podcast/rss"
   },
   "disclaimer": "This site and the episodes are prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. People named in criminal cases are presumed innocent unless a court has convicted them. Check every section and holding against the original judgment or bare act before relying on it."

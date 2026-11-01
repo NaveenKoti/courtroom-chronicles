@@ -2,14 +2,15 @@
 """Courtroom Chronicles: build the static site from data/episodes/*.json.
 
 Run:  python3 build.py
-Writes (into this folder): index.html, episodes/<slug>/index.html, sitemap.xml,
-robots.txt, 404.html.  assets/style.css and assets/app.js are plain files you can edit.
+Writes (into this folder): index.html, episodes/<slug>/index.html, laws/ (law finder),
+assets/og/*.png (share images, needs Pillow), sitemap.xml, robots.txt, 404.html.
+assets/style.css and assets/app.js are plain files you can edit.
 Optional: data/audio.json (made by fetch_audio.py) supplies audio URLs from your RSS feed.
-Standard library only.
+Standard library only (Pillow is optional, for share images).
 """
-import glob, html, json, os, re, sys
-from urllib.parse import quote
+import glob, hashlib, html, json, os, re, shutil, sys
 from datetime import date
+from urllib.parse import quote
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 os.chdir(ROOT)
@@ -30,6 +31,13 @@ URL_ALIASES = {
 WATCH = re.compile(
     r"\b(landmark|historic|unprecedented|groundbreaking|ground-breaking|definitive|greatest|"
     r"most important|first[- ]ever|world'?s first|india'?s first|pioneering)\b", re.I)
+
+# Law codes for the law finder.
+ACT_CODES = [("penal code", "ipc"), ("nyaya", "bns"), ("criminal procedure", "crpc"), ("nagarik", "bnss"),
+             ("evidence act", "iea"), ("sakshya", "bsa"), ("constitution", "constitution")]
+ACT_SHORT = {"ipc": "IPC", "bns": "BNS", "crpc": "CrPC", "bnss": "BNSS", "iea": "Evidence Act",
+             "bsa": "BSA", "constitution": "Constitution"}
+ACT_ORDER = ["ipc", "crpc", "iea", "constitution", "bns", "bnss", "bsa"]
 
 site = json.load(open("site.json", encoding="utf-8"))
 BASE = site["baseUrl"].rstrip("/")
@@ -53,10 +61,13 @@ def norm(s):
     return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
 
+def slug_words(s):
+    return re.sub(r"[^a-z0-9]+", "-", (s or "").lower().replace("'", "").replace("’", "")).strip("-")
+
+
 def slugify(title, n):
-    words = re.sub(r"[^a-z0-9]+", "-", title.lower().replace("'", "").replace("’", "")).strip("-").split("-")
     out = []
-    for w in words:
+    for w in slug_words(title).split("-"):
         if len("-".join(out + [w])) > 56:
             break
         out.append(w)
@@ -67,13 +78,20 @@ def short(s, n):
     s = " ".join(str(s).split())
     if len(s) <= n:
         return s
-    cut = s[: n - 1].rsplit(" ", 1)[0].rstrip(",;:- ")
-    return cut + "…"
+    return s[: n - 1].rsplit(" ", 1)[0].rstrip(",;:- ") + "…"
 
 
 def jsonld(obj):
     return '<script type="application/ld+json">%s</script>' % json.dumps(
         obj, ensure_ascii=False).replace("</", "<\\/")
+
+
+def act_code(act):
+    a = (act or "").lower()
+    for key, code in ACT_CODES:
+        if key in a:
+            return code
+    return slug_words(act) or "other"
 
 
 # ---------- load ----------
@@ -96,16 +114,11 @@ for p in sorted(glob.glob("data/episodes/ep*.json")):
 episodes.sort(key=lambda x: x["n"])
 if len({x["n"] for x in episodes}) != len(episodes):
     sys.exit("Duplicate episode numbers")
-by_n = {x["n"]: x for x in episodes}
 nums = [x["n"] for x in episodes]
 
 
 def ep_url(x):
     return "%s/episodes/%s/" % (BASE, x["slug"])
-
-
-def ep_path(x, depth):
-    return ("../" * depth) + "episodes/%s/" % x["slug"]
 
 
 def fact(x, label):
@@ -115,19 +128,125 @@ def fact(x, label):
     return ""
 
 
+def outcome(x):
+    return (x.get("judgment") or {}).get("outcome") or x["hook"]
+
+
+def read_minutes(x):
+    parts = list(x.get("summary", [])) + list(x.get("takeaways", []))
+    parts += [t.get("text", "") for t in x.get("timeline", [])]
+    j = x.get("judgment") or {}
+    parts += [j.get("outcome", "")] + list(j.get("points", []))
+    for p in x.get("principles", []):
+        parts += [p.get("meaning", ""), p.get("inThisCase", "")]
+    return max(1, round(len(" ".join(parts).split()) / 210))
+
+
 def warn_words(x):
     blob = json.dumps({k: v for k, v in x.items() if k in (
         "title", "hook", "summary", "judgment", "principles", "takeaways", "timeline")}, ensure_ascii=False)
     return sorted({m.group(0).lower() for m in WATCH.finditer(blob)})
 
 
+# ---------- law finder data ----------
+prov = {}
+for x in episodes:
+    for m in x.get("lawMapping", []):
+        o = m.get("old") or {}
+        sec = o.get("section", "")
+        if not sec:
+            continue
+        code = act_code(o.get("act", ""))
+        slug = "%s-%s" % (code, slug_words(sec))
+        p = prov.setdefault(slug, {"slug": slug, "code": code, "act": o.get("act", ""), "section": sec,
+                                   "title": o.get("title", ""), "url": o.get("url"), "news": [], "changes": [], "eps": []})
+        n = m.get("new")
+        if n:
+            tup = (n.get("act", ""), n.get("section", ""), n.get("title", ""), n.get("url"))
+            if tup not in p["news"]:
+                p["news"].append(tup)
+        ch = m.get("change")
+        if ch and len(p["changes"]) < 2 and not any(norm(ch)[:30] == norm(c)[:30] for c in p["changes"]):
+            p["changes"].append(ch)
+        if x not in p["eps"]:
+            p["eps"].append(x)
+        m["_prov"] = slug
+PAGES = {s: p for s, p in prov.items() if len(p["eps"]) >= 2}  # only these get their own page
+
+
+def prov_label(p):
+    s = "%s %s" % (p["section"], ACT_SHORT.get(p["code"], p["act"]))
+    if p["news"]:
+        a, sec = p["news"][0][0], p["news"][0][1]
+        s += " (now %s %s)" % (sec, ACT_SHORT.get(act_code(a), a))
+    return s
+
+
+# ---------- share images ----------
+FONTS_BOLD = ["/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf",
+              "/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf"]
+FONTS_REG = ["/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+             "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"]
+
+
+def _font(paths, size):
+    from PIL import ImageFont
+    for p in paths:
+        if os.path.exists(p):
+            return ImageFont.truetype(p, size)
+    return None
+
+
+def make_og(x):
+    """One 1200x630 share image per episode. Returns a site path, or None if Pillow/fonts are missing."""
+    try:
+        from PIL import Image, ImageDraw
+    except Exception:
+        return None
+    court, year = fact(x, "Court"), fact(x, "Year")
+    stamp = hashlib.md5(("%s|%s|%s" % (x["title"], court, year)).encode("utf-8")).hexdigest()[:6]
+    path = "assets/og/%s-%s.png" % (x["id"], stamp)
+    if os.path.exists(path):
+        return path
+    big, mid, small = _font(FONTS_BOLD, 66), _font(FONTS_REG, 34), _font(FONTS_REG, 28)
+    if not (big and mid and small):
+        return None
+    W, H = 1200, 630
+    im = Image.new("RGB", (W, H), (122, 31, 43))
+    d = ImageDraw.Draw(im)
+    d.rectangle([36, 36, W - 36, H - 36], outline=(217, 178, 95), width=4)
+    d.text((84, 84), "EPISODE %d" % x["n"], font=mid, fill=(217, 178, 95))
+    lines, cur = [], ""
+    for w in x["title"].split():
+        t = (cur + " " + w).strip()
+        if d.textlength(t, font=big) > W - 168 and cur:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = t
+    lines.append(cur)
+    y = 150
+    for ln in lines[:4]:
+        d.text((84, y), ln, font=big, fill=(250, 248, 244))
+        y += 84
+    foot = " · ".join(v for v in (court, year) if v)
+    if foot:
+        d.text((84, H - 140), foot, font=small, fill=(240, 220, 180))
+    d.text((84, H - 96), site["title"] + "  |  " + site["tagline"], font=small, fill=(250, 248, 244))
+    os.makedirs("assets/og", exist_ok=True)
+    im.save(path, optimize=True)
+    return path
+
+
 # ---------- shared page shell ----------
-def head(title, desc, canonical, depth, extra="", og_type="website", image=True, prev=None, nxt=None):
+def head(title, desc, canonical, depth, extra="", og_type="website", image_path=None, prev=None, nxt=None, noindex=False):
     root = "../" * depth
     img = ""
-    if image and site.get("ogImage") and os.path.exists(site["ogImage"]):
-        img_url = "%s/%s" % (BASE, site["ogImage"])
-        img = ('<meta property="og:image" content="%s">\n<meta name="twitter:image" content="%s">\n'
+    ip = image_path or (site.get("ogImage") if site.get("ogImage") and os.path.exists(site.get("ogImage", "")) else None)
+    if ip:
+        img_url = "%s/%s" % (BASE, ip)
+        img = ('<meta property="og:image" content="%s">\n<meta property="og:image:width" content="1200">\n'
+               '<meta property="og:image:height" content="630">\n<meta name="twitter:image" content="%s">\n'
                % (esc(img_url), esc(img_url)))
     pn = ""
     if prev:
@@ -137,6 +256,7 @@ def head(title, desc, canonical, depth, extra="", og_type="website", image=True,
     rss = LINKS.get("rss")
     rss_tag = ('<link rel="alternate" type="application/rss+xml" title="%s" href="%s">\n'
                % (esc(site["title"]), esc(rss))) if rss else ""
+    robots = "noindex" if noindex else "index, follow, max-image-preview:large"
     return """<!doctype html>
 <html lang="%(lang)s">
 <head>
@@ -144,8 +264,9 @@ def head(title, desc, canonical, depth, extra="", og_type="website", image=True,
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>%(title)s</title>
 <meta name="description" content="%(desc)s">
-<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="robots" content="%(robots)s">
 <meta name="theme-color" content="#7a1f2b">
+<meta name="color-scheme" content="light dark">
 <link rel="canonical" href="%(canon)s">
 %(pn)s%(rss)s<meta property="og:site_name" content="%(site)s">
 <meta property="og:type" content="%(ogt)s">
@@ -161,61 +282,67 @@ def head(title, desc, canonical, depth, extra="", og_type="website", image=True,
 %(extra)s</head>
 """ % dict(lang=site.get("lang", "en"), title=esc(title), desc=esc(desc), canon=esc(canonical), site=esc(site["title"]),
            ogt=og_type, card="summary_large_image" if img else "summary", img=img, pn=pn, rss=rss_tag,
-           root=root, extra=extra)
+           root=root, extra=extra, robots=robots)
 
 
-def header(depth, active=""):
+def header(depth):
     root = "../" * depth
     return """<a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap bar">
 <a class="brand" href="%(r)s"><span class="mark" aria-hidden="true">⚖</span> %(t)s</a>
-<nav aria-label="Main"><a href="%(r)s#episodes">Episodes</a><a href="%(r)s#about">About</a>%(sp)s</nav>
+<nav aria-label="Main"><a href="%(r)s#episodes">Episodes</a><a href="%(r)slaws/">Law finder</a><a href="%(r)s#about">About</a></nav>
 </div></header>
-""" % dict(r=root or "./", t=esc(site["title"]),
-           sp=('<a href="%s" rel="noopener" target="_blank">Spotify</a>' % esc(LINKS["spotify"])) if LINKS.get("spotify") else "")
+""" % dict(r=root or "./", t=esc(site["title"]))
 
 
-def footer(depth, extra_disclaimer=""):
+def footer(extra_disclaimer=""):
     return """<footer class="foot"><div class="wrap">
+<p class="foot-links">%s</p>
 <p class="disc">%s</p>
-<p class="small">© %s %s. Built with plain HTML; case notes are drawn from public court records.</p>
+<p class="small">© %s %s. Case notes are drawn from public court records.</p>
 </div></footer>
-""" % (esc(extra_disclaimer or site.get("disclaimer", "")), date.today().year, esc(site["title"]))
+""" % (platform_links(LINKS, plain=True), esc(extra_disclaimer or site.get("disclaimer", "")), date.today().year, esc(site["title"]))
 
 
-def listen_links(x):
+PLATFORMS = [("spotify", "Spotify"), ("apple", "Apple Podcasts"), ("youtube", "YouTube"), ("rss", "RSS")]
+
+
+def platform_links(ln, primary=False, plain=False):
     out = []
-    ln = x["listen"]
-    if ln.get("spotify"):
-        out.append(("Spotify", ln["spotify"]))
-    if ln.get("apple"):
-        out.append(("Apple Podcasts", ln["apple"]))
-    if ln.get("youtube"):
-        out.append(("YouTube", ln["youtube"]))
-    if ln.get("rss"):
-        out.append(("RSS", ln["rss"]))
-    return "".join('<a class="btn" href="%s" rel="noopener" target="_blank">%s</a>' % (esc(u), esc(n)) for n, u in out)
+    for key, label in PLATFORMS:
+        u = ln.get(key)
+        if not u:
+            continue
+        if plain:
+            out.append('<a href="%s" rel="noopener" target="_blank">%s</a>' % (esc(u), label))
+        else:
+            out.append('<a class="btn %s p-%s" href="%s" rel="noopener" target="_blank">%s</a>' % (
+                "" if primary else "ghost", key, esc(u), ("Listen on " + label) if (primary and key != "rss") else label))
+    return "".join(out)
+
+
+def apple_embed(ln):
+    u = ln.get("apple") or ""
+    m = re.match(r"^https://podcasts\.apple\.com/(.+)$", u)
+    return ("https://embed.podcasts.apple.com/" + m.group(1).split("?")[0]) if m else ""
 
 
 # ---------- episode page ----------
 def player_block(x):
     a = x.get("audio") or {}
     url = safe_url(a.get("url"))
-    spid = LINKS.get("spotifyShowId")
+    ln = x["listen"]
     parts = ['<section class="player" id="listen" aria-label="Listen to this episode" '
-             'data-title="%s" data-num="%d" data-rss="%s" data-spotify="%s" data-id="%s">'
-             % (esc(norm(x["title"])), x["n"], esc(LINKS.get("rss") or ""), esc(spid or ""), esc(x["id"]))]
+             'data-title="%s" data-num="%d" data-rss="%s" data-spotify="%s" data-apple="%s" data-id="%s">'
+             % (esc(norm(x["title"])), x["n"], esc(LINKS.get("rss") or ""), esc(ln.get("spotifyShowId") or ""),
+                esc(apple_embed(ln)), esc(x["id"]))]
     parts.append('<h2>Listen</h2>')
-    if url:
-        parts.append('<audio controls preload="none" src="%s"></audio>' % esc(url))
-    else:
-        parts.append('<audio controls preload="none" hidden></audio>')
+    parts.append('<audio controls preload="none"%s></audio>' % ((' src="%s"' % esc(url)) if url else " hidden"))
     parts.append('<div class="pbar"><span class="pstat" aria-live="polite"></span>'
                  '<button type="button" class="btn ghost speed" hidden aria-label="Playback speed">1×</button></div>')
     parts.append('<div class="embed" hidden></div>')
-    parts.append('<div class="btns">%s</div>' % listen_links(x))
-    parts.append('<noscript><p class="small">Turn on JavaScript to play here, or use the links above.</p></noscript>')
-    parts.append('</section>')
+    parts.append('<div class="btns">%s</div>' % platform_links(ln))
+    parts.append('<noscript><p class="small">Turn on JavaScript to play here, or use the links above.</p></noscript></section>')
     return "".join(parts)
 
 
@@ -223,8 +350,8 @@ def section(id_, title, body):
     return '<section class="sec" id="%s"><h2>%s</h2>%s</section>\n' % (id_, esc(title), body)
 
 
-def ul(items, cls=""):
-    return '<ul%s>%s</ul>' % ((' class="%s"' % cls) if cls else "", "".join("<li>%s</li>" % esc(i) for i in items))
+def ul(items):
+    return "<ul>%s</ul>" % "".join("<li>%s</li>" % esc(i) for i in items)
 
 
 def map_cell(side):
@@ -243,6 +370,8 @@ def render_episode(x, prev, nxt):
     title = "EP%03d: %s | %s" % (x["n"], x["title"], site["title"])
     topics = x.get("topics", [])
     court, year = fact(x, "Court"), fact(x, "Year")
+    mins = read_minutes(x)
+    og = make_og(x)
 
     graph = [
         {"@type": "PodcastEpisode", "@id": url + "#episode", "url": url, "name": x["title"],
@@ -257,29 +386,37 @@ def render_episode(x, prev, nxt):
     if a.get("date"):
         graph[0]["datePublished"] = a["date"]
     if safe_url(a.get("url")):
-        graph[0]["associatedMedia"] = {"@type": "AudioObject", "contentUrl": safe_url(a["url"]),
-                                       "encodingFormat": "audio/mpeg"}
+        graph[0]["associatedMedia"] = {"@type": "AudioObject", "contentUrl": safe_url(a["url"]), "encodingFormat": "audio/mpeg"}
     ld = jsonld({"@context": "https://schema.org", "@graph": graph})
-    out = [head(title, desc, url, 2, extra=ld + "\n", og_type="article", prev=prev, nxt=nxt)]
+    out = [head(title, desc, url, 2, extra=ld + "\n", og_type="article", image_path=og, prev=prev, nxt=nxt)]
     out.append("<body>\n" + header(2))
     out.append('<main id="main" class="wrap ep">\n')
     out.append('<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">%s</a> › <span>EP%03d</span></nav>\n'
                % (esc(site["title"]), x["n"]))
+    meta = " · ".join(v for v in (court, year, "%d min read" % mins) if v)
     out.append('<article>\n<header class="eph"><p class="kicker">Episode %d%s</p><h1>%s</h1><p class="hook">%s</p>'
-               % (x["n"], (" · " + esc(a["date"])) if a.get("date") else "", esc(x["title"]), esc(x["hook"])))
+               '<p class="meta">%s</p>' % (x["n"], (" · " + esc(a["date"])) if a.get("date") else "", esc(x["title"]),
+                                           esc(x["hook"]), esc(meta)))
     if topics:
         out.append('<p class="chips">%s</p>' % "".join(
             '<a class="chip" href="../../?topic=%s#episodes">%s</a>' % (quote(t.lower()), esc(t)) for t in topics))
     out.append('</header>\n')
 
+    if (x.get("judgment") or {}).get("outcome"):
+        out.append('<aside class="verdict"><strong>The decision in one line</strong><p>%s</p></aside>\n' % esc(x["judgment"]["outcome"]))
+
+    out.append(player_block(x) + "\n")
+    share_text = "%s: %s" % (x["title"], url)
+    out.append('<p class="share"><a class="btn ghost" rel="noopener" target="_blank" href="https://wa.me/?text=%s">Share on WhatsApp</a>'
+               '<button type="button" class="btn ghost" data-copy="%s">Copy link</button>'
+               '<button type="button" class="btn ghost" data-share="%s" data-url="%s" hidden>Share…</button></p>\n'
+               % (quote(share_text), esc(url), esc(x["title"]), esc(url)))
+
     if x.get("facts"):
         out.append('<dl class="facts">%s</dl>\n' % "".join(
             "<div><dt>%s</dt><dd>%s</dd></div>" % (esc(f.get("label")), esc(f.get("value"))) for f in x["facts"]))
 
-    out.append(player_block(x) + "\n")
-
-    toc = []
-    body = []
+    toc, body = [], []
     if x.get("takeaways"):
         toc.append(("takeaways", "Key takeaways"))
         body.append('<section class="sec learn" id="takeaways"><h2>Key takeaways</h2>%s</section>\n' % ul(x["takeaways"]))
@@ -314,8 +451,12 @@ def render_episode(x, prev, nxt):
             b += '<p class="note">%s</p>' % esc(x["lawNote"])
         rows = ""
         for m in x.get("lawMapping", []):
-            rows += ('<li class="map">%s<span class="arrow" aria-hidden="true">→</span>%s<p class="chg">%s</p></li>'
-                     % (map_cell(m.get("old")), map_cell(m.get("new")), esc(m.get("change", ""))))
+            more = ""
+            if m.get("_prov") in PAGES:
+                pg = PAGES[m["_prov"]]
+                more = ' <a class="more" href="../../laws/%s/">See all %d episodes on this provision →</a>' % (esc(pg["slug"]), len(pg["eps"]))
+            rows += ('<li class="map">%s<span class="arrow" aria-hidden="true">→</span>%s<p class="chg">%s%s</p></li>'
+                     % (map_cell(m.get("old")), map_cell(m.get("new")), esc(m.get("change", "")), more))
         if rows:
             b += ('<p class="small">Left: the law applied to this case. Right: the matching provision today '
                   '(the new criminal codes apply only to offences on or after 1 July 2024).</p>'
@@ -346,30 +487,122 @@ def render_episode(x, prev, nxt):
     out.append(('<a class="prev" href="../%s/"><small>← Previous</small><span>EP%03d · %s</span></a>' % (esc(prev["slug"]), prev["n"], esc(prev["title"]))) if prev else "<span></span>")
     out.append(('<a class="next" href="../%s/"><small>Next →</small><span>EP%03d · %s</span></a>' % (esc(nxt["slug"]), nxt["n"], esc(nxt["title"]))) if nxt else "<span></span>")
     out.append('</nav>\n</article>\n</main>\n')
-    out.append(footer(2, x.get("disclaimer", "")))
+    out.append(footer(x.get("disclaimer", "")))
     out.append('<script src="../../assets/app.js" defer></script>\n</body>\n</html>\n')
+    return "".join(out)
+
+
+# ---------- law finder ----------
+def ep_list(eps, depth):
+    root = "../" * depth
+    return '<ul class="rel">%s</ul>' % "".join(
+        '<li><a href="%sepisodes/%s/"><span class="num">EP%03d</span> %s</a></li>' % (root, esc(r["slug"]), r["n"], esc(r["title"]))
+        for r in sorted(eps, key=lambda r: r["n"]))
+
+
+def render_prov(p):
+    label = prov_label(p)
+    url = "%s/laws/%s/" % (BASE, p["slug"])
+    title = "%s: %s | %s" % (label, p["title"], site["title"])
+    act_s = ACT_SHORT.get(p["code"], p["act"])
+    if p["news"]:
+        nw = ", ".join("%s of the %s" % (s, a) for a, s, _t, _u in p["news"])
+        now_txt = "The matching provision today is %s." % nw
+    else:
+        now_txt = "It has not been replaced; the same provision applies today."
+    n = len(p["eps"])
+    desc = short("%s of the %s: %s. %s Seen in %d Courtroom Chronicles cases." % (p["section"], p["act"], p["title"], now_txt, n), 158)
+    ld = jsonld({"@context": "https://schema.org", "@graph": [
+        {"@type": "WebPage", "name": label + ": " + p["title"], "url": url, "description": desc, "inLanguage": site.get("lang", "en")},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": site["title"], "item": BASE + "/"},
+            {"@type": "ListItem", "position": 2, "name": "Law finder", "item": BASE + "/laws/"},
+            {"@type": "ListItem", "position": 3, "name": label, "item": url}]}]})
+    out = [head(title, desc, url, 2, extra=ld + "\n")]
+    out.append("<body>\n" + header(2) + '<main id="main" class="wrap ep">\n')
+    out.append('<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">%s</a> › <a href="../">Law finder</a> › <span>%s</span></nav>\n'
+               % (esc(site["title"]), esc(p["section"] + " " + act_s)))
+    out.append('<article><header class="eph"><p class="kicker">Law finder</p><h1>%s</h1><p class="hook">%s</p></header>\n' % (esc(label), esc(p["title"])))
+    mapcard = '<ul class="maps"><li class="map">%s<span class="arrow" aria-hidden="true">→</span>%s</li></ul>' % (
+        map_cell({"act": p["act"], "section": p["section"], "title": p["title"], "url": p["url"]}),
+        "".join(map_cell({"act": a, "section": s, "title": t, "url": u}) for a, s, t, u in p["news"]) if p["news"] else '<div class="mc none">Unchanged</div>')
+    out.append('<section class="sec"><h2>Then and now</h2><p>%s of the %s covers: %s. %s</p>%s'
+               '<p class="small">The new criminal codes apply only to offences on or after 1 July 2024. Older cases are still decided under the old law.</p></section>\n'
+               % (esc(p["section"]), esc(p["act"]), esc(p["title"].lower() if p["title"] else "this provision"), esc(now_txt), mapcard))
+    if p["changes"]:
+        out.append(section("changes", "What changed", "<ul>%s</ul>" % "".join("<li>%s</li>" % esc(c) for c in p["changes"])))
+    out.append(section("episodes", "Cases on this site where it mattered (%d)" % n, ep_list(p["eps"], 2)))
+    out.append('<p class="note">%s</p>\n</article></main>\n' % esc(site.get("disclaimer", "")))
+    out.append(footer() + '<script src="../../assets/app.js" defer></script>\n</body>\n</html>\n')
+    return "".join(out)
+
+
+def render_laws_index():
+    url = BASE + "/laws/"
+    nprov = len(prov)
+    desc = short("Look up Indian criminal and constitutional provisions (IPC, CrPC, Evidence Act, Constitution) and what replaced them "
+                 "(BNS, BNSS, BSA), with the real cases where each one mattered.", 158)
+    out = [head("Law finder: old and new Indian law, with cases | " + site["title"], desc, url, 1)]
+    out.append("<body>\n" + header(1) + '<main id="main" class="wrap">\n')
+    out.append('<nav class="crumbs" aria-label="Breadcrumb"><a href="../">%s</a> › <span>Law finder</span></nav>\n' % esc(site["title"]))
+    out.append('<h1>Law finder</h1><p class="lead">%d provisions that came up in the cases, shown as the law then and the law today.</p>\n'
+               '<div class="tools"><label class="sr" for="lq">Filter provisions</label>'
+               '<input id="lq" type="search" placeholder="Filter (e.g. 302, evidence, remission)" autocomplete="off"></div>\n' % nprov)
+    groups = {}
+    for p in prov.values():
+        groups.setdefault(p["code"], []).append(p)
+    order = [c for c in ACT_ORDER if c in groups] + [c for c in groups if c not in ACT_ORDER]
+
+    def secnum(p):
+        m = re.search(r"(\d+)", p["section"])
+        return (int(m.group(1)) if m else 9999, p["section"])
+    for code in order:
+        ps = sorted(groups[code], key=secnum)
+        out.append('<section class="sec lawgroup"><h2>%s</h2><ul class="lawlist">' % esc(ps[0]["act"]))
+        for p in ps:
+            if p["slug"] in PAGES:
+                link = '<a href="%s/">%s</a>' % (esc(p["slug"]), esc(prov_label(p)))
+                cases = "%d cases" % len(p["eps"])
+            else:
+                r = p["eps"][0]
+                link = '<a href="../episodes/%s/#law">%s</a>' % (esc(r["slug"]), esc(prov_label(p)))
+                cases = "EP%03d" % r["n"]
+            out.append('<li data-s="%s"><span class="ls">%s</span> <span class="lt">%s</span> <span class="lc">%s</span></li>' % (
+                esc(norm(prov_label(p) + " " + p["title"])), link, esc(p["title"]), esc(cases)))
+        out.append("</ul></section>\n")
+    out.append('<p class="note">%s</p></main>\n' % esc(site.get("disclaimer", "")))
+    out.append(footer() + '<script src="../assets/app.js" defer></script>\n</body>\n</html>\n')
     return "".join(out)
 
 
 # ---------- index ----------
 def render_index():
     n = len(episodes)
-    desc = short("%s. %d episodes with plain-English case notes, timelines, legal principles and sources." % (
-        site["tagline"], n), 158)
-    all_topics = sorted({t for x in episodes for t in x.get("topics", [])})
+    latest = episodes[-1]
+    topics_all = sorted({t for x in episodes for t in x.get("topics", [])})
+    desc = short("%s. %d episodes with plain-English case notes, timelines, legal principles and sources." % (site["tagline"], n), 158)
     ld = jsonld({"@context": "https://schema.org", "@graph": [
         {"@type": "PodcastSeries", "name": site["title"], "url": BASE + "/", "description": site["about"],
          "inLanguage": site.get("lang", "en"), "webFeed": LINKS.get("rss"),
          "sameAs": [u for u in (LINKS.get("spotify"), LINKS.get("apple"), LINKS.get("youtube")) if u]},
         {"@type": "WebSite", "name": site["title"], "url": BASE + "/"},
         {"@type": "ItemList", "itemListElement": [
-            {"@type": "ListItem", "position": i + 1, "url": ep_url(x), "name": x["title"]}
-            for i, x in enumerate(episodes)]}]})
+            {"@type": "ListItem", "position": i + 1, "url": ep_url(x), "name": x["title"]} for i, x in enumerate(episodes)]}]})
     out = [head("%s | %s" % (site["title"], site["tagline"]), desc, BASE + "/", 0, extra=ld + "\n")]
-    out.append("<body>\n" + header(0))
-    out.append('<main id="main">\n<section class="hero"><div class="wrap">'
-               '<p class="kicker">A podcast and case-note library</p><h1>%s</h1><p class="lead">%s</p>'
-               '<div class="btns">%s</div></div></section>\n' % (esc(site["title"]), esc(site["tagline"]), listen_links({"listen": LINKS})))
+    out.append("<body>\n" + header(0) + "<main id=\"main\">\n")
+    out.append('<section class="hero"><div class="wrap herogrid"><div>'
+               '<p class="kicker">Podcast · case notes · law finder</p><h1>%s</h1><p class="lead">%s</p>'
+               '<div class="btns">%s</div>'
+               '<ul class="stats"><li><strong>%d</strong> episodes</li><li><strong>%d</strong> topics</li><li><strong>%d</strong> provisions explained</li></ul>'
+               '</div>'
+               '<a class="latest" href="episodes/%s/"><span class="kicker">Latest · EP%03d</span><strong>%s</strong>'
+               '<span class="lo">%s</span><span class="go">Read the case notes →</span></a></div></section>\n'
+               % (esc(site["title"]), esc(site["tagline"]), platform_links(LINKS, primary=True), n, len(topics_all), len(prov),
+                  esc(latest["slug"]), latest["n"], esc(latest["title"]), esc(short(outcome(latest), 170))))
+    out.append('<section class="wrap how" aria-label="How it works"><ol>'
+               '<li><span>1</span><div><strong>Listen to the story</strong>Each case is told as an episode you can play anywhere.</div></li>'
+               '<li><span>2</span><div><strong>Read the case notes</strong>Timeline, key holdings and plain-English principles.</div></li>'
+               '<li><span>3</span><div><strong>Learn the law</strong>See the old provision next to what replaced it.</div></li></ol></section>\n')
     out.append('<section class="wrap" id="episodes"><h2>Episodes</h2>'
                '<div class="tools"><label class="sr" for="q">Search episodes</label>'
                '<input id="q" type="search" placeholder="Search cases, laws, topics (e.g. dying declaration, section 302, DNA)" autocomplete="off">'
@@ -377,20 +610,27 @@ def render_index():
                '<p class="chips" id="topics">%s</p><p class="small" id="count" aria-live="polite">%d episodes</p>'
                '<ul class="cards" id="list">\n' % (
                    '<button type="button" class="chip on" data-t="">All</button>' + "".join(
-                       '<button type="button" class="chip" data-t="%s">%s</button>' % (esc(t.lower()), esc(t)) for t in all_topics), n))
+                       '<button type="button" class="chip" data-t="%s">%s</button>' % (esc(t.lower()), esc(t)) for t in topics_all), n))
     for x in sorted(episodes, key=lambda z: -z["n"]):
         blob = " ".join([x["title"], x["hook"], " ".join(x.get("topics", [])), " ".join(x.get("laws", [])),
-                         " ".join(f.get("value", "") for f in x.get("facts", [])),
-                         " ".join(x.get("takeaways", [])), " ".join(p.get("name", "") for p in x.get("principles", [])),
-                         " ".join(s for s in x.get("summary", [])[:1])])
-        court, year = fact(x, "Court"), fact(x, "Year")
+                         " ".join(f.get("value", "") for f in x.get("facts", [])), " ".join(x.get("takeaways", [])),
+                         " ".join(p.get("name", "") for p in x.get("principles", [])),
+                         " ".join("%s %s %s" % ((m.get("old") or {}).get("section", ""), (m.get("old") or {}).get("title", ""),
+                                                (m.get("new") or {}).get("section", "")) for m in x.get("lawMapping", [])),
+                         " ".join(x.get("summary", [])[:1])])
+        meta = " · ".join(v for v in (fact(x, "Court"), fact(x, "Year")) if v)
         out.append('<li class="card" data-n="%d" data-s="%s" data-t="|%s|"><a href="episodes/%s/">'
                    '<span class="num">EP%03d</span><h3>%s</h3></a><p>%s</p><p class="meta">%s</p></li>\n' % (
                        x["n"], esc(norm(blob)), esc("|".join(t.lower() for t in x.get("topics", []))), esc(x["slug"]), x["n"],
-                       esc(x["title"]), esc(x["hook"]), esc(" · ".join(v for v in (court, year) if v))))
+                       esc(x["title"]), esc(short(outcome(x), 150)), esc(meta)))
     out.append('</ul><p id="none" class="small" hidden>No episodes match. Try fewer words.</p></section>\n')
+    top = sorted(PAGES.values(), key=lambda p: -len(p["eps"]))[:8]
+    if top:
+        out.append('<section class="wrap" id="laws"><h2>Browse by law</h2><p>Jump to a provision and see the old and new law with the cases behind it.</p>'
+                   '<p class="chips">%s<a class="chip" href="laws/">All provisions →</a></p></section>\n' % "".join(
+                       '<a class="chip" href="laws/%s/">%s</a>' % (esc(p["slug"]), esc("%s %s" % (p["section"], ACT_SHORT.get(p["code"], "")))) for p in top))
     out.append('<section class="wrap" id="about"><h2>About</h2><p>%s</p></section>\n</main>\n' % esc(site["about"]))
-    out.append(footer(0))
+    out.append(footer())
     out.append('<script src="assets/app.js" defer></script>\n</body>\n</html>\n')
     return "".join(out)
 
@@ -401,33 +641,52 @@ def write(path, text):
         f.write(text)
 
 
+def clean(dirname, keep):
+    if os.path.isdir(dirname):
+        for d in os.listdir(dirname):
+            if d not in keep and os.path.isdir(os.path.join(dirname, d)):
+                shutil.rmtree(os.path.join(dirname, d))
+
+
 def main():
-    import shutil
-    keep = {x["slug"] for x in episodes}
-    if os.path.isdir("episodes"):
-        for d in os.listdir("episodes"):
-            if d not in keep and os.path.isdir(os.path.join("episodes", d)):
-                shutil.rmtree(os.path.join("episodes", d))
+    clean("episodes", {x["slug"] for x in episodes})
+    clean("laws", set(PAGES))
     write("index.html", render_index())
     for i, x in enumerate(episodes):
         prev = episodes[i - 1] if i > 0 else None
         nxt = episodes[i + 1] if i < len(episodes) - 1 else None
         write("episodes/%s/index.html" % x["slug"], render_episode(x, prev, nxt))
-    today = date.today().isoformat()
-    urls = [(BASE + "/", "1.0")] + [(ep_url(x), "0.8") for x in episodes]
+    write("laws/index.html", render_laws_index())
+    for s, p in PAGES.items():
+        write("laws/%s/index.html" % s, render_prov(p))
+    # remove share images that no longer match an episode
+    if os.path.isdir("assets/og"):
+        live = set()
+        for x in episodes:
+            for f in glob.glob("assets/og/%s-*.png" % x["id"]):
+                live.add(os.path.basename(f))
+        # keep only the newest per episode
+        for x in episodes:
+            fs = sorted(glob.glob("assets/og/%s-*.png" % x["id"]), key=os.path.getmtime)
+            for f in fs[:-1]:
+                os.remove(f)
+    urls = [(BASE + "/", "1.0", None), (BASE + "/laws/", "0.7", None)]
+    urls += [(ep_url(x), "0.8", (x.get("audio") or {}).get("date")) for x in episodes]
+    urls += [("%s/laws/%s/" % (BASE, s), "0.6", None) for s in PAGES]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-          "".join("  <url><loc>%s</loc><lastmod>%s</lastmod><priority>%s</priority></url>\n" % (esc(u), today, p) for u, p in urls) +
-          "</urlset>\n")
+          "".join("  <url><loc>%s</loc>%s<priority>%s</priority></url>\n" % (
+              esc(u), ("<lastmod>%s</lastmod>" % d) if d else "", pr) for u, pr, d in urls) + "</urlset>\n")
     write("robots.txt", "User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % BASE)
-    write("404.html", head("Page not found | " + site["title"], "That page does not exist.", BASE + "/404.html", 0, image=False)
-          .replace('content="index, follow, max-image-preview:large"', 'content="noindex"') +
+    write("404.html", head("Page not found | " + site["title"], "That page does not exist.", BASE + "/404.html", 0, noindex=True) +
           "<body>\n" + header(0) + '<main id="main" class="wrap ep"><h1>Page not found</h1>'
-          '<p>That page does not exist. <a href="/">Go to all episodes</a>.</p></main>\n' + footer(0) + "</body>\n</html>\n")
+          '<p>That page does not exist. <a href="/">Go to all episodes</a>.</p></main>\n' + footer() + "</body>\n</html>\n")
     write(".nojekyll", "")
-    print("Built %d episode pages + index (%s)." % (len(episodes), ", ".join("EP%03d" % n for n in nums)))
+    og_ok = sum(1 for x in episodes if glob.glob("assets/og/%s-*.png" % x["id"]))
+    print("Built %d episode pages, %d law pages (+ law index), share images for %d episodes." % (len(episodes), len(PAGES), og_ok))
+    if og_ok < len(episodes):
+        print("  Share images need Pillow and a TrueType font (pip install pillow). Missing ones use assets/og.png.")
     if PLACEHOLDER:
-        print("\nNOTE: set baseUrl in site.json to your real address, then run build.py again.\n"
-              "      Canonical links, sitemap and social previews use it.")
+        print("\nNOTE: set baseUrl in site.json to your real address, then run build.py again.")
     flagged = [(x["n"], warn_words(x)) for x in episodes if warn_words(x)]
     if flagged:
         print("\nWording to verify against your Master Standard (not errors):")

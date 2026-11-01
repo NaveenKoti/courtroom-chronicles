@@ -1,182 +1,60 @@
 {
-  "id": "ep012",
-  "title": "The Camera in the Dust and the Boundary of Conspiracy",
-  "hook": "When a suicide bomber kills a former prime minister, ten miraculously preserved photographic exposures lead the Supreme Court to redefine criminal conspiracy.",
-  "topics": [
-    "Criminal law",
-    "Constitutional law",
-    "Evidence",
-    "Sentencing"
-  ],
-  "laws": [
-    "IPC → BNS",
-    "Evidence Act → BSA",
-    "Constitution of India"
-  ],
-  "facts": [
-    {
-      "label": "Court",
-      "value": "Supreme Court of India"
-    },
-    {
-      "label": "Year",
-      "value": "1999"
-    },
-    {
-      "label": "Legal Question",
-      "value": "Whether providing peripheral assistance constitutes participation in a capital murder conspiracy"
-    },
-    {
-      "label": "Key Forensic Evidence",
-      "value": "Intact manual camera recovered from blast crater yielding ten developed exposures"
-    }
-  ],
-  "summary": [
-    "During a public election campaign rally in a southern temple town, a female suicide bomber wearing an explosive vest detonated military-grade explosives as she approached a former prime minister. The catastrophic explosion killed eighteen people instantly, including police personnel and a freelance photographer hired to document the event. In the smoking crater, investigators discovered the photographer's battered manual camera, which had survived the thermal heat with its internal film roll completely intact.",
-    "Forensic experts developed the film under safelights, revealing ten sequential exposures that captured the suicide bomber, her handlers, and local accomplices standing near the VIP enclosure moments before the blast. Utilizing computerized skull-photo superimposition, scientists identified the severed head of the bomber, while tracking teams followed logistical links to safehouses across neighboring cities. A special anti-terrorism court convicted all twenty-six captured accused and imposed capital punishment on every individual.",
-    "On automatic reference and appeal, the Supreme Court of India delivered a comprehensive constitutional verdict that transformed the law of criminal conspiracy. The apex court held that special anti-terrorism legislation was inapplicable because the primary objective was the assassination of a political figure rather than terrorizing the general public. More critically, the bench drew a strict legal distinction between mere association or peripheral assistance and actual agreement to commit murder under conspiracy provisions.",
-    "The Supreme Court affirmed that criminal conspiracy requires proof that each participant shared an explicit agreement regarding the illegal design. Concluding that many accused merely arranged accommodations, provided transportation, or purchased batteries without knowing of the assassination plot, the court overturned twenty-two death sentences and acquitted nineteen accused of the murder conspiracy. The landmark ruling affirmed that even in catastrophic national crimes, the rule of law requires individualized proof of intention."
-  ],
-  "timeline": [
-    {
-      "date": "1991-05-21",
-      "title": "The Blast at the Rally",
-      "text": "A suicide bomber detonates an explosive vest at a campaign rally, fatally striking a former prime minister and seventeen others.",
-      "key": true
-    },
-    {
-      "date": "1991-05-22",
-      "title": "Recovery of the Camera",
-      "text": "Forensic scientists recover a manual camera from the crater and develop ten undamaged exposures identifying the conspirators.",
-      "key": true
-    },
-    {
-      "date": "1998-01-28",
-      "title": "Mass Capital Sentence",
-      "text": "A special anti-terrorism court convicts all twenty-six accused of murder conspiracy and sentences each to death.",
-      "key": false
-    },
-    {
-      "date": "1999-05-11",
-      "title": "The Supreme Court Judgment",
-      "text": "The Supreme Court sets aside special terror charges, overturns twenty-two death sentences, and clarifies conspiracy principles.",
-      "key": true
-    }
-  ],
-  "judgment": {
-    "outcome": "The Supreme Court of India set aside the special anti-terrorism convictions, overturned twenty-two death sentences, confirmed capital punishment for four core conspirators, and acquitted nineteen of the murder conspiracy.",
-    "points": [
-      "Criminal conspiracy under Section 120B of the penal code requires proof of an agreement to commit the specific offence, not mere knowledge of militant association.",
-      "The provisions of anti-terrorism legislation cannot be invoked where the demonstrated motive was political assassination rather than striking terror in the civil population.",
-      "Photographic exposures recovered from a crime-scene camera constitute primary documentary evidence of ocular presence and association.",
-      "Co-accused confessions cannot be used as substantive evidence to build the primary foundation of guilt against other individuals."
-    ]
-  },
-  "principles": [
-    {
-      "name": "Agreement as the Essence of Conspiracy",
-      "meaning": "Criminal conspiracy requires a meeting of minds and an agreement to commit the specific unlawful act; mere association, sympathy, or peripheral assistance does not suffice.",
-      "inThisCase": "The court held that accused who provided shelter or bought household batteries without knowing of the assassination plan could not be convicted of murder conspiracy."
-    },
-    {
-      "name": "Primary Evidentiary Status of Photographic Negatives",
-      "meaning": "Original photographic film negatives and unedited frames captured at a crime scene constitute primary physical evidence under documentary proof rules.",
-      "inThisCase": "The ten developed frames from the camera found in the blast crater were held to be conclusive primary evidence establishing the presence of key actors."
-    },
-    {
-      "name": "Individualized Guilt Versus Blanket Condemnation",
-      "meaning": "In multi-accused conspiracy trials, the court must evaluate the specific intent and role of each accused rather than imposing collective vicarious liability.",
-      "inThisCase": "The apex court rejected the trial court's mass capital sentence, carefully distinguishing core planners from peripheral facilitators."
-    }
-  ],
-  "takeaways": [
-    "A conviction for criminal conspiracy requires clear proof of agreement to the specific crime, not merely association with conspirators.",
-    "Special anti-terrorism statutes require proof of an intention to strike terror in the general populace, which cannot be presumed from political killings.",
-    "Undeveloped camera film preserved from a blast scene serves as invaluable primary forensic evidence of physical presence and sequence.",
-    "Courts must protect the principle of individualized criminal culpability against emotional pressure for collective punishment."
-  ],
-  "lawMapping": [
-    {
-      "old": {
-        "act": "Indian Penal Code, 1860",
-        "section": "Section 120B",
-        "title": "Punishment of criminal conspiracy",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nyaya Sanhita, 2023",
-        "section": "Section 61",
-        "title": "Criminal conspiracy",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-      },
-      "change": "Consolidated the definition and punishment of criminal conspiracy into Section 61."
-    },
-    {
-      "old": {
-        "act": "Indian Penal Code, 1860",
-        "section": "Section 302",
-        "title": "Punishment for murder",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Nyaya Sanhita, 2023",
-        "section": "Section 103",
-        "title": "Punishment for murder",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-      },
-      "change": "Substantially unchanged; restructured under Chapter VI of the new penal code."
-    },
-    {
-      "old": {
-        "act": "Indian Evidence Act, 1872",
-        "section": "Section 10",
-        "title": "Things said or done by conspirator in reference to common design",
-        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
-      },
-      "new": {
-        "act": "Bharatiya Sakshya Adhiniyam, 2023",
-        "section": "Section 8",
-        "title": "Things said or done by conspirator in reference to common design",
-        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
-      },
-      "change": "Substantially unchanged; governs admissibility of acts and statements of co-conspirators."
-    },
-    {
-      "old": {
-        "act": "Constitution of India",
-        "section": "Article 21",
-        "title": "Protection of life and personal liberty",
-        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
-      },
-      "change": "Unchanged."
-    }
-  ],
-  "lawNote": "The assassination occurred in May 1991, and the proceedings were conducted under the Indian Penal Code, 1860, the Indian Evidence Act, 1872, the Code of Criminal Procedure, 1973, and the Terrorist and Disruptive Activities (Prevention) Act, 1987. The modern penal statutes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
-  "sources": [
-    {
-      "label": "Judgment of the Supreme Court of India, 1999",
-      "url": "https://indiankanoon.org/doc/194120/"
-    },
-    {
-      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
-      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
-    },
-    {
-      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
-      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
-    },
-    {
-      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
-      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
-    },
-    {
-      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
-      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
-    },
-    {
-      "label": "Constitution of India (Legislative Department Official Text)",
-      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
-    }
-  ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+"id": "ep012",
+"title": "The Camera in the Dust and the Boundary of Conspiracy",
+"hook": "When a suicide bomber kills a former prime minister, ten miraculously preserved photographic exposures lead the Supreme Court to redefine criminal conspiracy.",
+"topics": ["Criminal law","Constitutional law","Evidence","Sentencing"],
+"laws": ["IPC → BNS","Evidence Act → BSA","Constitution of India"],
+"facts": [
+{"label":"Court","value":"Supreme Court of India"},
+{"label":"Year","value":"1999"},
+{"label":"Legal Question","value":"Whether providing peripheral assistance constitutes participation in a capital murder conspiracy"},
+{"label":"Key Forensic Evidence","value":"Intact manual camera recovered from blast crater yielding ten developed exposures"}
+],
+"summary": [
+"During a public election campaign rally in a southern temple town, a female suicide bomber wearing an explosive vest detonated military-grade explosives as she approached a former prime minister. The catastrophic explosion killed eighteen people instantly, including police personnel and a freelance photographer hired to document the event. In the smoking crater, investigators discovered the photographer's battered manual camera, which had survived the thermal heat with its internal film roll completely intact.",
+"Forensic experts developed the film under safelights, revealing ten sequential exposures that captured the suicide bomber, her handlers, and local accomplices standing near the VIP enclosure moments before the blast. Utilizing computerized skull-photo superimposition, scientists identified the severed head of the bomber, while tracking teams followed logistical links to safehouses across neighboring cities. A special anti-terrorism court convicted all twenty-six captured accused and imposed capital punishment on every individual.",
+"On automatic reference and appeal, the Supreme Court of India delivered a comprehensive constitutional verdict that transformed the law of criminal conspiracy. The apex court held that special anti-terrorism legislation was inapplicable because the primary objective was the assassination of a political figure rather than terrorizing the general public. More critically, the bench drew a strict legal distinction between mere association or peripheral assistance and actual agreement to commit murder under conspiracy provisions.",
+"The Supreme Court affirmed that criminal conspiracy requires proof that each participant shared an explicit agreement regarding the illegal design. Concluding that many accused merely arranged accommodations, provided transportation, or purchased batteries without knowing of the assassination plot, the court overturned twenty-two death sentences and acquitted nineteen accused of the murder conspiracy. The landmark ruling affirmed that even in catastrophic national crimes, the rule of law requires individualized proof of intention."
+],
+"timeline": [
+{"date":"1991-05-21","title":"The Blast at the Rally","text":"A suicide bomber detonates an explosive vest at a campaign rally, fatally striking a former prime minister and seventeen others.","key":true},
+{"date":"1991-05-22","title":"Recovery of the Camera","text":"Forensic scientists recover a manual camera from the crater and develop ten undamaged exposures identifying the conspirators.","key":true},
+{"date":"1998-01-28","title":"Mass Capital Sentence","text":"A special anti-terrorism court convicts all twenty-six accused of murder conspiracy and sentences each to death.","key":false},
+{"date":"1999-05-11","title":"The Supreme Court Judgment","text":"The Supreme Court sets aside special terror charges, overturns twenty-two death sentences, and clarifies conspiracy principles.","key":true}
+],
+"judgment": {
+"outcome": "The Supreme Court of India set aside the special anti-terrorism convictions, overturned twenty-two death sentences, confirmed capital punishment for four core conspirators, and acquitted nineteen of the murder conspiracy.",
+"points": [
+"Criminal conspiracy under Section 120B of the penal code requires proof of an agreement to commit the specific offence, not mere knowledge of militant association.",
+"The provisions of anti-terrorism legislation cannot be invoked where the demonstrated motive was political assassination rather than striking terror in the civil population.",
+"Photographic exposures recovered from a crime-scene camera constitute primary documentary evidence of ocular presence and association.",
+"Co-accused confessions cannot be used as substantive evidence to build the primary foundation of guilt against other individuals."
+]
+},
+"principles": [
+{"name":"Agreement as the Essence of Conspiracy","meaning":"Criminal conspiracy requires a meeting of minds and an agreement to commit the specific unlawful act; mere association, sympathy, or peripheral assistance does not suffice.","inThisCase":"The court held that accused who provided shelter or bought household batteries without knowing of the assassination plan could not be convicted of murder conspiracy."},
+{"name":"Primary Evidentiary Status of Photographic Negatives","meaning":"Original photographic film negatives and unedited frames captured at a crime scene constitute primary physical evidence under documentary proof rules.","inThisCase":"The ten developed frames from the camera found in the blast crater were held to be conclusive primary evidence establishing the presence of key actors."},
+{"name":"Individualized Guilt Versus Blanket Condemnation","meaning":"In multi-accused conspiracy trials, the court must evaluate the specific intent and role of each accused rather than imposing collective vicarious liability.","inThisCase":"The apex court rejected the trial court's mass capital sentence, carefully distinguishing core planners from peripheral facilitators."}
+],
+"takeaways": [
+"A conviction for criminal conspiracy requires clear proof of agreement to the specific crime, not merely association with conspirators.",
+"Special anti-terrorism statutes require proof of an intention to strike terror in the general populace, which cannot be presumed from political killings.",
+"Undeveloped camera film preserved from a blast scene serves as invaluable primary forensic evidence of physical presence and sequence.",
+"Courts must protect the principle of individualized criminal culpability against emotional pressure for collective punishment."
+],
+"lawMapping": [
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 120B","title":"Punishment of criminal conspiracy","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 61","title":"Criminal conspiracy","url":"@BNS"},"change":"Consolidated the definition and punishment of criminal conspiracy into Section 61."},
+{"old":{"act":"Indian Penal Code, 1860","section":"Section 302","title":"Punishment for murder","url":"@IPC"},"new":{"act":"Bharatiya Nyaya Sanhita, 2023","section":"Section 103","title":"Punishment for murder","url":"@BNS"},"change":"Substantially unchanged; restructured under Chapter VI of the new penal code."},
+{"old":{"act":"Indian Evidence Act, 1872","section":"Section 10","title":"Things said or done by conspirator in reference to common design","url":"@BSA"},"new":{"act":"Bharatiya Sakshya Adhiniyam, 2023","section":"Section 8","title":"Things said or done by conspirator in reference to common design","url":"@BSACMP"},"change":"Substantially unchanged; governs admissibility of acts and statements of co-conspirators."},
+{"old":{"act":"Constitution of India","section":"Article 21","title":"Protection of life and personal liberty","url":"@CONST"},"change":"Unchanged."}
+],
+"lawNote": "The assassination occurred in May 1991, and the proceedings were conducted under the Indian Penal Code, 1860, the Indian Evidence Act, 1872, the Code of Criminal Procedure, 1973, and the Terrorist and Disruptive Activities (Prevention) Act, 1987. The modern penal statutes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+"sources": [
+{"label":"Judgment of the Supreme Court of India, 1999","url":"https://indiankanoon.org/doc/194120/"},
+{"label":"Indian Penal Code, 1860 (High Court of Tripura Official Text)","url":"@IPC"},
+{"label":"Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)","url":"@BNS"},
+{"label":"Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)","url":"@BSA"},
+{"label":"Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)","url":"@BSACMP"},
+{"label":"Constitution of India (Legislative Department Official Text)","url":"@CONST"}
+]
 }
