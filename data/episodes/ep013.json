@@ -1,0 +1,171 @@
+{
+  "id": "ep013",
+  "title": "The Intercepted Call and the Shadow of Conspiracy",
+  "hook": "When a university lecturer is sentenced to death based on an intercepted phone call, appellate courts expose a flawed translation and redefine electronic evidence.",
+  "topics": [
+    "Criminal law",
+    "Constitutional law",
+    "Evidence",
+    "Sentencing"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA",
+    "CrPC → BNSS"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "2005"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether an unverified audio wiretap translation can sustain a capital conviction for conspiracy"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Audio cassette recording of phone call proven to be mistranslated and innocuous"
+    }
+  ],
+  "summary": [
+    "Following an armed suicide assault on the national parliament by five gunmen, security agencies initiated an intensive telecommunications investigation to uncover conspiratorial links. Within seventy-two hours, investigators arrested four individuals, including a college lecturer of language literature who was alleged to be the intellectual handler of the suicide squad. The primary evidence presented against the academic was an intercepted two-minute telephone conversation recorded on an audio cassette shortly after the attack.",
+    "The prosecution submitted a typewritten Hindi transcript asserting that the lecturer had spoken in a regional dialect rejoicing in the violent assault. Relying heavily on this intercepted audio and co-accused confessions recorded under anti-terror legislation, the special trial court convicted the lecturer of waging war and criminal conspiracy, sentencing him to death by hanging. However, the trial court had failed to independently verify the authenticity of the translation against the original recording.",
+    "On appeal, defense advocates demonstrated through certified linguistic experts that the police translation was fundamentally inaccurate and misleading. When accurately transcribed, the conversation revealed merely routine inquiries regarding family safety in the home province, containing zero references to the assault or celebration of violence. The high court reversed the conviction, and the Supreme Court of India unanimously affirmed the acquittal, holding that suspicion, however grave during national crises, cannot substitute for legal proof.",
+    "The Supreme Court ruled that confessions made by co-accused to police officers under special anti-terrorism laws cannot be used as substantive evidence against non-confessing co-accused. The judgment also addressed the admissibility of electronic records and telecom call detail printouts, setting in motion the modern legal requirement for strict statutory authentication certificates. The decision established an enduring benchmark that criminal liability cannot be imposed on the basis of unverified surveillance transcripts."
+  ],
+  "timeline": [
+    {
+      "date": "2001-12-13",
+      "title": "The Attack and Interception",
+      "text": "Gunmen attack parliament, and police record an intercepted phone call of a university lecturer.",
+      "key": true
+    },
+    {
+      "date": "2001-12-15",
+      "title": "Arrest of the Lecturer",
+      "text": "The language lecturer is arrested at his residence based on cellular call records and surveillance.",
+      "key": false
+    },
+    {
+      "date": "2002-12-18",
+      "title": "Trial Court Death Sentence",
+      "text": "The designated special court sentences the lecturer and two others to death under anti-terror laws.",
+      "key": false
+    },
+    {
+      "date": "2003-10-29",
+      "title": "High Court Acquittal",
+      "text": "The high court discovers the wiretap was mistranslated and acquits the lecturer unconditionally.",
+      "key": true
+    },
+    {
+      "date": "2005-08-04",
+      "title": "Supreme Court Final Ruling",
+      "text": "The Supreme Court affirms the acquittal, establishing crucial guidelines on electronic evidence and conspiracy.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India dismissed the state's appeal against the lecturer's acquittal, setting aside all charges against him while upholding convictions of core participants.",
+    "points": [
+      "A charge of criminal conspiracy requires clear and cogent evidence of agreement to commit the unlawful act, which cannot be inferred from ambiguous telephone contacts.",
+      "A police confession recorded under special anti-terror legislation is inadmissible as substantive evidence against a co-accused in a joint trial.",
+      "An unauthenticated or disputed translation of an intercepted telephonic recording cannot be relied upon to deprive a citizen of life or personal liberty.",
+      "Secondary evidence of electronic records must satisfy statutory standards of system authenticity and reliability before admission in criminal trials."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Strict Proof of Criminal Conspiracy",
+      "meaning": "To convict an accused of conspiracy, the prosecution must establish an explicit agreement to commit the specific unlawful act, not merely casual association or acquaintance.",
+      "inThisCase": "The court held that occasional phone contact between the lecturer and the primary accused failed to prove agreement to attack the parliament."
+    },
+    {
+      "name": "Inadmissibility of Co-Accused Confessions Against Others",
+      "meaning": "A confession made to police by an accused cannot form the substantive basis to convict a co-accused who did not confess.",
+      "inThisCase": "The court held that confessions of co-accused recorded under anti-terror provisions could not be used to build a case against the non-confessing lecturer."
+    },
+    {
+      "name": "Rule of Rigorous Electronic Authentication",
+      "meaning": "Electronic records, such as wiretaps and computer-generated call logs, require strict procedural verification to eliminate risks of tampering and mistranslation.",
+      "inThisCase": "The exposure of the fabricated regional translation established the absolute necessity for rigorous judicial scrutiny of electronic surveillance evidence."
+    }
+  ],
+  "takeaways": [
+    "Criminal conspiracy requires concrete proof of an agreement to commit the crime, which cannot be established by mere social acquaintance.",
+    "Police translations of intercepted wiretaps must be strictly scrutinized and authenticated by independent linguistic experts.",
+    "Confessions given by co-accused while in police custody have zero substantive evidentiary value against other co-accused.",
+    "Even amidst immense public outrage following national security tragedies, judicial findings must rest strictly on verified legal evidence."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61",
+        "title": "Criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated the definition and punishment of criminal conspiracy into Section 61."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 121",
+        "title": "Waging, or attempting to wage war, or abetting waging of war, against the Government of India",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 147",
+        "title": "Waging, or attempting to wage war, or abetting waging of war, against Government of India",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Substantially unchanged offence covering armed attacks against the State under Chapter VII."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 65B",
+        "title": "Admissibility of electronic records",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 63",
+        "title": "Admissibility of electronic records",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "change": "Re-enacted with modernized provisions governing the admissibility and certification of electronic records."
+    }
+  ],
+  "lawNote": "The attack occurred in December 2001, and the trial and appeals were conducted under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, the Indian Evidence Act, 1872, and the Prevention of Terrorism Act, 2002. The new criminal codes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2005",
+      "url": "https://indiankanoon.org/doc/1769219/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
