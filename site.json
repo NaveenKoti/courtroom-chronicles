@@ -1,0 +1,16 @@
+{
+  "title": "Courtroom Chronicles",
+  "tagline": "Indian court cases, explained in plain English",
+  "about": "Courtroom Chronicles is an audio series that retells Indian court cases as stories, then breaks each one down: what happened, what the court decided, and the law behind it. Every episode has a page here with the case notes, so you can read, search and check the sources.",
+  "baseUrl": "https://YOUR-GITHUB-USERNAME.github.io/courtroom-chronicles",
+  "lang": "en-IN",
+  "ogImage": "assets/og.png",
+  "links": {
+    "spotify": "https://open.spotify.com/show/6fCXO2BKUUPL6sx4agVMUN",
+    "spotifyShowId": "6fCXO2BKUUPL6sx4agVMUN",
+    "apple": null,
+    "youtube": null,
+    "rss": "https://anchor.fm/s/1180f6a90/podcast/rss"
+  },
+  "disclaimer": "This site and the episodes are prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. People named in criminal cases are presumed innocent unless a court has convicted them. Check every section and holding against the original judgment or bare act before relying on it."
+}
