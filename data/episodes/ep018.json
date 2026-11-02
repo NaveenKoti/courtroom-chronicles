@@ -1,0 +1,189 @@
+{
+  "id": "ep018",
+  "title": "The Unborn Witness and the Power of Inter-State Transfer",
+  "hook": "When a young poet is shot dead in her apartment, fetal DNA profiling exposes a powerful politician's motive while the Supreme Court transfers the trial to ensure a fair verdict.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Forensic science",
+    "Constitutional law",
+    "Procedure"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA",
+    "CrPC → BNSS"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "2005"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether high-ranking political influence and witness intimidation justify transferring a murder trial out of state under Section 406 CrPC"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Fetal DNA paternity profiling matching the seven-month unborn child to the accused cabinet minister"
+    }
+  ],
+  "summary": [
+    "In May 2003, a promising twenty-four-year-old poet was shot dead inside her provincial capital apartment by two armed visitors. The preliminary investigation revealed that the victim was seven months pregnant at the time of her assassination. Initial inquiries stalled amid widespread reports of administrative interference, leading the state government to transfer the investigation to the central premier investigative agency.",
+    "Central forensic scientists conducted post-mortem STR-DNA testing on fetal tissue samples retrieved during the autopsy, comparing the genetic profile against blood samples obtained from a prominent provincial cabinet minister. The forensic DNA report established conclusive biological paternity, disproving the minister's public denials of an intimate relationship and revealing an urgent motive to silence the victim to avert impending political scandal. Simultaneous telecom analysis uncovered direct call records linking the politician's spouse to the hired shooters.",
+    "Due to the minister's immense political stature, witnesses and the deceased's family members faced pervasive threats, coercion, and surveillance inside the home state. Recognizing that a free and impartial administration of justice was completely impossible within the local jurisdiction, the victim's family approached the Supreme Court of India under Section 406 of the Code of Criminal Procedure. The Supreme Court ordered the immediate transfer of the entire trial proceedings to a designated court in a neighboring state.",
+    "The transferred special court conducted an exhaustive trial, ultimately convicting the minister, his spouse, and two contract shooters of criminal conspiracy and premeditated murder, sentencing all four to life imprisonment. The high court and the apex court subsequently dismissed their appeals, firmly validating the reliance on fetal genetic paternity evidence to prove motive. The case stands as an iconic precedent demonstrating the judiciary's unyielding commitment to fair trials and the decisive power of forensic genetics."
+  ],
+  "timeline": [
+    {
+      "date": "2003-05-09",
+      "title": "The Apartment Shooting",
+      "text": "A young poet is fatally shot in her residence by two contract killers, sparking widespread public outcry.",
+      "key": true
+    },
+    {
+      "date": "2003-09-23",
+      "title": "Arrest of the Minister",
+      "text": "The central agency arrests the provincial politician after fetal DNA profiling confirms biological paternity.",
+      "key": true
+    },
+    {
+      "date": "2005-09-26",
+      "title": "Supreme Court Trial Transfer",
+      "text": "The Supreme Court transfers the entire murder trial to a neighboring province to prevent witness tampering.",
+      "key": true
+    },
+    {
+      "date": "2007-10-24",
+      "title": "Special Court Conviction",
+      "text": "The transferred sessions court sentences the politician, his spouse, and the shooters to life imprisonment.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India allowed the transfer petition under Section 406 CrPC, shifting the murder trial to a neighboring state, where the trial court convicted the minister and accomplices, subsequently affirmed by the appellate courts.",
+    "points": [
+      "A reasonable apprehension of a biased trial or pervasive witness intimidation is sufficient ground to transfer a criminal case under Section 406 of the CrPC.",
+      "The purity of the stream of justice and witness safety take precedence over jurisdictional territoriality in criminal proceedings.",
+      "DNA profiling of an unborn fetus is fully admissible under Section 45 of the Evidence Act to establish paternity, intimacy, and criminal motive.",
+      "A conspiratorial agreement hatched in secrecy can be established through telephonic call detail records, financial trails, and subsequent conduct of co-conspirators."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Doctrine of Transfer for Impartial Justice",
+      "meaning": "The Supreme Court has unfettered jurisdiction to transfer criminal trials across state borders whenever powerful political accused threaten fair proceedings.",
+      "inThisCase": "The apex court transferred the case from the home state to a neighboring province to shield vulnerable witnesses from executive pressure."
+    },
+    {
+      "name": "Probative Force of Fetal Genetic Profiling",
+      "meaning": "Scientific DNA analysis establishing parentage provides incontrovertible proof of relationship and an unimpeachable evidentiary foundation for motive.",
+      "inThisCase": "The biological match between the politician and the unborn child completely obliterated his defense of alibi and lack of acquaintance."
+    },
+    {
+      "name": "Proof of Covert Conspiracy by Electronic Metadata",
+      "meaning": "When direct agreements cannot be observed, synchronized telecom call patterns between masterminds and executors substantiate criminal conspiracy.",
+      "inThisCase": "Frequent telephone calls between the politician's spouse and the hitmen right before and after the shooting corroborated the unlawful pact."
+    }
+  ],
+  "takeaways": [
+    "Executive rank and political dominance cannot insulate conspirators from rigorous criminal prosecution.",
+    "The Supreme Court will proactively exercise its transfer powers whenever local intimidation imperils fair trial guarantees.",
+    "Fetal DNA profiling provides conclusive forensic evidence that can single-handedly establish intimacy and motive.",
+    "Circumstantial cases fortified by cellular call records and forensic biology can securely sustain life sentences for conspiracy."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Substantially unchanged; punishes murder under Chapter VI of the new penal code."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61",
+        "title": "Criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated definition and penalty for criminal conspiracy into Section 61."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 406",
+        "title": "Power of Supreme Court to transfer cases and appeals",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 447",
+        "title": "Power of Supreme Court to transfer cases and appeals",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+      },
+      "change": "Preserved the apex court's authority to transfer cases across states under Section 447 of the new procedural code."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 45",
+        "title": "Opinions of experts",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 39",
+        "title": "Opinions of experts",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "change": "Re-enacted under Section 39 covering DNA profiling and forensic scientific evidence."
+    }
+  ],
+  "lawNote": "The murder took place in May 2003, and the trials and appeals were adjudicated under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new penal enactments (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2005",
+      "url": "https://indiankanoon.org/doc/288878/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Code of Criminal Procedure, 1973 (Official Government Text)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 and CrPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
