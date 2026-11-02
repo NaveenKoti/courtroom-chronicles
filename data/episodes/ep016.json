@@ -1,0 +1,183 @@
+{
+  "id": "ep016",
+  "title": "The Temple Ambush and the Limits of Circumstantial Conspiracy",
+  "hook": "When a music mogul is assassinated outside a suburban temple, the conviction of a gunman hinges on an injured eyewitness while conspiracy charges against music rivals crumble.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Sentencing",
+    "Procedure"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "High Court of Judicature at Bombay"
+    },
+    {
+      "label": "Year",
+      "value": "2021"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether an uncorroborated accomplice statement can establish criminal conspiracy against commercial competitors"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Ballistic analysis matching sixteen fired cartridges and direct ocular identification by an injured driver"
+    }
+  ],
+  "summary": [
+    "In August 1997, a prominent devotional audio cassette entrepreneur was ambushed by three contract shooters immediately after morning prayers at a neighborhood temple. The assailants discharged sixteen rounds from automatic pistols at point-blank range, inflicting fatal trauma on the music producer and severely wounding his domestic driver. The audacious midday hit sent shockwaves through the national entertainment industry, prompting an extensive inter-state investigation into organized extortion syndicates.",
+    "The prosecution alleged a transnational criminal conspiracy orchestrated by underworld figures, a high-profile music composer, and a rival cassette manufacturer who allegedly paid contract money to eliminate market dominance. Nineteen individuals faced prosecution before the special court, where prosecutors relied heavily on an accomplice who initially turned approver before retracting his testimony during the trial. The trial judge convicted a solitary contract gunman identified by the injured driver while acquitting eighteen co-accused due to the total absence of corroborative conspiracy evidence.",
+    "On appeal nearly two decades later, the high court division bench meticulously evaluated the evidentiary record, affirming the life sentence of the convicted shooter. The court emphasized that the injured eyewitness had direct and uninterrupted opportunity to observe the assailant at close quarters and accurately described his distinctive physical features during both test identification and dock testimony. The bench reaffirmed that injured eyewitness testimony carries heightened credibility under the law of evidence unless disproved by cogent contradictions.",
+    "Crucially, the appellate judgment rejected state appeals seeking to convict the alleged co-conspirators and commercial rivals. The court held that an uncorroborated confession of a co-accused or a retracted approver statement cannot bridge evidentiary gaps in proving a conspiratorial agreement under criminal law. Commercial friction and overseas telephone contacts without demonstrable unlawful common design cannot substitute for proof beyond reasonable doubt, underscoring that suspicion cannot ground criminal liability."
+  ],
+  "timeline": [
+    {
+      "date": "1997-08-12",
+      "title": "The Temple Ambush",
+      "text": "Gunmen fire sixteen bullets at a devotional music entrepreneur outside a temple, also injuring his driver.",
+      "key": true
+    },
+    {
+      "date": "1997-10-30",
+      "title": "Filing of Chargesheet",
+      "text": "Investigating officers file charges against nineteen individuals alleging an organized underworld extortion conspiracy.",
+      "key": false
+    },
+    {
+      "date": "2002-04-29",
+      "title": "Trial Court Judgment",
+      "text": "The sessions court convicts one contract gunman on eyewitness evidence while acquitting eighteen co-accused.",
+      "key": true
+    },
+    {
+      "date": "2021-07-01",
+      "title": "High Court Appellate Decision",
+      "text": "The high court affirms the gunman's life conviction and upholds the acquittals of alleged business rivals.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The High Court of Judicature at Bombay dismissed the convicted shooter's appeal against life imprisonment while dismissing state appeals against the acquittal of alleged co-conspirators.",
+    "points": [
+      "Testimony of an injured eyewitness who sustained bullet wounds while attempting to protect the victim carries exceptional evidentiary weight and reliability.",
+      "The testimony of an approver who subsequently resiles from his confession cannot be used to sustain a conviction without independent material corroboration.",
+      "A charge of criminal conspiracy requires clear proof of mutual agreement to commit an illegal act, which cannot be deduced from business rivalry alone.",
+      "Substantive dock identification in court remains primary evidence, supported by prior test identification parade procedures."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Primacy of Injured Eyewitness Testimony",
+      "meaning": "A witness who sustained injuries during the occurrence has an inherent guarantee of physical presence, rendering their ocular identification highly reliable unless intrinsic defects appear.",
+      "inThisCase": "The driver had sustained severe gunshot injuries during the ambush and identified the principal shooter both at the parade and in court."
+    },
+    {
+      "name": "Corroboration Rule for Retracted Approver Evidence",
+      "meaning": "An accomplice or approver is presumed unworthy of credit unless corroborated in material particulars by independent, credible evidence.",
+      "inThisCase": "The court held that the retracted approver confession could not form the basis to implicate rival music producers or overseas figures in the conspiracy."
+    },
+    {
+      "name": "Distinction Between Suspicion and Conspiratorial Agreement",
+      "meaning": "Criminal conspiracy under Section 120B cannot be inferred merely from commercial friction or casual telephonic contacts without tangible proof of meeting of minds.",
+      "inThisCase": "The appellate bench firmly rejected the prosecution theory that market competition between music labels demonstrated criminal conspiracy."
+    }
+  ],
+  "takeaways": [
+    "Injured eyewitness testimony is among the most potent forms of ocular proof in violent criminal prosecutions.",
+    "A conviction for criminal conspiracy cannot rest exclusively on the uncorroborated statement of an accomplice or hostile approver.",
+    "Commercial competition and business animosity do not equate to criminal intent or conspiratorial agreement under the penal code.",
+    "Appellate scrutiny ensures that high-profile public tragedies are decided strictly on verified legal proof rather than speculative police theories."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Substantially unchanged; restructured under Chapter VI of the modern penal code."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 307",
+        "title": "Attempt to murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 109",
+        "title": "Attempt to murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Offence of attempting murder reorganized under Section 109 of the new code."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61",
+        "title": "Criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated statutory definition and punishment for criminal conspiracy into Section 61."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 9",
+        "title": "Facts necessary to explain or introduce relevant facts",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 7",
+        "title": "Facts necessary to explain or introduce relevant facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 7 governing facts supporting identity of persons or things."
+    }
+  ],
+  "lawNote": "The crime occurred in August 1997, and the trial and high court appeals were governed by the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new penal statutes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) came into force on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the High Court of Judicature at Bombay, 2021",
+      "url": "https://indiankanoon.org/doc/27226244/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
