@@ -1,0 +1,217 @@
+{
+  "id": "ep019",
+  "title": "The Highway Abduction and the Evidentiary Reach of Common Intention",
+  "hook": "When two teenage siblings are abducted and slain in a secluded forest, forensic hair matching, latent prints, and joint liability doctrine secure capital punishment.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Sentencing",
+    "Constitutional law"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "1981"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether co-accused in a joint abduction and murder can be held equally liable under common intention without proving who dealt the fatal blow"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Cuticular hair microscopy, serological blood typing from car upholstery, and latent fingerprints on the rear-view mirror"
+    }
+  ],
+  "summary": [
+    "In August 1978, two teenage siblings, a sixteen-year-old sister and her fourteen-year-old brother, vanished after accepting a ride in a stolen vehicle while traveling to a national broadcasting studio. The abductors diverted the car to a secluded forested ridge where both youngsters resisted fiercely before being brutally killed with sharp-edged weapons. The recovery of the victims' bodies two days later triggered an intense nationwide manhunt and forensic investigation.",
+    "Forensic scientists meticulously reconstructed the crime using physical and biological trace evidence recovered from the abandoned getaway car. Serologists identified human blood matching the specific blood groups of both siblings on the floor carpets and seat fabrics, while microscopic analysis matched hair fibers to the deceased sister. A latent fingerprint lifted from the interior rear-view mirror positively identified one of the two fugitives, leading to their capture by military personnel aboard an express train.",
+    "The trial court convicted both abductors under Section 302 read with Section 34 of the Indian Penal Code, sentencing them to death by hanging. The High Court affirmed the convictions and sentences, holding that the coordinated abduction, shared custody of the victims, and joint presence during the homicides established common intention beyond all doubt. The appellate bench emphasized that the prosecution was not obliged to prove which specific blow was struck by which individual assailant.",
+    "The Supreme Court of India dismissed subsequent appeals and constitutional petitions challenging the death sentences, reiterating that premeditated cruelty against defenseless minors falls squarely within the rarest of rare category. In a subsequent landmark constitutional ruling concerning presidential clemency, the apex court clarified that executive discretion under Article 72 is not entirely beyond the scope of judicial review. The tragic case catalyzed the institutional creation of national bravery awards to honor civilian youth courage."
+  ],
+  "timeline": [
+    {
+      "date": "1978-08-26",
+      "title": "The Disappearance and Ambush",
+      "text": "Two teenage siblings accept a ride in a vehicle and are abducted towards a forested ridge.",
+      "key": true
+    },
+    {
+      "date": "1978-08-28",
+      "title": "Recovery of the Bodies",
+      "text": "Local graziers discover the slain siblings in the forest, initiating forensic investigations.",
+      "key": true
+    },
+    {
+      "date": "1978-09-08",
+      "title": "Apprehension on Train",
+      "text": "Alert soldiers recognize and apprehend the two armed fugitives aboard a passenger train.",
+      "key": false
+    },
+    {
+      "date": "1979-04-07",
+      "title": "Trial Court Death Sentence",
+      "text": "The sessions court convicts both accused under joint liability for murder and imposes capital punishment.",
+      "key": false
+    },
+    {
+      "date": "1981-04-21",
+      "title": "Supreme Court Criminal Appeal Ruling",
+      "text": "The Supreme Court affirms the capital sentences, upholding the doctrine of common intention.",
+      "key": true
+    },
+    {
+      "date": "1982-01-20",
+      "title": "Constitutional Clemency Judgment",
+      "text": "The Supreme Court rules that executive clemency powers under Article 72 are subject to judicial scrutiny.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India dismissed the appeals and writ petitions filed by both convicts, upholding the confirmation of death sentences and affirming that presidential clemency under Article 72 is subject to judicial review.",
+    "points": [
+      "Under Section 34 of the penal code, when an offence is committed in furtherance of a shared common design, every participating participant is fully answerable for the eventual homicide.",
+      "The prosecution is not legally required to dissect the physical role of each co-perpetrator in a secluded crime scene to determine who inflicted each individual fatal wound.",
+      "Physical trace evidence, including cuticular hair matching, blood serology, and latent finger impressions, provides conclusive corroboration in circumstantial cases.",
+      "The constitutional power of the President to grant pardons under Article 72 cannot be exercised in an arbitrary or capricious manner."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Doctrine of Joint Criminal Liability",
+      "latin": "Qui facit per alium facit per se",
+      "meaning": "When two or more individuals act with a pre-arranged plan and shared intention, each is liable for acts performed by the other in furtherance of that design.",
+      "inThisCase": "Both abductors shared the common intention to silence the victims, rendering each equally responsible for the murders regardless of who held the weapon."
+    },
+    {
+      "name": "Probative Force of Physical Forensics",
+      "meaning": "Direct physical match of biological materials and fingerprints establishes presence and contact with absolute scientific certainty.",
+      "inThisCase": "Latent prints on the car mirror and microscopic hair comparisons linked the assailants directly to the vehicle and the victims."
+    },
+    {
+      "name": "Judicial Scrutiny of Sovereign Clemency",
+      "meaning": "Executive powers granted by the Constitution to remit or commute capital sentences must adhere to the rule of law and avoid unprincipled arbitrariness.",
+      "inThisCase": "The court established that rejection or acceptance of clemency petitions under Article 72 can be reviewed if exercised on irrelevant grounds."
+    }
+  ],
+  "takeaways": [
+    "Criminal associates acting together in violent abductions cannot escape capital liability by claiming the other struck the fatal blow.",
+    "Forensic examination of hair cuticular scales and latent fingerprints forms an unbreakable chain of objective evidence.",
+    "Savage, cold-blooded homicides of defenseless youth represent the extreme category of rare cases justifying capital punishment.",
+    "Constitutional mercy under Article 72 remains a high sovereign trust subject to broad judicial standards of non-arbitrariness."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Substantially unchanged; punishes murder with death or life imprisonment under Chapter VI."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 34",
+        "title": "Acts done by several persons in furtherance of common intention",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 3(5)",
+        "title": "Joint liability and common intention",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted under subsection (5) of Section 3 of the new penal code."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 364",
+        "title": "Kidnapping or abducting in order to murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 140(2)",
+        "title": "Kidnapping or abducting in order to murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted under Section 140 subsection (2) of the modern code."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 9",
+        "title": "Facts necessary to explain or introduce relevant facts",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 7",
+        "title": "Facts necessary to explain or introduce relevant facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 7 governing identification of persons and property."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 72",
+        "title": "Power of President to grant pardons, etc., and to suspend, remit or commute sentences in certain cases",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "The crimes took place in August 1978, and all trials and appellate proceedings were conducted under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new criminal codes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the Delhi High Court, 1979",
+      "url": "https://indiankanoon.org/doc/1359524/"
+    },
+    {
+      "label": "Judgment of the Supreme Court of India, 1981",
+      "url": "https://indiankanoon.org/doc/582949/"
+    },
+    {
+      "label": "Judgment of the Supreme Court of India, 1982",
+      "url": "https://indiankanoon.org/doc/1674973/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    },
+    {
+      "label": "Constitution of India (Official Government Text)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
