@@ -1,0 +1,171 @@
+{
+  "id": "ep021",
+  "title": "The Bolted Balcony Door and the Doctrine of Direct Causation",
+  "hook": "When fifty-nine moviegoers perish from toxic smoke in an auditorium, the Supreme Court defines corporate criminal negligence and proximate causation.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Sentencing",
+    "Commercial law"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "2014"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether structural deviations and bolted cinema exits constitute the direct proximate cause of asphyxiation under Section 304A IPC"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Autopsy findings establishing 100% deaths caused by carbon monoxide asphyxiation with zero percent burn injuries"
+    }
+  ],
+  "summary": [
+    "In June 1997, a major electrical transformer fire broke out in the ground-floor parking garage of a bustling metropolitan cinema theatre during a packed afternoon screening. Toxic smoke and carbon monoxide surged upwards through stairwells and air conditioning ducts into the second-floor balcony auditorium, where hundreds of patrons sat in pitch darkness. While ground-floor stall patrons escaped through open lower exits, balcony viewers found themselves entirely trapped as thick fumes engulfed the hall.",
+    "Rescue operations conducted by municipal fire services discovered that the primary right-side balcony exit had been bolted from the outside, while unauthorized luxury seating installations had completely blocked the escape gangway. Fifty-nine patrons succumbed to fatal asphyxiation, including twenty-three children, while over one hundred suffered grievous respiratory trauma. Autopsies conducted by medical boards revealed a decisive forensic fact: every victim perished exclusively from carbon monoxide inhalation without sustaining cutaneous burns.",
+    "The central investigative agency prosecuted the cinema owners, management staff, electrical utility repairmen, and municipal licensing inspectors for culpable homicide and criminal negligence. The defense contended that the electrical utility was the sole direct cause of the disaster, arguing that structural building deviations were merely background circumstances. The trial court and the High Court convicted the cinema owners under Section 304A for causing death by negligence, while affirming systemic regulatory failures.",
+    "The Supreme Court of India conclusively resolved the doctrinal duel between proximate cause and sine qua non conditions in criminal law. The court held that while the transformer failure sparked the fire, the bolted exit door and unapproved structural obstructions constituted the immediate proximate cause of the asphyxiation deaths. In subsequent proceedings, the trial court also convicted the proprietors for criminal conspiracy and tampering with judicial evidence, cementing a landmark precedent in corporate safety and regulatory compliance."
+  ],
+  "timeline": [
+    {
+      "date": "1997-06-13",
+      "title": "The Cinema Fire Disaster",
+      "text": "A basement transformer fire fills a cinema balcony with toxic fumes, claiming fifty-nine lives.",
+      "key": true
+    },
+    {
+      "date": "2007-11-20",
+      "title": "Trial Court Negligence Verdict",
+      "text": "The sessions court convicts the theater owners and management under penal negligence provisions.",
+      "key": false
+    },
+    {
+      "date": "2008-12-19",
+      "title": "High Court Appellate Decision",
+      "text": "The High Court upholds criminal negligence convictions while modifying sentences for corporate licensees.",
+      "key": false
+    },
+    {
+      "date": "2014-03-05",
+      "title": "Supreme Court Causation Ruling",
+      "text": "The Supreme Court affirms that bolted exits and structural blocks were the proximate cause of fatal asphyxiation.",
+      "key": true
+    },
+    {
+      "date": "2021-10-08",
+      "title": "Evidence Tampering Conviction",
+      "text": "The magistrate court convicts the proprietors and court staff for criminal conspiracy to mutilate judicial records.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India upheld the criminal negligence convictions under Section 304A IPC, establishing that structural deviations and locked exits were the proximate causa causans of the asphyxiation deaths.",
+    "points": [
+      "In criminal negligence under Section 304A, the prosecution must establish direct proximate causation between the negligent omission and the resultant death.",
+      "The bolted exit door and illegal blockage of balcony gangways transformed an electrical fire into a lethal human trap, functioning as the decisive cause of death.",
+      "Licensees and commercial occupiers owe an active, continuous duty of care to ensure emergency exits and safety systems remain functional.",
+      "Mutilation and destruction of court records to delay judicial proceedings constitutes a distinct criminal conspiracy under Sections 120B and 201."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Doctrine of Proximate Causation",
+      "latin": "Causa causans",
+      "meaning": "In criminal negligence, liability attaches only to the immediate and direct operative cause of death, rather than a remote contributing factor.",
+      "inThisCase": "The Supreme Court held that the locked exit and blocked passageways were the immediate operative cause of death by asphyxiation."
+    },
+    {
+      "name": "Duty of Care in Public Gatherings",
+      "meaning": "Commercial entertainment operators bear a heightened duty of care to ensure unimpeded escape avenues and functional emergency protocols.",
+      "inThisCase": "The cinema licensees violated statutory building rules by locking exit gates and installing extra seats across emergency aisles."
+    },
+    {
+      "name": "Sanctity of Judicial Records",
+      "meaning": "Interfering with, destroying, or mutilating judicial documents in ongoing trials strikes at the heart of administration of justice.",
+      "inThisCase": "The subsequent conviction of the proprietors for tampering with court exhibits reinforced the zero-tolerance standard for evidence destruction."
+    }
+  ],
+  "takeaways": [
+    "Commercial venue proprietors are strictly liable for criminal negligence when unauthorized layout changes prevent customer evacuation.",
+    "In fatal negligence cases, courts distinguish between the initial trigger of an accident and the immediate proximate cause of death.",
+    "Asphyxiation from toxic combustion gases, rather than direct flame, remains the primary killer in enclosed public space disasters.",
+    "Corporate executives who tamper with judicial evidence face independent criminal prosecution and custodial sentencing."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 304A",
+        "title": "Causing death by negligence",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 106(1)",
+        "title": "Causing death by negligence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted under Section 106(1) with enhanced penalties for rash and negligent acts causing death."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 201",
+        "title": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 238",
+        "title": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Preserved under Section 238 covering destruction of judicial and investigative records."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61",
+        "title": "Criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated statutory offence of criminal conspiracy into Section 61."
+    }
+  ],
+  "lawNote": "The tragedy occurred in June 1997, and the trials and appeals were governed by the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new penal enactments (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) came into effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2014",
+      "url": "https://indiankanoon.org/doc/9513811/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
