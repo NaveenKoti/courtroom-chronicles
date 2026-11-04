@@ -495,11 +495,17 @@ def yt_id(x):
     return m.group(1) if m else ""
 
 
+def placeholder(x):
+    """Branded 16:9 stand-in for an episode that has no YouTube video (yet), so every card has an image."""
+    return ('<span class="thumb ph" role="img" aria-label="Episode %d"><svg viewBox="0 0 48 48" aria-hidden="true" focusable="false">%s</svg>'
+            '<b>EP%03d</b></span>' % (x["n"], LOGO_SHAPES % {"fg": "currentColor"}, x["n"]))
+
+
 def card_thumb(x, big=False):
     """Episode YouTube thumbnail for lists (public, free). mqdefault always exists; maxres only for the big 'latest' tile."""
     v = yt_id(x)
     if not v:
-        return ""
+        return placeholder(x)
     src = "maxresdefault" if big else "mqdefault"
     fb = "" if not big else ' onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/%s/mqdefault.jpg\'"' % v
     return ('<img class="thumb" src="https://i.ytimg.com/vi/%s/%s.jpg" width="%d" height="%d" loading="%s" alt="" '
@@ -565,6 +571,8 @@ def render_episode(x, prev, nxt):
     elif og:
         out.append('<img class="epimg" src="../../%s" width="1200" height="630" alt="Episode %d: %s%s" fetchpriority="high">\n'
                    % (esc(og), x["n"], esc(x["title"]), esc(" (%s)" % x["caseName"]) if x.get("caseName") else ""))
+    else:
+        out.append('<div class="epimg-ph">%s</div>\n' % placeholder(x))
 
     if (x.get("judgment") or {}).get("outcome"):
         out.append('<aside class="verdict"><strong>The decision in one line</strong><p>%s</p></aside>\n' % esc(x["judgment"]["outcome"]))
