@@ -1,0 +1,190 @@
+{
+  "id": "ep022",
+  "title": "The Forest Station Wagon and the Standards of Mob Identification",
+  "hook": "When an overseas missionary and his two young sons are burned inside a vehicle, appellate courts scrutinize test identification parades and co-accused confessions.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Sentencing",
+    "Constitutional law"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA",
+    "CrPC → BNSS"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "2011"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether dock identification without a prior test identification parade or prior acquaintance can sustain capital mob convictions"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Autopsy findings establishing 100% fourth-degree burns, tracheal soot inhalation, and pugilistic posture"
+    }
+  ],
+  "summary": [
+    "In January 1999, an Australian missionary working with leprosy patients and his two young sons were sleeping inside their station wagon outside a rural church in eastern India. In the dead of night, a violent mob armed with wooden clubs, axes, and torches surrounded the vehicle, blocked the doors with heavy timber, and set the vehicle ablaze using straw and fuel. All three occupants perished from intense thermal trauma and smoke inhalation, sparking immense national and international grief.",
+    "The central investigative agency prosecuted fourteen individuals before a designated special court, relying on eye-witness depositions, a magistrate-recorded judicial confession of a co-accused, and in-dock identifications. The trial judge convicted all accused, sentencing the primary ringleader to death and imposing life imprisonment on the others. The high court subsequently commuted the ringleader's capital sentence to life imprisonment while acquitting eleven co-accused due to the total absence of test identification parades.",
+    "On final appeal, the Supreme Court of India upheld the life sentence of the primary organizer and affirmed the acquittals of the eleven villagers. The bench ruled that dock identification in court is inherently fragile when conducted years later without a prior test identification parade, unless the witness had preexisting familiarity with the accused. The court emphasized that while ocular testimony from a villager who regularly encountered the ringleader at weekly markets was trustworthy, dock identifications of strangers by frightened witnesses in the dark could not sustain convictions.",
+    "The judgment also addressed the evidentiary utility of co-accused confessions recorded under Section 164 of the procedural code. The court reaffirmed that under Section 30 of the Evidence Act, a retracted confession of a co-accused cannot form the substantive foundation of guilt against others, serving merely to lend reassurance to an otherwise established case. Balancing mitigating factors against aggravating circumstances, the apex court affirmed that life imprisonment appropriately satisfied the ends of justice."
+  ],
+  "timeline": [
+    {
+      "date": "1999-01-23",
+      "title": "The Midnight Arson Attack",
+      "text": "An armed mob surrounds a parked station wagon in a remote village, burning three sleeping occupants alive.",
+      "key": true
+    },
+    {
+      "date": "1999-06-22",
+      "title": "Central Agency Chargesheet",
+      "text": "Investigators file formal charges against fourteen accused alleging an unlawful mob assembly and criminal conspiracy.",
+      "key": false
+    },
+    {
+      "date": "2003-09-22",
+      "title": "Special Court Verdict",
+      "text": "The designated trial court convicts the ringleader and sentences him to death while imposing life terms on associates.",
+      "key": false
+    },
+    {
+      "date": "2005-05-19",
+      "title": "High Court Commutation and Acquittals",
+      "text": "The High Court commutes the capital sentence to life imprisonment and acquits eleven co-accused for lack of identification parades.",
+      "key": true
+    },
+    {
+      "date": "2011-01-21",
+      "title": "Supreme Court Final Decision",
+      "text": "The Supreme Court affirms the life sentences for the ringleader and primary accomplice, confirming the acquittals.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India dismissed appeals by the convicted ringleader and the prosecution, affirming life imprisonment for the primary perpetrators while upholding the acquittals of eleven co-accused.",
+    "points": [
+      "In-dock identification of an unfamiliar accused without a prior test identification parade is a weak form of evidence and insufficient to sustain criminal conviction.",
+      "Where an eyewitness had genuine pre-existing familiarity with an accused from routine market encounters, dock identification carries full substantive weight.",
+      "Under Section 30 of the Evidence Act, a co-accused confession cannot form the cornerstone of prosecution against others and only lends corroborative assurance.",
+      "The rarest of rare sentencing doctrine requires a holistic evaluation of the offender and circumstances, justifying commutation of death to life imprisonment."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Primacy of Test Identification Parades for Strangers",
+      "meaning": "When an offender is a stranger to an eyewitness, holding a prompt test identification parade is essential to corroborate subsequent dock testimony.",
+      "inThisCase": "The court acquitted eleven co-accused because witnesses had never seen them prior to the night of the attack and no identification parade was conducted."
+    },
+    {
+      "name": "Limited Evidentiary Scope of Co-Accused Confessions",
+      "meaning": "A confession made by a co-accused cannot be treated as substantive evidence against non-confessing accused in a joint trial.",
+      "inThisCase": "The retracted confession of an accomplice could only be used against himself and could not bridge evidentiary gaps regarding other villagers."
+    },
+    {
+      "name": "Rarest of Rare Sentencing Balancing",
+      "meaning": "Capital punishment is reserved exclusively for the most heinous crimes where alternative sentencing options are demonstrably foreclosed.",
+      "inThisCase": "The Supreme Court declined to enhance the penalty to death, confirming life imprisonment for the principal offender."
+    }
+  ],
+  "takeaways": [
+    "Prosecutions against large mobs require rigorous individual identification protocols rather than generic crowd allegations.",
+    "Test identification parades are indispensable whenever witnesses claim to identify strangers observed during nocturnal chaos.",
+    "A co-accused confession can never substitute for independent, primary evidence against other persons facing trial.",
+    "Appellate courts will commute capital sentences when the balance of aggravating and mitigating factors warrants life imprisonment."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103(1)",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Preserved definition and punishment for murder under Chapter VI of the modern penal code."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 148",
+        "title": "Rioting, armed with deadly weapon",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 191(3)",
+        "title": "Rioting, armed with deadly weapon",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted under subsection (3) of Section 191 punishing armed rioting."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 435",
+        "title": "Mischief by fire or explosive substance with intent to cause damage to amount of one hundred or (in case of agricultural produce) ten rupees",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 326",
+        "title": "Mischief by fire or explosive substance with intent to cause damage",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated offences of criminal mischief by fire into Section 326."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 30",
+        "title": "Consideration of proved confession affecting person making it and others jointly under trial for same offence",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 24",
+        "title": "Consideration of proved confession affecting person making it and others jointly under trial for same offence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 24 of the new evidence enactment."
+    }
+  ],
+  "lawNote": "The tragedy occurred in January 1999, and the trial and appellate proceedings were governed by the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new penal statutes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2011",
+      "url": "https://indiankanoon.org/doc/1481882/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
