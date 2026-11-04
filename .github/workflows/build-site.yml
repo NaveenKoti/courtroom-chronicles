@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths:
       - "data/episodes/**"
+      - "data/seo.json"
+      - "fetch_youtube.py"
       - "site.json"
       - "build.py"
       - "assets/style.css"
@@ -38,6 +40,9 @@ jobs:
 
       - name: Refresh audio links from the RSS feed
         run: python3 fetch_audio.py || true
+
+      - name: Refresh YouTube video links
+        run: python3 fetch_youtube.py || true
 
       - name: Build pages
         run: python3 build.py
