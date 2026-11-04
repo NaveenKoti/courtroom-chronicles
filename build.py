@@ -386,22 +386,39 @@ def head(title, desc, canonical, depth, extra="", og_type="website", image_path=
 <meta name="twitter:card" content="%(card)s">
 <meta name="twitter:title" content="%(title)s">
 <meta name="twitter:description" content="%(desc)s">
-%(img)s<link rel="icon" href="data:image/svg+xml,%%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%%3E%%3Ctext y='.9em' font-size='90'%%3E%%E2%%9A%%96%%EF%%B8%%8F%%3C/text%%3E%%3C/svg%%3E">
+%(img)s<link rel="icon" type="image/svg+xml" href="%(fav)s">
 <link rel="stylesheet" href="%(root)sassets/style.css">
 %(extra)s</head>
 """ % dict(lang=site.get("lang", "en"), title=esc(title), desc=esc(desc), canon=esc(canonical), site=esc(site["title"]),
            ogt=og_type, card="summary_large_image" if img else "summary", img=img, pn=pn, rss=rss_tag,
-           root=root, extra=extra, robots=robots)
+           root=root, extra=extra, robots=robots, fav=FAVICON)
+
+
+LOGO_SHAPES = (
+    '<path d="M24 10v25M16.5 36.5h15M11 15.5h26" fill="none" stroke="%(fg)s" stroke-width="2.6" stroke-linecap="round"/>'
+    '<circle cx="24" cy="10" r="2.6" fill="%(fg)s"/>'
+    '<path d="M11 15.5 6.5 27M11 15.5 15.5 27M37 15.5 32.5 27M37 15.5 41.5 27" fill="none" stroke="%(fg)s" stroke-width="1.6" stroke-linecap="round"/>'
+    '<path d="M5 27h12a6 6 0 0 1-12 0zM31 27h12a6 6 0 0 1-12 0z" fill="%(fg)s"/>'
+)
+FAVICON = ("data:image/svg+xml," + quote(
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="11" fill="#7a1f2b"/>'
+    + LOGO_SHAPES % {"fg": "#ffffff"} + '</svg>'))
+
+
+def logo_svg():
+    return ('<svg class="logo" viewBox="0 0 48 48" width="44" height="44" aria-hidden="true" focusable="false">'
+            '<rect width="48" height="48" rx="11" style="fill:var(--accent)"/>' + LOGO_SHAPES % {"fg": "var(--accent-ink)"}
+            ).replace('stroke="var(--accent-ink)"', 'style="stroke:var(--accent-ink)"').replace('fill="var(--accent-ink)"', 'style="fill:var(--accent-ink)"') + '</svg>'
 
 
 def header(depth):
     root = "../" * depth
     return """<a class="skip" href="#main">Skip to content</a>
 <header class="top"><div class="wrap bar">
-<a class="brand" href="%(r)s"><span class="mark" aria-hidden="true">⚖</span> %(t)s</a>
+<a class="brand" href="%(r)s" aria-label="%(t)s, home">%(logo)s<span class="wm"><span class="nm">%(t)s</span><span class="sub">Indian court cases, explained</span></span></a>
 <nav aria-label="Main"><a href="%(r)s#episodes">Episodes</a><a href="%(r)slaws/">Law finder</a><a href="%(r)s#about">About</a></nav>
 </div></header>
-""" % dict(r=root or "./", t=esc(site["title"]))
+""" % dict(r=root or "./", t=esc(site["title"]), logo=logo_svg())
 
 
 def footer(extra_disclaimer=""):
