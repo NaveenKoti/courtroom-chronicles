@@ -99,6 +99,26 @@ audio_map = {}
 if os.path.exists("data/audio.json"):
     audio_map = json.load(open("data/audio.json", encoding="utf-8"))
 
+def derive_case_name(feed_title):
+    """Best-effort case name from a published title like 'EP06: Poetic title — The Jessica Lal Case and the ...'."""
+    t = re.sub(r"^\s*(?:ep|episode)\s*\.?\s*\d+\s*[:\-–—]\s*", "", feed_title or "", flags=re.I)
+    parts = re.split(r"\s*[—–]\s*", t, maxsplit=1)
+    if len(parts) < 2:
+        return ""
+    sub = re.split(r"\s+and\s+(?:the|its|a)\s+", parts[1], maxsplit=1)[0]
+    sub = re.sub(r"^the\s+", "", sub.strip(" .,:;"), flags=re.I).strip(" .,:;")
+    return sub if 4 <= len(sub) <= 70 else ""
+
+
+# Optional: data/seo.json maps an episode id to its plain case name (used when the episode JSON has no "caseName").
+seo_map = {}
+if os.path.exists("data/seo.json"):
+    seo_map = json.load(open("data/seo.json", encoding="utf-8"))
+# Optional: data/youtube.json (made by fetch_youtube.py) maps an episode id to its YouTube video.
+youtube_map = {}
+if os.path.exists("data/youtube.json"):
+    youtube_map = json.load(open("data/youtube.json", encoding="utf-8"))
+
 episodes = []
 for p in sorted(glob.glob("data/episodes/ep*.json")):
     d = json.load(open(p, encoding="utf-8"))
@@ -107,9 +127,19 @@ for p in sorted(glob.glob("data/episodes/ep*.json")):
         sys.exit("%s: 'id' must look like ep012" % p)
     d["n"] = int(m.group(1))
     d["slug"] = d.get("slug") or slugify(d["title"], d["n"])
+    # Case name priority: episode JSON > data/seo.json (an empty "" there means "do not use one") >
+    # derived from the published podcast title ("Poetic title — The Jessica Lal Case and ...") > none.
+    cn = d.get("caseName")
+    if not cn:
+        cn = seo_map[d["id"]] if d["id"] in seo_map else derive_case_name((audio_map.get(d["id"]) or {}).get("feedTitle", ""))
+    d["caseName"] = " ".join(str(cn or "").split())
     a = audio_map.get(d["id"], {})
     d["audio"] = {**a, **(d.get("audio") or {})}
     d["listen"] = {**LINKS, **(d.get("listen") or {})}
+    yt = youtube_map.get(d["id"]) or {}
+    if re.match(r"^https://(www\.)?youtube\.com/watch\?v=[\w-]{6,}$", yt.get("url", "")):
+        d["listen"]["youtube"] = yt["url"]   # direct link to this episode's video, instead of the playlist
+        d["ytUrl"] = yt["url"]
     episodes.append(d)
 episodes.sort(key=lambda x: x["n"])
 if len({x["n"] for x in episodes}) != len(episodes):
@@ -130,6 +160,32 @@ def fact(x, label):
 
 def outcome(x):
     return (x.get("judgment") or {}).get("outcome") or x["hook"]
+
+
+def page_title(x):
+    """Search-friendly <title>: lead with the plain case name people actually search for."""
+    if x.get("caseName"):
+        return "%s: Judgment Explained | %s" % (x["caseName"], site["title"])
+    return "EP%03d: %s | %s" % (x["n"], x["title"], site["title"])
+
+
+def page_desc(x):
+    if x.get("caseName"):
+        return short("%s explained: %s" % (x["caseName"], x["hook"]), 158)
+    return short(x["hook"], 158)
+
+
+def label_with_case(x):
+    return ("%s — %s" % (x["title"], x["caseName"])) if x.get("caseName") else x["title"]
+
+
+# Topic pages: one page per tag in the episodes' "topics" lists.
+TOPICS = {}
+for _x in episodes:
+    for _t in _x.get("topics", []):
+        _s = slug_words(_t)
+        if _s:
+            TOPICS.setdefault(_s, {"slug": _s, "name": _t, "eps": []})["eps"].append(_x)
 
 
 def read_minutes(x):
@@ -234,6 +290,54 @@ def make_og(x):
         d.text((84, H - 140), foot, font=small, fill=(240, 220, 180))
     d.text((84, H - 96), site["title"] + "  |  " + site["tagline"], font=small, fill=(250, 248, 244))
     os.makedirs("assets/og", exist_ok=True)
+    im.save(path, optimize=True)
+    return path
+
+
+def make_thumb(x):
+    """1280x720 YouTube thumbnail with the case name in big type -> assets/thumbs/<id>.png (upload it to the video).
+    Returns the path, or None if Pillow/fonts are missing. Same input gives the same file, so no noisy commits."""
+    try:
+        from PIL import Image, ImageDraw
+    except Exception:
+        return None
+    W, H = 1280, 720
+    text = (x.get("caseName") or x["title"]).strip()
+    text = text[0].upper() + text[1:]
+    sub = " · ".join(v for v in (fact(x, "Court").split(" (")[0], fact(x, "Year")) if v)
+    if not _font(FONTS_BOLD, 40):
+        return None
+    im = Image.new("RGB", (W, H), (122, 31, 43))
+    d = ImageDraw.Draw(im)
+    d.rectangle([28, 28, W - 28, H - 28], outline=(217, 178, 95), width=5)
+    box_w, box_h = W - 180, 400
+    lines = []
+    for size in range(150, 55, -6):               # biggest type that fits in at most 4 lines
+        f = _font(FONTS_BOLD, size)
+        lines, cur = [], ""
+        for w in text.split():
+            t = (cur + " " + w).strip()
+            if d.textlength(t, font=f) > box_w and cur:
+                lines.append(cur)
+                cur = w
+            else:
+                cur = t
+        lines.append(cur)
+        if len(lines) <= 4 and len(lines) * size * 1.12 <= box_h and all(d.textlength(l, font=f) <= box_w for l in lines):
+            break
+    lh = int(size * 1.12)
+    y = 170 + max(0, (box_h - lh * len(lines)) // 2)
+    for ln in lines:
+        d.text((90, y), ln, font=f, fill=(250, 248, 244))
+        y += lh
+    badge = _font(FONTS_BOLD, 46)
+    d.rounded_rectangle([90, 70, 90 + 230, 140], radius=14, fill=(217, 178, 95))
+    d.text((112, 80), "EP %d" % x["n"], font=badge, fill=(122, 31, 43))
+    small = _font(FONTS_REG, 38)
+    d.text((90, H - 130), (sub + "  ·  " if sub else "") + "Judgment explained", font=small, fill=(240, 220, 180))
+    d.text((90, H - 82), site["title"], font=small, fill=(250, 248, 244))
+    os.makedirs("assets/thumbs", exist_ok=True)
+    path = "assets/thumbs/%s.png" % x["id"]
     im.save(path, optimize=True)
     return path
 
@@ -366,22 +470,28 @@ def map_cell(side):
 
 def render_episode(x, prev, nxt):
     url = ep_url(x)
-    desc = short(x["hook"], 158)
-    title = "EP%03d: %s | %s" % (x["n"], x["title"], site["title"])
+    desc = page_desc(x)
+    title = page_title(x)
     topics = x.get("topics", [])
     court, year = fact(x, "Court"), fact(x, "Year")
     mins = read_minutes(x)
     og = make_og(x)
+    make_thumb(x)
+    kw = ([x["caseName"]] if x.get("caseName") else []) + list(topics)
 
     graph = [
         {"@type": "PodcastEpisode", "@id": url + "#episode", "url": url, "name": x["title"],
          "description": x["hook"], "episodeNumber": x["n"], "inLanguage": site.get("lang", "en"),
-         "keywords": ", ".join(topics),
+         "keywords": ", ".join(kw),
          "partOfSeries": {"@type": "PodcastSeries", "name": site["title"], "url": BASE + "/"}},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": site["title"], "item": BASE + "/"},
             {"@type": "ListItem", "position": 2, "name": "EP%03d" % x["n"], "item": url}]},
     ]
+    if og:
+        graph[0]["image"] = "%s/%s" % (BASE, og)
+    if x.get("ytUrl"):
+        graph[0]["sameAs"] = [x["ytUrl"]]
     a = x.get("audio") or {}
     if a.get("date"):
         graph[0]["datePublished"] = a["date"]
@@ -394,13 +504,17 @@ def render_episode(x, prev, nxt):
     out.append('<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">%s</a> › <span>EP%03d</span></nav>\n'
                % (esc(site["title"]), x["n"]))
     meta = " · ".join(v for v in (court, year, "%d min read" % mins) if v)
-    out.append('<article>\n<header class="eph"><p class="kicker">Episode %d%s</p><h1>%s</h1><p class="hook">%s</p>'
-               '<p class="meta">%s</p>' % (x["n"], (" · " + esc(a["date"])) if a.get("date") else "", esc(x["title"]),
+    out.append('<article>\n<header class="eph"><p class="kicker">Episode %d%s%s</p><h1>%s</h1><p class="hook">%s</p>'
+               '<p class="meta">%s</p>' % (x["n"], (" · " + esc(a["date"])) if a.get("date") else "",
+                                           (" · " + esc(x["caseName"])) if x.get("caseName") else "", esc(x["title"]),
                                            esc(x["hook"]), esc(meta)))
     if topics:
         out.append('<p class="chips">%s</p>' % "".join(
-            '<a class="chip" href="../../?topic=%s#episodes">%s</a>' % (quote(t.lower()), esc(t)) for t in topics))
+            '<a class="chip" href="../../topics/%s/">%s</a>' % (esc(slug_words(t)), esc(t)) for t in topics))
     out.append('</header>\n')
+    if og:
+        out.append('<img class="epimg" src="../../%s" width="1200" height="630" alt="Episode %d: %s%s" fetchpriority="high">\n'
+                   % (esc(og), x["n"], esc(x["title"]), esc(" (%s)" % x["caseName"]) if x.get("caseName") else ""))
 
     if (x.get("judgment") or {}).get("outcome"):
         out.append('<aside class="verdict"><strong>The decision in one line</strong><p>%s</p></aside>\n' % esc(x["judgment"]["outcome"]))
@@ -496,8 +610,45 @@ def render_episode(x, prev, nxt):
 def ep_list(eps, depth):
     root = "../" * depth
     return '<ul class="rel">%s</ul>' % "".join(
-        '<li><a href="%sepisodes/%s/"><span class="num">EP%03d</span> %s</a></li>' % (root, esc(r["slug"]), r["n"], esc(r["title"]))
+        '<li><a href="%sepisodes/%s/"><span class="num">EP%03d</span> %s</a></li>' % (root, esc(r["slug"]), r["n"], esc(label_with_case(r)))
         for r in sorted(eps, key=lambda r: r["n"]))
+
+
+def render_topic(t):
+    url = "%s/topics/%s/" % (BASE, t["slug"])
+    n = len(t["eps"])
+    cases = [x["caseName"] for x in sorted(t["eps"], key=lambda r: r["n"]) if x.get("caseName")][:4]
+    desc = short("%s: %d Indian court case%s explained in plain English%s." % (
+        t["name"], n, "" if n == 1 else "s", (", including " + ", ".join(cases)) if cases else ""), 158)
+    title = "%s cases in India: judgments explained | %s" % (t["name"], site["title"])
+    ld = jsonld({"@context": "https://schema.org", "@graph": [
+        {"@type": "CollectionPage", "name": "%s cases" % t["name"], "url": url, "description": desc,
+         "inLanguage": site.get("lang", "en")},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": site["title"], "item": BASE + "/"},
+            {"@type": "ListItem", "position": 2, "name": t["name"], "item": url}]}]})
+    out = [head(title, desc, url, 2, extra=ld + "\n")]
+    out.append("<body>\n" + header(2) + '<main id="main" class="wrap ep">\n')
+    out.append('<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">%s</a> › <span>%s</span></nav>\n' % (esc(site["title"]), esc(t["name"])))
+    out.append('<article><header class="eph"><p class="kicker">Topic</p><h1>%s cases</h1><p class="hook">%d episode%s on this topic.</p></header>\n'
+               % (esc(t["name"]), n, "" if n == 1 else "s"))
+    out.append(section("episodes", "Episodes", ep_list(t["eps"], 2)))
+    others = [o for o in TOPICS.values() if o is not t]
+    if others:
+        out.append('<section class="sec"><h2>Other topics</h2><p class="chips">%s</p></section>\n' % "".join(
+            '<a class="chip" href="../%s/">%s</a>' % (esc(o["slug"]), esc(o["name"])) for o in sorted(others, key=lambda o: o["name"])))
+    out.append('<p class="note">%s</p>\n</article></main>\n' % esc(site.get("disclaimer", "")))
+    out.append(footer() + '<script src="../../assets/app.js" defer></script>\n</body>\n</html>\n')
+    return "".join(out)
+
+
+def render_alias(x):
+    """Short, stable link /go/ep021/ for YouTube/Spotify descriptions: no need to know the long page slug."""
+    u = esc(ep_url(x))
+    return ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><title>Redirecting…</title>'
+            '<meta name="robots" content="noindex"><link rel="canonical" href="%s">'
+            '<meta http-equiv="refresh" content="0; url=%s"></head>'
+            '<body><p>Taking you to <a href="%s">%s</a>…</p></body></html>\n' % (u, u, u, esc(x["title"])))
 
 
 def render_prov(p):
@@ -588,7 +739,9 @@ def render_index():
         {"@type": "WebSite", "name": site["title"], "url": BASE + "/"},
         {"@type": "ItemList", "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "url": ep_url(x), "name": x["title"]} for i, x in enumerate(episodes)]}]})
-    out = [head("%s | %s" % (site["title"], site["tagline"]), desc, BASE + "/", 0, extra=ld + "\n")]
+    verify = ('<meta name="google-site-verification" content="%s">\n' % esc(site["googleSiteVerification"])
+              if site.get("googleSiteVerification") else "")
+    out = [head("%s | %s" % (site["title"], site["tagline"]), desc, BASE + "/", 0, extra=verify + ld + "\n")]
     out.append("<body>\n" + header(0) + "<main id=\"main\">\n")
     out.append('<section class="hero"><div class="wrap herogrid"><div>'
                '<p class="kicker">Podcast · case notes · law finder</p><h1>%s</h1><p class="lead">%s</p>'
@@ -612,18 +765,22 @@ def render_index():
                    '<button type="button" class="chip on" data-t="">All</button>' + "".join(
                        '<button type="button" class="chip" data-t="%s">%s</button>' % (esc(t.lower()), esc(t)) for t in topics_all), n))
     for x in sorted(episodes, key=lambda z: -z["n"]):
-        blob = " ".join([x["title"], x["hook"], " ".join(x.get("topics", [])), " ".join(x.get("laws", [])),
+        blob = " ".join([x["title"], x.get("caseName", ""), x["hook"], " ".join(x.get("topics", [])), " ".join(x.get("laws", [])),
                          " ".join(f.get("value", "") for f in x.get("facts", [])), " ".join(x.get("takeaways", [])),
                          " ".join(p.get("name", "") for p in x.get("principles", [])),
                          " ".join("%s %s %s" % ((m.get("old") or {}).get("section", ""), (m.get("old") or {}).get("title", ""),
                                                 (m.get("new") or {}).get("section", "")) for m in x.get("lawMapping", [])),
                          " ".join(x.get("summary", [])[:1])])
-        meta = " · ".join(v for v in (fact(x, "Court"), fact(x, "Year")) if v)
+        meta = " · ".join(v for v in (x.get("caseName"), fact(x, "Court"), fact(x, "Year")) if v)
         out.append('<li class="card" data-n="%d" data-s="%s" data-t="|%s|"><a href="episodes/%s/">'
                    '<span class="num">EP%03d</span><h3>%s</h3></a><p>%s</p><p class="meta">%s</p></li>\n' % (
                        x["n"], esc(norm(blob)), esc("|".join(t.lower() for t in x.get("topics", []))), esc(x["slug"]), x["n"],
                        esc(x["title"]), esc(short(outcome(x), 150)), esc(meta)))
     out.append('</ul><p id="none" class="small" hidden>No episodes match. Try fewer words.</p></section>\n')
+    if TOPICS:
+        out.append('<section class="wrap" id="topics-browse"><h2>Browse by topic</h2><p class="chips">%s</p></section>\n' % "".join(
+            '<a class="chip" href="topics/%s/">%s <small>(%d)</small></a>' % (esc(t["slug"]), esc(t["name"]), len(t["eps"]))
+            for t in sorted(TOPICS.values(), key=lambda t: (-len(t["eps"]), t["name"]))))
     top = sorted(PAGES.values(), key=lambda p: -len(p["eps"]))[:8]
     if top:
         out.append('<section class="wrap" id="laws"><h2>Browse by law</h2><p>Jump to a provision and see the old and new law with the cases behind it.</p>'
@@ -651,11 +808,16 @@ def clean(dirname, keep):
 def main():
     clean("episodes", {x["slug"] for x in episodes})
     clean("laws", set(PAGES))
+    clean("topics", set(TOPICS))
+    clean("go", {x["id"] for x in episodes})
     write("index.html", render_index())
     for i, x in enumerate(episodes):
         prev = episodes[i - 1] if i > 0 else None
         nxt = episodes[i + 1] if i < len(episodes) - 1 else None
         write("episodes/%s/index.html" % x["slug"], render_episode(x, prev, nxt))
+        write("go/%s/index.html" % x["id"], render_alias(x))
+    for s, t in TOPICS.items():
+        write("topics/%s/index.html" % s, render_topic(t))
     write("laws/index.html", render_laws_index())
     for s, p in PAGES.items():
         write("laws/%s/index.html" % s, render_prov(p))
@@ -673,6 +835,7 @@ def main():
     urls = [(BASE + "/", "1.0", None), (BASE + "/laws/", "0.7", None)]
     urls += [(ep_url(x), "0.8", (x.get("audio") or {}).get("date")) for x in episodes]
     urls += [("%s/laws/%s/" % (BASE, s), "0.6", None) for s in PAGES]
+    urls += [("%s/topics/%s/" % (BASE, s), "0.6", None) for s in TOPICS]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join("  <url><loc>%s</loc>%s<priority>%s</priority></url>\n" % (
               esc(u), ("<lastmod>%s</lastmod>" % d) if d else "", pr) for u, pr, d in urls) + "</urlset>\n")
