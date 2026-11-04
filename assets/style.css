@@ -189,3 +189,7 @@ ol.tl p{margin:2px 0 0;font-size:.95rem}
   .how ol{grid-template-columns:1fr}
   .lawlist li{grid-template-columns:1fr;gap:2px}
 }
+
+/* episode hero image, topic chips */
+.epimg{display:block;width:100%;height:auto;border-radius:12px;margin:0 0 18px;border:1px solid var(--line)}
+.chip small{opacity:.7}
