@@ -132,6 +132,8 @@ for p in sorted(glob.glob("data/episodes/ep*.json")):
     cn = d.get("caseName")
     if not cn:
         cn = seo_map[d["id"]] if d["id"] in seo_map else derive_case_name((audio_map.get(d["id"]) or {}).get("feedTitle", ""))
+    if not site.get("useCaseNames", False):   # off by default; set "useCaseNames": true in site.json to switch on
+        cn = ""
     d["caseName"] = " ".join(str(cn or "").split())
     a = audio_map.get(d["id"], {})
     d["audio"] = {**a, **(d.get("audio") or {})}
