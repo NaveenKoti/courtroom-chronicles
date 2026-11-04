@@ -514,7 +514,19 @@ def render_episode(x, prev, nxt):
         out.append('<p class="chips">%s</p>' % "".join(
             '<a class="chip" href="../../topics/%s/">%s</a>' % (esc(slug_words(t)), esc(t)) for t in topics))
     out.append('</header>\n')
-    if og:
+    vid = re.search(r"[?&]v=([\w-]{6,})$", x.get("ytUrl", ""))
+    if vid and og:
+        # The episode's own YouTube thumbnail (public, free). Falls back: HD -> standard size -> generated card.
+        v = vid.group(1)
+        out.append(
+            '<a class="epimg-link" href="%s" rel="noopener" target="_blank" aria-label="Watch EP%03d on YouTube">'
+            '<img class="epimg" src="https://i.ytimg.com/vi/%s/maxresdefault.jpg" width="1280" height="720" '
+            'style="aspect-ratio:16/9;object-fit:cover" alt="Episode %d thumbnail: %s" fetchpriority="high" '
+            'referrerpolicy="no-referrer" onerror="if(!this.dataset.f){this.dataset.f=1;'
+            'this.src=\'https://i.ytimg.com/vi/%s/hqdefault.jpg\'}else{this.onerror=null;this.src=\'../../%s\';'
+            'this.style.aspectRatio=\'1200/630\'}"></a>\n'
+            % (esc(x["ytUrl"]), x["n"], v, x["n"], esc(x["title"]), v, esc(og)))
+    elif og:
         out.append('<img class="epimg" src="../../%s" width="1200" height="630" alt="Episode %d: %s%s" fetchpriority="high">\n'
                    % (esc(og), x["n"], esc(x["title"]), esc(" (%s)" % x["caseName"]) if x.get("caseName") else ""))
 
