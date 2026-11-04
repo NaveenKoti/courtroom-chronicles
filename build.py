@@ -122,6 +122,9 @@ if os.path.exists("data/youtube.json"):
 episodes = []
 for p in sorted(glob.glob("data/episodes/ep*.json")):
     d = json.load(open(p, encoding="utf-8"))
+    if d.get("draft"):   # "draft": true keeps an episode off the site until its JSON is replaced/corrected
+        print("Skipping draft episode %s" % d.get("id", p))
+        continue
     m = re.match(r"ep(\d+)", d.get("id", ""), re.I)
     if not m:
         sys.exit("%s: 'id' must look like ep012" % p)
