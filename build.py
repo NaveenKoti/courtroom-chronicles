@@ -470,6 +470,22 @@ def map_cell(side):
             % (esc(side.get("act", "")), sec_html, esc(side.get("title", ""))))
 
 
+def yt_id(x):
+    m = re.search(r"[?&]v=([\w-]{6,})$", x.get("ytUrl", ""))
+    return m.group(1) if m else ""
+
+
+def card_thumb(x, big=False):
+    """Episode YouTube thumbnail for lists (public, free). mqdefault always exists; maxres only for the big 'latest' tile."""
+    v = yt_id(x)
+    if not v:
+        return ""
+    src = "maxresdefault" if big else "mqdefault"
+    fb = "" if not big else ' onerror="this.onerror=null;this.src=\'https://i.ytimg.com/vi/%s/mqdefault.jpg\'"' % v
+    return ('<img class="thumb" src="https://i.ytimg.com/vi/%s/%s.jpg" width="%d" height="%d" loading="%s" alt="" '
+            'referrerpolicy="no-referrer"%s>' % (v, src, 1280 if big else 320, 720 if big else 180, "eager" if big else "lazy", fb))
+
+
 def render_episode(x, prev, nxt):
     url = ep_url(x)
     desc = page_desc(x)
@@ -762,10 +778,10 @@ def render_index():
                '<div class="btns">%s</div>'
                '<ul class="stats"><li><strong>%d</strong> episodes</li><li><strong>%d</strong> topics</li><li><strong>%d</strong> provisions explained</li></ul>'
                '</div>'
-               '<a class="latest" href="episodes/%s/"><span class="kicker">Latest · EP%03d</span><strong>%s</strong>'
+               '<a class="latest" href="episodes/%s/">%s<span class="kicker">Latest · EP%03d</span><strong>%s</strong>'
                '<span class="lo">%s</span><span class="go">Read the case notes →</span></a></div></section>\n'
                % (esc(site["title"]), esc(site["tagline"]), platform_links(LINKS, primary=True), n, len(topics_all), len(prov),
-                  esc(latest["slug"]), latest["n"], esc(latest["title"]), esc(short(outcome(latest), 170))))
+                  esc(latest["slug"]), card_thumb(latest, True), latest["n"], esc(latest["title"]), esc(short(outcome(latest), 170))))
     out.append('<section class="wrap how" aria-label="How it works"><ol>'
                '<li><span>1</span><div><strong>Listen to the story</strong>Each case is told as an episode you can play anywhere.</div></li>'
                '<li><span>2</span><div><strong>Read the case notes</strong>Timeline, key holdings and plain-English principles.</div></li>'
@@ -786,9 +802,9 @@ def render_index():
                                                 (m.get("new") or {}).get("section", "")) for m in x.get("lawMapping", [])),
                          " ".join(x.get("summary", [])[:1])])
         meta = " · ".join(v for v in (x.get("caseName"), fact(x, "Court"), fact(x, "Year")) if v)
-        out.append('<li class="card" data-n="%d" data-s="%s" data-t="|%s|"><a href="episodes/%s/">'
+        out.append('<li class="card" data-n="%d" data-s="%s" data-t="|%s|"><a href="episodes/%s/">%s'
                    '<span class="num">EP%03d</span><h3>%s</h3></a><p>%s</p><p class="meta">%s</p></li>\n' % (
-                       x["n"], esc(norm(blob)), esc("|".join(t.lower() for t in x.get("topics", []))), esc(x["slug"]), x["n"],
+                       x["n"], esc(norm(blob)), esc("|".join(t.lower() for t in x.get("topics", []))), esc(x["slug"]), card_thumb(x), x["n"],
                        esc(x["title"]), esc(short(outcome(x), 150)), esc(meta)))
     out.append('</ul><p id="none" class="small" hidden>No episodes match. Try fewer words.</p></section>\n')
     if TOPICS:
