@@ -1,0 +1,182 @@
+{
+  "id": "ep023",
+  "title": "The Temple Choultry and the Presumption of Unexplained Possession",
+  "hook": "When a female serial predator lures devotees to temple rooms and poisons them for jewelry, forensic recoveries and Section 106 burdens establish guilt.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Sentencing"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "High Court of Karnataka"
+    },
+    {
+      "label": "Year",
+      "value": "2024"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether unexplained exclusive possession of a victim's robbed gold ornaments and failure to explain last-seen company justify murder convictions"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Post-mortem finding of asphyxia by ligature strangulation and Section 27 recovery of the deceased's gold ornaments"
+    }
+  ],
+  "summary": [
+    "In December 2007, an unsuspecting female devotee visiting suburban shrines was befriended by a woman posing as a pious spiritual guide. The accused induced the victim to participate in an auspicious multi-day ritual at an ancient rural temple complex, specifically instructing her to wear heavy gold ornaments and carry cash. Upon arriving at the pilgrimage center, the two women rented a room in a charitable choultry lodge under the pretext of conducting private religious rites.",
+    "A few hours later, the lodge manager noticed that the room had been locked from the outside with an unfamiliar external padlock while the accompanying woman had disappeared. Forcing the door open, lodge workers discovered the victim lying dead on the floor with ligature cords knotted around her neck and her gold jewelry, wristwatch, and purse stripped away. Autopsy findings confirmed that death was caused by asphyxia resulting from homicidal strangulation.",
+    "Twelve days later, police intercepted the accused at a central bus terminal, recovering the victim's distinct gold ear studs, purse, and wristwatch from her handbag alongside articles tied to other unsolved temple deaths. The designated sessions court convicted the accused of robbery and murder, imposing the death penalty. The trial judge noted that the accused operated as a serial predator targeting vulnerable women across religious shrines.",
+    "On appeal and capital reference, the High Court of Karnataka affirmed the conviction while modifying the sentence to whole-life imprisonment without remission. The division bench ruled that the prosecution had conclusively established that the accused was last seen inside the locked room with the victim, triggering a mandatory evidentiary burden under Section 106 of the Evidence Act. In the absence of any explanation, coupled with the statutory presumption under Section 114(a) arising from the recent possession of robbed ornaments, her guilt was proven beyond reasonable doubt."
+  ],
+  "timeline": [
+    {
+      "date": "2007-12-18",
+      "title": "The Choultry Homicide",
+      "text": "A female devotee is found strangled inside a padlocked temple lodge room after being lured for religious rituals.",
+      "key": true
+    },
+    {
+      "date": "2007-12-30",
+      "title": "Apprehension and Seizure",
+      "text": "Police arrest the accused at a bus station, seizing the deceased victim's stolen gold ear studs and belongings.",
+      "key": true
+    },
+    {
+      "date": "2018-02-24",
+      "title": "Trial Court Death Sentence",
+      "text": "The sessions court sentences the accused to death for premeditated serial murder and robbery.",
+      "key": false
+    },
+    {
+      "date": "2024-03-11",
+      "title": "High Court Appellate Ruling",
+      "text": "The High Court affirms the conviction, commuting the death sentence to whole-life imprisonment without remission.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The High Court of Karnataka dismissed the convict's appeal against conviction, declined the murder reference, and commuted the death sentence to imprisonment for the remainder of her natural life without remission.",
+    "points": [
+      "When an accused is proven to have entered a room with the deceased and is seen leaving alone before the room is found locked, Section 106 casts the burden on the accused to explain how they parted company.",
+      "Under Section 114(a) of the Evidence Act, unexplained possession of articles robbed from a murdered person immediately after the crime permits the presumption that the possessor is the murderer.",
+      "Recovery of the victim's personal effects from the possession of the accused under Section 27 forms an unassailable link in circumstantial cases.",
+      "Prolonged incarceration on death row spanning seventeen years constitutes a powerful mitigating factor justifying commutation of a capital sentence to whole-life imprisonment."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Burden of Proof for Facts Especially Within Knowledge",
+      "meaning": "When any fact is especially within the knowledge of any person, the burden of proving that fact is upon them.",
+      "inThisCase": "The court held that having been last seen together in the locked choultry room, the accused had an obligation under Section 106 to explain what transpired inside."
+    },
+    {
+      "name": "Presumption from Recent Possession of Stolen Property",
+      "meaning": "A court may presume that a person in possession of recently stolen goods is either the thief or received them knowing them to be stolen, extending to murder in robbery-killings.",
+      "inThisCase": "Possession of the deceased's gold ear studs and watch without explanation justified the legal inference that the accused committed both robbery and murder."
+    },
+    {
+      "name": "Whole-Life Imprisonment Alternative to Capital Sentence",
+      "meaning": "Appellate courts can substitute capital punishment with an explicit sentence of imprisonment for the remainder of the offender's natural life without executive remission.",
+      "inThisCase": "The High Court commuted the death sentence but directed that the convict remain incarcerated for the remainder of her natural life."
+    }
+  ],
+  "takeaways": [
+    "Failure to explain how an accused parted company with a deceased person last seen in their exclusive presence provides an incriminating missing link.",
+    "Unexplained possession of a victim's personal jewelry immediately following a homicide triggers a legal presumption of murder.",
+    "Serial criminality targeting vulnerable citizens in places of worship justifies severe sentencing restrictions including denial of remission.",
+    "Extensive delay in capital confirmation proceedings serves as a well-established constitutional ground for commuting death to life imprisonment."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103(1)",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Preserved definition of murder and capital sentencing framework under Chapter VI."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 392",
+        "title": "Punishment for robbery",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 309",
+        "title": "Robbery",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted under Section 309 covering robbery and extortion."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 106",
+        "title": "Burden of proving fact especially within knowledge",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 109",
+        "title": "Burden of proving fact especially within knowledge",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted verbatim under Section 109 of the modern evidence enactment."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 27",
+        "title": "How much of information received from accused may be proved",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 23",
+        "title": "Confession to police officer",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Preserved as a statutory proviso to Section 23 governing facts discovered pursuant to custodial statements."
+    }
+  ],
+  "lawNote": "The offence occurred in December 2007, and all trial and appellate proceedings were governed by the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new penal enactments (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) came into effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the High Court of Karnataka, 2024",
+      "url": "https://indiankanoon.org/doc/34246621/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
