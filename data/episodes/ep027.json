@@ -1,0 +1,208 @@
+{
+  "id": "ep027",
+  "title": "The Paddy Field Blaze and Corpus Delicti in Faked Death",
+  "hook": "When a burning sedan reveals a poisoned stranger staged to fake an insurance payout, appellate courts rule that proving the murder of a human being establishes corpus delicti.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Sentencing"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA",
+    "CrPC → BNSS"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "1991"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether establishing corpus delicti in a murder trial requires absolute identification of the victim or proof of the violent death of a human being"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Absence of respiratory soot particles proving post-mortem burns and chemical toxicology detecting ether"
+    }
+  ],
+  "summary": [
+    "In January 1984, rural villagers in coastal southern India were startled by a midnight explosion in a roadside paddy field, finding a burning black sedan with a charred corpse slumped behind the steering wheel. The vehicle belonged to an expatriate executive who had recently purchased a massive overseas life insurance policy, leading conspirators to claim that the policyholder had died in a tragic vehicular fire. However, the subsequent forensic examination instantly unraveled the fraudulent staged accident.",
+    "The autopsy conducted by the police surgeon revealed a decisive scientific fact: there was zero soot, carbonaceous ash, or thermal injury in the victim's trachea and lungs, proving conclusively that the individual was already dead before the vehicle was set on fire. Toxicological analysis detected ether and alcohol in the visceral organs, while anatomical measurements matched a hitchhiking film representative who had vanished after accepting a lift from the conspirators on a national highway. An accomplice subsequently turned approver under Section 306 CrPC, detailing how the victim was poisoned and strangled to simulate the policyholder's death.",
+    "The trial court convicted the primary co-conspirators of murder, conspiracy, and causing disappearance of evidence, sentencing them to life imprisonment while the mastermind fled abroad. On appeal, the defense argued that because the victim's body was heavily charred and personal identity disputed, the prosecution had failed to establish corpus delicti. The appellate courts firmly rejected this argument, establishing that under criminal jurisprudence, corpus delicti does not require absolute physical recovery or indisputable civil identification of a specific person.",
+    "Relying on established apex court precedent, the judiciary held that under Section 46 of the penal code, murder denotes causing the death of a human being through criminal violence. The spontaneous self-identification of the victim during the journey was held admissible under Section 6 of the Evidence Act as part of the same transaction, while material recoveries under Section 27 fully corroborated the approver's testimony. The life sentences of the co-conspirators were unanimously affirmed, cementing a foundational standard on forensic proof in staged homicide."
+  ],
+  "timeline": [
+    {
+      "date": "1984-01-22",
+      "title": "The Staged Midnight Blaze",
+      "text": "A sedan is discovered ablaze in a paddy field with a charred corpse seated behind the steering wheel.",
+      "key": true
+    },
+    {
+      "date": "1984-01-23",
+      "title": "Forensic Autopsy Revelation",
+      "text": "The police surgeon finds no soot in the respiratory tract, proving the victim was killed prior to the fire.",
+      "key": true
+    },
+    {
+      "date": "1984-04-12",
+      "title": "Approver Disclosure and Recoveries",
+      "text": "An accomplice turns approver, leading to the recovery of petrol cans and personal belongings of the victim.",
+      "key": false
+    },
+    {
+      "date": "1986-03-20",
+      "title": "Sessions Court Conviction",
+      "text": "The sessions court convicts the co-conspirators of conspiracy and murder, awarding life imprisonment.",
+      "key": false
+    },
+    {
+      "date": "1994-11-15",
+      "title": "High Court Appellate Affirmation",
+      "text": "The High Court affirms the convictions, ruling that murder of a human being satisfies corpus delicti standards.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The appellate courts dismissed the appeals of the convicted co-conspirators, affirming their convictions under Sections 302, 120B, and 201 IPC and upholding their life sentences.",
+    "points": [
+      "In a prosecution for murder, establishing corpus delicti does not require absolute proof of the civil identity of the deceased, but rather proof that a human being was killed by criminal violence.",
+      "Under Section 46 of the Indian Penal Code, death denotes the death of a human being, making intentional killing of any person sufficient for conviction.",
+      "Autopsy evidence demonstrating the complete absence of carbonaceous particles in the respiratory tract conclusively establishes post-mortem burning.",
+      "Spontaneous statements regarding name and occupation made by a traveler during a journey are admissible as res gestae under Section 6 of the Evidence Act."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Establishment of Corpus Delicti in Homicide",
+      "meaning": "Proof of the death of a human being by criminal violence suffices for a murder conviction; recovery or absolute identification of the corpse is not an inflexible prerequisite.",
+      "inThisCase": "The court held that proving a living human being was murdered by poisoning, strangulation, and arson satisfied corpus delicti regardless of the charred condition of the body."
+    },
+    {
+      "name": "Doctrine of Res Gestae in Spontaneous Utterances",
+      "meaning": "Statements that accompany and explain relevant acts forming part of the same transaction are admissible as substantive evidence.",
+      "inThisCase": "The hitchhiking victim's spontaneous self-introduction to the car occupants was admissible under Section 6 to demonstrate who was present in the vehicle."
+    },
+    {
+      "name": "Antemortem versus Postmortem Burn Distinction",
+      "meaning": "Presence of soot in the trachea proves inhalation of smoke during life, whereas its total absence demonstrates that incineration occurred after death.",
+      "inThisCase": "The clean trachea confirmed that the victim had died of asphyxiation and poisoning before the vehicle was set on fire to stage a simulated accident."
+    }
+  ],
+  "takeaways": [
+    "Criminals cannot shield themselves from murder convictions by destroying or disfiguring a corpse to obscure the victim's identity.",
+    "Forensic pathology can conclusively differentiate between a genuine vehicular accident fire and a post-mortem staging.",
+    "The definition of homicide under the penal code protects human life universally, without requiring proof of the exact legal name of the deceased.",
+    "Accomplice testimony corroborated by forensic medical reports and Section 27 recoveries provides conclusive proof in complex fraudulent schemes."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103(1)",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Preserved definition and punishment structure for murder under Chapter VI."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61",
+        "title": "Criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated criminal conspiracy provisions into Section 61."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 201",
+        "title": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 238",
+        "title": "Causing disappearance of evidence of offence, or giving false information to screen offender",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Substantially unchanged; penalizes destruction of corpses and evidence to shield offenders."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 6",
+        "title": "Relevancy of facts forming part of same transaction",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 4",
+        "title": "Relevancy of facts forming part of same transaction",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 4 codifying the res gestae principle."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 27",
+        "title": "How much of information received from accused may be proved",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 23",
+        "title": "Confession to police officer",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Preserved as a statutory proviso to Section 23 governing facts discovered pursuant to custodial statements."
+    }
+  ],
+  "lawNote": "The murder took place in January 1984, and the trial and appellate proceedings were conducted under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new penal enactments (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1991",
+      "url": "https://indiankanoon.org/doc/800569/"
+    },
+    {
+      "label": "Judgment of the Supreme Court of India, 1960",
+      "url": "https://indiankanoon.org/doc/481284/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
