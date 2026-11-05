@@ -1,0 +1,195 @@
+{
+  "id": "ep025",
+  "title": "The Lake Drum and the Accomplice Dual-Test in Serial Homicide",
+  "hook": "When four commercial art students orchestrate a string of lethal burglaries using nylon ropes, an approver's confession and lake bed recoveries seal capital convictions.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Sentencing"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA",
+    "CrPC → BNSS"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "1983"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether prolonged death-row incarceration warrants commuting capital sentences for calculated serial murders"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Recovery of an iron drum containing skeletal remains from a lake bed and distinctive clove-hitch nylon cord bindings"
+    }
+  ],
+  "summary": [
+    "Between January 1976 and March 1977, a tranquil university city was terrorized by a succession of daring daylight and nocturnal intrusions that claimed ten lives. The perpetrators, a syndicate of four college students, targeted affluent residences and acquaintances, overpowering victims using chloroform before strangling them with braided nylon cords to loot ornaments and cash. To eliminate witnesses and conceal the crimes, the syndicate stuffed the bodies of victims into sealed metal drums and submerged them in suburban lakes and rivers.",
+    "A critical investigative breakthrough occurred when detectives noticed identical clove-hitch knots binding the limbs of murder victims across distant jurisdictions. Following the arrest of the syndicate, one participant accepted a judicial tender of pardon under Section 306 of the procedural code and turned approver, providing an exhaustive insider narrative of the criminal conspiracy. Acting on information furnished under Section 27 of the Evidence Act, police dredged a municipal lake and recovered an iron drum containing the skeletal remains of an abducted youth.",
+    "The sessions court convicted all four accused of criminal conspiracy, robbery, and murder, sentencing them to death by hanging. The High Court confirmed the convictions and death penalties, rejecting contentions that the approver's testimony was uncorroborated. The appellate court affirmed that recovery of the submerged iron container and the looted family valuables provided independent material corroboration connecting each co-conspirator to the unlawful design.",
+    "On final writ proceedings, the Supreme Court of India dismissed appeals seeking commutation on grounds of death-row delay. The bench held that the five-year lapse between trial sentencing and execution was primarily caused by repeated review petitions filed by the convicts themselves, rather than state procrastination. Emphasizing that calculated serial homicides fall squarely within the rarest of rare doctrine, the court ruled that misplaced judicial sympathy would undermine public confidence in the administration of criminal justice."
+  ],
+  "timeline": [
+    {
+      "date": "1976-01-16",
+      "title": "The First Abduction and Submersion",
+      "text": "A college youth is abducted, strangled with nylon rope, sealed in an iron drum, and submerged in a lake.",
+      "key": true
+    },
+    {
+      "date": "1976-12-01",
+      "title": "The Scholar Household Murders",
+      "text": "The student gang invades the residence of an elderly scholar, strangling four occupants and looting heirlooms.",
+      "key": false
+    },
+    {
+      "date": "1977-03-30",
+      "title": "Apprehension and Lake Recovery",
+      "text": "Police arrest the syndicate and dredge the municipal lake bed to retrieve the submerged drum and skeleton.",
+      "key": true
+    },
+    {
+      "date": "1978-09-28",
+      "title": "Trial Court Capital Sentence",
+      "text": "The sessions court convicts the four student conspirators and sentences all of them to death.",
+      "key": false
+    },
+    {
+      "date": "1979-04-06",
+      "title": "High Court Confirmation",
+      "text": "The High Court confirms the murder convictions and capital sentences across all counts.",
+      "key": false
+    },
+    {
+      "date": "1983-04-18",
+      "title": "Supreme Court Final Ruling",
+      "text": "The Supreme Court rejects death-row delay arguments, affirming that serial murders warrant capital punishment.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India dismissed the writ petitions filed by the death-row convicts, affirming their capital sentences and holding that the gruesome nature of ten premeditated murders demanded the ultimate penalty.",
+    "points": [
+      "Prolonged incarceration on death row does not automatically entitle a capital convict to commutation when the delay is caused by successive petitions filed by the prisoners.",
+      "Under Section 133 read with Section 114 Illustration (b) of the Evidence Act, an approver's testimony is legally competent and fully reliable when corroborated in material particulars by independent physical recoveries.",
+      "Discovery of concealed physical bodies and containers under Section 27 provides the highest quality of objective corroboration to accomplice evidence.",
+      "Cold-blooded serial murders executed systematically for pecuniary gain represent the rarest of rare cases where alternative punishments are foreclosed."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Dual Test for Approver Testimony",
+      "meaning": "An accomplice is a competent witness, but the court as a rule of prudence requires corroboration in material particulars connecting the accused to the crime.",
+      "inThisCase": "The court held that the approver's testimony satisfied both tests because his account was inherently credible and verified by the physical recovery of the submerged iron drum."
+    },
+    {
+      "name": "Doctrine of Death-Row Delay and Self-Induced Laches",
+      "meaning": "A convict cannot claim executive or judicial delay as a ground for sentence commutation when the time lapse arose from repeated applications pursued by the defense.",
+      "inThisCase": "The Supreme Court ruled that the five-year period was consumed by multiple reviews and writ petitions initiated by the convicts, negating their plea of cruel delay."
+    },
+    {
+      "name": "Rarest of Rare Doctrine in Multiple Homicides",
+      "meaning": "Capital punishment is reserved for cases of extreme culpability where the crime shocks the collective conscience and reformative avenues are exhausted.",
+      "inThisCase": "The systemic slaughter of ten innocent victims across multiple residences left no room for judicial leniency, necessitating the extreme penalty."
+    }
+  ],
+  "takeaways": [
+    "Accomplice testimony supported by tangible physical recoveries under Section 27 forms an unshakeable evidentiary foundation in complex conspiracy cases.",
+    "Forensic identification of consistent operational signatures, such as unique cord knots, connects separate crime scenes to a unified syndicate.",
+    "Delay on death row is not an absolute passport to commutation, especially where the passage of time is actively engineered by repetitive legal filings.",
+    "Courts maintain an unyielding stance against organized serial murders, viewing leniency in such cases as an invitation to private vengeance."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61",
+        "title": "Criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated statutory offence of criminal conspiracy into Section 61."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103(1)",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Preserved definition and capital punishment provisions for murder under Chapter VI."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 133",
+        "title": "Accomplice",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 138",
+        "title": "Accomplice",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 138 affirming the competence of an accomplice as a witness."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 27",
+        "title": "How much of information received from accused may be proved",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 23",
+        "title": "Confession to police officer",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Preserved as a statutory proviso to Section 23 governing facts discovered pursuant to custodial statements."
+    }
+  ],
+  "lawNote": "The serial homicides occurred between January 1976 and March 1977, and all trial and appellate proceedings concluded under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872. The new penal codes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1983",
+      "url": "https://indiankanoon.org/doc/667963/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
