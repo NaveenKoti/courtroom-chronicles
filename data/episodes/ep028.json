@@ -1,0 +1,170 @@
+{
+  "id": "ep028",
+  "title": "The Resurrected Ascetic and the Commonwealth Rule on Concurrent Findings",
+  "hook": "When an ash-smeared sadhu claims to be a prince believed dead for twelve years, colonial and appellate courts establish the conclusive finality of concurrent factual findings.",
+  "topics": [
+    "Family law",
+    "Property law",
+    "Evidence",
+    "Natural justice"
+  ],
+  "laws": [
+    "Evidence Act → BSA",
+    "Constitutional law"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Judicial Committee of the Privy Council"
+    },
+    {
+      "label": "Year",
+      "value": "1946"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether an appellate court can overturn concurrent findings of civil identity arrived at by two lower courts"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Medical verification of tertiary syphilis ulcer scars, unique bodily marks, and photographic anthropometry"
+    }
+  ],
+  "summary": [
+    "In May 1909, the second prince of a vast landed estate in eastern India was taken for dead at a hill station sanatorium following a sudden acute illness. Arrangements were made for a nocturnal cremation at an open-air ground, but a sudden torrential rainstorm and hailstorm scattered the funeral party before the pyre could be ignited. Over a decade later, an ash-smeared itinerant ascetic appeared on the banks of a river in the provincial capital, displaying royal physical mannerisms and distinct bodily scars.",
+    "The claimant was publicly embraced and acknowledged by the late prince's surviving sister, tenants, and family elders, who identified unique anatomical landmarks including tertiary syphilitic elbow ulcers and tiger-claw scars. However, the prince's widow vehemently disputed the ascetic's identity, branding him an impostor and asserting adverse possession over the estate's vast revenues through state wardship. The claimant subsequently instituted a civil title suit in the district court seeking a formal declaration of his princely status and recovery of his one-third ancestral share.",
+    "The district court conducted a historic trial lasting 608 days and examining over one thousand witnesses, ultimately decreeing the suit in favor of the claimant. The trial judge found that the prince had survived the mountain funeral after being rescued by wandering ascetics, and that the physical, medical, and photographic evidence established biological identity beyond doubt. A special three-judge appellate bench of the high court affirmed the decree by a two-to-one majority, holding that the widow's enjoyment of a life estate was not adverse to a living husband.",
+    "On final appeal, the Judicial Committee of the Privy Council dismissed the widow's challenge, establishing the authoritative Commonwealth doctrine on concurrent findings of fact. The Privy Council ruled that where two courts have evaluated voluminous oral testimony and concurred on an issue of pure fact, the court of last resort will not review the evidence afresh absent manifest perversity or procedural illegality. Days after his decades-long struggle for legal identity was vindicated by the highest imperial court, the prince suffered a fatal stroke while offering prayers of thanksgiving."
+  ],
+  "timeline": [
+    {
+      "date": "1909-05-08",
+      "title": "The Hill Station Illness and Funeral",
+      "text": "A wealthy prince is taken for dead at a hill station villa, but a violent storm interrupts the cremation.",
+      "key": true
+    },
+    {
+      "date": "1921-05-04",
+      "title": "Public Recognition of the Ascetic",
+      "text": "An ash-smeared sadhu is recognized by royal family members as the missing prince and formally claims identity.",
+      "key": true
+    },
+    {
+      "date": "1930-07-24",
+      "title": "Institution of the Title Suit",
+      "text": "The claimant files a civil title suit in the district court claiming his one-third share in the zamindari estate.",
+      "key": false
+    },
+    {
+      "date": "1936-08-24",
+      "title": "District Court Decree",
+      "text": "Following a 608-day trial, the trial judge declares the claimant to be the living prince and restores possession.",
+      "key": true
+    },
+    {
+      "date": "1940-11-25",
+      "title": "High Court Appellate Affirmation",
+      "text": "A special bench of the High Court affirms the trial court decree by a two-to-one majority.",
+      "key": false
+    },
+    {
+      "date": "1946-07-30",
+      "title": "Privy Council Final Judgment",
+      "text": "The Privy Council dismisses the appeal, formulating the doctrine of non-interference with concurrent factual findings.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Judicial Committee of the Privy Council dismissed the widow's appeal with costs, affirming the concurrent decrees of the trial court and the High Court declaring the claimant to be the living prince entitled to his estate.",
+    "points": [
+      "An appellate court of last resort will decline to review evidence for a third time where two lower courts have reached concurrent findings of fact, absent a gross miscarriage of justice.",
+      "A difference in the reasoning or evidentiary weight assigned by lower court judges does not vitiate the binding character of concurrent factual findings.",
+      "Possession of property by a Hindu widow enjoying a limited life estate cannot be adverse to a husband who is mistakenly believed to be dead.",
+      "Under Section 50 of the Evidence Act, the conduct and recognition of family members having special knowledge of relationship constitutes decisive relevant evidence."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Doctrine of Concurrent Findings of Fact",
+      "meaning": "Appellate courts of final review will not reopen or re-weigh evidence when the trial court and the first appellate court have concurrently decided questions of fact.",
+      "inThisCase": "The Privy Council refused to reconsider the voluminous oral and medical evidence regarding identity, holding that concurrent findings bound the appellate board."
+    },
+    {
+      "name": "Relevancy of Family Conduct in Establishing Relationship",
+      "meaning": "When the court has to form an opinion as to the relationship of one person to another, the opinion expressed by conduct of family members is a relevant fact.",
+      "inThisCase": "The sister's immediate recognition, personal care, and public acknowledgement of the ascetic proved familial identity under Section 50 of the Evidence Act."
+    },
+    {
+      "name": "Inapplicability of Adverse Possession Against Presumed Deceased",
+      "meaning": "Adverse possession requires the assertion of hostile title against a known living owner, which cannot occur when the claimant is erroneously believed dead.",
+      "inThisCase": "The court held that the widow possessed the estate under the legal assumption of widowhood, preventing her possession from being adverse to her living husband."
+    }
+  ],
+  "takeaways": [
+    "Concurrent findings of fact arrived at by two tiers of the judiciary are virtually impregnable against challenge in the court of last resort.",
+    "Medical evidence of unique bodily marks and distinctive disease scars provides powerful corroboration in disputed civil identity litigation.",
+    "A widow entering upon property under a limited estate does not hold adversely to a spouse whose death was assumed in good faith.",
+    "Family members possessing special knowledge of intimate domestic habits and physical traits provide decisive ocular proof of relationship."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 50",
+        "title": "Opinion on relationship, when relevant",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 46",
+        "title": "Opinion on relationship, when relevant",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 46 making opinion expressed by conduct of family members relevant."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 114",
+        "title": "Court may presume existence of certain facts",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 119",
+        "title": "Court may presume existence of certain facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Preserved under Section 119 governing judicial presumptions from common course of natural events."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 136",
+        "title": "Special leave to appeal by the Supreme Court",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "The trial and appeals were conducted under the Indian Evidence Act, 1872, the Indian Limitation Act, 1908, and the Code of Civil Procedure, 1908. In contemporary Indian law, the modern evidence provisions under the Bharatiya Sakshya Adhiniyam, 2023, took effect on 1 July 2024 and apply prospectively, while the Supreme Court continues to enforce the rule of conduct regarding concurrent findings of fact under Article 136.",
+  "sources": [
+    {
+      "label": "Judgment of the Judicial Committee of the Privy Council, 1946",
+      "url": "https://indiankanoon.org/doc/1710258/"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    },
+    {
+      "label": "Constitution of India (Official Government Text)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
