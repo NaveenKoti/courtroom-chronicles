@@ -1,0 +1,170 @@
+{
+  "id": "ep030",
+  "title": "The Courtroom Witness and the Primacy of Democratic Basic Structure",
+  "hook": "When a sitting Prime Minister's election is challenged over government assistance, appellate and constitutional rulings establish the right to know and democratic basic structure.",
+  "topics": [
+    "Constitutional law",
+    "Fundamental rights",
+    "Evidence",
+    "Natural justice"
+  ],
+  "laws": [
+    "Constitutional law",
+    "Evidence Act → BSA"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "1975"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether a constitutional amendment validating an individual election and barring judicial review violates the basic structure"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Official police security regulations and gazetted administrative notifications establishing election assistance"
+    }
+  ],
+  "summary": [
+    "Following a fiercely contested general election in 1971, a defeated socialist candidate filed an election petition before the Allahabad High Court challenging the victory of the sitting Prime Minister. The petition alleged multiple corrupt electoral practices under the Representation of the People Act, 1951, including the utilization of state police machinery to construct campaign rostrums and the premature electioneering assistance of a gazetted government officer. In an unprecedented constitutional moment, the sitting Prime Minister appeared in person before the high court, testifying under oath from the witness box across two days of cross-examination.",
+    "During interlocutory proceedings, the state government claimed sovereign privilege under Section 123 of the Evidence Act to suppress production of internal police security rules. The Supreme Court rejected the privilege claim in a landmark judgment, ruling that citizens have an inherent right to know derived from the freedom of speech under Article 19(1)(a). The court held that public interest in the disclosure of official records to ensure free and fair justice outweighs generalized executive secrecy, and that courts possess full authority to inspect withheld documents under Section 162.",
+    "On the merits, the high court declared the Prime Minister's election void and imposed a statutory six-year disqualification under Section 8A for corrupt practices involving the assistance of government servants. While an appeal and conditional stay were pending before the Supreme Court, Parliament passed the Constitution Thirty-Ninth Amendment, inserting Article 329A(4) to retrospectively wipe out the election petition, declare the judgment void, and validate the election unconditionally. The constitutional validity of this amendment was promptly challenged before an extraordinary five-judge Constitution Bench.",
+    "The Supreme Court unanimously struck down Article 329A(4), marking the historic first application of the basic structure doctrine to invalidate a constitutional amendment. The bench held that free and fair elections, the rule of law, and judicial review form unalterable pillars of the constitutional framework that cannot be abrogated even by constituent power. Although the court eventually upheld the Prime Minister's election on the basis of separate retrospective amendments to ordinary election statutes, the decision established an enduring benchmark that no public official stands above the law or judicial scrutiny."
+  ],
+  "timeline": [
+    {
+      "date": "1971-04-24",
+      "title": "Institution of the Election Petition",
+      "text": "A defeated candidate challenges the Prime Minister's election in the Allahabad High Court alleging corrupt practices.",
+      "key": false
+    },
+    {
+      "date": "1975-01-24",
+      "title": "Supreme Court Security Rules Ruling",
+      "text": "The Supreme Court rejects state privilege claims, articulating the citizen's Right to Know under Article 19(1)(a).",
+      "key": true
+    },
+    {
+      "date": "1975-03-18",
+      "title": "Testimony of the Prime Minister",
+      "text": "The sitting Prime Minister testifies under oath in open court across two days of intense cross-examination.",
+      "key": true
+    },
+    {
+      "date": "1975-06-12",
+      "title": "High Court Unseating Verdict",
+      "text": "The High Court declares the election void and imposes a six-year disqualification for corrupt electoral practices.",
+      "key": true
+    },
+    {
+      "date": "1975-08-10",
+      "title": "The Thirty-Ninth Amendment",
+      "text": "Parliament inserts Article 329A(4) to retrospectively validate the election and extinguish judicial review.",
+      "key": false
+    },
+    {
+      "date": "1975-11-07",
+      "title": "Supreme Court Basic Structure Triumph",
+      "text": "The Supreme Court strikes down Article 329A(4) as violative of the basic structure of the Constitution.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India unanimously struck down Clause (4) of Article 329A of the Constitution as violative of the basic structure, while upholding the Prime Minister's election on the merits under amended statutory provisions.",
+    "points": [
+      "Clause (4) of Article 329A, which sought to validate an individual election without applying any legal norms and bar judicial review, violates democracy, the rule of law, and the basic structure of the Constitution.",
+      "Constituent power under Article 368 cannot be exercised to pass a declaratory legislative judgment determining individual election contests without a forum or law.",
+      "The Right to Know is an integral component of the fundamental right to freedom of speech and expression under Article 19(1)(a).",
+      "Claims of state privilege under Section 123 of the Evidence Act are subject to judicial scrutiny and inspection under Section 162 to balance public secrecy against fair administration of justice."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Democratic Basic Structure and Free and Fair Elections",
+      "meaning": "The democratic framework of government and the guarantee of free, fair, and periodic elections constitute an unamendable basic feature of the Constitution.",
+      "inThisCase": "The court held that extinguishing the right to challenge an election and conferring blanket immunity on a single candidate destroyed the core of constitutional democracy."
+    },
+    {
+      "name": "Constitutional Right to Know",
+      "meaning": "Citizens in a democratic republic have a fundamental right under Article 19(1)(a) to know the affairs and operations of their government.",
+      "inThisCase": "The Supreme Court rejected the executive's claim of state privilege over the police security rules, directing their disclosure in election proceedings."
+    },
+    {
+      "name": "Separation of Powers and Inadmissibility of Legislative Decrees",
+      "meaning": "The constituent or legislative body cannot usurp judicial power to declare a specific court judgment void or validate an individual dispute without legal norms.",
+      "inThisCase": "The bench ruled that Parliament could not sit as a judicial tribunal to declare an election valid while simultaneously abolishing the applicable law."
+    }
+  ],
+  "takeaways": [
+    "The basic structure doctrine applies to all constitutional amendments, ensuring that core values like judicial review and democracy remain inviolable.",
+    "Executive secrecy under the guise of state privilege cannot be used to suppress relevant documents necessary for fair adjudication in courts.",
+    "No public officeholder, regardless of executive preeminence, is exempt from appearing before courts of law or adhering to statutory election rules.",
+    "Retrospective amendments to ordinary statutory election laws are permissible provided they apply generally and do not usurp judicial adjudication."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 123",
+        "title": "Evidence as to affairs of State",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 129",
+        "title": "Evidence as to affairs of State",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 129 governing unpublished state records."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 162",
+        "title": "Production of documents",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 165",
+        "title": "Production of documents",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 165 confirming judicial inspection powers over documents."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 19(1)(a)",
+        "title": "Protection of certain rights regarding freedom of speech, etc.",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "The election petition and appeals were adjudicated under the Representation of the People Act, 1951, the Indian Evidence Act, 1872, and the Constitution of India. Today, the constitutional principles of basic structure and the right to information remain foundational, while the modern evidentiary provisions under the Bharatiya Sakshya Adhiniyam, 2023, took effect on 1 July 2024.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1975",
+      "url": "https://indiankanoon.org/doc/936707/"
+    },
+    {
+      "label": "Constitution of India (Official Government Text)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
