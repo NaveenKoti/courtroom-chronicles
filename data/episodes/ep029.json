@@ -1,0 +1,141 @@
+{
+  "id": "ep029",
+  "title": "The Cancer Molecule and the Statutory Gatekeeper of Efficacy",
+  "hook": "When a global pharmaceutical giant seeks a product patent for a leukemia drug's crystalline form, the Supreme Court defines therapeutic efficacy against evergreening.",
+  "topics": [
+    "Commercial law",
+    "Constitutional law",
+    "Fundamental rights"
+  ],
+  "laws": [
+    "Commercial law",
+    "Constitutional law"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Year",
+      "value": "2013"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether improved physical properties and a 30% increase in bioavailability satisfy the requirement of enhanced therapeutic efficacy under Section 3(d)"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Prior art disclosure in earlier patent specifications demonstrating that the active substance was already known"
+    }
+  ],
+  "summary": [
+    "In 1998, a Swiss pharmaceutical multinational filed a patent application in India claiming the beta-crystalline form of a methanesulfonic acid addition salt for an anti-leukemia medicine. The applicant asserted that this crystalline polymorph exhibited improved thermodynamic stability, lower hygroscopicity, and superior processing qualities compared to earlier forms. The application lay dormant in a transitional mailbox until 2005, when national patent legislation was comprehensively overhauled to permit pharmaceutical product patents while introducing strict safeguards against evergreening.",
+    "Following the introduction of statutory amendments, five pre-grant oppositions were lodged by domestic generic manufacturers and cancer patient aid associations, challenging the claim under Section 3(d) of the Patents Act. The patent controller and the appellate tribunal rejected the application, finding that the active free base and its salt were already fully disclosed in the applicant's 1993 patent and published in scientific literature. The applicant appealed directly to the Supreme Court of India, challenging the interpretation of therapeutic efficacy.",
+    "Before the apex court, the corporation argued that the beta crystalline salt was two inventive steps removed from the basic compound and offered thirty percent higher bioavailability, thereby demonstrating enhanced efficacy. The Supreme Court rejected this construction, delivering a foundational interpretation of Section 3(d) as a deliberate statutory gatekeeper designed to prevent repetitive patent extensions on known chemical substances. The bench ruled that in pharmaceutical inventions, efficacy under Section 3(d) strictly means therapeutic efficacy, namely the demonstrated capacity to cure or heal disease in the human body.",
+    "The court held that purely pharmacokinetic attributes like increased bioavailability, heat stability, and ease of storage do not constitute enhanced therapeutic efficacy unless supported by clinical proof of superior healing effect. The judgment emphasized that India's patent regime carefully harmonizes international treaty commitments under TRIPS with constitutional duties under Article 21 to safeguard affordable healthcare. By denying a monopoly extension on minor chemical variations, the ruling preserved the supply of low-cost generic oncology medicines globally."
+  ],
+  "timeline": [
+    {
+      "date": "1993-04-02",
+      "title": "Original Prior Art Patent",
+      "text": "The basic compound and its acid addition salts are disclosed in international patent filings.",
+      "key": false
+    },
+    {
+      "date": "1998-07-17",
+      "title": "Indian Mailbox Application",
+      "text": "The pharmaceutical multinational files an Indian patent application for the beta-crystalline salt form.",
+      "key": true
+    },
+    {
+      "date": "2005-04-05",
+      "title": "Enactment of Section 3(d)",
+      "text": "Parliament amends the patent statute to include an explicit anti-evergreening gatekeeper requiring enhanced efficacy.",
+      "key": true
+    },
+    {
+      "date": "2006-01-25",
+      "title": "Patent Office Rejection",
+      "text": "The Assistant Controller of Patents rejects the application across five pre-grant oppositions under Section 3(d).",
+      "key": false
+    },
+    {
+      "date": "2009-06-26",
+      "title": "Appellate Tribunal Order",
+      "text": "The Intellectual Property Appellate Board affirms the rejection of the product patent under Section 3(d).",
+      "key": false
+    },
+    {
+      "date": "2013-04-01",
+      "title": "Supreme Court Landmark Ruling",
+      "text": "The Supreme Court dismisses the appeal, holding that enhanced efficacy requires proven therapeutic superiority.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India dismissed the appeals filed by the multinational patent applicant with costs, upholding the orders of the patent controller and appellate tribunal denying a product patent for the crystalline form.",
+    "points": [
+      "Section 3(d) of the Patents Act acts as an independent statutory gatekeeper setting a strict second tier of patentability standards for chemical and pharmaceutical derivatives.",
+      "In the case of medicines, the term 'efficacy' in Section 3(d) strictly means 'therapeutic efficacy'—the capacity of a drug to produce a desired curative effect on the human body.",
+      "Advantageous physical attributes such as better thermodynamic stability, lower hygroscopicity, and higher bioavailability are pharmacokinetic and do not establish enhanced therapeutic efficacy.",
+      "Patent claims cannot artificially create a vast gap between broad monopoly coverage asserted in prior art and narrow disclosure claimed in subsequent applications.",
+      "Section 3(d) does not bar genuine incremental pharmaceutical inventions that demonstrate significantly superior therapeutic healing power."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Strict Doctrinal Meaning of Therapeutic Efficacy",
+      "meaning": "In pharmaceutical patent law, efficacy under Section 3(d) requires empirical proof of enhanced curative capability in the human body, not mere physical or storage advantages.",
+      "inThisCase": "The court ruled that a 30% increase in bioavailability and superior crystalline flow properties did not satisfy Section 3(d) without clinical proof of better therapeutic outcomes."
+    },
+    {
+      "name": "Anti-Evergreening Statutory Gatekeeper",
+      "meaning": "Patent systems may erect explicit legal barriers to prevent pharmaceutical companies from artificially extending monopolies through minor chemical derivatives.",
+      "inThisCase": "The Supreme Court held that the explanation to Section 3(d) treats salts and polymorphs as the same known substance unless they differ significantly in therapeutic efficacy."
+    },
+    {
+      "name": "Equivalence of Patent Coverage and Disclosure",
+      "meaning": "A patentee cannot assert broad monopoly coverage against competitors while simultaneously contending that the same patent failed to disclose the underlying substance as prior art.",
+      "inThisCase": "The applicant had asserted broad coverage over the salt under its earlier patent in overseas litigation, precluding it from claiming the salt was a newly invented product."
+    }
+  ],
+  "takeaways": [
+    "Section 3(d) of the Indian Patents Act serves as a vital shield against evergreening, ensuring that patents reward only genuine medical breakthroughs.",
+    "Demonstrating higher bioavailability or improved chemical shelf-life does not automatically satisfy the legal threshold of enhanced therapeutic efficacy.",
+    "Artful patent drafting designed to prolong commercial monopolies over life-saving medicines is decisively rejected by Indian courts.",
+    "Balancing intellectual property rights with public health access aligns with international TRIPS flexibilities and constitutional protections."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 136",
+        "title": "Special leave to appeal by the Supreme Court",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "The dispute was adjudicated under the Patents Act, 1970, as amended by the Patents (Amendment) Act, 2005, and the Constitution of India. The statutory interpretation of Section 3(d) established in this ruling remains the governing legal standard in Indian intellectual property jurisprudence.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2013",
+      "url": "https://indiankanoon.org/doc/165776436/"
+    },
+    {
+      "label": "Constitution of India (Official Government Text)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
