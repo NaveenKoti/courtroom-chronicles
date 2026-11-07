@@ -1,0 +1,189 @@
+{
+  "id": "ep032",
+  "title": "The Station Needle and the Curative Rule on Tainted Evidence",
+  "hook": "When a young nobleman is murdered via a plague-infected needle on a railway platform, the High Court invokes Section 167 of the Evidence Act to sustain conspiracy convictions.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Forensic science",
+    "Sentencing"
+  ],
+  "laws": [
+    "IPC → BNS",
+    "Evidence Act → BSA"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "High Court of Judicature at Fort William in Bengal"
+    },
+    {
+      "label": "Year",
+      "value": "1936"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether trial judge misdirections and improper admission of hearsay require retrial when remaining evidence proves conspiracy under Section 167 Evidence Act"
+    },
+    {
+      "label": "Key Forensic Evidence",
+      "value": "Microbiological blood culture isolation of virulent bubonic plague bacilli confirmed by laboratory animal inoculation"
+    }
+  ],
+  "summary": [
+    "In November 1933, a twenty-year-old co-heir to a prominent landed estate was jostled by an unidentified stranger wearing khaddar on a crowded metropolitan railway terminal platform. The young nobleman immediately felt a sharp puncture in his right upper arm and noticed a mark resembling a hypodermic needle injection, but his accompanying elder stepbrother dismissed the alarm as a trivial pinprick. Within seventy-two hours, the victim developed high fever, severe glandular swellings, and cardiovascular collapse, succumbing to septicemia five days later.",
+    "Forensic bacteriologists and pathologists conducted microscopic examinations and animal inoculation tests on the deceased's blood, confirming the presence of live virulent bubonic plague bacilli. Epidemiological records proved that not a single case of naturally occurring plague had been reported in the entire metropolis for the preceding three years, establishing that the fatal infection had been deliberately introduced. A police investigation traced telegrams and interstate hotel logs revealing that the elder stepbrother and a medical associate had procured live plague cultures from an infectious diseases hospital laboratory in a distant commercial port.",
+    "A special jury at the sessions court convicted both conspirators of conspiracy to murder, and the trial judge sentenced them to death. On appeal before the High Court, the defense argued that the trial judge had committed grave legal errors by admitting anonymous letters and inadmissible hearsay, while commenting prejudicially on the failure of the accused to offer an explanation during examination. The appellate division bench agreed that the trial record contained significant procedural and evidentiary blemishes.",
+    "However, instead of ordering a retrial, the High Court invoked Section 167 of the Indian Evidence Act, ruling that improper admission of evidence does not warrant setting aside a conviction if the untainted evidence independently establishes guilt beyond reasonable doubt. Discarding all hearsay, the court found that the unbroken circumstantial chain of clandestine telegrams, laboratory visits, and financial motives pointed solely to the guilt of both conspirators. In view of prolonged appellate delays, the bench commuted their death sentences to transportation for life."
+  ],
+  "timeline": [
+    {
+      "date": "1933-11-26",
+      "title": "The Needle Prick at the Terminal",
+      "text": "A young estate heir is jostled and pricked with a hypodermic syringe on a busy railway platform.",
+      "key": true
+    },
+    {
+      "date": "1933-12-04",
+      "title": "Death by Bubonic Plague",
+      "text": "The victim dies of acute bacteriological plague confirmed by laboratory blood culture and animal tests.",
+      "key": true
+    },
+    {
+      "date": "1934-02-16",
+      "title": "Apprehension on Inter-State Train",
+      "text": "Police arrest the elder stepbrother aboard an express train and apprehend his medical co-conspirator.",
+      "key": false
+    },
+    {
+      "date": "1935-02-16",
+      "title": "Sessions Court Capital Sentence",
+      "text": "The sessions court, acting upon a unanimous jury verdict, convicts both accused and sentences them to death.",
+      "key": false
+    },
+    {
+      "date": "1936-01-10",
+      "title": "High Court Appellate Commutation",
+      "text": "The High Court applies Section 167 Evidence Act, upholding the conspiracy conviction while commuting death sentences.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The High Court dismissed the appeals against conviction, confirmed the finding of criminal conspiracy to murder, and commuted the capital sentences of both convicts to transportation for life.",
+    "points": [
+      "Under Section 167 of the Evidence Act, the improper admission of evidence or procedural errors in charging a jury shall not be ground of itself for a new trial if independent untainted evidence supports the verdict.",
+      "Under Section 10 of the Evidence Act, acts and communications of co-conspirators in reference to the common design are admissible against each other once reasonable grounds exist to believe in the conspiracy.",
+      "Scientific bacteriological evidence demonstrating the introduction of an exotic pathogen absent from natural circulation constitutes conclusive proof of corpus delicti in homicidal poisoning.",
+      "The prosecution bears the unshifting burden of establishing guilt beyond reasonable doubt, and trial judges must not misdirect juries by treating the silence of an accused as an admission of guilt."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Curative Evidentiary Principle Against Retrial",
+      "meaning": "The wrongful admission of evidence does not vitiate a conviction if the remaining admissible evidence independently proves the guilt of the accused beyond reasonable doubt.",
+      "inThisCase": "The High Court discarded multiple hearsay documents wrongly admitted at trial, but affirmed the conviction because independent records of laboratory plague procurement established conspiracy."
+    },
+    {
+      "name": "Admissibility of Acts of Co-Conspirators",
+      "meaning": "Anything said, done, or written by one conspirator in reference to their common intention is admissible against all participants in the conspiracy.",
+      "inThisCase": "Telegrams and laboratory access slips executed by the medical practitioner to secure plague bacilli were admissible as substantive evidence against the co-accused brother."
+    },
+    {
+      "name": "Circumstantial Exclusivity in Biological Homicide",
+      "meaning": "In complex circumstantial cases, proven facts must be incapable of explanation upon any other reasonable hypothesis than that of the guilt of the accused.",
+      "inThisCase": "The court held that access to plague cultures combined with an overwhelming financial motive to prevent estate partition excluded every hypothesis of innocence."
+    }
+  ],
+  "takeaways": [
+    "Appellate courts will not overturn convictions on technical evidentiary defects if the remaining untainted evidence establishes guilt beyond reasonable doubt.",
+    "Forensic microbiology and epidemiological tracking can establish biological assassination even where the murder weapon is never recovered.",
+    "Acts and writings of co-conspirators in procuring lethal agents are admissible against all joint perpetrators under conspiracy law.",
+    "Trial courts must rigorously respect the fundamental rule that the burden of proof never shifts to the accused in criminal trials."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61",
+        "title": "Criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated provisions governing criminal conspiracy into Section 61."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103(1)",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Preserved definition and punishment structure for murder under Chapter VI."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 10",
+        "title": "Things said or done by conspirator in reference to common design",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 8",
+        "title": "Things said or done by conspirator in reference to common design",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted under Section 8 governing common conspiratorial acts and statements."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 167",
+        "title": "No new trial for improper admission or rejection of evidence",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 166",
+        "title": "No new trial for improper admission or rejection of evidence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Preserved under Section 166 barring new trials where independent evidence justifies the decision."
+    }
+  ],
+  "lawNote": "The trial and appeals were conducted under the Indian Penal Code, 1860, the Code of Criminal Procedure, 1898, and the Indian Evidence Act, 1872. The new penal statutes (Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam) took effect on 1 July 2024 and apply prospectively.",
+  "sources": [
+    {
+      "label": "Judgment of the High Court of Judicature at Fort William in Bengal, 1936",
+      "url": "https://indiankanoon.org/doc/1586771/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and IPC Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (High Court of Tripura Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam and Evidence Act Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
