@@ -1,0 +1,52 @@
+{
+  "id": "ep034",
+  "title": "The Secular Guarantee of Maintenance Against Destitution",
+  "hook": "A landmark constitutional ruling established that statutory maintenance protections against vagrancy apply universally across personal laws.",
+  "summary": "When an elderly woman was divorced by irrevocable pronouncement after more than four decades of marriage, she sought a monthly maintenance allowance to prevent complete destitution. The former spouse resisted the claim, arguing that his obligations under personal law terminated upon the expiration of the customary post-divorce waiting period and the return of the agreed marriage settlement.\n\nThe Supreme Court affirmed that the statutory maintenance regime under criminal procedure operates as a secular, public measure designed to eradicate vagrancy and economic abandonment. The bench ruled that statutory definitions extending protection to divorced women who remain unmarried supersede any conflicting obligations under personal religious codes.\n\nAddressing the interaction between statutory maintenance and customary marital payments, the court determined that marriage consideration paid at the time of marriage does not constitute an amount payable on divorce under statutory exemptions. Consequently, the former husband remained under an enforceable obligation to provide maintenance so long as the divorced spouse lacked the independent means to maintain herself.",
+  "topics": [
+    "Criminal procedure",
+    "Constitutional law",
+    "Family law",
+    "Fundamental rights"
+  ],
+  "statutes": [
+    {
+      "name": "Code of Criminal Procedure, 1973 (Section 125)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf",
+      "notes": "Secular statutory maintenance provision for wives, children, and parents to prevent vagrancy, now corresponding to Section 144 of the Bharatiya Nagarik Suraksha Sanhita, 2023."
+    },
+    {
+      "name": "Code of Criminal Procedure, 1973 (Section 127(3)(b))",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf",
+      "notes": "Cancellation or alteration of maintenance upon payment of customary dues on divorce, now corresponding to Section 146(3)(b) of the Bharatiya Nagarik Suraksha Sanhita, 2023."
+    },
+    {
+      "name": "Bharatiya Nagarik Suraksha Sanhita, 2023 (Section 144)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf",
+      "notes": "Modern successor provision governing orders for maintenance of wives, children, and parents."
+    },
+    {
+      "name": "Bharatiya Nagarik Suraksha Sanhita, 2023 (Section 146(3)(b))",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf",
+      "notes": "Modern successor provision governing alteration of maintenance allowance following customary payments."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Supreme Court of India Judgment (April 23, 1985)",
+      "url": "https://indiankanoon.org/doc/823221/",
+      "date": "1985-04-23"
+    },
+    {
+      "title": "Code of Criminal Procedure, 1973 (Act No. 2 of 1974)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf",
+      "date": "1974-01-25"
+    },
+    {
+      "title": "Bharatiya Nagarik Suraksha Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf",
+      "date": "2023-12-25"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
