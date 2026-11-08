@@ -1,0 +1,52 @@
+{
+  "id": "ep036",
+  "title": "Personal Liberty, Natural Justice, and the Expanding Reach of Due Process",
+  "hook": "A landmark constitutional ruling established that statutory procedures restricting personal liberty must be just, fair, and reasonable rather than arbitrary.",
+  "summary": "When administrative authorities impounded the passport of a journalist citing broad public interest grounds and declined to furnish the specific reasons, the action was challenged as an unconstitutional curtailment of fundamental rights. The petitioner contended that the right to travel abroad constitutes an essential facet of personal liberty protected against arbitrary administrative action.\n\nThe Supreme Court fundamentally transformed constitutional jurisprudence by rejecting the doctrine of mutually exclusive fundamental rights. The bench ruled that fundamental rights form an integrated scheme, meaning that any procedure depriving an individual of personal liberty must simultaneously satisfy the guarantees of equality and fundamental freedoms.\n\nThe court determined that statutory procedures cannot remain purely formal or arbitrary, establishing that statutory actions must conform to the principles of natural justice. In emergent administrative actions where prior notice is impractical, the court held that a post-decisional hearing must be afforded to ensure procedural fairness and constitutional validity.",
+  "topics": [
+    "Constitutional law",
+    "Fundamental rights",
+    "Natural justice",
+    "Administrative law"
+  ],
+  "statutes": [
+    {
+      "name": "Constitution of India (Article 21)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "notes": "Protection of life and personal liberty, requiring procedure established by law to be just, fair, and reasonable."
+    },
+    {
+      "name": "Constitution of India (Article 14)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "notes": "Equality before the law and protection against arbitrary state action."
+    },
+    {
+      "name": "Constitution of India (Article 19(1)(a))",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "notes": "Protection of the freedom of speech and expression."
+    },
+    {
+      "name": "Passports Act, 1967 (Section 10(3)(c))",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Passports%20Act,%201967.pdf",
+      "notes": "Empowers passport authorities to impound or revoke a passport in the interests of general public order or security."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Supreme Court of India Judgment (January 25, 1978)",
+      "url": "https://indiankanoon.org/doc/1766147/",
+      "date": "1978-01-25"
+    },
+    {
+      "title": "Constitution of India (As Amended)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "date": "1950-01-26"
+    },
+    {
+      "title": "Passports Act, 1967 (Act No. 15 of 1967)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Passports%20Act,%201967.pdf",
+      "date": "1967-06-24"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
