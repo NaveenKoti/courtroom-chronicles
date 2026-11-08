@@ -1,0 +1,66 @@
+{
+  "id": "ep035",
+  "title": "Custodial Disclosures and the Constitutional Bounds of Evidence",
+  "hook": "A landmark constitutional ruling established that statutory rules admitting facts discovered from custodial disclosures do not violate the right to equality.",
+  "summary": "Following a fatal assault in an agricultural village, an accused individual surrendered before local authorities and voluntarily led investigators to a rural water tank, where a submerged weapon was retrieved. At trial, the prosecution relied on the disclosure statement and physical recovery to establish guilt for murder under the penal code.\n\nThe constitutional dispute centered on whether evidentiary provisions permitting statements made exclusively by persons in police custody created an irrational discrimination against persons not in custody. The High Court had struck down the discovery rule as an unconstitutional classification violating the guarantee of equality before the law.\n\nThe Supreme Court reversed the invalidation and upheld the statutory discovery rule, holding that persons in police custody constitute a distinct and intelligible class. The court held that the independent corroboration provided by the actual discovery of a physical object guarantees the trustworthiness of the custodial disclosure, ensuring constitutional validity under fundamental rights.",
+  "topics": [
+    "Evidence",
+    "Criminal procedure",
+    "Constitutional law"
+  ],
+  "statutes": [
+    {
+      "name": "Indian Evidence Act, 1872 (Section 27)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf",
+      "notes": "Admissibility of information received from an accused in police custody leading to discovery of a distinct fact, now corresponding to Section 23 Proviso of the Bharatiya Sakshya Adhiniyam, 2023."
+    },
+    {
+      "name": "Indian Evidence Act, 1872 (Section 25)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf",
+      "notes": "Inadmissibility of confessions made to police officers, now corresponding to Section 23(1) of the Bharatiya Sakshya Adhiniyam, 2023."
+    },
+    {
+      "name": "Constitution of India (Article 14)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "notes": "Guarantee of equality before the law and equal protection of the laws across the territory of India."
+    },
+    {
+      "name": "Indian Penal Code, 1860 (Section 302)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf",
+      "notes": "Punishment for murder, now corresponding to Section 103(1) of the Bharatiya Nyaya Sanhita, 2023."
+    },
+    {
+      "name": "Bharatiya Sakshya Adhiniyam, 2023 (Section 23 Proviso)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf",
+      "notes": "Modern statutory successor governing the discovery of facts based on information received from an accused person."
+    },
+    {
+      "name": "Bharatiya Nyaya Sanhita, 2023 (Section 103(1))",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf",
+      "notes": "Modern successor provision establishing the punishment for murder."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Supreme Court of India Judgment (May 6, 1960)",
+      "url": "https://indiankanoon.org/doc/481284/",
+      "date": "1960-05-06"
+    },
+    {
+      "title": "Constitution of India (As Amended)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "date": "1950-01-26"
+    },
+    {
+      "title": "Bharatiya Sakshya Adhiniyam, 2023 (Act No. 47 of 2023)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf",
+      "date": "2023-12-25"
+    },
+    {
+      "title": "Indian Penal Code, 1860 (Act No. 45 of 1860)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf",
+      "date": "1860-10-06"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
