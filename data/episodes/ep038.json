@@ -1,0 +1,165 @@
+{
+  "id": "ep038",
+  "title": "The Toxic Cloud, Corporate Liability, and the Reinstatement of Prosecution",
+  "hook": "A landmark constitutional ruling established that court-assisted mass disaster settlements cannot extinguish criminal liability for corporate homicide.",
+  "topics": [
+    "Environmental law",
+    "Criminal law",
+    "Constitutional law",
+    "Natural justice"
+  ],
+  "laws": [
+    "Bhopal Gas Leak Disaster (Processing of Claims) Act, 1985",
+    "Indian Penal Code, 1860 (Section 304 Part II)",
+    "Indian Penal Code, 1860 (Section 304A)",
+    "Constitution of India (Article 142)",
+    "Constitution of India (Article 136)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (5-Judge Constitution Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "October 3, 1991"
+    },
+    {
+      "label": "Nature of Disaster",
+      "value": "Catastrophic toxic chemical vapor leak from an industrial pesticide manufacturing plant"
+    },
+    {
+      "label": "Human Toll",
+      "value": "Thousands killed immediately and hundreds of thousands suffering long-term multi-system morbidity"
+    },
+    {
+      "label": "Settlement Amount",
+      "value": "470 million United States dollars recorded by court order in February 1989"
+    }
+  ],
+  "summary": [
+    "When a catastrophic release of lethal chemical vapor from an industrial storage facility devastated an entire city, claiming thousands of lives, the national government assumed exclusive statutory representation of the victims under the doctrine of parens patriae. Following extensive transnational jurisdictional disputes in foreign courts, litigation for damages commenced before domestic tribunals.",
+    "In early 1989, while hearing interlocutory appeals concerning interim compensation, the Supreme Court recorded a comprehensive court-assisted financial settlement of four hundred and seventy million dollars that simultaneously quashed all pending and future criminal proceedings. Victim organizations and legal activists challenged the settlement on review, contending that extinguishment of criminal prosecutions without hearing the victims violated natural justice and was contrary to public policy.",
+    "The Constitution Bench upheld the civil compensation fund, determining that protracted litigation across decades would deprive impoverished survivors of essential survival relief, with the welfare state remaining obligated to cover any financial shortfall. However, the court decisively set aside the termination of criminal cases, ruling that judicial settlement of civil claims cannot confer criminal immunity or stifle the prosecution of serious non-compoundable corporate offenses."
+  ],
+  "timeline": [
+    {
+      "date": "1984-12-03",
+      "title": "The Chemical Catastrophe",
+      "text": "Lethal chemical vapor escapes from an underground industrial storage tank, engulfing residential communities.",
+      "key": true
+    },
+    {
+      "date": "1985-03-29",
+      "title": "Enactment of Claims Act",
+      "text": "Parliament passes legislation conferring sovereign authority on the government to represent all victims.",
+      "key": false
+    },
+    {
+      "date": "1989-02-14",
+      "title": "The Initial Settlement",
+      "text": "The Supreme Court records a comprehensive financial settlement terminating all civil and criminal proceedings.",
+      "key": false
+    },
+    {
+      "date": "1991-10-03",
+      "title": "The Review Judgment",
+      "text": "The Constitution Bench upholds the compensation package but strikes down criminal immunity and revives prosecution.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Civil compensation settlement upheld with state shortfall guarantee; quashing of criminal prosecutions set aside and criminal proceedings revived.",
+    "points": [
+      "Plenary constitutional powers under Article 142 allow the apex court to withdraw and dispose of connected suits to do complete justice.",
+      "Granting blanket immunity from criminal prosecution is an impermissible judicial act that usurps legislative authority.",
+      "The settlement of pre-existing civil tort liabilities does not constitute unlawful stifling of prosecution when entered into by the sovereign representing victims.",
+      "The state, as a constitutional welfare entity, remains under an enforceable duty to satisfy any deficiency if the settlement fund proves insufficient."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Parens Patriae Doctrine in Mass Disasters",
+      "meaning": "The sovereign state is empowered to represent and protect the rights of vulnerable citizens who are incapacitated from pursuing complex litigation individually.",
+      "inThisCase": "The central government was held competent to exclusively represent hundreds of thousands of toxic gas victims in domestic and transnational courts."
+    },
+    {
+      "name": "Inadmissibility of Judicial Criminal Immunity",
+      "meaning": "Courts cannot grant blanket immunity against criminal prosecution for serious non-compoundable offenses as a term of civil settlement.",
+      "inThisCase": "The Supreme Court revoked its earlier termination of criminal charges against corporate directors and managers, affirming that criminal law must take its course."
+    },
+    {
+      "name": "Welfare State Guarantee of Compensation",
+      "meaning": "When the state assumes exclusive control of citizens' tort claims, it must indemnify the victims if the recovered compensation pool falls short.",
+      "inThisCase": "The court held that the Union of India was obligated to make good any deficiency should the monetary fund prove inadequate for all valid medical claims."
+    }
+  ],
+  "takeaways": [
+    "Civil compromise agreements cannot buy immunity from criminal prosecution for fatal industrial negligence.",
+    "Mass disaster victims are entitled to lifelong medical surveillance and specialized treatment facilities funded by enterprise liability.",
+    "Sovereign litigation on behalf of citizens imposes a fiduciary duty on the state to guarantee adequate redress."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 304 Part II",
+        "title": "Punishment for culpable homicide not amounting to murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 105",
+        "title": "Punishment for culpable homicide not amounting to murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted with corresponding punishment provisions."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 304A",
+        "title": "Causing death by negligence",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 106(1)",
+        "title": "Causing death by negligence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted under Section 106(1) of the BNS."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 142",
+        "title": "Enforcement of decrees and orders of Supreme Court and orders as to discovery, etc.",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "new": {
+        "act": "Constitution of India",
+        "section": "Article 142",
+        "title": "Enforcement of decrees and orders of Supreme Court and orders as to discovery, etc.",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the disaster occurred in December 1984, the substantive criminal and civil issues were governed by the Indian Penal Code, 1860, and special statutes in force prior to the enactment of the new criminal codes on July 1, 2024.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1991",
+      "url": "https://indiankanoon.org/doc/972313/"
+    },
+    {
+      "label": "Constitution of India (Official Gazette)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
