@@ -1,0 +1,186 @@
+{
+  "id": "ep037",
+  "title": "Thirty-Three Bullets and the Circumstantial Proof of Conspiracy",
+  "hook": "A landmark constitutional ruling established that capital conspiracy cannot rest on suspicion or innocent association without proof of an agreement.",
+  "topics": [
+    "Criminal law",
+    "Criminal procedure",
+    "Evidence",
+    "Constitutional law",
+    "Sentencing"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 (Section 302)",
+    "Indian Penal Code, 1860 (Section 120-B)",
+    "Indian Penal Code, 1860 (Section 34)",
+    "Indian Evidence Act, 1872 (Section 10)",
+    "Code of Criminal Procedure, 1973 (Section 327)",
+    "Constitution of India (Article 21)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (3-Judge Criminal Appellate Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "August 3, 1988"
+    },
+    {
+      "label": "Place of Incident",
+      "value": "Official garden pathway between residence and office in New Delhi"
+    },
+    {
+      "label": "Weaponry",
+      "value": "Service revolver and 9mm carbine"
+    },
+    {
+      "label": "Casualties",
+      "value": "Elected head of government assassinated by security detail; one guard killed and another injured in subsequent scuffle"
+    }
+  ],
+  "summary": [
+    "When the elected head of government was assassinated on the garden pathway of her official residence by two members of her personal security detail, investigators sought to prove that the attack was part of an extensive criminal conspiracy. The prosecution charged an injured surviving guard, a subordinate police officer who had allegedly displayed resentment, and an administrative government clerk related by marriage to one of the deceased assailants.",
+    "In a special trial conducted within the confines of a central prison complex, all three accused were convicted of murder and criminal conspiracy and sentenced to capital punishment. On final appeal, the Supreme Court rigorously scrutinized the circumstantial evidence, examining whether the venue of trial infringed the requirement of an open and public trial, and whether isolated acts of religious devotion or private meetings satisfied the statutory threshold for conspiracy under evidentiary rules.",
+    "The Supreme Court rendered a divided outcome, unanimously acquitting the subordinate police officer after finding the alleged seizure of an incriminating memorandum fabricated and destitute of independent corroboration. However, the court confirmed the convictions and death penalties of the surviving guard and the administrative clerk, ruling that the direct ballistic testimony and the clerk's continuous clandestine conduct with the principal assailant established guilt beyond reasonable doubt."
+  ],
+  "timeline": [
+    {
+      "date": "1984-10-31",
+      "title": "The Assassination",
+      "text": "The head of government is fatally gunned down on her official garden pathway by security guards firing thirty-three bullets.",
+      "key": true
+    },
+    {
+      "date": "1984-12-03",
+      "title": "Arrest of Accused",
+      "text": "Investigators claim the arrest of a suspect police officer at an inter-state bus terminal and seize alleged notes.",
+      "key": false
+    },
+    {
+      "date": "1986-01-22",
+      "title": "Trial Court Conviction",
+      "text": "The Sessions Court sitting inside a central prison convicts three accused of murder and criminal conspiracy, imposing death sentences.",
+      "key": false
+    },
+    {
+      "date": "1988-08-03",
+      "title": "Supreme Court Judgment",
+      "text": "The Supreme Court acquits one police officer of all charges while confirming capital sentences for the surviving guard and the clerk.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Appeals of the surviving guard and the clerk dismissed with death sentences confirmed; appeal of the accused police officer allowed with complete acquittal.",
+    "points": [
+      "Holding a criminal trial in an office block of a prison does not violate the open court requirement if public and press access is permitted subject to reasonable security regulation.",
+      "Section 10 of the Evidence Act requires prima facie proof of a shared unlawful agreement before acts or statements of one person can be used against another.",
+      "Expressions of political or religious grief and innocuous associations cannot substitute for concrete proof of an agreement to commit murder.",
+      "The assassination of an elected national leader by duty-bound security personnel constitutes an exceptional category warranting capital punishment."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Requirement of Prima Facie Agreement in Conspiracy",
+      "meaning": "Acts or statements of a co-conspirator become admissible against another only after reasonable grounds independently establish that they conspired together.",
+      "inThisCase": "The court held that evidentiary provisions could not be invoked against the acquitted police officer because the prosecution failed to prove an initial agreement to commit assassination."
+    },
+    {
+      "name": "Open Court Principle in Exceptional Venues",
+      "meaning": "Any venue where a criminal court sits is deemed an open court by law, provided the public and press are afforded reasonable access within capacity limits.",
+      "inThisCase": "Holding the proceedings in a prison administration block was upheld as a valid public trial because accredited journalists and visitors attended subject to security protocols."
+    },
+    {
+      "name": "Rarest of Rare Doctrine in Duty Betrayal",
+      "meaning": "Extreme statutory penalties are reserved for egregious offenses where duty-bound protectors murder the protected person without mitigating factors.",
+      "inThisCase": "The capital sentence was confirmed because armed security guards deliberately turned their service weapons against the unarmed official they were sworn to protect."
+    }
+  ],
+  "takeaways": [
+    "Circumstantial evidence in conspiracy cases must unerringly point to an agreement and exclude every hypothesis of innocence.",
+    "Police custody must be strictly accounted for, and uncorroborated arrests with convenient recoveries will be rejected by appellate courts.",
+    "Security constraints may dictate the physical venue of a trial without depriving the proceeding of its public and open character."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103(1)",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted with corresponding punishment provisions."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120-B",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61(2)",
+        "title": "Punishment of criminal conspiracy",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted under conspiracy provisions."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 10",
+        "title": "Things said or done by conspirator in reference to common design",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 8",
+        "title": "Things said or done by conspirator in reference to common design",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+      },
+      "change": "Re-enacted as Section 8 of the BSA."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 327",
+        "title": "Court to be open",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 366",
+        "title": "Court to be open",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+      },
+      "change": "Re-enacted with open court protections preserved."
+    }
+  ],
+  "lawNote": "Because the incident occurred in October 1984, the trial and convictions were governed by the Indian Penal Code, 1860, the Indian Evidence Act, 1872, and the Code of Criminal Procedure, 1973, prior to the enactment of the new criminal codes on July 1, 2024.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1988",
+      "url": "https://indiankanoon.org/doc/667073/"
+    },
+    {
+      "label": "Code of Criminal Procedure, 1973 (Official Gazette)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 (Official Text)",
+      "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
