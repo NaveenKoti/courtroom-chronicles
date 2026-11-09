@@ -1,0 +1,159 @@
+{
+  "id": "ep039",
+  "title": "The Basic Structure of the Democratic Republic and the Limits of Amendment",
+  "hook": "A landmark constitutional ruling established that the legislative power to amend the constitution cannot abrogate its foundational framework.",
+  "topics": [
+    "Constitutional law",
+    "Fundamental rights",
+    "Property law"
+  ],
+  "laws": [
+    "Constitution of India (Article 368)",
+    "Constitution of India (Article 13)",
+    "Constitution of India (Article 31C)",
+    "Constitution of India (Article 26)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (13-Judge Constitution Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "April 24, 1973"
+    },
+    {
+      "label": "Originating Dispute",
+      "value": "Challenge to state land reform legislation by the religious head of a monastic institution"
+    },
+    {
+      "label": "Bench Size and Duration",
+      "value": "Thirteen judges hearing arguments across sixty-eight court days"
+    },
+    {
+      "label": "Statutory Subject Matter",
+      "value": "Constitutional validity of the 24th, 25th, and 29th Amendments asserting unfettered amending power"
+    }
+  ],
+  "summary": [
+    "When state agrarian restructuring enactments threatened the ancestral agricultural holdings of a centuries-old monastic institution, its pontiff initiated a constitutional challenge to safeguard the community's fundamental religious and property rights. In response to earlier judicial rulings restricting legislative alterations of fundamental rights, Parliament passed extensive constitutional amendments declaring that its amending authority was plenary and immune from judicial review.",
+    "The constitutional confrontation culminated before the largest bench ever convened in the history of the republic, where counsel debated whether an elected legislative assembly possessed the sovereign prerogative to alter the foundational character of the nation. The State asserted that amending power was absolute and unrestricted, enabling the alteration or abrogation of any constitutional guarantee, while the petitioner contended that the constitutional structure retained inherent implied limitations.",
+    "In an epochal decision decided by a narrow majority, the Supreme Court established the basic structure doctrine, holding that while Parliament enjoys broad power to amend every provision of the constitution, it cannot alter, damage, or destroy its essential foundation. The court upheld the constituent amending power while striking down statutory clauses that excluded judicial scrutiny, ensuring that democracy, secularism, the rule of law, and the separation of powers remain permanently inviolable."
+  ],
+  "timeline": [
+    {
+      "date": "1970-03-21",
+      "title": "Writ Petition Filed",
+      "text": "A religious pontiff files a constitutional petition challenging agrarian reform laws affecting monastic estates.",
+      "key": true
+    },
+    {
+      "date": "1971-11-05",
+      "title": "Parliamentary Amendments",
+      "text": "Parliament enacts constitutional amendments asserting unlimited power to alter fundamental rights.",
+      "key": false
+    },
+    {
+      "date": "1972-10-31",
+      "title": "Hearing Commences",
+      "text": "The thirteen-judge constitutional bench begins sixty-eight days of continuous arguments in New Delhi.",
+      "key": false
+    },
+    {
+      "date": "1973-04-24",
+      "title": "The Historic Verdict",
+      "text": "The Supreme Court delivers its verdict establishing the basic structure doctrine by a seven-to-six majority.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Constitutional amendments upheld in part; statutory clause barring judicial review invalidated; basic structure doctrine established as an implied limitation on amending power.",
+    "points": [
+      "Article 368 confers express constituent power to amend the constitution, but this power does not extend to altering or destroying its basic structure.",
+      "The basic features of the constitution include the supremacy of the constitution, republican and democratic governance, secularism, separation of powers, and federalism.",
+      "Judicial review under Article 32 is an integral part of the basic framework and cannot be ousted by legislative declaration.",
+      "Fundamental rights and directive principles operate in harmony, with neither authorized to destroy the essential values of the other."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Basic Structure Doctrine",
+      "meaning": "The amending power granted to a legislature cannot be used to damage, emasculate, or destroy the core constitutional framework and identity of the republic.",
+      "inThisCase": "The court held that Parliament cannot exercise its amending authority to transform the sovereign democratic republic into a totalitarian regime."
+    },
+    {
+      "name": "Inherent Inviolability of Judicial Review",
+      "meaning": "The authority of constitutional courts to examine legislative acts for compatibility with foundational rights is a non-negotiable feature of constitutional governance.",
+      "inThisCase": "The court struck down the second half of Article 31C which attempted to prevent courts from questioning whether a law gave effect to directive principles."
+    },
+    {
+      "name": "Preamble as Constitutional Key",
+      "meaning": "The preamble is an intrinsic part of the constitution that illuminates the mind of the framers and defines the broad contours of constitutional identity.",
+      "inThisCase": "The bench relied extensively on the solemn declarations in the preamble to identify the permanent structural values of the Indian republic."
+    }
+  ],
+  "takeaways": [
+    "A creature of the constitution can never become greater than the constitution itself.",
+    "Parliamentary majorities are bound by foundational constitutional limits regardless of electoral margins.",
+    "The basic structure doctrine preserves the delicate balance between legislative flexibility and the protection of essential civil liberties."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 368",
+        "title": "Power of Parliament to amend the Constitution and procedure therefor",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "new": {
+        "act": "Constitution of India",
+        "section": "Article 368",
+        "title": "Power of Parliament to amend the Constitution and procedure therefor",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 13",
+        "title": "Laws inconsistent with or in derogation of the fundamental rights",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "new": {
+        "act": "Constitution of India",
+        "section": "Article 13",
+        "title": "Laws inconsistent with or in derogation of the fundamental rights",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 31C",
+        "title": "Saving of laws giving effect to certain directive principles",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "new": {
+        "act": "Constitution of India",
+        "section": "Article 31C",
+        "title": "Saving of laws giving effect to certain directive principles",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "The constitutional litigation in 1973 directly interpreted and defined the scope of constituent amending power under Article 368 and fundamental rights under Part III of the Constitution of India.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1973",
+      "url": "https://indiankanoon.org/doc/257876/"
+    },
+    {
+      "label": "Constitution of India (Official Gazette)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
