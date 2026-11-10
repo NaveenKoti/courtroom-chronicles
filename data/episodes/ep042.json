@@ -1,0 +1,207 @@
+{
+  "id": "ep042",
+  "title": "The Scaffolds of Retribution and the Rarest of Rare Framework",
+  "hook": "A landmark constitutional ruling established that capital punishment is constitutional only when the alternative of life imprisonment is unquestionably foreclosed.",
+  "topics": [
+    "Criminal law",
+    "Criminal procedure",
+    "Sentencing",
+    "Constitutional law",
+    "Fundamental rights"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 (Section 302)",
+    "Code of Criminal Procedure, 1973 (Section 354(3))",
+    "Code of Criminal Procedure, 1973 (Section 235(2))",
+    "Constitution of India (Article 21)",
+    "Constitution of India (Article 14)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (5-Judge Constitution Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "May 9, 1980"
+    },
+    {
+      "label": "Originating Incident",
+      "value": "Brutal triple homicide committed with an axe during midnight in a rural Punjab farming village"
+    },
+    {
+      "label": "Antecedent Conviction",
+      "value": "The accused had previously served a full term of life imprisonment for the murder of his spouse"
+    },
+    {
+      "label": "Statutory Subject Matter",
+      "value": "Constitutional validity of capital punishment for murder and judicial sentencing discretion requiring special reasons"
+    }
+  ],
+  "summary": [
+    "Following the violent killing of three sleeping relatives in a village courtyard, an accused individual who had previously completed a life sentence for wife murder was convicted of capital murder and sentenced to execution. On appeal, differing appellate perspectives on capital punishment prompted a reference to a five-judge Constitution Bench to re-evaluate whether death penalty provisions violated fundamental guarantees of equality, freedom, and life.",
+    "The petitioner contended that capital punishment constitutes an irreversible and degrading deprivation of human dignity lacking empirical proof of deterrence, arguing that statutory requirements to record special reasons conferred arbitrary and untrammeled discretion on sentencing judges. The State countered that personal liberties are conditioned on reasonable penal sanctions, asserting that judicial sentencing discretion guided by statutory policy complies with constitutional due process.",
+    "The Supreme Court affirmed the constitutional validity of capital punishment, ruling that the deprivation of life under a fair, just, and reasonable statutory procedure does not violate fundamental rights. The bench formulated the enduring rarest of rare doctrine, mandating that life imprisonment is the rule and capital execution an exceptional penalty permissible only when aggravating circumstances overwhelmingly surpass mitigating factors and the alternative option is unquestionably foreclosed."
+  ],
+  "timeline": [
+    {
+      "date": "1977-07-04",
+      "title": "The Triple Homicide",
+      "text": "Three sleeping relatives are hacked to death with an axe past midnight in a village courtyard.",
+      "key": true
+    },
+    {
+      "date": "1978-05-15",
+      "title": "Trial Court Sentence",
+      "text": "The Court of Session convicts the repeat offender of murder and awards the sentence of death by hanging.",
+      "key": false
+    },
+    {
+      "date": "1979-05-04",
+      "title": "Appellate Division Reference",
+      "text": "A two-judge bench refers the constitutional validity of capital sentencing discretion to a larger Constitution Bench.",
+      "key": false
+    },
+    {
+      "date": "1980-05-09",
+      "title": "The Landmark Majority Holding",
+      "text": "The Constitution Bench upholds capital punishment while establishing the rarest of rare doctrine.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Constitutional validity of death penalty for murder under Section 302 IPC and sentencing procedure under Section 354(3) CrPC upheld by four-to-one majority; individual appeal remitted for sentence reconsideration.",
+    "points": [
+      "The provision of death penalty as an alternative punishment for murder under Section 302 IPC does not violate Articles 14, 19, or 21 of the Constitution.",
+      "Section 354(3) of the Code of Criminal Procedure establishes life imprisonment as the general rule and capital punishment as an exceptional departure.",
+      "Sentencing judges must evaluate both the nature of the crime and the circumstances of the criminal, balancing aggravating and mitigating factors.",
+      "Capital punishment can be imposed only in the rarest of rare cases where the alternative option of life imprisonment is unquestionably foreclosed."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Rarest of Rare Doctrine",
+      "meaning": "Capital punishment should be inflicted only in exceptional cases of extreme depravity where the criminal demonstrates zero potential for reform and society's conscience demands ultimate retribution.",
+      "inThisCase": "The court held that judges must reserve death sentences for extreme culpability where all alternative avenues of penological rehabilitation are entirely closed."
+    },
+    {
+      "name": "Balance Sheet of Aggravating and Mitigating Factors",
+      "meaning": "Sentencing requires an individualized balancing of circumstances surrounding both the crime and the offender before imposing capital sanctions.",
+      "inThisCase": "The court mandated that judicial discretion must consider mitigating elements relating to the offender, including age, background, and probability of reform, alongside the gravity of the crime."
+    },
+    {
+      "name": "Constitutional Due Process in Sentencing",
+      "meaning": "A statutory procedure depriving an individual of life must be just, fair, and reasonable, incorporating pre-sentence hearings and appellate confirmation safeguards.",
+      "inThisCase": "The mandatory pre-sentence hearing under Section 235(2) and High Court confirmation under Section 366 were held to provide robust protection against arbitrary execution."
+    }
+  ],
+  "takeaways": [
+    "Life imprisonment is the standard statutory sentence for murder, and execution is strictly exceptional.",
+    "The judicial evaluation of sentence must focus as much on the character and rehabilitation potential of the criminal as on the brutality of the crime.",
+    "Statutory safeguards and confirmation requirements prevent arbitrary or capricious imposition of capital penalties."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://thc.nic.in/Central%20Governmental%20Acts/Indian%20Penal%20Code,%201860%20.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103(1)",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted preserving death or imprisonment for life as alternative punishments for murder."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 354(3)",
+        "title": "Language and contents of judgment",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 393(3)",
+        "title": "Language and contents of judgment",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+      },
+      "change": "Re-enacted retaining the requirement to record special reasons when imposing death sentences."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 235(2)",
+        "title": "Judgment of acquittal or conviction",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 258(2)",
+        "title": "Judgment of acquittal or conviction",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+      },
+      "change": "Re-enacted maintaining mandatory pre-sentence hearings following conviction."
+    }
+  ],
+  "lawNote": "Because the offense occurred in July 1977, the substantive trial and sentencing were governed by the Indian Penal Code, 1860, and the Code of Criminal Procedure, 1973, prior to the transition to the Bharatiya Sanhitas in July 2024.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1980",
+      "url": "https://indiankanoon.org/doc/307021/"
+    },
+    {
+      "label": "Code of Criminal Procedure, 1973 (Official Gazette)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "He had already served a life term for murder, then killed three sleeping relatives. Should he hang?",
+    "script": "He had already served a life term for murder, then killed three sleeping relatives. Should he hang? A trial court said yes. But the case reached five judges of the Supreme Court, and they asked a bigger question. Is the death penalty even constitutional, and who decides when it is used? In 1980 the court upheld it for murder, but it drew a firm line. Life imprisonment is the rule. Death is the exception, reserved for the rarest of rare cases, where life in prison is truly out of the question. That one idea still shapes every death sentence debated in India today. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A repeat offender, a triple tragedy, and five Supreme Court judges deciding when the law may take a life. The ruling that gave India its rarest of rare test.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#DeathPenalty",
+      "#RarestOfRare",
+      "#CriminalLaw",
+      "#LegalPodcast"
+    ],
+    "shortTitle": "When can the law take a life? India's rarest of rare test",
+    "carousel": [
+      {
+        "heading": "Should he hang?",
+        "text": "A man who served a life term for murder killed again. The question reached five judges."
+      },
+      {
+        "heading": "What happened",
+        "text": "Three sleeping relatives were killed. A trial court awarded the death sentence."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Is the death penalty constitutional, and how should a judge choose between life and death?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "Death penalty upheld, but life imprisonment is the rule and death only the rarest exception."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The rarest of rare test still guides every death sentence in India."
+      }
+    ]
+  }
+}
