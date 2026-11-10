@@ -155,5 +155,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "When land reforms threatened an ancient monastery, thirteen judges faced the biggest question in Indian democracy.",
+    "script": "When land reforms threatened an ancient monastery, thirteen judges faced the biggest question in Indian democracy. The monastery head challenged state land acquisition laws, while Parliament passed sweeping constitutional amendments claiming unlimited power to alter any fundamental right without judicial review. For 68 days, the largest bench in Supreme Court history debated whether an elected majority could rewrite the very identity of the republic. In 1973, by a narrow seven to six majority, the court established the basic structure doctrine. Parliament can amend any part of the Constitution, but it can never destroy its core democratic foundation or abolish judicial review. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A monastery's land dispute sparked a 68-day hearing before thirteen Supreme Court judges over whether Parliament has unlimited power to rewrite the Constitution. Discover the 1973 verdict that gave India the basic structure doctrine.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#ConstitutionalLaw",
+      "#BasicStructure",
+      "#JudicialReview",
+      "#Democracy"
+    ],
+    "shortTitle": "Can Parliament rewrite the Constitution? The basic structure test",
+    "carousel": [
+      {
+        "heading": "A monastery and the Constitution",
+        "text": "When land reforms threatened an ancient monastery, thirteen judges faced the biggest question in Indian democracy."
+      },
+      {
+        "heading": "What happened",
+        "text": "A monastic head challenged state agrarian laws while Parliament enacted constitutional amendments claiming unlimited power beyond judicial scrutiny."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does Article 368 give an elected Parliament absolute authority to alter or destroy the foundational identity of the Constitution?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "By a seven to six majority, the Supreme Court held that Parliament may amend the Constitution but cannot destroy its basic structure."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The basic structure doctrine permanently protects democracy, secularism, the rule of law, and judicial review from legislative overreach."
+      }
+    ]
+  }
 }
