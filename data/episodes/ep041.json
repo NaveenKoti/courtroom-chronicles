@@ -1,0 +1,162 @@
+{
+  "id": "ep041",
+  "title": "The Village Saathin and the Constitutional Canopy of Workplace Safety",
+  "hook": "A landmark constitutional ruling established binding national guidelines against workplace sexual harassment by bridging international treaty commitments into fundamental rights.",
+  "topics": [
+    "Constitutional law",
+    "Fundamental rights",
+    "Natural justice"
+  ],
+  "laws": [
+    "Constitution of India (Article 14)",
+    "Constitution of India (Article 15)",
+    "Constitution of India (Article 19(1)(g))",
+    "Constitution of India (Article 21)",
+    "Constitution of India (Article 32)",
+    "Constitution of India (Article 141)",
+    "Protection of Human Rights Act, 1993 (Section 2(d))"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (3-Judge Constitutional Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "August 13, 1997"
+    },
+    {
+      "label": "Originating Incident",
+      "value": "Brutal retaliatory gang-rape of a rural state welfare worker for opposing illegal child marriage"
+    },
+    {
+      "label": "Nature of Petition",
+      "value": "Public interest class action initiated by women's rights organizations and social activists under Article 32"
+    },
+    {
+      "label": "Primary Judicial Remedy",
+      "value": "Judicial gap-filling formulating enforceable norms and complaints mechanisms in the absence of enacted legislation"
+    }
+  ],
+  "summary": [
+    "When a dedicated grassroots worker employed under a state development programme was subjected to severe retaliatory violence for halting an illegal child marriage, the subsequent local criminal proceedings highlighted widespread institutional bias. Disturbed by the complete absence of statutory safeguards protecting female employees from workplace abuse and hostile environments, multiple social welfare groups and activists initiated a collective public interest petition before the Supreme Court.",
+    "The petitioners contended that freedom from sexual harassment is an inseparable component of gender equality and personal dignity, arguing that safe occupational surroundings are prerequisite to the exercise of fundamental trade and professional freedoms. The central government and amici curiae supported judicial intervention to address the acute legislative vacuum governing institutional workplaces.",
+    "In an unprecedented exercise of constitutional governance, the Supreme Court formulated comprehensive, binding guidelines declaring that sexual harassment constitutes a direct infringement of fundamental rights. The bench ruled that international convention commitments must be read into domestic constitutional guarantees in the absence of conflicting national statutes, mandating internal complaints committees and preventive protocols for all public and private employers across India."
+  ],
+  "timeline": [
+    {
+      "date": "1992-09-22",
+      "title": "The Retaliatory Assault",
+      "text": "A grassroots social worker is ambushed and assaulted in rural fields in retaliation for preventing an infant marriage.",
+      "key": true
+    },
+    {
+      "date": "1992-10-15",
+      "title": "Public Interest Petition",
+      "text": "Women's rights organizations unite to file a constitutional writ petition demanding enforceable workplace safety norms.",
+      "key": false
+    },
+    {
+      "date": "1993-06-25",
+      "title": "International Convention Ratification",
+      "text": "India formally ratifies the international convention against discrimination against women, reinforcing constitutional obligations.",
+      "key": false
+    },
+    {
+      "date": "1997-08-13",
+      "title": "The Landmark Formulation",
+      "text": "The Supreme Court delivers judgment establishing binding guidelines against workplace harassment under Article 141.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petition allowed; binding national guidelines and norms against workplace sexual harassment formulated and declared enforceable under Article 141 of the Constitution pending statutory enactment.",
+    "points": [
+      "Gender equality encompasses protection from sexual harassment and the right to work with human dignity under Articles 14, 15, and 21 of the Constitution.",
+      "Hostile, intimidating, or offensive work environments infringe the fundamental freedom to practice any profession or occupation under Article 19(1)(g).",
+      "International conventions and treaties ratified by the sovereign are enforceable in domestic law when consistent with fundamental rights and occupying a legislative void.",
+      "Employers in public and private institutions bear an affirmative legal duty to establish internal complaints mechanisms with independent representation."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Judicial Gap-Filling in Fundamental Rights",
+      "meaning": "Constitutional courts are empowered under Article 32 to lay down binding legal norms to protect basic freedoms when legislative inaction creates an urgent social vacuum.",
+      "inThisCase": "The court formulated comprehensive workplace safety directives operating as enforceable law across all institutions until formal enactment by Parliament."
+    },
+    {
+      "name": "Harmonious Construction of International Conventions",
+      "meaning": "Provisions of ratified international conventions must be incorporated into domestic constitutional guarantees to enlarge their content in the absence of conflicting legislation.",
+      "inThisCase": "The provisions of the international treaty against gender discrimination were read directly into fundamental rights guarantees of equality, dignity, and occupational freedom."
+    },
+    {
+      "name": "Hostile Work Environment Doctrine",
+      "meaning": "Creating an unwelcoming, humiliating, or discriminatory atmosphere that disadvantages a worker constitutes an actionable deprivation of occupational rights.",
+      "inThisCase": "The court defined sexual harassment to encompass non-physical and verbal conduct that engenders a reasonable apprehension of disadvantage in employment."
+    }
+  ],
+  "takeaways": [
+    "Every employer in India is legally obligated to maintain proactive prevention policies and accessible grievance redressal mechanisms.",
+    "International human rights covenants serve as active instruments of constitutional interpretation in domestic courts.",
+    "The judicial directives laid the bedrock for subsequent codification under specialized workplace legislation sixteen years later."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "new": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 14",
+        "title": "Equality before law",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "new": {
+        "act": "Constitution of India",
+        "section": "Article 14",
+        "title": "Equality before law",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 19(1)(g)",
+        "title": "Protection of certain rights regarding freedom of speech, etc.",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "new": {
+        "act": "Constitution of India",
+        "section": "Article 19(1)(g)",
+        "title": "Protection of certain rights regarding freedom of speech, etc.",
+        "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "The 1997 judicial guidelines operated as the primary governing legal framework across India until Parliament formally enacted comprehensive statutory legislation in 2013.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1997",
+      "url": "https://indiankanoon.org/doc/1031794/"
+    },
+    {
+      "label": "Constitution of India (Official Gazette)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
