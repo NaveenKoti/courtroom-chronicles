@@ -59,7 +59,9 @@ jobs:
           git commit -m "Build site"
           # GitHub occasionally rejects pushes with a transient server error; retry a few times.
           for i in 1 2 3 4 5; do
-            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            # Generated files are rebuilt from data anyway, so on a conflict keep this build's version (the next queued run rebuilds again).
+            git pull --rebase -X theirs origin main && git push origin HEAD:main && exit 0
+            git rebase --abort 2>/dev/null || true
             echo "Push attempt $i failed; retrying in $((i * 20))s"
             sleep $((i * 20))
           done
