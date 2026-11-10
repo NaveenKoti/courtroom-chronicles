@@ -163,5 +163,42 @@
       "url": "https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Two unlisted companies raised over 24,000 crore rupees from thirty million citizens and called it a private placement.",
+    "script": "Two unlisted companies raised over 24,000 crore rupees from thirty million citizens and called it a private placement. Through a vast agent network, they issued debentures without listing on any stock exchange. When the market regulator intervened, the companies argued they only solicited private associates and never intended to list. Could a disclaimer defeat market oversight? In 2012, the Supreme Court said no. Under company law, any offer to fifty or more people is a public issue requiring stock exchange listing. The court ordered a full refund with fifteen percent interest, closing a massive corporate loophole. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "Two unlisted companies collected over 24,000 crore rupees from nearly thirty million citizens while claiming it was just a private placement among associates. Here is how the Supreme Court enforced the fifty-person rule for public issues.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#CompanyLaw",
+      "#SecuritiesLaw",
+      "#CorporateGovernance",
+      "#InvestorProtection"
+    ],
+    "shortTitle": "Thirty million investors and the 24,000 crore corporate loophole",
+    "carousel": [
+      {
+        "heading": "A private offer to millions?",
+        "text": "Two unlisted companies raised over 24,000 crore rupees from thirty million citizens and called it a private placement."
+      },
+      {
+        "heading": "What happened",
+        "text": "Using nationwide branch networks, the companies issued unsecured convertible debentures without stock exchange listing or market regulator approval."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can an unlisted company avoid securities oversight by declaring that an offer to millions is a private arrangement?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "Any securities offer to fifty or more persons is a public issue by law. Full refund with fifteen percent interest ordered."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The verdict closed the private placement loophole and cemented regulatory authority over mass public fundraising across India."
+      }
+    ]
+  }
 }
