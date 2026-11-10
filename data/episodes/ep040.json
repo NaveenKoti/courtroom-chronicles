@@ -1,0 +1,167 @@
+{
+  "id": "ep040",
+  "title": "Thirty Million Friends and the Twenty-Four Thousand Crore Loophole",
+  "hook": "A landmark corporate ruling established that offering securities to fifty or more persons constitutes an inescapable public issue requiring statutory stock exchange listing.",
+  "topics": [
+    "Commercial law",
+    "Company law",
+    "Securities regulation",
+    "Corporate governance"
+  ],
+  "laws": [
+    "Companies Act, 1956 (Section 67(3) First Proviso)",
+    "Companies Act, 1956 (Section 73)",
+    "Companies Act, 1956 (Section 55A)",
+    "Companies Act, 1956 (Section 60B)",
+    "Securities and Exchange Board of India Act, 1992 (Section 11)",
+    "Securities Contracts (Regulation) Act, 1956 (Section 2(h))"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Appellate Civil Jurisdiction)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "August 31, 2012"
+    },
+    {
+      "label": "Nature of Financing",
+      "value": "Unsecured optionally fully convertible debentures issued through information memoranda"
+    },
+    {
+      "label": "Investor Base",
+      "value": "Nearly thirty million rural citizens across nationwide branch networks"
+    },
+    {
+      "label": "Capital Collected",
+      "value": "Exceeded twenty-four thousand crore rupees mobilized without public stock exchange listing"
+    }
+  ],
+  "summary": [
+    "When two unlisted corporate entities with negligible capital reserves mobilized over twenty-four thousand crore rupees from nearly thirty million citizens across rural and semi-urban localities, they characterized the fundraising as private placement among associates. The companies issued unsecured convertible debentures using information memoranda circulated through extensive field branch networks, expressly declaring that the instruments would not be listed on any recognized stock exchange.",
+    "The national securities regulator initiated investigative proceedings upon discovering the massive capital mobilization while reviewing a separate public offering prospectus submitted by an affiliated entity. The issuing companies contested the regulator's authority, asserting that unlisted corporate placements fell exclusively under the administrative oversight of the corporate affairs ministry and arguing that offers made to persons affiliated with the business conglomerate did not constitute an offer to the public.",
+    "The Supreme Court affirmed the regulatory directives and ordered a complete refund of the collected capital with fifteen percent annual interest. The bench ruled that under company law, any offer or invitation extended to fifty or more individuals operates as an inescapable public issue requiring mandatory stock exchange listing, establishing that corporate entities cannot circumvent investor protection safeguards by labeling vast public solicitations as private arrangements."
+  ],
+  "timeline": [
+    {
+      "date": "2008-03-03",
+      "title": "Shareholder Resolutions",
+      "text": "Unlisted corporate entities resolve to issue unsecured convertible debentures by way of purported private placement.",
+      "key": false
+    },
+    {
+      "date": "2010-01-12",
+      "title": "Regulatory Detection",
+      "text": "The securities regulator detects the unlisted debenture collections while reviewing an affiliated draft red herring prospectus.",
+      "key": false
+    },
+    {
+      "date": "2011-06-23",
+      "title": "Regulatory Refund Order",
+      "text": "The securities regulator finds the debenture mobilization illegal and directs a full refund of collected monies to investors.",
+      "key": false
+    },
+    {
+      "date": "2012-08-31",
+      "title": "Supreme Court Verdict",
+      "text": "The Supreme Court affirms the regulator's jurisdiction and mandates the refund of all mobilized capital with fifteen percent interest.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Appeals dismissed; issuing companies directed to refund the entire mobilized capital of over twenty-four thousand crore rupees with fifteen percent interest per annum to the market regulator for investor verification and disbursement.",
+    "points": [
+      "Under the first proviso to Section 67(3) of the Companies Act, any offer of securities made to fifty or more persons is statutorily deemed an offer to the public.",
+      "Section 73(1) imposes an unavoidable legal duty on every company offering securities to the public to apply for listing on a recognized stock exchange before issuing a prospectus.",
+      "Optionally fully convertible debentures constitute securities and debentures under regulatory statutes, bringing them squarely within the supervisory domain of the securities regulator.",
+      "Unlisted public companies cannot bypass public issue disclosure standards, credit ratings, or debenture trust safeguards through special shareholder resolutions under preferential allotment provisions."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Bright-Line Threshold for Public Issues",
+      "meaning": "Any corporate invitation or offer to subscribe to securities extended to fifty or more individuals automatically constitutes a public issue regardless of domestic concern or private labeling.",
+      "inThisCase": "The court held that mobilizing funds from millions of citizens could never be classified as private placement because exceeding the forty-nine person ceiling triggered mandatory public issue requirements."
+    },
+    {
+      "name": "Mandatory Listing Obligation",
+      "meaning": "A company offering shares or debentures to the public is legally bound to apply for stock exchange listing to ensure liquidity, transparency, and continuous disclosure.",
+      "inThisCase": "The failure of the corporate entities to apply for stock exchange listing before soliciting subscriptions rendered the entire capital collection unlawful and repayable under statutory provisions."
+    },
+    {
+      "name": "External Action Reveals Inner Intention",
+      "latin": "Acta exteriora indicant interiora secreta",
+      "meaning": "The true intent of a party is determined by its outward acts, conduct, and reasonable consequences rather than secret subjective declarations.",
+      "inThisCase": "The court rejected claims that the companies never intended a public issue, ruling that deploying nationwide branch networks and one million agents proved an intention to access the public."
+    }
+  ],
+  "takeaways": [
+    "Corporate issuers cannot evade public market regulations by classifying millions of ordinary citizens as private associates.",
+    "The securities regulator possesses plenary authority over unlisted public companies the moment an offer crosses the statutory fifty-person threshold.",
+    "Failure to secure mandatory stock exchange listing results in immediate joint and several liability to refund all investor capital with statutory interest."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Companies Act, 1956",
+        "section": "Section 67(3) First Proviso",
+        "title": "Construction of references to offering shares or debentures to the public",
+        "url": "https://www.mca.gov.in/Ministry/pdf/Companies_Act_1956_13apr2020.pdf"
+      },
+      "new": {
+        "act": "Companies Act, 2013",
+        "section": "Section 42",
+        "title": "Offer or invitation for subscription of securities on private placement",
+        "url": "https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf"
+      },
+      "change": "Re-enacted with private placement capped at two hundred persons per financial year and complete prohibition of cash subscriptions."
+    },
+    {
+      "old": {
+        "act": "Companies Act, 1956",
+        "section": "Section 73",
+        "title": "Allotment of shares and debentures to be dealt in on stock exchange",
+        "url": "https://www.mca.gov.in/Ministry/pdf/Companies_Act_1956_13apr2020.pdf"
+      },
+      "new": {
+        "act": "Companies Act, 2013",
+        "section": "Section 40",
+        "title": "Securities to be dealt with in stock exchanges",
+        "url": "https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf"
+      },
+      "change": "Re-enacted under Section 40 governing mandatory stock exchange applications for public offerings."
+    },
+    {
+      "old": {
+        "act": "Companies Act, 1956",
+        "section": "Section 55A",
+        "title": "Powers of Securities and Exchange Board of India",
+        "url": "https://www.mca.gov.in/Ministry/pdf/Companies_Act_1956_13apr2020.pdf"
+      },
+      "new": {
+        "act": "Companies Act, 2013",
+        "section": "Section 24",
+        "title": "Power of Securities and Exchange Board to regulate issue and transfer of securities, etc.",
+        "url": "https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf"
+      },
+      "change": "Re-enacted affirming regulatory authority over listed and prospective public issuers."
+    }
+  ],
+  "lawNote": "The fundraising and litigation between 2008 and 2012 were governed by the Companies Act, 1956 and regulatory guidelines prior to the full notification of the Companies Act, 2013.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2012",
+      "url": "https://indiankanoon.org/doc/197169197/"
+    },
+    {
+      "label": "Companies Act, 1956 (Official Bare Act)",
+      "url": "https://www.mca.gov.in/Ministry/pdf/Companies_Act_1956_13apr2020.pdf"
+    },
+    {
+      "label": "Companies Act, 2013 (Official Text)",
+      "url": "https://www.mca.gov.in/Ministry/pdf/CompaniesAct2013.pdf"
+    }
+  ],
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
