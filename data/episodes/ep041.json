@@ -158,5 +158,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A village welfare worker stopped an illegal child marriage, only to face fierce retaliation.",
+    "script": "A village welfare worker stopped an illegal child marriage, only to face fierce retaliation. When she was assaulted for doing her job, India had no law protecting women from workplace abuse. Social activists petitioned the Supreme Court, asking how fundamental rights could work when Parliament had passed no safety rules. Could judges fill that gap? In 1997, the court said yes. Reading international treaty commitments into the Constitution, it issued binding workplace safety guidelines and ordered internal complaints committees for every employer nationwide. Those judicial rules governed Indian workplaces for sixteen years. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a rural welfare worker faced retaliation for halting an illegal child marriage, activists exposed the total absence of workplace harassment laws in India. See how the Supreme Court stepped into a legislative void in 1997.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#ConstitutionalLaw",
+      "#WorkplaceSafety",
+      "#FundamentalRights",
+      "#LegalHistory"
+    ],
+    "shortTitle": "How the Supreme Court wrote India's first workplace safety rules",
+    "carousel": [
+      {
+        "heading": "Retaliation for doing her duty",
+        "text": "A village welfare worker stopped an illegal child marriage, only to face fierce retaliation and institutional apathy."
+      },
+      {
+        "heading": "What happened",
+        "text": "After she was assaulted in retaliation, social activists petitioned the Supreme Court over the total absence of workplace protection laws."
+      },
+      {
+        "heading": "The legal question",
+        "text": "When Parliament has enacted no law against workplace harassment, can the Supreme Court step in and create enforceable rules?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The court read international conventions into fundamental rights and issued binding guidelines requiring internal complaints committees at every workplace."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "These judicial guidelines protected Indian workers for sixteen years until Parliament enacted dedicated workplace harassment legislation in 2013."
+      }
+    ]
+  }
 }
