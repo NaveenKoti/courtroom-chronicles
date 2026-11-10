@@ -555,6 +555,18 @@ def render_episode(x, prev, nxt):
     if topics:
         out.append('<p class="chips">%s</p>' % "".join(
             '<a class="chip" href="../../topics/%s/">%s</a>' % (esc(slug_words(t)), esc(t)) for t in topics))
+    # v26: optional social block (hashtags + share links). Absent in older episodes, so their pages are unchanged.
+    soc = x.get("social") if isinstance(x.get("social"), dict) else {}
+    tags = [t for t in (soc.get("hashtags") or []) if isinstance(t, str) and re.fullmatch(r"#\w{2,40}", t)]
+    if tags:
+        out.append('<p class="chips" aria-label="Hashtags">%s</p>' % "".join('<span class="chip">%s</span>' % esc(t) for t in tags))
+    cap = soc.get("caption") if isinstance(soc.get("caption"), str) else ""
+    if cap:
+        msg = quote(cap + " " + url)
+        out.append('<p class="meta">Share this case: <a href="https://wa.me/?text=%s" rel="noopener" target="_blank">WhatsApp</a> &middot; '
+                   '<a href="https://twitter.com/intent/tweet?text=%s" rel="noopener" target="_blank">X</a> &middot; '
+                   '<a href="https://www.linkedin.com/sharing/share-offsite/?url=%s" rel="noopener" target="_blank">LinkedIn</a></p>'
+                   % (msg, msg, quote(url, safe="")))
     out.append('</header>\n')
     vid = re.search(r"[?&]v=([\w-]{6,})$", x.get("ytUrl", ""))
     if vid and og:
