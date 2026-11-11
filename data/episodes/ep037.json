@@ -182,5 +182,42 @@
       "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "After two guards assassinated a national leader, three men were sentenced to hang. Did the evidence prove conspiracy?",
+    "script": "After two guards assassinated a national leader, three men were sentenced to hang. Did the evidence prove conspiracy? One attacker died at the scene, so prosecutors charged the surviving guard, another police officer, and a government clerk related to the dead guard. A trial court held inside a central prison convicted all three of conspiracy. On appeal in 1988, the Supreme Court split their fates. It acquitted the second police officer after finding his arrest and seized notes were fabricated, but upheld the death sentences for the surviving guard and the clerk based on ballistic proof and secret meetings. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When two bodyguards assassinated an elected national leader, investigators charged a wider conspiracy. See how the Supreme Court tested circumstantial evidence in 1988, acquitting one officer on death row while confirming two capital sentences.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#CriminalLaw",
+      "#EvidenceLaw",
+      "#ConspiracyLaw",
+      "#FairTrial"
+    ],
+    "shortTitle": "Suspicion vs. proof: Testing a capital conspiracy in court",
+    "carousel": [
+      {
+        "heading": "Three men on death row",
+        "text": "After two guards assassinated a national leader, three men were sentenced to hang. Did the evidence prove conspiracy?"
+      },
+      {
+        "heading": "What happened",
+        "text": "Prosecutors charged the surviving guard, a subordinate police officer, and a government clerk with murder and criminal conspiracy."
+      },
+      {
+        "heading": "The legal question",
+        "text": "When do private associations and circumstantial links cross the threshold into admissible proof of a criminal conspiracy?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court acquitted the police officer due to fabricated arrest records, but confirmed death sentences for the other two."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Conspiracy charges require independent proof of an unlawful agreement, and uncorroborated police recoveries after secret detention cannot sustain a conviction."
+      }
+    ]
+  }
 }
