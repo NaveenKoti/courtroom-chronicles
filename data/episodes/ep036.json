@@ -48,5 +48,42 @@
       "date": "1967-06-24"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "The government seized a journalist's passport in the public interest and refused to tell her why.",
+    "script": "The government seized a journalist's passport in the public interest and refused to tell her why. Given no prior notice and no hearing, she petitioned the Supreme Court, arguing that the right to travel abroad is a vital part of personal liberty. For decades, precedent held that any formal procedure passed by Parliament satisfied Article 21, no matter how unfair. In 1978, a seven judge Constitution Bench overturned that rule. Linking equality, free expression, and personal liberty into an integrated shield, the court held that any procedure restricting liberty must be just, fair, and reasonable, and must respect natural justice. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When authorities impounded a journalist's passport without giving reasons or a hearing, a seven-judge bench rewrote Indian constitutional law. Discover the 1978 ruling that required every law restricting liberty to be just, fair, and reasonable.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#PersonalLiberty",
+      "#NaturalJustice",
+      "#Article21",
+      "#ConstitutionalLaw"
+    ],
+    "shortTitle": "The impounded passport that transformed personal liberty in India",
+    "carousel": [
+      {
+        "heading": "Grounded without a reason",
+        "text": "The government seized a journalist's passport in the public interest and refused to tell her why."
+      },
+      {
+        "heading": "What happened",
+        "text": "Denied prior notice or a statement of reasons, she challenged the administrative order directly before the Supreme Court under Article 32."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does Article 21 permit any formal statutory procedure to restrict personal liberty, or must the procedure itself be fair and reasonable?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "A seven-judge bench ruled that fundamental rights are interlinked, requiring any procedure restricting liberty to be just, fair, and reasonable."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The ruling embedded natural justice and substantive due process into Article 21, transforming constitutional protection of personal liberty across India."
+      }
+    ]
+  }
 }
