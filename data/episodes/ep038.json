@@ -161,5 +161,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "After a midnight toxic gas leak killed thousands, could a 470 million dollar settlement erase criminal prosecution?",
+    "script": "After a midnight toxic gas leak killed thousands, could a 470 million dollar settlement erase criminal prosecution? When lethal vapor from a pesticide plant engulfed a city in 1984, the government represented the victims in court. In 1989, a settlement secured 470 million dollars for survivors but quashed all criminal charges. Victim groups challenged that immunity. In 1991, a five judge Constitution Bench kept the compensation fund and required the state to cover any shortfall, but revived the criminal trial, ruling that civil money can never buy immunity from criminal law. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A 1989 mass disaster settlement secured 470 million dollars for victims of a lethal chemical leak, but also wiped out all criminal charges. Here is why a five-judge Constitution Bench stepped in to revive the prosecution in 1991.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#EnvironmentalLaw",
+      "#CorporateLiability",
+      "#CriminalLaw",
+      "#ConstitutionalLaw"
+    ],
+    "shortTitle": "Can a civil settlement buy criminal immunity after a mass disaster?",
+    "carousel": [
+      {
+        "heading": "Money for criminal immunity?",
+        "text": "After a midnight toxic gas leak killed thousands, could a 470 million dollar settlement erase criminal prosecution?"
+      },
+      {
+        "heading": "What happened",
+        "text": "In 1989, a court-assisted settlement secured 470 million dollars for chemical disaster victims while quashing all pending criminal cases."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can a civil compensation agreement extinguish criminal prosecution for serious, non-compoundable offenses affecting human life?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court upheld the compensation fund with a state shortfall guarantee, but set aside criminal immunity and revived prosecution."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Corporations cannot trade financial settlements for immunity from criminal accountability after fatal industrial disasters."
+      }
+    ]
+  }
 }
