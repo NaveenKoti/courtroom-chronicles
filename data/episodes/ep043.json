@@ -1,0 +1,213 @@
+{
+  "id": "ep043",
+  "title": "The Midnight Custody for an Online Reaction and the Defense of Free Expression",
+  "hook": "A landmark constitutional judgment struck down digital censorship provisions to shield online speech from arbitrary criminal prosecution.",
+  "topics": [
+    "Constitutional law",
+    "Freedom of speech",
+    "Information technology",
+    "Criminal procedure",
+    "Fundamental rights"
+  ],
+  "laws": [
+    "Constitution of India (Article 19(1)(a) and Article 19(2))",
+    "Constitution of India (Article 14 and Article 21)",
+    "Information Technology Act, 2000 (Section 66A, struck down)",
+    "Information Technology Act, 2000 (Section 69A and Section 79(3)(b))",
+    "Code of Criminal Procedure, 1973 (Section 41)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Constitutional Appellate Jurisdiction)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "March 24, 2015"
+    },
+    {
+      "label": "Statutory Provision Challenged",
+      "value": "Section 66A of the Information Technology Act, 2000"
+    },
+    {
+      "label": "Nature of Online Conduct",
+      "value": "Posting and endorsing peaceful political commentary and satirical expression on social networks"
+    },
+    {
+      "label": "Constitutional Bench",
+      "value": "Two-judge bench of the Supreme Court of India"
+    }
+  ],
+  "summary": [
+    "When two young women were arrested late at night for publishing and liking a peaceful social media observation questioning a citywide shutdown, the incident ignited nationwide public outcry over digital speech suppression. Police forces across various states had increasingly deployed statutory cyber provisions criminalizing offensive electronic communications to imprison political cartoonists, university academics, and ordinary citizens expressing lawful dissent.",
+    "A series of public interest writ petitions challenged the statutory penal provision before the Supreme Court as an unconstitutional infringement upon fundamental freedoms. The petitioners argued that nebulous statutory phrases criminalizing annoying, grossly offensive, or menacing communications lacked precise definitions, creating an intolerable chilling effect that suppressed legitimate democratic discourse without satisfying constitutional speech restrictions.",
+    "The Supreme Court declared the penal digital communications provision unconstitutional in its entirety under constitutional free speech guarantees. The bench held that the statute failed the doctrine of vagueness and overbreadth by impermissibly criminalizing advocacy and peaceful discussion without requiring any direct incitement to public disorder, while reading down intermediary liability rules to mandate judicial or governmental orders for online content takedowns."
+  ],
+  "timeline": [
+    {
+      "date": "2008-12-23",
+      "title": "Statutory Enactment",
+      "text": "Parliament passes legislative amendments inserting broad digital speech penalties into information technology statutes.",
+      "key": false
+    },
+    {
+      "date": "2012-11-18",
+      "title": "Suburban Arrests",
+      "text": "Two citizens are taken into midnight criminal custody for posting and liking commentary on social media.",
+      "key": false
+    },
+    {
+      "date": "2012-11-29",
+      "title": "Constitutional Challenge",
+      "text": "Public interest writ petitions are filed before the Supreme Court challenging the constitutional validity of digital speech penalties.",
+      "key": false
+    },
+    {
+      "date": "2015-03-24",
+      "title": "Landmark Verdict",
+      "text": "The Supreme Court invalidates digital speech penal provisions and clarifies safe harbor rules for internet intermediaries.",
+      "key": true
+    },
+    {
+      "date": "2022-10-12",
+      "title": "Judicial Enforcement Directive",
+      "text": "The Supreme Court directs all states and police authorities to immediately withdraw pending prosecutions under the invalidated statute.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petitions allowed in part; Section 66A of the Information Technology Act, 2000 struck down in its entirety as unconstitutional under Article 19(1)(a) and not saved by Article 19(2); Section 79(3)(b) read down to require court orders or government notices for intermediary content removal.",
+    "points": [
+      "Section 66A arbitrarily infringes the fundamental right to freedom of speech and expression and fails to satisfy any reasonable restriction criteria enumerated under Article 19(2).",
+      "A clear legal distinction must be maintained between mere discussion, robust advocacy, and criminal incitement, with the law penalizing only the latter.",
+      "The challenged provision suffers from incurable vagueness and overbreadth, failing to establish clear standards for citizens or law enforcement officers.",
+      "Intermediary liability safe harbor provisions require an official court order or designated government directive before an online platform is obliged to remove content."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Doctrine of Vagueness and Overbreadth",
+      "meaning": "A penal statute that defines crimes in terms so indefinite that people of common intelligence must guess at its meaning violates the fundamental guarantee of due process.",
+      "inThisCase": "The court held that terms like offensive, annoyance, and inconvenience provided zero objective statutory boundaries, allowing subjective and arbitrary criminal enforcement."
+    },
+    {
+      "name": "Discussion Versus Incitement Distinction",
+      "meaning": "Advocacy of an unpopular cause or robust discussion remains constitutionally protected until it reaches the critical threshold of inciting imminent lawless action.",
+      "inThisCase": "The court ruled that peaceful digital expression could not be criminalized merely because public officials or individuals found the underlying ideas offensive or irritating."
+    },
+    {
+      "name": "Chilling Effect on Fundamental Liberties",
+      "meaning": "Overly broad penal enactments cause citizens to self-censor lawful speech out of fear of wrongful criminal prosecution, eroding core democratic participation.",
+      "inThisCase": "The bench recognized that the sweeping penal reach of the cyber provision cast a wide net over lawful electronic expression, creating widespread public self-censorship."
+    }
+  ],
+  "takeaways": [
+    "Online communication enjoys identical constitutional free speech protections as traditional print and spoken expression.",
+    "Vague statutory definitions of criminality are unconstitutional because they invite arbitrary police overreach and selective enforcement.",
+    "Digital platforms cannot be compelled to remove lawful user content without formal judicial directives or authorized governmental notices."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Information Technology Act, 2000",
+        "section": "Section 66A",
+        "title": "Punishment for sending offensive messages through communication service, etc.",
+        "url": "https://www.meity.gov.in/writereaddata/files/itbill2000.pdf"
+      },
+      "new": {
+        "act": "Information Technology Act, 2000",
+        "section": "Section 66A (Unconstitutional)",
+        "title": "Void ab initio under Supreme Court Judgment",
+        "url": "https://indiankanoon.org/doc/110813550/"
+      },
+      "change": "Struck down in its entirety as unconstitutional under Article 19(1)(a) with subsequent directives barring registration of fresh cases."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 505",
+        "title": "Statements conducing to public mischief",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 353",
+        "title": "Statements conducing to public mischief",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted with modernized terminology governing false electronic statements inciting public offenses or communal disorder."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 41",
+        "title": "When police may arrest without warrant",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 35",
+        "title": "When police may arrest without warrant",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+      },
+      "change": "Retained procedural safeguards requiring prior supervisory sanction before arresting individuals for minor offenses punishable by under three years."
+    }
+  ],
+  "lawNote": "While the substantive constitutional review evaluated the Information Technology Act, 2000 alongside penal provisions of the Indian Penal Code, 1860, modern criminal procedures regarding digital offenses now interface with the Bharatiya Nyaya Sanhita, 2023 and the Bharatiya Nagarik Suraksha Sanhita, 2023.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, March 24, 2015",
+      "url": "https://indiankanoon.org/doc/110813550/"
+    },
+    {
+      "label": "Supreme Court Enforcement Order on Section 66A, October 12, 2022",
+      "url": "https://indiankanoon.org/doc/173319912/"
+    },
+    {
+      "label": "Information Technology Act, 2000 (Official Publication)",
+      "url": "https://www.meity.gov.in/writereaddata/files/itbill2000.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "Can clicking like on an ordinary social media post send you to prison overnight?",
+    "script": "Can clicking like on an ordinary social media post send you to prison overnight? When two young college students were arrested late at night for questioning a citywide shutdown, public outrage sparked a historic constitutional showdown. Police forces across the country had been using vague cyber statutes to arrest cartoonists, academics, and ordinary peaceful critics who dared to speak out online. The Supreme Court intervened decisively, declaring that digital speech enjoys the exact same constitutional protection as traditional speech, striking down the vague censorship law forever to defend democratic freedom. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a midnight arrest over a social media reaction sparked a constitutional revolution, the highest court stepped in to defend democratic expression and strike down digital censorship.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#FreeSpeech",
+      "#CyberLaw",
+      "#ConstitutionalLaw",
+      "#DigitalRights",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Jailed for an Online Like: The Free Speech Battle",
+    "carousel": [
+      {
+        "heading": "The Midnight Knock",
+        "text": "Two citizens were arrested late at night simply for writing and liking a peaceful social media post."
+      },
+      {
+        "heading": "The Chilling Weapon",
+        "text": "Vague cyber statutes were weaponized nationwide to jail cartoonists, students, and citizens questioning public authority."
+      },
+      {
+        "heading": "The Constitutional Duel",
+        "text": "Can a democracy criminalize harmless expression merely because government officials or political parties claim to feel offended?"
+      },
+      {
+        "heading": "The Decisive Ruling",
+        "text": "The Supreme Court struck down the penal provision entirely, establishing robust free speech protection across all digital platforms."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "Citizens can debate, criticize, and share opinions online without fearing arbitrary midnight detention under unconstitutional laws."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
