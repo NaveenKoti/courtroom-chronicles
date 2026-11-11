@@ -1,0 +1,212 @@
+{
+  "id": "ep044",
+  "title": "The Fabricated Rocket Conspiracy and the Constitutional Guarantee of Dignity",
+  "hook": "A landmark constitutional ruling awarded substantial public law compensation to an aerospace scientist subjected to malicious prosecution and custodial torment.",
+  "topics": [
+    "Constitutional law",
+    "Malicious prosecution",
+    "Custodial torture",
+    "Human dignity",
+    "Article 21 jurisprudence"
+  ],
+  "laws": [
+    "Constitution of India (Article 21 and Article 32)",
+    "Code of Criminal Procedure, 1973 (Section 173(8))",
+    "Official Secrets Act, 1923 (Sections 3, 4, and 5)",
+    "Indian Penal Code, 1860 (Section 120B and Section 211)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Civil Appellate Jurisdiction)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "September 14, 2018"
+    },
+    {
+      "label": "Professional Role",
+      "value": "Project director leading indigenous liquid and cryogenic propulsion space engineering programs"
+    },
+    {
+      "label": "Nature of Allegations",
+      "value": "Fabricated allegations of international espionage and unauthorized transfer of rocket blueprints"
+    },
+    {
+      "label": "Remedy Awarded",
+      "value": "Fifty lakh rupees in constitutional public law compensation and appointment of a judicial inquiry committee"
+    }
+  ],
+  "summary": [
+    "When a senior aerospace engineer leading national cryogenic rocket propulsion development was arrested outside his residence, state police authorities and local intelligence operatives spun a sensational narrative of international space espionage. The scientist was detained in secret interrogation centers, subjected to sleep deprivation and physical torment, and pressured to sign fabricated confessions implicating top space agency leadership.",
+    "A federal investigative agency audited every classified repository across national aerospace facilities, concluding that the entire espionage narrative was completely false and that not a single technical drawing was missing. Despite federal closure reports accepted by the magistrate, state authorities attempted to initiate a fresh reinvestigation to sustain the charges, forcing the victim into protracted legal battles across appellate courts.",
+    "The Supreme Court declared that reputation and personal dignity constitute fundamental and non-negotiable facets of the right to life. The court awarded fifty lakh rupees in constitutional tort compensation for malicious prosecution and established a high-level committee headed by a retired Supreme Court judge to hold erring police officers accountable for deliberate institutional fabrication."
+  ],
+  "timeline": [
+    {
+      "date": "1994-11-30",
+      "title": "Wrongful Custodial Arrest",
+      "text": "A leading cryogenic space engineer is arrested by state police on fabricated allegations of rocket blueprint espionage.",
+      "key": false
+    },
+    {
+      "date": "1996-04-26",
+      "title": "Federal Investigative Exoneration",
+      "text": "Federal investigators submit a comprehensive closure report finding all espionage allegations false and baseless.",
+      "key": false
+    },
+    {
+      "date": "1998-04-29",
+      "title": "Reinvestigation Quashed",
+      "text": "The Supreme Court quashes state administrative attempts to conduct a reinvestigation after federal closure.",
+      "key": false
+    },
+    {
+      "date": "2018-09-14",
+      "title": "Constitutional Compensation Verdict",
+      "text": "The Supreme Court awards fifty lakh rupees for custodial harassment and institutes a judicial inquiry into police misconduct.",
+      "key": true
+    },
+    {
+      "date": "2021-04-15",
+      "title": "Judicial Inquiry Outcome",
+      "text": "A judicial committee submits findings regarding police conspiracy, prompting federal criminal proceedings against culpable officers.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "Appeals allowed; state directed to pay fifty lakh rupees as public law compensation for mental cruelty and reputational ruin, alongside the constitution of a committee headed by a retired Supreme Court judge to recommend action against erring officers.",
+    "points": [
+      "Reputation is an inseparable facet of the right to life and personal dignity guaranteed under Article 21 of the Constitution.",
+      "Malicious arrest and custodial torment inflicted by law enforcement agencies demand immediate public law remedies under constitutional jurisdiction.",
+      "Criminal investigation cannot be manipulated into an engine of institutional harassment against innocent public servants.",
+      "State police authorities possess no legal authority to order a de novo reinvestigation after a competent federal agency has completed a statutory probe."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Constitutional Tort and Public Law Remedy",
+      "meaning": "Courts exercising constitutional jurisdiction can award monetary compensation against state instrumentalities for grave violations of fundamental personal liberties.",
+      "inThisCase": "The court granted substantial monetary redress to restore honor and penalize state abuse of power that caused irreparable professional and personal devastation."
+    },
+    {
+      "name": "Right to Reputation as Human Dignity",
+      "meaning": "An individual's public standing and professional honor are protected aspects of personal liberty that the state cannot arbitrarily destroy through malicious prosecution.",
+      "inThisCase": "The bench recognized that branding an eminent technological pioneer as a traitor inflicted profound custodial degradation requiring strict state accountability."
+    },
+    {
+      "name": "Statutory Finality of Investigation",
+      "meaning": "Once a specialized investigative agency submits a final closure report accepted by a magistrate, executive authorities cannot order indefinite reinvestigations.",
+      "inThisCase": "The court held that state administrative notifications ordering reinvestigation were unlawful attempts to perpetuate harassment without fresh material."
+    }
+  ],
+  "takeaways": [
+    "The state must pay substantial public law compensation when law enforcement officers engage in malicious prosecution and custodial abuse.",
+    "Reputation and personal dignity are fundamental constitutional rights protected from arbitrary police fabrication.",
+    "Executive authorities cannot override judicial acceptance of federal closure reports by launching endless reinvestigations."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 173(8)",
+        "title": "Further investigation after police report",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 193(9)",
+        "title": "Further investigation with permission of court",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+      },
+      "change": "Explicitly codifies judicial permission requirements before conducting further investigations following submission of a primary police report."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 211",
+        "title": "False charge of offence made with intent to injure",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 248",
+        "title": "False charge of offence made with intent to injure",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted prescribing rigorous imprisonment for maliciously framing innocent individuals with serious criminal offenses."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 167",
+        "title": "Public servant framing an incorrect document with intent to cause injury",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 202",
+        "title": "Public servant framing incorrect document with intent to cause injury",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Modernized penal framework punishing law enforcement officials who fabricate records or false witness statements."
+    }
+  ],
+  "lawNote": "The substantive rights were vindicated under constitutional remedies provided by Article 32 and Article 21, while the underlying criminal offenses and procedural controversies operated under the Code of Criminal Procedure, 1973, and the Indian Penal Code, 1860, prior to the enactment of the Bharatiya Sanhitas.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, September 14, 2018",
+      "url": "https://indiankanoon.org/doc/140150087/"
+    },
+    {
+      "label": "Judgment of the Supreme Court of India, April 29, 1998",
+      "url": "https://indiankanoon.org/doc/1442146/"
+    },
+    {
+      "label": "Code of Criminal Procedure, 1973 (Official Gazette)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "What happens when corrupt police officers frame a top rocket scientist as a foreign spy?",
+    "script": "What happens when corrupt police officers frame a top rocket scientist as a foreign spy? In nineteen ninety-four, a distinguished aerospace engineer leading the nation's cryogenic rocket propulsion program was falsely arrested, dragged through national headlines, and tortured in unlawful custody. When federal investigators audited every aerospace vault, they proved that not a single document was missing and that the espionage narrative was entirely fabricated. Decades later, the Supreme Court vindicated his honor, ruling that human dignity and reputation are sacred constitutional rights, awarding substantial public law compensation to penalize malicious prosecution. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A dedicated aerospace engineer was falsely branded a national traitor. Decades later, the highest court vindicated his honor and held rogue investigators accountable.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#HumanDignity",
+      "#SpaceProgram",
+      "#JusticeServed",
+      "#ConstitutionalLaw",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Framed as a Spy: The Scientist's Fight for Honor",
+    "carousel": [
+      {
+        "heading": "A Shocking Arrest",
+        "text": "A leading rocket propulsion engineer was suddenly handcuffed and accused of selling space blueprints to foreign agents."
+      },
+      {
+        "heading": "Custodial Nightmare",
+        "text": "Interrogators subjected him to sleep deprivation and intense pressure to sign false confessions against colleagues."
+      },
+      {
+        "heading": "The Federal Audit",
+        "text": "Federal investigations checked every aerospace archive and proved that zero documents were missing or compromised."
+      },
+      {
+        "heading": "The Supreme Verdict",
+        "text": "The highest court declared reputation an inviolable right, awarding fifty lakh rupees in damages for malicious prosecution."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "Law enforcement agencies cannot manufacture false criminal charges without facing strict constitutional accountability and judicial consequences."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
