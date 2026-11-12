@@ -146,5 +146,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "During a national emergency, the state claimed courts were powerless even if police unlawfully killed a citizen.",
+    "script": "During a national emergency, the state claimed courts were powerless even if police unlawfully killed a citizen. After a 1975 presidential order suspended Article 21, thousands were detained without trial. Nine High Courts ruled that habeas corpus still allowed judges to check whether detentions obeyed the law. On appeal in 1976, the Supreme Court majority surrendered by four to one, locking the courthouse doors. Only one dissenting judge stood firm, writing that life and liberty exist prior to the Constitution. In 1978, the 44th Amendment made Article 21 permanently inviolable, and in 2017 nine judges overruled the 1976 majority forever. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When emergency decrees suspended Article 21 in 1975, nine High Courts kept habeas corpus alive, only for a 4-1 Supreme Court majority to shut the doors. Here is how one fearless dissent became the permanent constitutional law of India.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#HabeasCorpus",
+      "#RuleOfLaw",
+      "#Article21",
+      "#ConstitutionalLaw"
+    ],
+    "shortTitle": "The lone dissent that saved habeas corpus and the rule of law",
+    "carousel": [
+      {
+        "heading": "Are courts powerless in emergencies?",
+        "text": "During a national emergency, the state claimed courts were powerless even if police unlawfully killed a citizen."
+      },
+      {
+        "heading": "What happened",
+        "text": "After a 1975 presidential order suspended Article 21, nine High Courts ruled that habeas corpus petitions could still test unlawful detentions."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does suspending Article 21 during an emergency extinguish all judicial review and bar citizens from challenging illegal executive detention?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "In 1976, a four to one majority barred habeas corpus, while a lone dissent declared that life and liberty precede the Constitution."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The 44th Amendment made Article 21 permanently non-derogable, and a nine-judge bench formally overruled the 1976 majority in 2017."
+      }
+    ]
+  }
 }
