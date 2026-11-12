@@ -62,5 +62,42 @@
       "date": "1860-10-06"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A murder suspect waded into a village tank and pulled out the hidden weapon. Could that statement stand?",
+    "script": "A murder suspect waded into a village tank and pulled out the hidden weapon. Could that statement stand? Under Section 27 of the Evidence Act, information given in police custody that leads to a physical discovery is admissible. Yet the High Court struck that rule down and acquitted him, holding that treating suspects in custody differently from free citizens violated equality under Article 14. In 1960, the Supreme Court reversed the acquittal by four to one. It ruled that persons in custody form a distinct class and physical discovery guarantees truth. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a suspect in police custody led officers to a submerged weapon in a village tank, the High Court struck down Section 27 of the Evidence Act as unequal. See how a five-judge Supreme Court bench saved India's custodial discovery rule in 1960.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#EvidenceLaw",
+      "#CriminalProcedure",
+      "#Article14",
+      "#ConstitutionalLaw"
+    ],
+    "shortTitle": "The weapon in the village tank and the test of Section 27",
+    "carousel": [
+      {
+        "heading": "The weapon in the tank",
+        "text": "A murder suspect waded into a village tank and pulled out the hidden weapon. Could that statement stand?"
+      },
+      {
+        "heading": "What happened",
+        "text": "Following a fatal village assault, an arrested suspect led police to a submerged blade, resulting in a trial court conviction."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does admitting discovery statements from persons in police custody while excluding similar statements from free persons violate Article 14 equality?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "By a four to one majority, the Supreme Court upheld Section 27 and restored the murder conviction."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Physical recovery corroborates the truth of a custodial disclosure, preserving a foundational rule of Indian criminal evidence."
+      }
+    ]
+  }
 }
