@@ -48,5 +48,42 @@
       "date": "2023-12-25"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Divorced after 43 years of marriage, an elderly woman asked a court for monthly survival maintenance.",
+    "script": "Divorced after 43 years of marriage, an elderly woman asked a court for monthly survival maintenance. With no income, she applied under Section 125 of the criminal procedure code. Her former husband pronounced an irrevocable divorce, deposited three thousand rupees as marriage dower, and argued that personal law ended his financial duty after the three month waiting period. In 1985, a five judge Constitution Bench unanimously dismissed his appeal. The Supreme Court held that Section 125 is a secular safeguard against destitution applying to every citizen regardless of religion, and marriage dower is not a sum payable on divorce. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a divorced elderly woman sought a monthly allowance to survive, her former spouse argued that returning her marriage dower ended his duty under personal law. See how a five-judge Supreme Court bench upheld secular maintenance in 1985.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#FamilyLaw",
+      "#SecularLaw",
+      "#GenderJustice",
+      "#ConstitutionalLaw"
+    ],
+    "shortTitle": "Marriage dower vs. monthly maintenance: The secular safeguard",
+    "carousel": [
+      {
+        "heading": "Cast out after four decades",
+        "text": "Divorced after 43 years of marriage, an elderly woman asked a court for monthly survival maintenance."
+      },
+      {
+        "heading": "What happened",
+        "text": "Her former spouse deposited her marriage dower and claimed his maintenance obligation ended after the customary post-divorce waiting period."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does the secular maintenance remedy under criminal procedure override personal law defenses when a divorced woman faces destitution?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court unanimously held that statutory maintenance applies universally across all communities and marriage dower is not a divorce payment."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The ruling affirmed that preventing vagrancy and economic abandonment is an enforceable secular duty owed to society."
+      }
+    ]
+  }
 }
