@@ -1,0 +1,212 @@
+{
+  "id": "ep048",
+  "title": "The Handcuffs on the Railway Track and the Abolition of Sovereign Immunity in Custody",
+  "hook": "A landmark constitutional judgment dismantled the shield of sovereign immunity to hold the state strictly liable for custodial violence.",
+  "topics": [
+    "Constitutional law",
+    "Fundamental rights",
+    "Criminal procedure",
+    "Criminal law",
+    "Human dignity"
+  ],
+  "laws": [
+    "Constitution of India (Article 21 and Article 32)",
+    "Code of Criminal Procedure, 1973 (Section 57 and Section 176)",
+    "Indian Penal Code, 1860 (Section 302 and Section 330)",
+    "Indian Evidence Act, 1872 (Section 106)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Writ Criminal Jurisdiction)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "March 24, 1993"
+    },
+    {
+      "label": "Nature of Victim",
+      "value": "Twenty-two-year-old rural laborer detained in police custody without formal arrest recording"
+    },
+    {
+      "label": "Physical Clue",
+      "value": "Body discovered on railway tracks with regulation police handcuffs still fastened to the wrist"
+    },
+    {
+      "label": "Forensic Finding",
+      "value": "Multiple traumatic lathi contusions across the back with complete absence of railway crush injuries on the torso"
+    }
+  ],
+  "summary": [
+    "When a young village laborer was rounded up by local police without formal recording of arrest, he was placed in a rural outpost where his mother brought him food that evening. The following afternoon, his mutilated body was discovered lying across railway tracks two kilometers away, with official police handcuffs still locked to his wrist. Police authorities claimed the detainee had escaped through a window and been struck by a speeding goods train.",
+    "Refusing to accept the official accident narrative, the victim's impoverished mother sent a handwritten letter to the Chief Justice of India, which was converted into a constitutional writ petition. A judicial inquiry ordered by the Supreme Court revealed that the victim had suffered over forty blunt force contusions inflicted by police batons while in custody, thoroughly disproving the police claim of an accidental train collision.",
+    "The Supreme Court rejected the defense of sovereign immunity and held the state strictly liable under public law for custodial death. The bench ruled that the constitutional remedy under Article 32 operates independently of private civil suits, establishing that the state bears an absolute constitutional obligation to preserve the life and dignity of every person detained in police custody."
+  ],
+  "timeline": [
+    {
+      "date": "1987-12-01",
+      "title": "Unrecorded Custody",
+      "text": "A rural laborer is detained by outpost police without formal arrest documentation or magistrate production.",
+      "key": false
+    },
+    {
+      "date": "1987-12-02",
+      "title": "Discovery on Tracks",
+      "text": "Railway trackmen discover the victim's battered body on steel tracks with police handcuffs still attached.",
+      "key": false
+    },
+    {
+      "date": "1988-09-14",
+      "title": "Mother's Letter Petition",
+      "text": "The victim's mother dispatches a handwritten petition to the Supreme Court, prompting constitutional intervention.",
+      "key": false
+    },
+    {
+      "date": "1991-09-04",
+      "title": "Judicial Inquiry Findings",
+      "text": "A district judge's inquiry confirms brutal custodial beatings and refutes the police escape story.",
+      "key": false
+    },
+    {
+      "date": "1993-03-24",
+      "title": "Landmark Public Law Verdict",
+      "text": "The Supreme Court rejects sovereign immunity and awards monetary damages for custodial deprivation of life.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petition allowed; State directed to pay one lakh fifty thousand rupees in monetary compensation to the deceased victim's mother, alongside directives to prosecute culpable police officers.",
+    "points": [
+      "The defense of sovereign immunity does not apply to public law remedies under Article 32 or Article 226 for fundamental rights violations.",
+      "The State is under a strict constitutional obligation to account for the safety and physical well-being of every person taken into custody.",
+      "Monetary compensation in constitutional writ petitions is awarded to penalize state lawlessness and provide immediate palliative redress to victims' families.",
+      "Forensic proof of multiple custodial injuries shifts the legal burden onto law enforcement officers to demonstrate lawful treatment."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Strict Liability for Custodial Violence",
+      "meaning": "When an individual suffers death or injury while in police custody, the state is strictly liable to explain the circumstances and compensate the victim.",
+      "inThisCase": "The court held that police officers who held the young laborer in handcuffs could not evade liability by inventing a fabricated escape narrative."
+    },
+    {
+      "name": "Public Law Remedy Independent of Sovereign Immunity",
+      "meaning": "Constitutional courts can enforce monetary damages against the state for constitutional torts, overriding colonial doctrines that the state can do no wrong.",
+      "inThisCase": "The bench established that sovereign immunity applies only to private law tort claims and cannot defeat fundamental rights under Article 21."
+    },
+    {
+      "name": "Epistolary Jurisdiction of Constitutional Courts",
+      "meaning": "The Supreme Court can treat an informal letter or telegram from an underprivileged citizen as a formal constitutional writ petition.",
+      "inThisCase": "The court acted upon a simple handwritten letter from an illiterate mother to initiate a full-scale judicial inquiry into police brutality."
+    }
+  ],
+  "takeaways": [
+    "The state is strictly liable for any custodial torture or death occurring within police control.",
+    "Sovereign immunity cannot shield government authorities from paying constitutional damages for human rights abuses.",
+    "Custodial death investigations mandate rigorous judicial inquiries and criminal prosecution of culpable police personnel."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 330",
+        "title": "Voluntarily causing hurt to extort confession, or to compel restoration of property",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 118",
+        "title": "Voluntarily causing hurt or grievous hurt to extort confession, or to compel restoration of property",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted with enhanced penal consequences for law enforcement personnel inflicting custodial hurt to extort confessions."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 176(1A)",
+        "title": "Inquiry by Magistrate into cause of death",
+        "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 196",
+        "title": "Inquiry by Magistrate into cause of death",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+      },
+      "change": "Retained mandatory judicial magistrate inquiry requirements for all deaths, rapes, or disappearances occurring in police custody."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 106",
+        "title": "Burden of proving fact especially within knowledge",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1872-01.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 109",
+        "title": "Burden of proving fact especially within knowledge",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281712076043BSA_IEA_Comparative.pdf"
+      },
+      "change": "Re-enacted maintaining the statutory evidentiary principle that facts occurring inside closed police precincts must be proved by the custodians."
+    }
+  ],
+  "lawNote": "The offense occurred in December 1987, and the substantive constitutional review proceeded under Article 32 in conjunction with the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872, prior to the implementation of the Bharatiya Sanhitas.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India on Custodial Death, March 24, 1993",
+      "url": "https://indiankanoon.org/doc/1628260/"
+    },
+    {
+      "label": "Supreme Court Arrest Guidelines Ruling, December 18, 1996",
+      "url": "https://indiankanoon.org/doc/501198/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (Official Legislative Publication)",
+      "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281711283884BNSS_CrPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "When a dead body was found on railway tracks still wearing police handcuffs, officers claimed it was an accident.",
+    "script": "When a dead body was found on railway tracks still wearing police handcuffs, officers claimed it was an accident. In nineteen eighty-seven, a young laborer died after being dragged into unrecorded police custody. Officers claimed he escaped and jumped before a speeding train. But when his impoverished mother sent a handwritten letter to the Chief Justice, an autopsy revealed forty severe baton bruises and zero train injuries. The Supreme Court struck down sovereign immunity, establishing that the state is strictly liable for custodial violence. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A young laborer's body was found on railway tracks with police handcuffs locked to his wrist. His mother's handwritten letter shattered the colonial shield of sovereign immunity.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CustodialJustice",
+      "#HumanRights",
+      "#PoliceAccountability",
+      "#ConstitutionalLaw",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Handcuffs on the Tracks: The Custodial Death Case",
+    "carousel": [
+      {
+        "heading": "The Morning Discovery",
+        "text": "Railway workers found the battered body of a young laborer lying on the rails, still handcuffed with police regulation irons."
+      },
+      {
+        "heading": "The Escape Alibi",
+        "text": "Police claimed the detainee slipped through a window at night and was run over by an oncoming goods train."
+      },
+      {
+        "heading": "Forensic Truth Emerges",
+        "text": "A court-ordered inquiry proved the victim suffered forty lathi bruises in custody with zero train wheel impacts on his body."
+      },
+      {
+        "heading": "Sovereign Shield Broken",
+        "text": "The Supreme Court ruled that sovereign immunity cannot defeat constitutional rights, ordering the state to pay damages for custodial violence."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The landmark judgment established that the state is strictly responsible for the life, safety, and dignity of every detainee in custody."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
