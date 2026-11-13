@@ -166,5 +166,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "After a High Court unseated a sitting Prime Minister, Parliament passed a constitutional amendment to erase the judgment.",
+    "script": "After a High Court unseated a sitting Prime Minister, Parliament passed a constitutional amendment to erase the judgment. Earlier in the dispute, the Supreme Court rejected state privilege over security rules, affirming the constitutional right to know. When the High Court voided the election over government assistance, Parliament enacted the 39th Amendment to validate the seat and bar judicial review. In 1975, a five judge Constitution Bench struck down that immunity clause. While upholding the election under amended statutes, the court ruled that free elections and judicial review are unamendable pillars of the basic structure. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A sitting Prime Minister testified in open court, lost her parliamentary seat over campaign irregularities, and saw Parliament pass a constitutional amendment to wipe out the verdict. Discover the 1975 rulings on the right to know and the basic structure.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#BasicStructure",
+      "#RightToKnow",
+      "#ElectionLaw",
+      "#ConstitutionalLaw"
+    ],
+    "shortTitle": "The trial that tested a Prime Minister and the basic structure",
+    "carousel": [
+      {
+        "heading": "Erasing a verdict by amendment?",
+        "text": "After a High Court unseated a sitting Prime Minister, Parliament passed a constitutional amendment to erase the judgment."
+      },
+      {
+        "heading": "What happened",
+        "text": "Following a landmark Supreme Court ruling on the right to know, the High Court voided the Prime Minister's election over government campaign assistance."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can Parliament use its constituent amending power to validate an individual election and place it completely beyond judicial review?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court struck down Clause 4 of Article 329A as violating the basic structure, while upholding the election under amended statutes."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The case cemented the citizen's right to know and proved that free elections, judicial review, and the rule of law cannot be amended away."
+      }
+    ]
+  }
 }
