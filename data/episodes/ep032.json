@@ -185,5 +185,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "On a crowded railway platform, a stranger pricked a young heir with a needle carrying bubonic plague.",
+    "script": "On a crowded railway platform, a stranger pricked a young heir with a needle carrying bubonic plague. Zero natural plague cases existed in the city, and police traced telegrams and laboratory logs proving his stepbrother and a doctor had procured live plague bacilli. A jury convicted both conspirators, but the trial judge had wrongly admitted hearsay letters. In 1936, the High Court invoked Section 167 of the Evidence Act, ruling that improper admission of evidence does not require a retrial when the untainted record independently proves guilt beyond reasonable doubt, and commuted their sentences to life. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A young estate heir died of bubonic plague days after being pricked with a needle on a crowded railway platform. Discover how a 1936 High Court bench used Section 167 of the Evidence Act to uphold the biological murder conspiracy conviction.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#EvidenceLaw",
+      "#CriminalLaw",
+      "#ForensicScience",
+      "#ConspiracyLaw",
+      "#LegalHistory"
+    ],
+    "shortTitle": "The railway platform needle and Section 167 of the Evidence Act",
+    "carousel": [
+      {
+        "heading": "A needle on the platform",
+        "text": "On a crowded railway platform, a stranger pricked a young heir with a needle carrying bubonic plague."
+      },
+      {
+        "heading": "What happened",
+        "text": "Bacteriologists isolated live plague bacilli, and investigators traced telegrams proving the victim's stepbrother and a doctor procured the pathogen."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Must an appellate court order a retrial when a trial judge wrongly admits hearsay, if independent evidence still proves guilt?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "Applying Section 167 of the Evidence Act, the High Court discarded the tainted hearsay, upheld the conspiracy conviction, and commuted the sentence."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Evidentiary errors at trial do not overturn a conviction when the remaining untainted circumstantial chain proves guilt beyond reasonable doubt."
+      }
+    ]
+  }
 }
