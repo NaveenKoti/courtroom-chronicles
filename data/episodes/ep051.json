@@ -1,0 +1,195 @@
+{
+  "id": "ep051",
+  "title": "The Fatal Overdose Prescription and the Landmark Reckoning in Medical Negligence",
+  "hook": "A fifteen-year legal battle over a massive steroid overdose reshaped medical negligence accountability and produced a record compensation award.",
+  "topics": [
+    "Criminal law",
+    "Evidence",
+    "Natural justice"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 (Section 304A)",
+    "Consumer Protection Act, 1986 (Section 2(1)(g) and Section 14)",
+    "Indian Evidence Act, 1872 (Section 45)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Criminal and Civil Appellate Jurisdictions)"
+    },
+    {
+      "label": "Dates of Decisions",
+      "value": "August 7, 2009 (Liability Ruling) and October 24, 2013 (Compensation Decree)"
+    },
+    {
+      "label": "Medical Error",
+      "value": "Prescribing a slow-release depot corticosteroid at eighty milligrams twice daily far exceeding manufacturer maximums"
+    },
+    {
+      "label": "Clinical Condition",
+      "value": "Toxic epidermal necrolysis causing catastrophic skin loss, immunosuppression, and fatal septicemia"
+    },
+    {
+      "label": "Compensation Awarded",
+      "value": "Over eleven crore rupees including principal damages and six percent annual interest"
+    }
+  ],
+  "summary": [
+    "When a thirty-six-year-old child psychologist visiting eastern India developed fever and skin rashes, a senior consulting physician prescribed a long-acting depot corticosteroid injection at eighty milligrams twice daily for three days, vastly exceeding manufacturer limits. Her condition rapidly deteriorated into toxic epidermal necrolysis, causing severe skin detachment, and upon admission to a private hospital she received further excessive steroid doses without vital monitoring, intravenous fluid support, or specialized burn care before dying in another city.",
+    "The victim's husband, a medical researcher, pursued parallel criminal and consumer complaints over fifteen years. Although a magistrate initially convicted two senior doctors of criminal negligence, the High Court acquitted them and the national consumer commission dismissed the compensation claim on grounds of differing medical opinions and alleged interference by the husband.",
+    "In 2009, the Supreme Court held the treating doctors and the private hospital guilty of civil medical negligence and deficiency in service while declining to reinstate criminal convictions due to the higher threshold of gross criminal negligence and cumulative causation. In 2013, the court rejected a rigid motor-accident multiplier formula, absolved the husband of contributory negligence, and awarded a historic compensation exceeding eleven crore rupees with interest, fastening primary vicarious liability on the hospital."
+  ],
+  "timeline": [
+    {
+      "date": "1998-05-07",
+      "title": "Overdose Prescription",
+      "text": "A senior physician prescribes a slow-release depot corticosteroid at eighty milligrams twice daily for a skin rash.",
+      "key": false
+    },
+    {
+      "date": "1998-05-28",
+      "title": "Fatal Outcome",
+      "text": "Following severe epidermal loss, lack of supportive hospital care, and systemic infection, the patient passes away.",
+      "key": false
+    },
+    {
+      "date": "2002-05-29",
+      "title": "Trial Court Conviction",
+      "text": "A magistrate convicts two doctors of causing death by negligence, though the High Court later acquits them in 2004.",
+      "key": false
+    },
+    {
+      "date": "2009-08-07",
+      "title": "Civil Negligence Established",
+      "text": "The Supreme Court holds the doctors and hospital civilly negligent for breaching medical protocols and remands for damages.",
+      "key": true
+    },
+    {
+      "date": "2013-10-24",
+      "title": "Record Compensation Decree",
+      "text": "The Supreme Court awards over eleven crore rupees with interest and rejects rigid multiplier caps in medical malpractice.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Criminal appeals dismissed; civil appeals allowed with doctors and the private hospital held liable for medical negligence, culminating in a record compensation decree of over eleven crore rupees including six percent annual interest.",
+    "points": [
+      "A clear distinction exists between civil medical negligence under tort or consumer law and criminal negligence under Section 304A, which requires proof of gross negligence and individual causation.",
+      "Courts are not bound to exonerate a doctor merely because a body of medical opinion supports a practice if that opinion lacks a logical risk-benefit basis.",
+      "Hospitals are vicariously liable for the negligent acts of both permanent staff and visiting panel consultants, and cannot shirk responsibility when vital records and supportive care fail.",
+      "Compensation for wrongful death in medical negligence must reflect restoration to the pre-wrong position, accounting for inflation, future prospects, and long litigation delays rather than rigid motor-accident multipliers."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Logical Basis Test for Medical Opinion",
+      "meaning": "A medical practitioner is not shielded by peer-accepted practice if the court finds that the supporting professional opinion lacks a defensible logical basis.",
+      "inThisCase": "The court rejected claims of a valid medical school of thought because prescribing a depot steroid twice daily defied manufacturer warnings and basic pharmacology."
+    },
+    {
+      "name": "Vicarious Liability of Healthcare Institutions",
+      "meaning": "Hospitals owe an independent duty of care to patients and are legally responsible for negligence by permanent, contracted, or visiting physicians.",
+      "inThisCase": "The court fastened the largest share of financial liability upon the private hospital for failing to monitor vital parameters and administer essential supportive therapy."
+    },
+    {
+      "name": "Full Restoration in Tort Damages",
+      "latin": "Restitutio in integrum",
+      "meaning": "An injured claimant should receive monetary compensation that, as nearly as possible, restores them to the financial position they would have held absent the wrong.",
+      "inThisCase": "The court declined to cap damages using low motor-accident multipliers, factoring in the victim's overseas earning potential and fifteen years of inflation."
+    }
+  ],
+  "takeaways": [
+    "Doctors cannot prescribe medications far beyond manufacturer safety limits and claim protection under differences of medical opinion.",
+    "Hospitals bear primary institutional responsibility for maintaining patient records, monitoring vital signs, and ensuring competent care.",
+    "Civil compensation for medical negligence must be just, realistic, and adjusted for inflation rather than artificially capped."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 304A",
+        "title": "Causing death by negligence",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 106",
+        "title": "Causing death by negligence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted with a dedicated clause under Section 106(1) prescribing up to two years imprisonment and fine for death caused by a registered medical practitioner's rash or negligent act."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 336",
+        "title": "Act endangering life or personal safety of others",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 125",
+        "title": "Act endangering life or personal safety of others",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted with enhanced fines and imprisonment terms for rash or negligent acts endangering human life or personal safety."
+    }
+  ],
+  "lawNote": "Because the medical treatment and death occurred in May 1998, the criminal prosecution was governed by the Indian Penal Code, 1860, and the civil claim proceeded under the Consumer Protection Act, 1986, prior to the enactment of the Bharatiya Nyaya Sanhita, 2023 and the Consumer Protection Act, 2019.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India on Medical Negligence, August 7, 2009",
+      "url": "https://indiankanoon.org/doc/195460/"
+    },
+    {
+      "label": "Judgment of the Supreme Court of India on Compensation, October 24, 2013",
+      "url": "https://indiankanoon.org/doc/35346928/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (Official Legislative Publication)",
+      "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "What happens when a doctor prescribes a steroid at more than ten times the safe limit?",
+    "script": "What happens when a doctor prescribes a steroid at more than ten times the safe limit? In nineteen ninety-eight, a young woman visiting India developed a skin rash and was given a massive daily dose of a slow-release steroid. Her skin began blistering off, and a private hospital failed to monitor her vitals or provide basic fluid support, leading to her tragic death. Her husband fought a fifteen-year legal battle across every court. The Supreme Court held the doctors and hospital civilly negligent and awarded over eleven crore rupees, transforming patient rights forever. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A massive steroid overdose and missing hospital care claimed a young life. A fifteen-year legal battle reshaped medical accountability and produced a record compensation decree.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#MedicalNegligence",
+      "#PatientRights",
+      "#ConsumerLaw",
+      "#TortLaw",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "The Fatal Overdose: Record Medical Malpractice Ruling",
+    "carousel": [
+      {
+        "heading": "The Lethal Prescription",
+        "text": "A physician prescribed a slow-release steroid twice daily for a rash, far exceeding the manufacturer's weekly safety limit."
+      },
+      {
+        "heading": "Hospital Care Fails",
+        "text": "As her skin deteriorated, the private hospital failed to track vital signs or provide essential intravenous fluid support."
+      },
+      {
+        "heading": "The Legal Question",
+        "text": "Can doctors escape liability by claiming a difference of medical opinion when a prescription defies basic pharmacology?"
+      },
+      {
+        "heading": "The Landmark Ruling",
+        "text": "The Supreme Court found civil negligence, held the hospital vicariously liable, and awarded over eleven crore rupees with interest."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The judgment strengthened patient safety standards, forced institutional accountability on hospitals, and rejected arbitrary caps on medical damages."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
