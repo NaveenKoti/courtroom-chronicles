@@ -147,5 +147,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "When a chemical tank collapsed and sent acid fumes over a city, the company blamed an unforeseen accident.",
+    "script": "When a chemical tank collapsed and sent acid fumes over a city, the company blamed an unforeseen accident. After toxic oleum vapor escaped a fertilizer plant in 1985, legal aid groups sought compensation under Article 32. The corporation argued that nineteenth century common law strict liability allowed defenses for accidents without negligence, and that private companies were outside Article 21. In 1986, a five judge Constitution Bench rejected foreign exceptions and created the doctrine of absolute liability. Any enterprise running a hazardous industry for profit owes an absolute duty to the community with zero exceptions, and damages must match corporate wealth. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When toxic oleum gas escaped an urban chemical plant in 1985, the company invoked nineteenth-century common law exceptions. See how a five-judge Supreme Court bench forged the doctrine of absolute liability with zero defenses in 1986.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#EnvironmentalLaw",
+      "#AbsoluteLiability",
+      "#TortLaw",
+      "#ConstitutionalLaw"
+    ],
+    "shortTitle": "Zero exceptions: How the Supreme Court created absolute liability",
+    "carousel": [
+      {
+        "heading": "Acid fumes over the city",
+        "text": "When a chemical tank collapsed and sent acid fumes over a city, the company blamed an unforeseen accident."
+      },
+      {
+        "heading": "What happened",
+        "text": "In December 1985, a ruptured storage tank released toxic oleum vapor across populated neighborhoods and nearby courtrooms."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can a hazardous enterprise rely on nineteenth-century strict liability exceptions to avoid paying damages when toxic chemicals escape?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court formulated the doctrine of absolute liability with zero exceptions and linked compensation to corporate financial capacity."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Hazardous industries operate as absolute insurers of community safety, and constitutional courts can award damages under Article 32."
+      }
+    ]
+  }
 }
