@@ -166,5 +166,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Twelve years after a prince was pronounced dead, a wandering ascetic returned to claim his estate.",
+    "script": "Twelve years after a prince was pronounced dead, a wandering ascetic returned to claim his estate. A mountain storm had interrupted the prince's cremation in 1909, and when the ascetic appeared, his sister and tenants recognized his unique scars. His widow called him an impostor and claimed adverse possession. After a 608 day trial with over a thousand witnesses, the trial court and High Court both ruled he was the living prince. In 1946, the Privy Council dismissed the widow's appeal, establishing that courts of last resort will not overturn concurrent findings of fact. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A prince taken for dead during a mountain storm in 1909 returned twelve years later as a wandering ascetic, sparking a 608-day identity trial with over a thousand witnesses. Discover the 1946 ruling on family recognition and concurrent findings of fact.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#EvidenceLaw",
+      "#CivilLaw",
+      "#PropertyLaw",
+      "#AppellateLaw",
+      "#LegalHistory"
+    ],
+    "shortTitle": "The returned prince and the rule on concurrent factual findings",
+    "carousel": [
+      {
+        "heading": "Returned from the funeral pyre",
+        "text": "Twelve years after a prince was pronounced dead, a wandering ascetic returned to claim his estate."
+      },
+      {
+        "heading": "What happened",
+        "text": "Recognized by his sister and medical scars after a 608-day trial, the claimant won decrees in both the trial and high courts."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Will a final appellate court re-weigh oral and forensic identity evidence when two lower courts have reached concurrent factual findings?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Privy Council affirmed the lower decrees, ruling that concurrent findings of fact are binding and widowhood possession is not adverse."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The judgment cemented the finality of concurrent factual findings and demonstrated how Section 50 family conduct proves civil identity."
+      }
+    ]
+  }
 }
