@@ -1,0 +1,242 @@
+{
+  "id": "ep053",
+  "title": "The Poison Cloud of Kirti Nagar and the Birth of Absolute Industrial Liability",
+  "hook": "Following a toxic gas leak in west Delhi, a Constitution Bench replaced nineteenth-century exceptions with absolute liability for hazardous industries.",
+  "topics": [
+    "Constitutional law",
+    "Environmental law",
+    "Tort law",
+    "Public interest litigation"
+  ],
+  "laws": [
+    "Constitution of India (Article 21 and Article 32)",
+    "Code of Criminal Procedure, 1973 (Section 133)",
+    "Indian Penal Code, 1860 (Section 304A, Section 336, Section 337, and Section 338)",
+    "Indian Evidence Act, 1872 (Section 45)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Five-Judge Constitution Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "December 20, 1986"
+    },
+    {
+      "label": "Incident Date",
+      "value": "December 4 and December 6, 1985 (oleum gas leaks from a chemical plant in west Delhi)"
+    },
+    {
+      "label": "Human Toll",
+      "value": "One practicing advocate died and hundreds of residents and workers were hospitalized"
+    },
+    {
+      "label": "Doctrinal Shift",
+      "value": "Replaced traditional strict liability and its exceptions with non-delegable absolute liability"
+    }
+  ],
+  "summary": [
+    "While a public interest petition seeking the relocation of a hazardous chemical and fertilizer unit in west Delhi was pending before the Supreme Court, a storage tank structure collapsed on December 4, 1985, releasing a dense cloud of oleum gas across surrounding neighbourhoods. Hundreds of people were hospitalized and an advocate died after inhaling the toxic fumes, followed two days later by a second leak from a defective valve that triggered closure orders under Section 133 of the Code of Criminal Procedure.",
+    "Legal aid bodies and the local bar association intervened to claim compensation for the victims under Article 32, prompting a five-judge Constitution Bench to examine whether private industrial enterprises could be held directly accountable in writ proceedings. The bench noted that nineteenth-century common law rules on strict liability allowed industrial defendants to escape responsibility through exceptions such as acts of third parties or unforeseen natural events.",
+    "On December 20, 1986, the Constitution Bench established the doctrine of absolute liability, holding that any enterprise engaged in a hazardous or inherently dangerous activity owes an absolute, non-delegable duty to the community with zero exceptions if harm occurs. The court further ruled that compensation must be correlated to the magnitude and financial capacity of the enterprise to ensure effective deterrence."
+  ],
+  "timeline": [
+    {
+      "date": "1985-12-04",
+      "title": "First Oleum Gas Leak",
+      "text": "A storage tank structure collapses at a west Delhi chemical unit, releasing toxic oleum gas and hospitalizing hundreds.",
+      "key": false
+    },
+    {
+      "date": "1985-12-06",
+      "title": "Second Leak and Closure Order",
+      "text": "A second leak from a defective valve prompts authorities to order the plant closed under Section 133 of the Code of Criminal Procedure.",
+      "key": false
+    },
+    {
+      "date": "1986-02-17",
+      "title": "Conditional Plant Reopening",
+      "text": "A three-judge bench permits conditional resumption under strict safety monitoring and refers compensation issues to a larger bench.",
+      "key": false
+    },
+    {
+      "date": "1986-12-20",
+      "title": "Absolute Liability Doctrine Announced",
+      "text": "A five-judge Constitution Bench establishes absolute industrial liability without exceptions and links damages to enterprise capacity.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Reference answered by the five-judge Constitution Bench; the court affirmed broad remedial powers under Article 32 and established absolute liability without exceptions for enterprises carrying on hazardous or inherently dangerous activities.",
+    "points": [
+      "An enterprise engaged in a hazardous or inherently dangerous industry owes an absolute and non-delegable duty to ensure no harm results to anyone.",
+      "The nineteenth-century English rule of strict liability and its traditional exceptions do not apply to hazardous industrial enterprises in India.",
+      "Compensation awarded against a hazardous enterprise must be proportionate to its magnitude and capacity so that damages carry a genuine deterrent effect.",
+      "Article 32 empowers the Supreme Court to forge new remedies and award compensation in appropriate cases involving grave violations of fundamental rights."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Doctrine of Absolute Liability",
+      "meaning": "Any enterprise carrying on a hazardous or inherently dangerous activity for profit is strictly and unconditionally liable for all resulting harm, without any common-law exceptions.",
+      "inThisCase": "The court rejected defenses such as third-party sabotage or unforeseen mechanical failure, making industrial safety an absolute legal obligation."
+    },
+    {
+      "name": "Deep Pocket Principle of Deterrence",
+      "meaning": "The measure of compensation for industrial harm should scale with the size and financial capacity of the enterprise.",
+      "inThisCase": "The bench held that larger corporations must pay higher damages so that compensation acts as a meaningful deterrent against safety shortcuts."
+    },
+    {
+      "name": "Remedial Scope of Article 32",
+      "meaning": "Constitutional writ jurisdiction includes the power to craft innovative remedies, not merely issue traditional prerogative writs.",
+      "inThisCase": "The court affirmed that Article 32 allows awarding compensation where fundamental rights to life are threatened by mass industrial hazards."
+    }
+  ],
+  "takeaways": [
+    "Hazardous industries in India operate under an absolute, non-delegable duty of safety with zero common-law exceptions.",
+    "Industrial compensation is tied to enterprise scale and capacity to deter negligence in dense urban areas.",
+    "The ruling reshaped Indian environmental jurisprudence and paved the way for modern pollution and public liability statutes."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 32",
+        "title": "Remedies for enforcement of rights conferred by this Part",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 133",
+        "title": "Conditional order for removal of nuisance",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 152",
+        "title": "Conditional order for removal of nuisance",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "change": "Re-enacted in the Bharatiya Nagarik Suraksha Sanhita, 2023 as Section 152, retaining magistrates' power to abate public nuisances and hazardous operations."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 304A",
+        "title": "Causing death by negligence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 106",
+        "title": "Causing death by negligence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Replaced by Section 106 of the Bharatiya Nyaya Sanhita, 2023 with enhanced imprisonment of up to five years for negligent acts not amounting to culpable homicide."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 336",
+        "title": "Act endangering life or personal safety of others",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 125",
+        "title": "Act endangering life or personal safety of others",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated into Section 125 of the Bharatiya Nyaya Sanhita, 2023 (covering former Sections 336, 337, and 338) with revised fine and imprisonment limits."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 45",
+        "title": "Opinions of experts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 39",
+        "title": "Opinions of experts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 39 of the Bharatiya Sakshya Adhiniyam, 2023, consolidating expert opinion rules including electronic evidence examiners."
+    }
+  ],
+  "lawNote": "Because the gas leaks occurred in December 1985, the proceedings were governed by the Code of Criminal Procedure, 1973, the Indian Penal Code, 1860, and the Indian Evidence Act, 1872, alongside Articles 21 and 32 of the Constitution.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India (Five-Judge Constitution Bench), December 20, 1986",
+      "url": "https://indiankanoon.org/doc/1486949/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 and Code of Criminal Procedure, 1973 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "social": {
+    "hook": "What happened when a toxic oleum gas cloud drifted over west Delhi in December 1985?",
+    "script": "What happened when a toxic oleum gas cloud drifted over west Delhi in December 1985? A collapsed storage structure at a chemical plant hospitalized hundreds of residents and killed an advocate, followed by a second leak two days later. Traditional nineteenth-century common law allowed hazardous industries to escape damages through exceptions like third-party sabotage or unforeseen accidents. On December 20, 1986, a five-judge Constitution Bench rejected those loopholes. The court created the doctrine of absolute liability, holding hazardous enterprises unconditionally responsible with zero exceptions, and tied compensation to corporate capacity for real deterrence. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After toxic oleum gas leaked across west Delhi in December 1985, a Constitution Bench replaced nineteenth-century exceptions with absolute industrial liability and deterrent compensation.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#EnvironmentalLaw",
+      "#AbsoluteLiability",
+      "#ConstitutionalLaw",
+      "#Article21",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Poison Cloud of Kirti Nagar: Absolute Liability",
+    "carousel": [
+      {
+        "heading": "The December 1985 Leaks",
+        "text": "Oleum gas escaped twice from a west Delhi chemical plant, hospitalizing hundreds and claiming the life of an advocate."
+      },
+      {
+        "heading": "The Old Loopholes",
+        "text": "Traditional nineteenth-century strict liability rules let hazardous industries escape blame using exceptions like unforeseen events or third-party acts."
+      },
+      {
+        "heading": "The Legal Question",
+        "text": "Should modern hazardous industries in densely populated cities still be shielded by nineteenth-century common-law exceptions?"
+      },
+      {
+        "heading": "Absolute Liability Born",
+        "text": "A five-judge Constitution Bench established non-delegable absolute liability with zero exceptions and scaled damages to corporate capacity."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The ruling transformed Indian environmental law and established strict corporate accountability for hazardous industrial operations."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
