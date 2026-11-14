@@ -204,5 +204,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A burning car held a body staged to fake an executive's death, but the lungs had zero soot.",
+    "script": "A burning car held a body staged to fake an executive's death, but the lungs had zero soot. To claim a massive life insurance payout, conspirators poisoned and strangled a hitchhiker and burned him in the policyholder's car. Autopsy tests proved the victim died before the fire, and an accomplice turned approver. On appeal, the defense argued that because the body was burned beyond recognition, corpus delicti was unproven. The courts rejected that claim, holding that under Section 46 of the penal code, proving the murder of a human being suffices even when civil identity is disputed. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "Conspirators staged a fiery car crash using a murdered hitchhiker to claim a massive life insurance payout, but clean airways proved the victim died before the fire. See why courts ruled that murder of any human being satisfies corpus delicti.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalLaw",
+      "#ForensicScience",
+      "#EvidenceLaw",
+      "#CorpusDelicti",
+      "#ResGestae"
+    ],
+    "shortTitle": "Staged car blaze, clean lungs, and the rule of corpus delicti",
+    "carousel": [
+      {
+        "heading": "No soot in the lungs",
+        "text": "A burning car held a body staged to fake an executive's death, but the lungs had zero soot."
+      },
+      {
+        "heading": "What happened",
+        "text": "Conspirators poisoned and strangled a hitchhiking traveler and set the policyholder's sedan ablaze in a paddy field for insurance money."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can killers escape a murder conviction by disfiguring a body and arguing that the victim's civil identity is not proven?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The courts upheld the life sentences, ruling that proving the violent killing of a human being satisfies corpus delicti under Section 46."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Forensic pathology and res gestae statements under Section 6 prevent criminals from using post-mortem arson to erase homicide."
+      }
+    ]
+  }
 }
