@@ -137,5 +137,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Can a drug giant win a new patent by turning a known leukemia medicine into crystals?",
+    "script": "Can a drug giant win a new patent by turning a known leukemia medicine into crystals? A multinational company sought an Indian product patent on the crystalline salt form of an existing cancer drug. Patient groups opposed the claim under Section 3(d) of the Patents Act, which bars patents on new forms of known substances without enhanced efficacy. The company argued that thirty percent higher bioavailability proved efficacy. In 2013, the Supreme Court dismissed the appeal, ruling that efficacy strictly means therapeutic healing effect in the human body, preserving affordable generic cancer medicines worldwide. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a pharmaceutical multinational sought an Indian patent on the crystalline form of a known leukemia medicine, patient groups invoked Section 3(d) of the Patents Act. See how the Supreme Court defined therapeutic efficacy in 2013 to stop evergreening.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#PatentLaw",
+      "#IntellectualProperty",
+      "#PublicHealth",
+      "#Section3d"
+    ],
+    "shortTitle": "The cancer molecule, evergreening, and the test of Section 3(d)",
+    "carousel": [
+      {
+        "heading": "A new crystal, a new patent?",
+        "text": "Can a drug giant win a new patent by turning a known leukemia medicine into crystals?"
+      },
+      {
+        "heading": "What happened",
+        "text": "A multinational applied for a product patent on the beta-crystalline salt of an existing cancer drug, facing five pre-grant oppositions."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Do improved physical stability and a thirty percent increase in blood bioavailability satisfy enhanced efficacy under Section 3(d)?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court rejected the patent, holding that efficacy for medicines strictly means proven therapeutic healing power in the body."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The ruling prevented patent evergreening on minor chemical tweaks and protected global access to affordable generic life-saving medicines."
+      }
+    ]
+  }
 }
