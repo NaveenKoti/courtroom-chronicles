@@ -1,0 +1,203 @@
+{
+  "id": "ep052",
+  "title": "The Apology of History and the Decriminalization of Consensual Adult Intimacy",
+  "hook": "A unanimous five-judge Constitution Bench struck down the colonial-era criminalization of consensual adult intimacy in private as unconstitutional.",
+  "topics": [
+    "Constitutional law",
+    "Fundamental rights",
+    "Privacy",
+    "Criminal law"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 (Section 377)",
+    "Constitution of India (Article 14, Article 15, Article 19(1)(a), and Article 21)",
+    "Bharatiya Nyaya Sanhita, 2023 (Omission of Section 377; non-consensual offences under Section 64)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Five-Judge Constitution Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "September 6, 2018"
+    },
+    {
+      "label": "Challenged Provision",
+      "value": "Section 377 of the Indian Penal Code, 1860 criminalizing consensual private sexual acts"
+    },
+    {
+      "label": "Prior Reversal",
+      "value": "2013 two-judge bench ruling that had overturned a 2009 High Court decriminalization order"
+    },
+    {
+      "label": "Bench Consensus",
+      "value": "Unanimous five-to-zero verdict across four concurring opinions"
+    }
+  ],
+  "summary": [
+    "Enacted in 1860, Section 377 of the Indian Penal Code punished any sexual act deemed against the order of nature with imprisonment extending up to life, turning private consensual intimacy between adults into a cognizable offence. Although a High Court read down the provision in 2009 to exclude consenting adults, a two-judge Supreme Court bench reversed that relief in 2013, describing affected citizens as a minuscule fraction and leaving the statute intact.",
+    "Five individuals later filed a writ petition under Article 32 seeking protection for their dignity, privacy, and equal citizenship after a nine-judge bench affirmed privacy as a fundamental right in 2017. During the hearing, the Union government left the validity of consensual private adult acts to the court's wisdom while opposing any change to marriage or non-consensual provisions.",
+    "On September 6, 2018, a five-judge Constitution Bench unanimously overruled the 2013 decision and struck down Section 377 insofar as it criminalized consensual sexual conduct between adults in private. The court held that penalizing innate sexual orientation violated constitutional equality, non-discrimination, free expression, and personal dignity, while keeping non-consensual acts, acts involving minors, and bestiality punishable."
+  ],
+  "timeline": [
+    {
+      "date": "1860-10-06",
+      "title": "Colonial Penal Code Enacted",
+      "text": "Section 377 is enacted in the Indian Penal Code, criminalizing non-procreative sexual acts with up to life imprisonment.",
+      "key": false
+    },
+    {
+      "date": "2009-07-02",
+      "title": "High Court Reads Down Law",
+      "text": "The Delhi High Court declares Section 377 unconstitutional insofar as it criminalizes consensual sexual acts between adults in private.",
+      "key": false
+    },
+    {
+      "date": "2013-12-11",
+      "title": "Two-Judge Bench Reversal",
+      "text": "A two-judge Supreme Court bench sets aside the High Court ruling and restores the criminalization of consensual adult acts.",
+      "key": false
+    },
+    {
+      "date": "2018-09-06",
+      "title": "Unanimous Constitution Bench Verdict",
+      "text": "Five judges unanimously decriminalize consensual adult intimacy in private and overrule the 2013 precedent.",
+      "key": true
+    },
+    {
+      "date": "2024-07-01",
+      "title": "New Penal Code Commences",
+      "text": "The Bharatiya Nyaya Sanhita, 2023 takes effect without any counterpart to Section 377 for consensual adult acts.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petition allowed unanimously (5:0); Section 377 of the Indian Penal Code declared unconstitutional to the extent it criminalized consensual sexual conduct between adults in private, overruling the 2013 two-judge bench decision.",
+    "points": [
+      "Criminalizing consensual adult intimacy is manifestly arbitrary under Article 14 because it fails to distinguish between consensual and non-consensual acts.",
+      "Discrimination based on sexual orientation constitutes prohibited sex discrimination under Article 15(1) of the Constitution.",
+      "Sexual orientation is an essential attribute of privacy, dignity, and personal autonomy protected under Articles 19(1)(a) and 21.",
+      "Constitutional morality must prevail over majoritarian social morality; Section 377 remains enforceable only against non-consensual acts, acts with minors, and bestiality."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Constitutional Morality Over Social Morality",
+      "meaning": "Fundamental rights cannot be curtailed by popular prejudice, majoritarian disapproval, or historical stigma.",
+      "inThisCase": "The bench held that courts must test laws against constitutional values of liberty, equality, and fraternity rather than transient societal attitudes."
+    },
+    {
+      "name": "Manifest Arbitrariness",
+      "meaning": "A statutory provision that is capricious, irrational, or lacks an adequate determining principle violates the guarantee of equality under Article 14.",
+      "inThisCase": "Treating private consensual intimacy between adults identically to sexual assault rendered the overbroad reach of Section 377 unconstitutional."
+    },
+    {
+      "name": "Transformative Constitutionalism",
+      "meaning": "The Constitution is a living charter intended to transform an unequal society by continuously expanding freedom and human dignity.",
+      "inThisCase": "The court observed that history owed an apology to citizens who had endured decades of fear, stigma, and criminalization under a colonial provision."
+    }
+  ],
+  "takeaways": [
+    "Consensual sexual acts between adults in private are protected by constitutional guarantees of equality, privacy, and dignity.",
+    "Fundamental rights belong equally to every citizen regardless of numerical minority status.",
+    "Non-consensual sexual offences and offences involving minors remain strictly punishable under criminal law."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 377",
+        "title": "Unnatural offences",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Deleted (Non-consensual acts under Section 64)",
+        "title": "Punishment for rape",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Section 377 was omitted in the Bharatiya Nyaya Sanhita, 2023; consensual adult acts are not criminalized, while non-consensual sexual offences are governed by specific provisions such as Section 64."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 14",
+        "title": "Equality before law",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 15",
+        "title": "Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the challenged provision pre-dated July 1, 2024, the court adjudicated Section 377 of the Indian Penal Code, 1860; the Bharatiya Nyaya Sanhita, 2023 subsequently omitted the provision entirely.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India (Five-Judge Constitution Bench), September 6, 2018",
+      "url": "https://indiankanoon.org/doc/168671544/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "How did a colonial law from 1860 stay on India's statute books for more than a century and a half?",
+    "script": "How did a colonial law from 1860 stay on India's statute books for more than a century and a half? Section 377 of the Indian Penal Code criminalized consensual private intimacy between adults, carrying penalties up to life imprisonment. Even after a High Court read it down in 2009, a two-judge bench restored it in 2013, calling affected citizens a minuscule fraction. Five petitioners returned to the Supreme Court under Article 32. On September 6, 2018, a five-judge Constitution Bench unanimously struck down the criminalization of consensual adult intimacy, affirming constitutional morality, equality, and dignity. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After a 2013 reversal left millions living in the shadow of an 1860 colonial provision, a unanimous five-judge Constitution Bench affirmed that constitutional morality protects private consensual adult intimacy.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#ConstitutionalLaw",
+      "#Section377",
+      "#FundamentalRights",
+      "#Article21",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "The Apology of History: Section 377 Struck Down",
+    "carousel": [
+      {
+        "heading": "The Colonial Provision",
+        "text": "Section 377 of the 1860 Penal Code criminalized consensual private intimacy between adults with penalties up to life imprisonment."
+      },
+      {
+        "heading": "The 2013 Reversal",
+        "text": "A two-judge bench overturned a 2009 High Court relief order, dismissing affected citizens as a minuscule fraction."
+      },
+      {
+        "heading": "The Constitutional Question",
+        "text": "Does penalizing private consensual adult intimacy violate constitutional guarantees of equality, non-discrimination, expression, and personal dignity?"
+      },
+      {
+        "heading": "The Unanimous Verdict",
+        "text": "Five Constitution Bench judges unanimously struck down the consensual adult scope of Section 377 and overruled the 2013 precedent."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The ruling anchored constitutional morality over social prejudice and preceded the complete omission of Section 377 in 2023."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
