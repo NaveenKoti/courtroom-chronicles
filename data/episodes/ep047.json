@@ -1,0 +1,212 @@
+{
+  "id": "ep047",
+  "title": "Thirty-Seven Years in Room Four and the Constitutional Frontiers of Dying with Dignity",
+  "hook": "A historic constitutional judgment recognized passive euthanasia and affirmed that the fundamental right to life embraces a dignified death.",
+  "topics": [
+    "Constitutional law",
+    "Fundamental rights",
+    "Criminal law",
+    "Natural justice",
+    "Privacy"
+  ],
+  "laws": [
+    "Constitution of India (Article 21 and Article 32)",
+    "Indian Penal Code, 1860 (Section 306 and Section 309)",
+    "Mental Healthcare Act, 2017 (Section 115)",
+    "Code of Criminal Procedure, 1973 (Section 125)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Criminal Original and Constitutional Jurisdictions)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "March 7, 2011"
+    },
+    {
+      "label": "Medical Condition",
+      "value": "Permanent vegetative state resulting from irreversible hypoxic-ischemic brain damage"
+    },
+    {
+      "label": "Duration of Hospital Care",
+      "value": "Over thirty-seven continuous years of bedridden institutional care without a single bedsore"
+    },
+    {
+      "label": "Legal Question",
+      "value": "Whether life support and artificial nutrition may be withdrawn from an incompetent patient under passive euthanasia"
+    }
+  ],
+  "summary": [
+    "Following a brutal sexual assault and strangulation in a public hospital basement, a dedicated staff nurse suffered catastrophic cerebral hypoxia that extinguished her cognitive faculties while leaving her autonomic brainstem intact. For nearly four decades, her fellow hospital nurses transformed a small hospital room into a sanctuary of continuous care, attending to her bodily needs with extraordinary devotion so that she never developed a single bedsore or systemic infection.",
+    "A social activist and author filed a public interest writ petition before the Supreme Court claiming to act as the patient's next friend, seeking judicial permission to withdraw artificial hydration and feeding to bring an end to her prolonged vegetative existence. The hospital nursing staff fiercely opposed the petition, asserting that the patient was not in unbearable pain, reacted to voices and music, and had become an adopted member of their institutional family.",
+    "The Supreme Court dismissed the plea to terminate life-sustaining measures, holding that the hospital staff who cared for the patient constituted her true next friend under the protective doctrine of the state. However, the bench made historic constitutional law by legalizing passive euthanasia across the nation, laying down stringent procedural safeguards requiring High Court approval and independent medical panels before life-support systems can be lawfully withdrawn from terminally ill patients."
+  ],
+  "timeline": [
+    {
+      "date": "1973-11-27",
+      "title": "Tragic Assault",
+      "text": "A hospital ward nurse suffers irreversible brain damage following a brutal assault and asphyxiation in a medical basement.",
+      "key": false
+    },
+    {
+      "date": "2009-12-17",
+      "title": "Public Interest Petition",
+      "text": "A writer and activist petitions the Supreme Court seeking permission to withdraw life-sustaining measures.",
+      "key": false
+    },
+    {
+      "date": "2011-02-17",
+      "title": "Medical Panel Report",
+      "text": "A court-appointed board of specialists submits a clinical evaluation confirming permanent vegetative condition without acute suffering.",
+      "key": false
+    },
+    {
+      "date": "2011-03-07",
+      "title": "Historic Euthanasia Ruling",
+      "text": "The Supreme Court legalizes passive euthanasia with judicial safeguards but rejects the petition to stop feeding the nurse.",
+      "key": true
+    },
+    {
+      "date": "2018-03-09",
+      "title": "Living Wills Recognized",
+      "text": "A five-judge Constitution Bench reaffirms passive euthanasia and recognizes advance medical directives.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petition dismissed regarding the specific patient; passive euthanasia recognized as legally permissible in India subject to strict High Court approval procedures and multi-disciplinary medical board evaluations.",
+    "points": [
+      "Active euthanasia involving the administration of lethal substances remains unlawful and constitutes culpable homicide or murder.",
+      "Passive euthanasia involving the withdrawal of life-sustaining treatment or artificial hydration from a permanently vegetative patient is legally permissible.",
+      "The ultimate decision to withdraw life support requires formal approval from the relevant High Court exercising constitutional parens patriae authority.",
+      "Hospital nursing staff who provided lifelong daily care, rather than external petitioners, qualify as the patient's genuine next friend."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Doctrine of Parens Patriae",
+      "meaning": "The state and the courts hold an inherent paternal duty to protect the legal rights and well-being of citizens unable to care for themselves.",
+      "inThisCase": "The court held that judges must exercise ultimate supervisory jurisdiction to ensure that decisions to withdraw life support reflect the patient's best interests."
+    },
+    {
+      "name": "Distinction Between Active and Passive Euthanasia",
+      "meaning": "Active euthanasia entails taking positive physical steps to end life, whereas passive euthanasia consists of withholding artificial measures to let nature take its course.",
+      "inThisCase": "The bench held that while positive acts causing death are penal offenses, allowing a dying patient to die naturally when recovery is impossible is lawful."
+    },
+    {
+      "name": "Right to Die with Dignity as Facet of Life",
+      "meaning": "The constitutional right to life under Article 21 encompasses living and dying with human dignity rather than enduring prolonged, futile bodily degradation.",
+      "inThisCase": "The court ruled that keeping a hopelessly vegetative body artificially animated against nature violates the intrinsic dignity protected by the Constitution."
+    }
+  ],
+  "takeaways": [
+    "Passive euthanasia is constitutionally recognized in India, enabling the humane withdrawal of futile life-support systems.",
+    "Withdrawal of artificial life-sustaining treatment requires strict clearance from a High Court bench and specialized medical boards.",
+    "Lifelong institutional caregivers hold primary legal status as next friends over outside parties seeking to determine patient welfare."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 309",
+        "title": "Attempt to commit suicide",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 226",
+        "title": "Attempt to commit suicide to compel or restrain exercise of lawful power",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Decriminalized general suicide attempts, restricting penal liability exclusively to attempts made to coerce public servants from performing duties."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 306",
+        "title": "Abetment of suicide",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 108",
+        "title": "Abetment of suicide",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted penal provisions punishing any individual who aids or instigates another person to commit suicide."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 307",
+        "title": "Attempt to murder",
+        "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 109",
+        "title": "Attempt to murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted comprehensive penal sanctions punishing deliberate physical assaults endangering human life."
+    }
+  ],
+  "lawNote": "The constitutional review evaluated the boundaries of life and death under Article 21 and the Indian Penal Code, 1860. Modern statutory developments under the Mental Healthcare Act, 2017 and the Bharatiya Sanhitas have transformed the penal treatment of suicide and medical decision-making.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India on Passive Euthanasia, March 7, 2011",
+      "url": "https://indiankanoon.org/doc/235821/"
+    },
+    {
+      "label": "Constitution Bench Judgment on Living Wills, March 9, 2018",
+      "url": "https://indiankanoon.org/doc/184449976/"
+    },
+    {
+      "label": "Indian Penal Code, 1860 (Official Legislative Publication)",
+      "url": "https://lddashboard.legislative.gov.in/sites/default/files/A1860-45.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 Comparative Table",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "Can a court order doctors to stop feeding a bedridden patient who cannot speak for herself?",
+    "script": "Can a court order doctors to stop feeding a bedridden patient who cannot speak for herself? For nearly four decades, a young nurse remained in a hospital room in an irreversible vegetative state after a brutal assault. Her devoted fellow nurses cared for her without a single bedsore, treating her as family. When an author petitioned the Supreme Court to withdraw artificial feeding and let her die, the country faced an agonizing moral dilemma. The judges refused to end her care, but made history by legalizing passive euthanasia nationwide. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "For thirty-seven years, a devoted hospital staff cared for an incapacitated colleague. When an outsider sought to withdraw life support, the highest court established the law on passive euthanasia.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#RightToLife",
+      "#MedicalEthics",
+      "#Bioethics",
+      "#ConstitutionalLaw",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Thirty-Seven Years in Room 4: The Euthanasia Trial",
+    "carousel": [
+      {
+        "heading": "The Forgotten Tragedy",
+        "text": "A dedicated young nurse was left in a permanent vegetative state following a violent assault in a hospital basement."
+      },
+      {
+        "heading": "Devotion in Room Four",
+        "text": "For nearly four decades, fellow nurses bathed, fed, and protected her, never letting her develop a single bedsore."
+      },
+      {
+        "heading": "The Moral Dilemma",
+        "text": "An author asked the Supreme Court to stop tube feeding and let her die peacefully, sparking national ethical debate."
+      },
+      {
+        "heading": "The Historic Ruling",
+        "text": "The Supreme Court refused to end her care but legalized passive euthanasia with strict judicial safeguards across India."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The ruling affirmed that human life includes the right to die with dignity, opening the door for advance medical directives."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
