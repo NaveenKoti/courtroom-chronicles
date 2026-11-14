@@ -1,0 +1,254 @@
+{
+  "id": "ep054",
+  "title": "The Lone Survivor at Arthur Road and Constitutional Due Process in a Terror Trial",
+  "hook": "Even in the prosecution of the sole surviving gunman of the 2008 Mumbai terror attacks, the Supreme Court enforced strict constitutional and evidentiary standards.",
+  "topics": [
+    "Criminal law",
+    "Constitutional law",
+    "Evidence",
+    "Natural justice"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 (Section 121 and Section 302)",
+    "Code of Criminal Procedure, 1973 (Section 164, Section 304, and Section 366)",
+    "Indian Evidence Act, 1872 (Section 45 and Section 65B)",
+    "Constitution of India (Article 21 and Article 22(1))"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Criminal Appellate Jurisdiction)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "August 29, 2012"
+    },
+    {
+      "label": "Attack Window",
+      "value": "November 26 to November 29, 2008 across Mumbai (166 killed and 238 injured)"
+    },
+    {
+      "label": "Capture",
+      "value": "Sole surviving gunman apprehended alive at Girgaum Chowpatty early on November 27, 2008"
+    },
+    {
+      "label": "Trial Venue",
+      "value": "Special court inside Arthur Road Central Prison, Mumbai (convicted and sentenced in May 2010)"
+    }
+  ],
+  "summary": [
+    "During a coordinated sixty-hour armed assault across Mumbai in November 2008 that left 166 people dead and 238 injured, one of ten gunmen was captured alive at a police barricade at Girgaum Chowpatty when an unarmed officer held onto his rifle barrel despite suffering fatal gunfire. The surviving attacker was tried in a high-security special court inside Arthur Road Central Prison, where prosecutors relied on eyewitnesses, railway station camera footage, maritime navigation logs, and a judicial confession.",
+    "In May 2010, the trial court convicted the accused on charges including murder and waging war against the Government of India and imposed the death penalty, which the High Court confirmed in February 2011. On appeal to the Supreme Court, senior defense counsel appointed by the court challenged the voluntariness of the confession, the absence of legal counsel during early police custody, and the applicability of waging war provisions to non-state militants.",
+    "On August 29, 2012, the Supreme Court upheld the convictions and death sentence while affirming vital constitutional safeguards for all criminal defendants. The bench ruled that the right to free legal aid begins at first production before a magistrate rather than at trial, though its pre-trial absence had not prejudiced the defence given overwhelming independent evidence, and held that asymmetric armed terror assaults aimed at destabilizing the nation constitute waging war under Section 121."
+  ],
+  "timeline": [
+    {
+      "date": "2008-11-26",
+      "title": "Mumbai Terror Attacks Begin",
+      "text": "Ten armed attackers land by sea and launch coordinated assaults on railway stations, hotels, and landmarks across Mumbai.",
+      "key": false
+    },
+    {
+      "date": "2008-11-27",
+      "title": "Sole Gunman Captured Alive",
+      "text": "Police intercept a commandeered car at Girgaum Chowpatty and capture one attacker alive after an unarmed officer tackles him.",
+      "key": false
+    },
+    {
+      "date": "2010-05-06",
+      "title": "Special Court Death Sentence",
+      "text": "A special sessions court at Arthur Road Central Prison convicts the surviving attacker and imposes the death penalty.",
+      "key": false
+    },
+    {
+      "date": "2011-02-21",
+      "title": "High Court Confirmation",
+      "text": "The Bombay High Court confirms the death sentence under Section 366 of the Code of Criminal Procedure.",
+      "key": false
+    },
+    {
+      "date": "2012-08-29",
+      "title": "Supreme Court Upholds Conviction",
+      "text": "The Supreme Court affirms the death sentence, defines early legal aid duties, and clarifies waging war in asymmetric terror attacks.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Appeals dismissed; the Supreme Court confirmed the death sentences imposed by the special trial court and affirmed by the Bombay High Court, while laying down binding constitutional rules on pre-trial legal aid.",
+    "points": [
+      "The right to legal representation under Articles 21 and 22(1) attaches from the moment an accused is first produced before a magistrate, and failure by magistrates to offer legal aid is a dereliction of duty.",
+      "Lack of legal counsel at the pre-trial stage did not vitiate the trial because the accused received full representation during trial and appeals and suffered no demonstrable prejudice.",
+      "A judicial confession recorded under Section 164 after repeated cooling-off periods and judicial cautions was voluntary and corroborated by railway station video, maritime navigation records, and forensic evidence.",
+      "An organized, cross-border armed attack designed to strike at the sovereignty and economic heart of the country constitutes waging war against the Government of India under Section 121."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Early Right to Legal Aid",
+      "meaning": "An indigent or unrepresented accused must be offered free legal assistance at state expense at the very first production before a magistrate, not merely when trial begins.",
+      "inThisCase": "The court directed all magistrates nationwide to inform arrested persons of their right to legal aid at first production and record their response."
+    },
+    {
+      "name": "Waging War in Asymmetric Conflict",
+      "meaning": "The offence of waging war against the state is defined by the intent to subvert sovereignty and public authority through organized violence, not by conventional uniforms or state armies.",
+      "inThisCase": "The bench held that coordinated urban terror warfare directed from abroad against Indian institutions squarely falls within Section 121."
+    },
+    {
+      "name": "Corroboration of Judicial Confessions",
+      "meaning": "A confession recorded by a magistrate with strict safeguards against police influence is admissible when corroborated by independent physical and electronic evidence.",
+      "inThisCase": "Medical age tests, eyewitness identifications, station surveillance recordings, and maritime GPS waypoints independently verified the confession."
+    }
+  ],
+  "takeaways": [
+    "Every accused person has a constitutional right to legal aid from first appearance before a magistrate, regardless of the gravity of the charge.",
+    "Electronic records, forensic science, and procedural safeguards under Section 164 are decisive in complex criminal trials.",
+    "Even in the gravest national security cases, Indian courts enforce rigorous appellate scrutiny and constitutional due process."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 121",
+        "title": "Waging, or attempting to wage war, or abetting waging of war, against the Government of India",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 147",
+        "title": "Waging, or attempting to wage war, or abetting waging of war, against Government of India",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted as Section 147 of the Bharatiya Nyaya Sanhita, 2023, retaining death or life imprisonment for waging war against the Government of India."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Replaced by Section 103 of the Bharatiya Nyaya Sanhita, 2023, retaining death or life imprisonment for murder while adding a specific sub-section for mob lynching."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 164",
+        "title": "Recording of confessions and statements",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 183",
+        "title": "Recording of confessions and statements",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "change": "Re-enacted as Section 183 of the Bharatiya Nagarik Suraksha Sanhita, 2023, adding electronic audio-video recording options and jurisdictional flexibility."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 304",
+        "title": "Legal aid to accused at State expense in certain cases",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 341",
+        "title": "Legal aid to accused at State expense in certain cases",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "change": "Replaced by Section 341 of the Bharatiya Nagarik Suraksha Sanhita, 2023, continuing state-funded legal aid for unrepresented accused before Courts of Session."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 65B",
+        "title": "Admissibility of electronic records",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 63",
+        "title": "Admissibility of electronic records",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Replaced by Section 63 of the Bharatiya Sakshya Adhiniyam, 2023, expanding electronic record admissibility and requiring a standardized hash-verified certificate."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 22",
+        "title": "Protection against arrest and detention in certain cases",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the offences took place in November 2008, the trial and appeals were governed by the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, August 29, 2012",
+      "url": "https://indiankanoon.org/doc/193792759/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 and Code of Criminal Procedure, 1973 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "social": {
+    "hook": "How did India's Supreme Court uphold due process even while confirming the death penalty for a 26/11 attacker?",
+    "script": "How did India's Supreme Court uphold due process even while confirming the death penalty for a 26/11 attacker? Captured alive at Girgaum Chowpatty after an unarmed officer held his rifle barrel, the sole surviving gunman stood trial inside Arthur Road Central Prison. On appeal, court-appointed senior counsel challenged his magistrate confession, pre-trial lack of a lawyer, and charges of waging war against India. On August 29, 2012, the Supreme Court confirmed the death sentence based on railway video, maritime GPS logs, and eyewitnesses, while ruling that every accused has a constitutional right to legal aid at first production. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "In the 2012 appellate verdict on the 26/11 Mumbai terror attacks, the Supreme Court confirmed the death sentence while establishing that every accused must be offered legal aid at first production before a magistrate.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalLaw",
+      "#DueProcess",
+      "#LegalAid",
+      "#ConstitutionalLaw",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Arthur Road Trial: Due Process in a Terror Case",
+    "carousel": [
+      {
+        "heading": "Capture at Chowpatty",
+        "text": "One attacker from the sixty-hour 2008 Mumbai terror assault was captured alive after an unarmed officer held his rifle barrel."
+      },
+      {
+        "heading": "The Defense Challenge",
+        "text": "Court-appointed appellate lawyers challenged the magistrate confession, early lack of counsel, and the charge of waging war."
+      },
+      {
+        "heading": "The Legal Question",
+        "text": "When does the constitutional right to legal aid begin, and do coordinated terror attacks constitute waging war against India?"
+      },
+      {
+        "heading": "The 2012 Verdict",
+        "text": "The Supreme Court affirmed the death sentence on overwhelming evidence and mandated offering legal aid at first magistrate production."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The ruling proved that constitutional due process and appellate scrutiny protect every accused, even in the gravest terror trials."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
