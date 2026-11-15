@@ -206,5 +206,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A wife and two infants lay dead behind a padlocked door while the husband vanished.",
+    "script": "A wife and two infants lay dead behind a padlocked door while the husband vanished. Undisputed testimony proved the husband was last seen with his family inside their home right before the entrance was padlocked from outside. Arrested two weeks later, he gave no explanation for his absence. After the High Court acquitted him, the Supreme Court reversed the verdict in 2006. Under Section 106 of the Evidence Act, a spouse last seen with his family in a locked home must explain how they parted company, and his silence completed the proof of murder. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a mother and two infants were found strangled inside a house padlocked from the outside, the absconding husband offered only silence in court. See how the Supreme Court applied Section 106 of the Evidence Act in 2006 to reverse his acquittal.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#EvidenceLaw",
+      "#Section106",
+      "#CriminalLaw",
+      "#LastSeenTheory"
+    ],
+    "shortTitle": "The padlocked room and the burden of explanation under Section 106",
+    "carousel": [
+      {
+        "heading": "Silence behind a padlocked door",
+        "text": "A wife and two infants lay dead behind a padlocked door while the husband vanished."
+      },
+      {
+        "heading": "What happened",
+        "text": "Last seen with his family before the house was locked from outside, the husband fled for two weeks and gave no explanation."
+      },
+      {
+        "heading": "The legal question",
+        "text": "When a family is murdered inside a locked home, does Section 106 require the last-seen spouse to explain how he parted company?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court set aside the acquittal and imposed life imprisonment, holding that his unexplained silence supplied the missing circumstantial link."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "In domestic crimes behind closed doors, Section 106 prevents an accused with exclusive knowledge from hiding behind a bald denial."
+      }
+    ]
+  }
 }
