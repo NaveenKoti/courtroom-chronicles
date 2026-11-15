@@ -1,0 +1,250 @@
+{
+  "id": "ep057",
+  "title": "The Man Who Died on Paper and the Struggle for Legal Personhood",
+  "hook": "Declared dead in village land records through a petty bribe, a living weaver fought for eighteen years to prove his existence and expose an entire underworld.",
+  "topics": [
+    "Constitutional law",
+    "Property law",
+    "Criminal law",
+    "Natural justice"
+  ],
+  "laws": [
+    "Constitution of India (Article 21)",
+    "Indian Penal Code, 1860 (Section 218, Section 420, Section 467, and Section 468)",
+    "Indian Evidence Act, 1872 (Section 35)",
+    "Uttar Pradesh Land Revenue Act, 1901 (Section 34)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "High Court of Judicature at Allahabad (Division Bench Public Interest Litigation)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "January 7, 2000 (Public Interest Reference) and February 20, 2023 (Compensation Plea)"
+    },
+    {
+      "label": "Origin of Dispute",
+      "value": "Fraudulent 1976 land revenue entry recording a living twenty-one-year-old weaver in Azamgarh as deceased"
+    },
+    {
+      "label": "Administrative Restoration",
+      "value": "Official revenue rectification order issued on June 30, 1994 after eighteen years"
+    },
+    {
+      "label": "Systemic Discovery",
+      "value": "District audit uncovered forty-two to ninety similar living citizens falsely recorded as dead"
+    }
+  ],
+  "summary": [
+    "In July 1976, a twenty-one-year-old handloom weaver in Azamgarh discovered that his relatives had bribed a village revenue clerk to record him as deceased under Section 34 of the Uttar Pradesh Land Revenue Act and transfer his one-acre plot to their names. When he appeared in person at the revenue office, clerks refused to accept his petitions because a person listed as dead in official registers possessed no legal standing to challenge the record.",
+    "Over eighteen years of bureaucratic stonewalling, the weaver adopted the suffix meaning deceased, staged mock protests, contested parliamentary elections, and threw protest leaflets in the state assembly to generate official arrest records proving he was alive. After international press attention, the district administration conducted a village inquiry and officially restored his living status and land on June 30, 1994.",
+    "In 1999, the Allahabad High Court took suo motu notice of the wider phenomenon uncovered by an association of similarly erased farmers, and district audits soon revealed dozens of living citizens declared dead on paper to seize their land. On January 7, 2000, the High Court condemned the fabrication of public records as a violation of livelihood and life under Article 21, directed criminal prosecutions against corrupt officials, and referred the systemic crisis to the National Human Rights Commission, though a later 2023 writ bench declined direct monetary compensation under Article 226."
+  ],
+  "timeline": [
+    {
+      "date": "1976-07-30",
+      "title": "Fraudulent Death Entry",
+      "text": "A village revenue official records a living twenty-one-year-old weaver as deceased in land registers to transfer his land to relatives.",
+      "key": false
+    },
+    {
+      "date": "1989-03-24",
+      "title": "Legislative Assembly Protest",
+      "text": "The weaver throws leaflets in the state assembly gallery, leading to a judicial remand order that officially documents him alive.",
+      "key": false
+    },
+    {
+      "date": "1994-06-30",
+      "title": "Official Resurrection Order",
+      "text": "Following a public village inquiry, the district revenue officer cancels the fraudulent mutation and restores his land after eighteen years.",
+      "key": false
+    },
+    {
+      "date": "2000-01-07",
+      "title": "High Court Public Interest Order",
+      "text": "The Allahabad High Court brands the living-dead scam an Article 21 violation, orders prosecutions, and refers the crisis to the human rights commission.",
+      "key": true
+    },
+    {
+      "date": "2023-02-20",
+      "title": "Compensation Writ Dismissed",
+      "text": "A Division Bench declines a twenty-five-crore-rupee writ compensation claim, holding that civil damages should be pursued in regular civil courts.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "Suo motu public interest petition disposed of on January 7, 2000 by referring the systemic land-record fraud to the National Human Rights Commission and directing criminal and departmental proceedings; a subsequent writ claim for state compensation was dismissed in February 2023.",
+    "points": [
+      "Fabricating land revenue records to declare living farmers dead and dispossess them of agricultural land deprives them of livelihood and violates Article 21 of the Constitution.",
+      "Conspiring relatives and record-keepers who interpolate official registers commit offences against public justice requiring criminal prosecution before Chief Judicial Magistrates.",
+      "Given the scale of systemic dispossession across multiple districts, the High Court referred the matter to the National Human Rights Commission for ongoing investigation and monitoring.",
+      "In 2023, the High Court held that writ compensation against the State under Article 226 was inappropriate where private relatives instigated the fraud and civil remedies were available."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Right to Legal Personhood and Livelihood",
+      "meaning": "The constitutional guarantee of life under Article 21 includes recognition as a living legal person and protection of the agricultural livelihood on which survival depends.",
+      "inThisCase": "The High Court held that erasing a citizen from official land registers strips away their livelihood, dignity, and equal protection of the laws."
+    },
+    {
+      "name": "Accountability for Falsified Public Records",
+      "meaning": "Public servants entrusted with maintaining official registers face criminal and departmental liability when they fabricate entries in collusion with private land grabbers.",
+      "inThisCase": "The bench ordered public-servant complaints to be prosecuted before magistrates and required departmental action against erring revenue officials."
+    },
+    {
+      "name": "Limits of Constitutional Tort Remedies",
+      "meaning": "Extraordinary writ compensation under Article 226 is generally withheld when disputed facts stem from private fraud rather than direct state policy.",
+      "inThisCase": "Nearly two decades after his resurrection, the court declined the petitioner's writ claim for twenty-five crore rupees in state damages."
+    }
+  ],
+  "takeaways": [
+    "Legal existence in state records is foundational to exercising property, banking, and constitutional rights.",
+    "Manipulating land revenue registers to erase living owners is a criminal offence against public justice, not a mere clerical error.",
+    "Exposing widespread paper-death scams helped drive the computerization and biometric verification of rural land records."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 420",
+        "title": "Cheating and dishonestly inducing delivery of property",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 318(4)",
+        "title": "Cheating",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Replaced by Section 318(4) of the Bharatiya Nyaya Sanhita, 2023, retaining imprisonment up to seven years and fine for cheating involving property delivery."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 467",
+        "title": "Forgery of valuable security, will, etc.",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 338",
+        "title": "Forgery of valuable security, will, etc.",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted as Section 338 of the Bharatiya Nyaya Sanhita, 2023, preserving severe penalties for forging title documents and valuable securities."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 468",
+        "title": "Forgery for purpose of cheating",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 336(3)",
+        "title": "Forgery",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Consolidated into Section 336(3) of the Bharatiya Nyaya Sanhita, 2023, retaining imprisonment up to seven years and fine for forgery committed to cheat."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 218",
+        "title": "Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 256",
+        "title": "Public servant framing incorrect record or writing with intent to save person from punishment or property from forfeiture",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted as Section 256 of the Bharatiya Nyaya Sanhita, 2023, maintaining criminal liability for public servants who intentionally frame false official records."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 35",
+        "title": "Relevancy of entry in public record made in performance of duty",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 29",
+        "title": "Relevancy of entry in public record or an electronic record made in performance of duty",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 29 of the Bharatiya Sakshya Adhiniyam, 2023, expressly extending public-record relevancy to electronic and digital land records."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the fraudulent land mutation and court proceedings occurred before July 1, 2024, the Indian Penal Code, 1860 and the Indian Evidence Act, 1872 governed the offences and records.",
+  "sources": [
+    {
+      "label": "Judgment of the High Court of Judicature at Allahabad, January 7, 2000",
+      "url": "https://indiankanoon.org/doc/219835/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "social": {
+    "hook": "How do you prove you are alive when a government register officially says you died years ago?",
+    "script": "How do you prove you are alive when a government register officially says you died years ago? In 1976, a twenty-one-year-old weaver in Uttar Pradesh applied for a bank loan and learned his relatives had bribed a clerk to record him dead and steal his land. Bureaucrats refused his petitions because dead men have no legal standing. For eighteen years he protested, contested elections, and threw leaflets in the state assembly just to get arrested and documented alive. After his 1994 restoration, the Allahabad High Court took suo motu notice, exposed dozens of similar victims, and ordered criminal prosecutions under Article 21. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "Bribed out of legal existence for eighteen years, a living weaver forced the bureaucracy to resurrect him and sparked an Allahabad High Court crusade for dozens of erased farmers.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#Article21",
+      "#LandRights",
+      "#LegalPersonhood",
+      "#PublicInterestLitigation",
+      "#AllahabadHighCourt"
+    ],
+    "shortTitle": "Dead on Paper: 18 Years to Prove He Was Alive",
+    "carousel": [
+      {
+        "heading": "The 300-Rupee Erasure",
+        "text": "Relatives bribed a village revenue clerk to record a living twenty-one-year-old weaver as dead and seize his one-acre plot."
+      },
+      {
+        "heading": "Eighteen Years Invisible",
+        "text": "Officials rejected his petitions because a deceased person had no standing, forcing him into public protests and election runs."
+      },
+      {
+        "heading": "The Legal Question",
+        "text": "Does erasing a living citizen from official land registers violate the constitutional right to life and livelihood?"
+      },
+      {
+        "heading": "High Court Intervention",
+        "text": "The Allahabad High Court declared it an Article 21 violation, ordered criminal prosecutions, and referred the crisis to human rights monitors."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The crusade proved legal personhood underpins all rights and accelerated the digital overhaul of Indian land records."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
