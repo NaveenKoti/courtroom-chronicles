@@ -1,0 +1,273 @@
+{
+  "id": "ep055",
+  "title": "The Burning Bakery of Hanuman Tekri and the Duty of a Trial Judge",
+  "hook": "After thirty-seven witnesses turned hostile in a massacre trial, the Supreme Court ordered an unprecedented out-of-state retrial and jailed a perjuring witness.",
+  "topics": [
+    "Criminal law",
+    "Criminal procedure",
+    "Evidence",
+    "Constitutional law"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 (Section 302, Section 149, Section 193, and Section 436)",
+    "Code of Criminal Procedure, 1973 (Section 311 and Section 406)",
+    "Indian Evidence Act, 1872 (Section 154 and Section 165)",
+    "Constitution of India (Article 21, Article 129, Article 136, and Article 142)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Criminal Appellate and Contempt Jurisdiction)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "April 12, 2004 (Retrial Order) and March 8, 2006 (Contempt Verdict)"
+    },
+    {
+      "label": "Incident",
+      "value": "Arson attack on a two-story bakery in Hanuman Tekri, Vadodara on March 1, 2002, killing fourteen people"
+    },
+    {
+      "label": "Initial Trial Outcome",
+      "value": "Thirty-seven of forty-three prosecution witnesses turned hostile; all twenty-one accused acquitted in June 2003"
+    },
+    {
+      "label": "Retrial Outcome",
+      "value": "Trial transferred to Maharashtra; special court convicted nine accused to life imprisonment in February 2006"
+    }
+  ],
+  "summary": [
+    "On the night of March 1, 2002, an armed mob encircled and torched a two-story bakery in the Hanuman Tekri neighborhood of Vadodara, killing fourteen people trapped inside. A nineteen-year-old survivor named twenty-one attackers in a hospital police statement, but when the fast-track trial opened in May 2003, thirty-seven of forty-three prosecution witnesses retracted their statements and all twenty-one accused were acquitted.",
+    "After fleeing to Mumbai, the star witness alleged that death threats from local political figures had forced her courtroom retraction, prompting the National Human Rights Commission and the survivor to move the Supreme Court. On April 12, 2004, the Supreme Court held that the trial was a sham because the prosecutor and trial judge had acted as passive spectators while witnesses were intimidated, and invoked Article 142 and Section 406 to transfer the retrial out of Gujarat to Mumbai.",
+    "During the Mumbai retrial, however, the same star witness reversed her story a second time and claimed she had been coerced by activists, leading the Supreme Court to order a forensic financial inquiry by its Registrar General. When unexplained bank deposits exposed deliberate, paid perjury, the court sentenced her to one year of simple imprisonment for contempt on March 8, 2006, while the Mumbai special court relied on steadfast eyewitnesses and forensic evidence to convict nine killers."
+  ],
+  "timeline": [
+    {
+      "date": "2002-03-01",
+      "title": "Hanuman Tekri Arson Attack",
+      "text": "An armed mob sets fire to a bakery in Vadodara during communal violence, killing fourteen people inside.",
+      "key": false
+    },
+    {
+      "date": "2003-06-27",
+      "title": "Mass Acquittal in Fast-Track Court",
+      "text": "Thirty-seven prosecution witnesses turn hostile without judicial intervention, resulting in the acquittal of all twenty-one accused.",
+      "key": false
+    },
+    {
+      "date": "2004-04-12",
+      "title": "Out-of-State Retrial Ordered",
+      "text": "The Supreme Court quashes the acquittals, condemns passive judging, and transfers the retrial to a court in Maharashtra.",
+      "key": true
+    },
+    {
+      "date": "2006-02-24",
+      "title": "Nine Accused Convicted in Mumbai",
+      "text": "A special sessions court in Mumbai convicts nine accused of murder and unlawful assembly, sentencing them to life imprisonment.",
+      "key": false
+    },
+    {
+      "date": "2006-03-08",
+      "title": "Contempt Sentence for Perjury",
+      "text": "Following a forensic financial inquiry, the Supreme Court sentences the star witness to one year in prison for contempt.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "Acquittals quashed and de novo retrial transferred to Maharashtra (2004); star witness later convicted of criminal contempt and sentenced to one year of simple imprisonment and a fifty-thousand-rupee fine (2006).",
+    "points": [
+      "A criminal trial judge is not a mere tape recorder or mute spectator; under Section 165 of the Indian Evidence Act and Section 311 of the Code of Criminal Procedure, the judge has an active duty to question and summon witnesses to discover the truth.",
+      "The fundamental right to a fair trial under Article 21 belongs equally to victims, witnesses, and society, requiring the State to protect witnesses from intimidation.",
+      "Under Article 142 and Section 406, the Supreme Court may transfer a criminal trial outside a state when local intimidation makes an impartial trial impossible.",
+      "The testimony of a hostile witness is not automatically erased; courts may accept corroborated portions, while witnesses who accept inducements to lie under oath face summary punishment for contempt."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Active Judicial Truth-Seeking",
+      "meaning": "A trial judge has an affirmative statutory duty to intervene, question witnesses, and summon essential evidence rather than passively recording coerced retractions.",
+      "inThisCase": "The Supreme Court held that the fast-track judge abdicated his duty under Section 165 of the Evidence Act and Section 311 of the procedural code when dozens of witnesses suddenly recanted."
+    },
+    {
+      "name": "Triangulation of Fair Trial Rights",
+      "meaning": "Fairness in criminal justice requires balancing the rights of the accused, the victim, and the broader public interest.",
+      "inThisCase": "Because witness intimidation destroyed the integrity of the Vadodara trial, the court declared the acquittals a nullity and ordered a fresh trial in another state."
+    },
+    {
+      "name": "Separating Grain from Chaff in Hostile Testimony",
+      "meaning": "When a witness turns hostile, the court need not discard their entire testimony if parts of it are reliable and corroborated by independent evidence.",
+      "inThisCase": "During the Mumbai retrial, the special court convicted nine perpetrators using steadfast witnesses alongside forensic and medical records despite the star witness's second reversal."
+    }
+  ],
+  "takeaways": [
+    "Trial judges must actively use statutory questioning and witness-summoning powers when intimidation threatens to derail justice.",
+    "Witness protection is a constitutional necessity under Article 21, not an optional administrative courtesy.",
+    "Deliberate perjury and paid reversals by a witness undermine the justice system and attract criminal contempt sanctions."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 154",
+        "title": "Question by party to his own witness",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 157",
+        "title": "Question by party to his own witness",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 157 of the Bharatiya Sakshya Adhiniyam, 2023, preserving the rule that a party may cross-examine its own hostile witness and rely on corroborated parts of the testimony."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 165",
+        "title": "Judge's power to put questions or order production",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 168",
+        "title": "Judge's power to put questions or order production",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 168 of the Bharatiya Sakshya Adhiniyam, 2023, retaining a judge's wide authority to question witnesses and order document production to discover the truth."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 311",
+        "title": "Power to summon material witness, or examine person present",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 348",
+        "title": "Power to summon material witness, or examine person present",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "change": "Re-enacted as Section 348 of the Bharatiya Nagarik Suraksha Sanhita, 2023, continuing the court's power and duty to summon or recall any material witness."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 406",
+        "title": "Power of Supreme Court to transfer cases and appeals",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 447",
+        "title": "Power of Supreme Court to transfer cases and appeals",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "change": "Re-enacted as Section 447 of the Bharatiya Nagarik Suraksha Sanhita, 2023, retaining the Supreme Court's authority to transfer criminal cases across states."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Replaced by Section 103 of the Bharatiya Nyaya Sanhita, 2023, retaining death or life imprisonment for murder while adding a specific sub-section for mob lynching."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 193",
+        "title": "Punishment for false evidence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 229",
+        "title": "Punishment for false evidence",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Replaced by Section 229 of the Bharatiya Nyaya Sanhita, 2023, retaining imprisonment up to seven years and enhanced fines for giving false evidence in judicial proceedings."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the arson attack and trials took place before July 1, 2024, the proceedings were governed by the Indian Penal Code, 1860, the Code of Criminal Procedure, 1973, and the Indian Evidence Act, 1872.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India (Retrial Order), April 12, 2004",
+      "url": "https://indiankanoon.org/doc/105430/"
+    },
+    {
+      "label": "Judgment of the Supreme Court of India (Contempt Order), March 8, 2006",
+      "url": "https://indiankanoon.org/doc/1067991/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 and Code of Criminal Procedure, 1973 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "What happens when thirty-seven eyewitnesses to a deadly bakery arson suddenly claim in court they saw nothing?",
+    "script": "What happens when thirty-seven eyewitnesses to a deadly bakery arson suddenly claim in court they saw nothing? In March 2002, fourteen people died in a Vadodara bakery fire. After thirty-seven witnesses turned hostile, all twenty-one accused walked free. When the star witness fled to Mumbai alleging death threats, the Supreme Court quashed the acquittals, ruled that a trial judge cannot sit as a mute spectator, and transferred the retrial to Maharashtra. Then came a twist: she turned hostile again. A forensic financial inquiry uncovered paid perjury, landing her in jail for contempt while nine killers were convicted. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After thirty-seven witnesses turned hostile in a Vadodara arson trial, the Supreme Court ordered an unprecedented out-of-state retrial and later jailed the star witness for paid perjury.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalProcedure",
+      "#FairTrial",
+      "#WitnessProtection",
+      "#ContemptOfCourt",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Hostile Witnesses & Retrial: Hanuman Tekri Case",
+    "carousel": [
+      {
+        "heading": "The 2002 Bakery Arson",
+        "text": "Fourteen people died when an armed mob torched a Vadodara bakery, yet thirty-seven witnesses turned hostile at trial."
+      },
+      {
+        "heading": "The Acquittal Shock",
+        "text": "All twenty-one accused were acquitted after the prosecutor and trial judge failed to question the sudden retractions."
+      },
+      {
+        "heading": "The Legal Question",
+        "text": "Can an appellate court order an out-of-state retrial when local witness intimidation destroys the fairness of a trial?"
+      },
+      {
+        "heading": "Retrial and Contempt",
+        "text": "The Supreme Court transferred the retrial to Mumbai, where nine killers were convicted and the perjuring star witness was jailed."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The ruling established that judges must actively seek truth and that witness protection is essential to Article 21."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
