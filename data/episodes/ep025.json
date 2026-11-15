@@ -191,5 +191,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Four college art students committed ten calculated murders, then wrote spiritual books on death row seeking mercy.",
+    "script": "Four college art students committed ten calculated murders, then wrote spiritual books on death row seeking mercy. Using braided nylon cords tied in identical knots, the student syndicate robbed homes and sank a victim in a lake inside an iron drum. One accomplice turned approver under Section 306, and dredging the lake under Section 27 corroborated his testimony. Sentenced to death, the convicts petitioned the Supreme Court citing five years on death row. In 1983, the court dismissed their pleas, ruling that delay caused by repeated defense petitions cannot commute rarest of rare serial murders. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "A syndicate of four college students committed ten calculated murders using identical nylon knots. Discover how an approver's confession, a drum dredged from a lake bed, and the Supreme Court's 1983 ruling on death-row delay sealed their fate.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#CriminalLaw",
+      "#EvidenceLaw",
+      "#RarestOfRare",
+      "#AccompliceEvidence"
+    ],
+    "shortTitle": "The lake drum, approver corroboration, and death-row delay",
+    "carousel": [
+      {
+        "heading": "Ten murders and death-row appeals",
+        "text": "Four college art students committed ten calculated murders, then wrote spiritual books on death row seeking mercy."
+      },
+      {
+        "heading": "What happened",
+        "text": "An accomplice turned approver, and police dredged a municipal lake under Section 27 to recover a sealed iron drum."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does a five-year stay on death row caused by repeated review petitions entitle serial murder convicts to sentence commutation?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court affirmed the death sentences, holding that self-induced appellate delay cannot mitigate rarest of rare serial homicides."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Physical recoveries under Section 27 satisfy the dual test for accomplice testimony, and calculated serial murders foreclose judicial leniency."
+      }
+    ]
+  }
 }
