@@ -190,5 +190,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Psychiatrists diagnosed a serial killer with incurable paranoid schizophrenia, yet he buried his weapon to hide from police.",
+    "script": "Psychiatrists diagnosed a serial killer with incurable paranoid schizophrenia, yet he buried his weapon to hide from police. After dozens of nocturnal homicides, detectives arrested a wanderer and recovered his buried crowbar under Section 27. Doctors testified he suffered from delusions, and his counsel pleaded insanity under Section 84 of the Penal Code. After nineteen years of psychiatric confinement, the High Court ruled in 1987 that medical illness is not legal insanity. Because fleeing watchmen and hiding the weapon proved he knew his acts were illegal, the court upheld his conviction and commuted his sentence to life. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "Diagnosed with chronic paranoid schizophrenia after confessing to over forty homicides, an accused pleaded insanity under Section 84 of the Penal Code. Discover why the High Court ruled in 1987 that medical psychosis does not equal legal insanity.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalLaw",
+      "#Section84",
+      "#InsanityDefense",
+      "#EvidenceLaw",
+      "#ForensicPsychiatry"
+    ],
+    "shortTitle": "Medical psychosis vs. legal insanity: The test of Section 84",
+    "carousel": [
+      {
+        "heading": "Delusions vs. hidden weapons",
+        "text": "Psychiatrists diagnosed a serial killer with incurable paranoid schizophrenia, yet he buried his weapon to hide from police."
+      },
+      {
+        "heading": "What happened",
+        "text": "Arrested after dozens of nocturnal murders, the accused led police to a buried iron crowbar and confessed before a magistrate."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does a clinical diagnosis of paranoid schizophrenia with cosmic delusions exempt an offender from murder charges under Section 84?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The High Court rejected the insanity plea because fleeing and hiding the weapon proved he knew his conduct was contrary to law."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Section 84 requires cognitive inability to know an act is illegal, though nineteen years of psychiatric custody justified commuting death to life."
+      }
+    ]
+  }
 }
