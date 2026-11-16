@@ -1,0 +1,248 @@
+{
+  "id": "ep060",
+  "title": "Fourteen Years After Acquittal and the Birth of Constitutional Compensation",
+  "hook": "Kept behind bars for more than fourteen years after a court acquitted him, a former prisoner won the Supreme Court's first constitutional tort damages.",
+  "topics": [
+    "Constitutional law",
+    "Human rights",
+    "Criminal procedure",
+    "Public law remedies"
+  ],
+  "laws": [
+    "Constitution of India (Article 21 and Article 32)",
+    "Code of Criminal Procedure, 1973 (Section 330 and Section 338)",
+    "Indian Penal Code, 1860 (Section 340 and Section 342)",
+    "Indian Evidence Act, 1872 (Section 114)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Original Writ Jurisdiction)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "August 1, 1983"
+    },
+    {
+      "label": "Unlawful Detention",
+      "value": "Acquitted by the Sessions Court at Muzaffarpur in June 1968, yet kept in prison until October 16, 1982"
+    },
+    {
+      "label": "Medical Record",
+      "value": "Civil Surgeon certified the petitioner mentally normal on February 18, 1977, over five years before release"
+    },
+    {
+      "label": "Outcome",
+      "value": "State ordered to pay 30,000 rupees in interim compensation within two weeks, alongside 5,000 rupees already paid"
+    }
+  ],
+  "summary": [
+    "Arrested in 1953, a prisoner in Bihar was acquitted by the Sessions Court at Muzaffarpur in June 1968, yet remained locked behind bars for more than fourteen additional years. An August 30, 1968 jail order kept him detained pending further state instructions, and even a Civil Surgeon's certificate on February 18, 1977 declaring him normal failed to secure his freedom.",
+    "He was finally released on October 16, 1982—two days after a Law Department letter—only after a habeas corpus writ petition was filed directly in the Supreme Court under Article 32. When the State tried to justify the fourteen-year delay by alleging unsoundness of mind without producing a single medical record, the court rejected the excuse as a callous cover-up.",
+    "On August 1, 1983, a three-judge bench broke new constitutional ground by ruling that Article 21 would be reduced to an empty promise if Article 32 remedies stopped at mere release from illegal detention. Ordering Bihar to pay 30,000 rupees in interim compensation within two weeks without barring a separate civil suit, the judgment established monetary damages for fundamental rights violations."
+  ],
+  "timeline": [
+    {
+      "date": "1953",
+      "title": "Arrest and Trial Commitment",
+      "text": "The petitioner is arrested in Bihar and later committed for trial before the Sessions Court at Muzaffarpur.",
+      "key": false
+    },
+    {
+      "date": "1968-06",
+      "title": "Acquittal Without Release",
+      "text": "The Sessions Court acquits the petitioner, yet an August 30, 1968 order detains him pending further state instructions.",
+      "key": false
+    },
+    {
+      "date": "1977-02-18",
+      "title": "Certified Mentally Normal",
+      "text": "A Civil Surgeon certifies that the prisoner is normal, yet authorities keep him incarcerated for over five more years.",
+      "key": false
+    },
+    {
+      "date": "1982-10-16",
+      "title": "Release After Writ Petition",
+      "text": "Following an Article 32 habeas corpus petition and an October 14 Law Department letter, he is freed after fourteen extra years.",
+      "key": false
+    },
+    {
+      "date": "1983-08-01",
+      "title": "First Constitutional Compensation Award",
+      "text": "The Supreme Court orders 30,000 rupees in interim compensation, pioneering monetary remedies under Article 32.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petition allowed with directions; State of Bihar ordered to pay 30,000 rupees in interim compensation within two weeks (in addition to 5,000 rupees already paid), without prejudice to a civil suit for full damages.",
+    "points": [
+      "Article 32 empowers the Supreme Court not only to order release from unlawful detention, but also to award monetary compensation as a palliative for grave violations of Article 21.",
+      "Refusing to compensate a citizen robbed of fourteen years of liberty after acquittal would strip the constitutional guarantee of personal liberty of any real meaning.",
+      "The State's belated claim of mental illness collapsed because authorities produced no medical records and ignored the Civil Surgeon's 1977 fitness certificate.",
+      "An interim writ award does not extinguish the victim's right to file an ordinary civil suit for full damages against the State and erring officials."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Monetary Compensation as a Public Law Remedy",
+      "meaning": "When state officials flagrantly violate fundamental rights under Article 21, constitutional courts may award direct financial compensation under Article 32.",
+      "inThisCase": "Instead of forcing an impoverished former prisoner to wait decades in civil litigation, the Supreme Court ordered immediate interim relief of 30,000 rupees."
+    },
+    {
+      "name": "Strict Accountability for Post-Acquittal Detention",
+      "meaning": "Once a court acquits an accused, the State has no legal authority to hold them indefinitely under vague administrative orders.",
+      "inThisCase": "The court condemned the fourteen-year detention after June 1968 and rejected unsubstantiated claims of insanity."
+    },
+    {
+      "name": "Preservation of Civil Damages Claims",
+      "meaning": "Interim constitutional compensation acts as immediate relief rather than a ceiling on full tort recovery.",
+      "inThisCase": "The bench explicitly left the petitioner free to pursue a separate civil suit for complete damages."
+    }
+  ],
+  "takeaways": [
+    "Constitutional courts can award monetary compensation directly in writ petitions for unlawful detention.",
+    "Administrative lethargy or unverified claims of mental illness cannot justify holding an acquitted person in prison.",
+    "Interim public-law damages do not bar a victim from seeking full compensation in civil court."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 330",
+        "title": "Release of person of unsound mind pending investigation or trial",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 369",
+        "title": "Release of person with mental illness pending investigation or trial",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "change": "Re-enacted as Section 369 of the Bharatiya Nagarik Suraksha Sanhita, 2023, updating terminology to 'person with mental illness' while governing bail and safe custody."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 338",
+        "title": "Procedure where person of unsound mind detained is declared fit to be released",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 377",
+        "title": "Procedure where person with mental illness detained is declared fit to be released",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+      },
+      "change": "Re-enacted as Section 377 of the Bharatiya Nagarik Suraksha Sanhita, 2023, requiring prompt release steps once medical fitness is certified."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 340",
+        "title": "Wrongful confinement",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 127",
+        "title": "Wrongful confinement",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Replaced by Section 127 of the Bharatiya Nyaya Sanhita, 2023, consolidating wrongful confinement and its punishments."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 114",
+        "title": "Court may presume existence of certain facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 119",
+        "title": "Court may presume existence of certain facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 119 of the Bharatiya Sakshya Adhiniyam, 2023, allowing adverse inferences when a party withholds vital records."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 32",
+        "title": "Remedies for enforcement of rights conferred by this Part",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the arrest, acquittal, and unlawful detention occurred before July 1, 2024, they were governed by the Code of Criminal Procedure, 1973, the Indian Penal Code, 1860, and the Indian Evidence Act, 1872.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, August 1, 1983",
+      "url": "https://indiankanoon.org/doc/810491/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 and Code of Criminal Procedure, 1973 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202402161447412954CrPC%20vis-a-vis%20BNSS%202023%201.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    }
+  ],
+  "social": {
+    "hook": "Imagine being acquitted by a court, yet kept locked in prison for fourteen more years.",
+    "script": "Imagine being acquitted by a court, yet kept locked in prison for fourteen more years. Arrested in 1953, a prisoner in Bihar was acquitted in June 1968, but an administrative order kept him behind bars. Even after a Civil Surgeon certified him normal in 1977, he stayed jailed until October 1982, when a habeas corpus petition reached the Supreme Court. On August 1, 1983, the court rejected the State's unsupported excuse of mental illness and broke new constitutional ground. It ruled that Article 21 would mean nothing if Article 32 stopped at mere release, ordering 30,000 rupees in interim compensation and birthing constitutional tort damages in India. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After being held in prison for over fourteen years following his 1968 acquittal, a petitioner won the Supreme Court's landmark 1983 ruling establishing constitutional compensation under Article 32.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#ConstitutionalLaw",
+      "#Article21",
+      "#Article32",
+      "#HumanRights",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "14 Years After Acquittal: Birth of Constitutional Damages",
+    "carousel": [
+      {
+        "heading": "Acquitted Yet Imprisoned",
+        "text": "Acquitted by a Muzaffarpur court in June 1968, a Bihar prisoner remained locked behind bars for over fourteen extra years."
+      },
+      {
+        "heading": "Ignored Medical Clearance",
+        "text": "Even after a Civil Surgeon certified him mentally normal in 1977, authorities failed to release him until October 1982."
+      },
+      {
+        "heading": "The Legal Question",
+        "text": "Can the Supreme Court award monetary compensation under Article 32 for unlawful detention violating Article 21?"
+      },
+      {
+        "heading": "The 1983 Landmark Award",
+        "text": "On August 1, 1983, the bench ordered 30,000 rupees in interim compensation without barring a separate civil damages suit."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The decision pioneered constitutional tort remedies, making the State financially accountable for violating personal liberty."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
