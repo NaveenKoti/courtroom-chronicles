@@ -167,5 +167,42 @@
       "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "In a packed theatre, 59 moviegoers died without a single burn injury because the balcony exit was bolted.",
+    "script": "In a packed theatre, 59 moviegoers died without a single burn injury because the balcony exit was bolted. When a basement utility transformer caught fire in 1997, toxic carbon monoxide rose into the darkened second floor balcony. Downstairs patrons walked out safely, but balcony viewers were trapped by unauthorized luxury seating blocking the aisle and an exit door bolted from outside. The cinema owners blamed the electricity board for sparking the fire. In 2014, the Supreme Court rejected that defense under Section 304A, ruling that the blocked aisle and bolted door were the direct proximate cause of the asphyxiation deaths. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a basement transformer fire filled a cinema balcony with toxic fumes in 1997, 59 patrons died of carbon monoxide inhalation behind a blocked aisle and a bolted exit. Discover how the Supreme Court defined proximate causation in 2014.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#CriminalNegligence",
+      "#Section304A",
+      "#ProximateCause",
+      "#CorporateLiability"
+    ],
+    "shortTitle": "The bolted cinema exit and the doctrine of proximate causation",
+    "carousel": [
+      {
+        "heading": "Trapped in the upper balcony",
+        "text": "In a packed theatre, 59 moviegoers died without a single burn injury because the balcony exit was bolted."
+      },
+      {
+        "heading": "What happened",
+        "text": "Toxic smoke from a basement transformer fire filled the balcony, where unauthorized luxury seats blocked the aisle and exits were bolted."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Did the utility's transformer fire break causation, or were the cinema's blocked aisles and bolted doors the proximate cause of death?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court upheld the Section 304A convictions, ruling that the structural obstructions and bolted exit directly caused the asphyxiation deaths."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Commercial operators owe a strict duty to keep emergency exits clear, and subsequent tampering with court records brought separate convictions."
+      }
+    ]
+  }
 }
