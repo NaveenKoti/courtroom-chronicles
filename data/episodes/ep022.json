@@ -186,5 +186,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "After a midnight mob attack on a rural station wagon, eleven convicted men walked free on appeal.",
+    "script": "After a midnight mob attack on a rural station wagon, eleven convicted men walked free on appeal. When a missionary and his two young sons perished outside a forest church in 1999, a trial court convicted fourteen men. Yet police held no Test Identification Parades for eleven villagers, relying on courtroom identifications years later. In 2011, the Supreme Court upheld their acquittals, ruling that dock identification of strangers seen in darkness is unsafe and a co accused confession under Section 30 cannot stand alone, while confirming life imprisonment for the known ringleader. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After a midnight mob attack on a station wagon in a forest village in 1999, fourteen men were convicted at trial. See why the Supreme Court affirmed life imprisonment for the known ringleader in 2011 while upholding eleven acquittals.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#EvidenceLaw",
+      "#CriminalProcedure",
+      "#Section30",
+      "#FairTrial"
+    ],
+    "shortTitle": "Mob trials, identification parades, and the limits of Section 30",
+    "carousel": [
+      {
+        "heading": "Eleven acquittals after a mob trial",
+        "text": "After a midnight mob attack on a rural station wagon, eleven convicted men walked free on appeal."
+      },
+      {
+        "heading": "What happened",
+        "text": "A special court convicted fourteen men for a fatal 1999 nocturnal arson attack, relying on in-court identifications and a retracted confession."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can first-time dock identifications of strangers seen in pitch darkness or a retracted co-accused confession sustain murder convictions?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court upheld eleven acquittals due to missing identification parades, while confirming life imprisonment for the previously known ringleader."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Prompt Test Identification Parades are essential for strangers in mob cases, and Section 30 co-accused confessions are not substantive evidence."
+      }
+    ]
+  }
 }
