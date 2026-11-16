@@ -178,5 +178,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A fake spiritual guide lured devotees to temple lodges for rituals, then left the rooms padlocked from outside.",
+    "script": "A fake spiritual guide lured devotees to temple lodges for rituals, then left the rooms padlocked from outside. After a devotee was found strangled inside a locked lodge stripped of her gold, police arrested her companion with the victim's ear studs and watch. The defense noted police never chemically tested a seized powder packet. In 2024, the High Court affirmed the murder conviction, ruling that strangulation proof, last seen silence under Section 106, and stolen jewelry possession under Section 114(a) proved guilt, while commuting death to whole life imprisonment after seventeen years in custody. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "Posing as a pious guide, a serial predator lured devotees to temple lodges and left them strangled in locked rooms. Discover how the High Court used Sections 106 and 114(a) of the Evidence Act in 2024 to uphold her conviction for natural life.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalLaw",
+      "#EvidenceLaw",
+      "#Section106",
+      "#CircumstantialEvidence",
+      "#SentencingLaw"
+    ],
+    "shortTitle": "The temple lodge predator and the presumption of stolen gold",
+    "carousel": [
+      {
+        "heading": "A ritual behind locked doors",
+        "text": "A fake spiritual guide lured devotees to temple lodges for rituals, then left the rooms padlocked from outside."
+      },
+      {
+        "heading": "What happened",
+        "text": "After a devotee was found strangled inside a locked lodge room, police arrested her companion carrying the victim's stolen gold jewelry."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Do unexplained last-seen presence under Section 106 and recent possession of robbed ornaments under Section 114(a) prove murder?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The High Court upheld the murder conviction and commuted the death sentence to whole-life imprisonment without remission after seventeen years incarcerated."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Autopsy proof of strangulation and statutory presumptions overcome investigative lapses, while prolonged death-row delay warrants life without remission."
+      }
+    ]
+  }
 }
