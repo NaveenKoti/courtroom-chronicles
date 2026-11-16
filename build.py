@@ -119,6 +119,14 @@ youtube_map = {}
 if os.path.exists("data/youtube.json"):
     youtube_map = json.load(open("data/youtube.json", encoding="utf-8"))
 
+# Only episodes that are live in the podcast RSS feed are shown. fetch_audio.py records every episode it finds in
+# the feed in data/audio.json, so an episode JSON that is not in there yet is not published yet: it stays hidden
+# and appears by itself on the first daily build after the episode goes live. Switch this off with
+# "hideUnpublished": false in site.json, or force one episode on with "forceShow": true in its JSON.
+# If audio.json is missing or empty (first run, feed outage) nothing is hidden.
+HIDE_UNPUBLISHED = bool(site.get("hideUnpublished", True)) and bool(audio_map)
+hidden = []
+
 episodes = []
 for p in sorted(glob.glob("data/episodes/ep*.json")):
     d = json.load(open(p, encoding="utf-8"))
@@ -129,6 +137,9 @@ for p in sorted(glob.glob("data/episodes/ep*.json")):
     if not m:
         sys.exit("%s: 'id' must look like ep012" % p)
     d["n"] = int(m.group(1))
+    if HIDE_UNPUBLISHED and d["id"].lower() not in audio_map and not d.get("forceShow"):
+        hidden.append(d["id"])
+        continue
     d["slug"] = d.get("slug") or slugify(d["title"], d["n"])
     # Case name priority: episode JSON > data/seo.json (an empty "" there means "do not use one") >
     # derived from the published podcast title ("Poetic title — The Jessica Lal Case and ...") > none.
@@ -916,6 +927,8 @@ def main():
     write(".nojekyll", "")
     og_ok = sum(1 for x in episodes if glob.glob("assets/og/%s-*.png" % x["id"]))
     print("Built %d episode pages, %d law pages (+ law index), share images for %d episodes." % (len(episodes), len(PAGES), og_ok))
+    if hidden:
+        print("Hidden until they appear in the RSS feed (%d): %s" % (len(hidden), ", ".join(hidden)))
     if og_ok < len(episodes):
         print("  Share images need Pillow and a TrueType font (pip install pillow). Missing ones use assets/og.png.")
     if PLACEHOLDER:
