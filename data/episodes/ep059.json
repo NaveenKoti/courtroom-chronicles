@@ -1,0 +1,228 @@
+{
+  "id": "ep059",
+  "title": "The Governor's Midnight Report and the Floor Test Rule",
+  "hook": "After a state government was dismissed overnight without a legislative vote, a nine-judge Constitution Bench rewrote the limits of President's Rule.",
+  "topics": [
+    "Constitutional law",
+    "Federalism",
+    "Executive power",
+    "Judicial review"
+  ],
+  "laws": [
+    "Constitution of India (Article 74, Article 355, and Article 356)",
+    "Indian Evidence Act, 1872 (Section 114 and Section 123)",
+    "Indian Penal Code, 1860 (Section 166)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Nine-Judge Constitution Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "March 11, 1994"
+    },
+    {
+      "label": "Triggering Event",
+      "value": "Dismissal of the Karnataka ministry and dissolution of the 224-member Assembly on April 21, 1989 without a floor test"
+    },
+    {
+      "label": "Consolidated Matters",
+      "value": "Challenges to Article 356 proclamations in Karnataka, Meghalaya, Nagaland, and four states dismissed in December 1992"
+    },
+    {
+      "label": "Outcome",
+      "value": "Nine-judge bench held Article 356 proclamations are judicially reviewable and made the Assembly floor test mandatory"
+    }
+  ],
+  "summary": [
+    "In April 1989, nineteen legislators handed withdrawal letters to the Karnataka Governor, though seven retracted through affidavits within twenty-four hours and the cabinet asked for an Assembly floor test. Refusing a vote on the house floor, the Governor sent a report recommending President's Rule, and on April 21, 1989 the President dismissed the government and dissolved the 224-member legislature.",
+    "After the Karnataka High Court dismissed the challenge in June 1989, the appeal was heard alongside similar dismissals in Meghalaya and Nagaland as well as the December 1992 dismissals of four state governments following the Ayodhya demolition. On March 11, 1994, a nine-judge Constitution Bench delivered a landmark judgment curbing arbitrary use of Article 356.",
+    "The bench held that while Article 74(2) bars courts from inspecting ministerial advice itself, the President's satisfaction and the underlying Governor's report remain open to judicial review for mala fides or absence of relevant material. Ruling that a government's majority must be tested only on the floor of the Assembly and that legislatures cannot be dissolved before parliamentary approval, the court struck down the Karnataka, Meghalaya, and Nagaland dismissals while upholding the 1992 proclamations on the ground that secularism is part of the Constitution's Basic Structure."
+  ],
+  "timeline": [
+    {
+      "date": "1989-04-20",
+      "title": "Disputed Withdrawal Letters in Karnataka",
+      "text": "Nineteen legislators submit withdrawal letters to the Governor, seven retract within a day, and the cabinet requests an Assembly floor test.",
+      "key": false
+    },
+    {
+      "date": "1989-04-21",
+      "title": "President's Rule Imposed",
+      "text": "Acting on the Governor's report, the President dismisses the Karnataka ministry and dissolves the 224-member Legislative Assembly.",
+      "key": false
+    },
+    {
+      "date": "1989-06",
+      "title": "High Court Dismisses Petition",
+      "text": "The Karnataka High Court rejects the constitutional challenge to the dismissal.",
+      "key": false
+    },
+    {
+      "date": "1992-12",
+      "title": "Post-Ayodhya State Dismissals",
+      "text": "The Union government imposes President's Rule in Uttar Pradesh, Madhya Pradesh, Rajasthan, and Himachal Pradesh.",
+      "key": false
+    },
+    {
+      "date": "1994-03-11",
+      "title": "Nine-Judge Bench Limits Article 356",
+      "text": "The Supreme Court subjects President's Rule to judicial review, mandates floor tests, and affirms secularism as Basic Structure.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Proclamations in Karnataka, Meghalaya, and Nagaland declared unconstitutional (without restoring expired terms); December 1992 proclamations in four states upheld as valid measures to protect secularism.",
+    "points": [
+      "Presidential proclamations under Article 356 are not immune from judicial review; courts may strike them down if issued mala fide or based on wholly extraneous or irrelevant material.",
+      "Article 74(2) bars inquiry into the advice tendered by the Council of Ministers to the President, not into the factual material and Governor's report underlying that advice.",
+      "The floor of the Legislative Assembly is the sole democratic forum to decide whether a ministry enjoys majority support, barring exceptional cases of all-pervasive violence.",
+      "A state assembly may only be placed in suspended animation—never dissolved—until both Houses of Parliament approve the Article 356 proclamation within two months, and courts retain power to restore a wrongly dismissed government."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Judicial Review of Emergency Proclamations",
+      "meaning": "Executive satisfaction under Article 356 is conditional and reviewable to verify whether relevant material existed to show a constitutional breakdown.",
+      "inThisCase": "The court examined the Governor's report in Karnataka and found that bypassing an available floor test rendered the dismissal unconstitutional."
+    },
+    {
+      "name": "Primacy of the Legislative Floor Test",
+      "meaning": "A Governor cannot privately count heads at Raj Bhavan when the legislature is available to vote on confidence.",
+      "inThisCase": "The nine-judge bench held that conflicting affidavits outside the house could only be resolved through a floor test in the Assembly."
+    },
+    {
+      "name": "Secularism as Part of the Basic Structure",
+      "meaning": "Federalism and secularism are foundational features of the Constitution that bind all state governments.",
+      "inThisCase": "The bench upheld the December 1992 dismissals in four states because acts undermining secularism constitute a failure of constitutional machinery."
+    }
+  ],
+  "takeaways": [
+    "Majority support for a state government must be tested on the Assembly floor, not in the Governor's chamber.",
+    "President's Rule is subject to judicial review and cannot be used to dissolve a legislature before Parliament approves the proclamation.",
+    "Secularism is an unamendable constitutional principle whose breach can justify central intervention."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 123",
+        "title": "Evidence as to affairs of State",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 129",
+        "title": "Evidence as to affairs of State",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 129 of the Bharatiya Sakshya Adhiniyam, 2023, governing claims of privilege over unpublished official state records."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 114",
+        "title": "Court may presume existence of certain facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 119",
+        "title": "Court may presume existence of certain facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 119 of the Bharatiya Sakshya Adhiniyam, 2023, preserving judicial presumptions regarding official acts and natural course of events."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 166",
+        "title": "Public servant disobeying law, with intent to cause injury to any person",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 198",
+        "title": "Public servant disobeying law, with intent to cause injury to any person",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted as Section 198 of the Bharatiya Nyaya Sanhita, 2023, retaining penalties for public servants knowingly disobeying legal directions."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 356",
+        "title": "Provisions in case of failure of constitutional machinery in States",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 74",
+        "title": "Council of Ministers to aid and advise President",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the proclamations and litigation occurred before July 1, 2024, any statutory evidentiary and public-duty references were governed by the Indian Evidence Act, 1872 and the Indian Penal Code, 1860.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, March 11, 1994",
+      "url": "https://indiankanoon.org/doc/60799/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "Can a state government be dismissed overnight without ever facing a vote in the Assembly?",
+    "script": "Can a state government be dismissed overnight without ever facing a vote in the Assembly? In April 1989, nineteen legislators handed withdrawal letters to the Karnataka Governor, though seven retracted within twenty-four hours. Refusing the cabinet's request for a floor test, the Governor recommended President's Rule, and the 224-member Assembly was dissolved on April 21, 1989. Five years later, on March 11, 1994, a nine-judge Constitution Bench transformed Indian federalism. It ruled that Article 356 proclamations are open to judicial review, made the Assembly floor test the sole measure of majority, barred dissolution before parliamentary approval, and affirmed secularism as Basic Structure. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "In 1994, a nine-judge Constitution Bench subjected President's Rule under Article 356 to judicial review and made the Assembly floor test mandatory.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#ConstitutionalLaw",
+      "#Article356",
+      "#Federalism",
+      "#FloorTest",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Article 356 & Floor Tests: The 1994 Bench Ruling",
+    "carousel": [
+      {
+        "heading": "The 1989 Midnight Dismissal",
+        "text": "Despite seven legislators retracting withdrawal letters, the Karnataka government was dismissed without a legislative floor test."
+      },
+      {
+        "heading": "The High Court Rejection",
+        "text": "The Karnataka High Court dismissed the challenge, leading to consolidated appeals before a nine-judge Constitution Bench."
+      },
+      {
+        "heading": "The Constitutional Question",
+        "text": "Are Article 356 proclamations immune from judicial review, or can courts examine the Governor's report?"
+      },
+      {
+        "heading": "The Nine-Judge Mandate",
+        "text": "On March 11, 1994, the bench ruled that floor tests are mandatory and assemblies cannot be dissolved before parliamentary approval."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The ruling curbed arbitrary central takeovers and cemented secularism and federalism as unshakeable constitutional pillars."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
