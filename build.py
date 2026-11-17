@@ -162,6 +162,40 @@ if len({x["n"] for x in episodes}) != len(episodes):
     sys.exit("Duplicate episode numbers")
 nums = [x["n"] for x in episodes]
 
+# Seasons. Configure in site.json ("seasons"); default: Season 1 = EP001-EP063, Season 2 = EP064 onward.
+SEASONS = site.get("seasons") or [{"number": 1, "from": 1, "to": 63}, {"number": 2, "from": 64, "to": None}]
+
+
+def season_of(n):
+    for sn in SEASONS:
+        if n >= sn["from"] and (sn.get("to") is None or n <= sn["to"]):
+            return sn
+    return SEASONS[-1]
+
+
+for _x in episodes:
+    _s = season_of(_x["n"])
+    _x["season"] = _s["number"]
+    _x["sep"] = _x["n"] - _s["from"] + 1   # episode number inside its season
+SEASON_EPS = {}
+for _x in episodes:
+    SEASON_EPS.setdefault(_x["season"], []).append(_x)
+
+
+def season_cfg(num):
+    return next((sn for sn in SEASONS if sn["number"] == num), {"number": num})
+
+
+def season_url(num):
+    return "%s/seasons/%d/" % (BASE, num)
+
+
+# Analytics and feedback (both optional, set in site.json). Values are validated before use.
+_ga = str((site.get("analytics") or {}).get("gaMeasurementId", "")).strip()
+GA_ID = _ga if re.match(r"^G-[A-Z0-9]{6,14}$", _ga) else ""
+_fb = str(site.get("feedbackFormUrl", "")).strip()
+FEEDBACK_URL = _fb if re.match(r"^https://(docs\.google\.com/forms/|forms\.gle/)[^\s\"'<>]+$", _fb) else ""
+
 
 def ep_url(x):
     return "%s/episodes/%s/" % (BASE, x["slug"])
@@ -359,6 +393,14 @@ def make_thumb(x):
 
 
 # ---------- shared page shell ----------
+def ga_snippet(noindex=False):
+    if not GA_ID or noindex:
+        return ""
+    return ('<script async src="https://www.googletagmanager.com/gtag/js?id=%(i)s"></script>\n'
+            '<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}'
+            "gtag('js',new Date());gtag('config','%(i)s');</script>\n" % {"i": GA_ID})
+
+
 def head(title, desc, canonical, depth, extra="", og_type="website", image_path=None, prev=None, nxt=None, noindex=False):
     root = "../" * depth
     img = ""
@@ -399,10 +441,10 @@ def head(title, desc, canonical, depth, extra="", og_type="website", image_path=
 <meta name="twitter:description" content="%(desc)s">
 %(img)s<link rel="icon" type="image/svg+xml" href="%(fav)s">
 <link rel="stylesheet" href="%(root)sassets/style.css">
-%(extra)s</head>
+%(ga)s%(extra)s</head>
 """ % dict(lang=site.get("lang", "en"), title=esc(title), desc=esc(desc), canon=esc(canonical), site=esc(site["title"]),
            ogt=og_type, card="summary_large_image" if img else "summary", img=img, pn=pn, rss=rss_tag,
-           root=root, extra=extra, robots=robots, fav=FAVICON)
+           root=root, extra=extra, robots=robots, fav=FAVICON, ga=ga_snippet(noindex))
 
 
 LOGO_SHAPES = (
@@ -436,9 +478,14 @@ def footer(extra_disclaimer=""):
     return """<footer class="foot"><div class="wrap">
 <p class="foot-links">%s</p>
 <p class="disc">%s</p>
-<p class="small">© %s %s. Case notes are drawn from public court records.</p>
+<p class="small">© %s %s. Case notes are drawn from public court records.%s</p>
 </div></footer>
-""" % (platform_links(LINKS, plain=True), esc(extra_disclaimer or site.get("disclaimer", "")), date.today().year, esc(site["title"]))
+%s""" % (platform_links(LINKS, plain=True), esc(extra_disclaimer or site.get("disclaimer", "")), date.today().year, esc(site["title"]),
+         " This site uses Google Analytics to count visits; it does not collect your name or email." if GA_ID else "",
+         ('<a class="fab" id="feedback" href="%s" target="_blank" rel="noopener" aria-label="Send feedback or ask a question">'
+          '<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true" focusable="false"><path fill="currentColor" '
+          'd="M4 4h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H9l-5 4v-4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/></svg>'
+          '<span>Feedback</span></a>\n' % esc(FEEDBACK_URL)) if FEEDBACK_URL else "")
 
 
 PLATFORMS = [("spotify", "Spotify"), ("apple", "Apple Podcasts"), ("youtube", "YouTube"), ("rss", "RSS")]
@@ -538,6 +585,8 @@ def render_episode(x, prev, nxt):
         {"@type": "PodcastEpisode", "@id": url + "#episode", "url": url, "name": x["title"],
          "description": x["hook"], "episodeNumber": x["n"], "inLanguage": site.get("lang", "en"),
          "keywords": ", ".join(kw),
+         "partOfSeason": {"@type": "PodcastSeason", "seasonNumber": x["season"], "name": "Season %d" % x["season"],
+                          "url": season_url(x["season"])},
          "partOfSeries": {"@type": "PodcastSeries", "name": site["title"], "url": BASE + "/"}},
         {"@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": site["title"], "item": BASE + "/"},
@@ -559,8 +608,9 @@ def render_episode(x, prev, nxt):
     out.append('<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">%s</a> › <span>EP%03d</span></nav>\n'
                % (esc(site["title"]), x["n"]))
     meta = " · ".join(v for v in (court, year, "%d min read" % mins) if v)
-    out.append('<article>\n<header class="eph"><p class="kicker">Episode %d%s%s</p><h1>%s</h1><p class="hook">%s</p>'
-               '<p class="meta">%s</p>' % (x["n"], (" · " + esc(a["date"])) if a.get("date") else "",
+    out.append('<article>\n<header class="eph"><p class="kicker"><a href="../../seasons/%d/">Season %d</a> · Episode %d%s%s%s</p><h1>%s</h1><p class="hook">%s</p>'
+               '<p class="meta">%s</p>' % (x["season"], x["season"], x["sep"], (" · EP%03d" % x["n"]) if x["season"] > 1 else "",
+                                           (" · " + esc(a["date"])) if a.get("date") else "",
                                            (" · " + esc(x["caseName"])) if x.get("caseName") else "", esc(x["title"]),
                                            esc(x["hook"]), esc(meta)))
     if topics:
@@ -808,6 +858,39 @@ def render_laws_index():
 
 
 # ---------- index ----------
+def season_chips():
+    if len(SEASON_EPS) < 2:
+        return ""
+    chips = '<button type="button" class="chip on" data-season="">All seasons</button>'
+    for num in sorted(SEASON_EPS, reverse=True):
+        chips += '<button type="button" class="chip" data-season="%d">Season %d <small>(%d)</small></button>' % (num, num, len(SEASON_EPS[num]))
+    return '<p class="chips" id="seasons" aria-label="Filter by season">%s</p>' % chips
+
+
+def render_season(num):
+    eps = SEASON_EPS[num]
+    cfg = season_cfg(num)
+    title = "Season %d | %s" % (num, site["title"])
+    blurb = cfg.get("blurb") or "Season %d of %s: %d episode%s of Indian court cases explained in plain English." % (
+        num, site["title"], len(eps), "" if len(eps) == 1 else "s")
+    ld = jsonld({"@context": "https://schema.org", "@type": "PodcastSeason", "name": "Season %d" % num, "seasonNumber": num,
+                 "url": season_url(num), "numberOfEpisodes": len(eps), "description": blurb,
+                 "partOfSeries": {"@type": "PodcastSeries", "name": site["title"], "url": BASE + "/"}})
+    out = [head(title, short(blurb, 158), season_url(num), 2, extra=ld + "\n")]
+    out.append("<body>\n" + header(2) + '<main id="main" class="wrap ep">\n')
+    out.append('<nav class="crumbs" aria-label="Breadcrumb"><a href="../../">%s</a> › <span>Season %d</span></nav>\n' % (esc(site["title"]), num))
+    out.append('<article><header class="eph"><p class="kicker">Season %d</p><h1>%s: Season %d</h1><p class="hook">%s</p></header>\n'
+               % (num, esc(site["title"]), num, esc(blurb)))
+    others = [n for n in sorted(SEASON_EPS) if n != num]
+    out.append('<ul class="rel">%s</ul>' % "".join(
+        '<li><a href="../../episodes/%s/"><span class="num">S%d · E%d</span> %s</a></li>' % (esc(r["slug"]), r["season"], r["sep"], esc(label_with_case(r)))
+        for r in sorted(eps, key=lambda r: -r["n"])))
+    if others:
+        out.append('<p class="chips">%s</p>' % "".join('<a class="chip" href="../%d/">Season %d →</a>' % (n, n) for n in others))
+    out.append("</article>\n</main>\n" + footer() + '<script src="../../assets/app.js" defer></script>\n</body>\n</html>\n')
+    return "".join(out)
+
+
 def render_index():
     n = len(episodes)
     latest = episodes[-1]
@@ -829,10 +912,10 @@ def render_index():
                '<div class="btns">%s</div>'
                '<ul class="stats"><li><strong>%d</strong> episodes</li><li><strong>%d</strong> topics</li><li><strong>%d</strong> provisions explained</li></ul>'
                '</div>'
-               '<a class="latest" href="episodes/%s/">%s<span class="kicker">Latest · EP%03d</span><strong>%s</strong>'
+               '<a class="latest" href="episodes/%s/">%s<span class="kicker">Latest · Season %d · Episode %d</span><strong>%s</strong>'
                '<span class="lo">%s</span><span class="go">Read the case notes →</span></a></div></section>\n'
                % (esc(site["title"]), esc(site["tagline"]), platform_links(LINKS, primary=True), n, len(topics_all), len(prov),
-                  esc(latest["slug"]), card_thumb(latest, True), latest["n"], esc(latest["title"]), esc(short(outcome(latest), 170))))
+                  esc(latest["slug"]), card_thumb(latest, True), latest["season"], latest["sep"], esc(latest["title"]), esc(short(outcome(latest), 170))))
     out.append('<section class="wrap how" aria-label="How it works"><ol>'
                '<li><span>1</span><div><strong>Listen to the story</strong>Each case is told as an episode you can play anywhere.</div></li>'
                '<li><span>2</span><div><strong>Read the case notes</strong>Timeline, key holdings and plain-English principles.</div></li>'
@@ -841,8 +924,9 @@ def render_index():
                '<div class="tools"><label class="sr" for="q">Search episodes</label>'
                '<input id="q" type="search" placeholder="Search cases, laws, topics (e.g. dying declaration, section 302, DNA)" autocomplete="off">'
                '<label class="sr" for="sort">Sort</label><select id="sort"><option value="new">Newest first</option><option value="old">Oldest first</option></select></div>'
-               '<p class="chips" id="topics">%s</p><p class="small" id="count" aria-live="polite">%d episodes</p>'
+               '%s<p class="chips" id="topics">%s</p><p class="small" id="count" aria-live="polite">%d episodes</p>'
                '<ul class="cards" id="list">\n' % (
+                   season_chips(),
                    '<button type="button" class="chip on" data-t="">All</button>' + "".join(
                        '<button type="button" class="chip" data-t="%s">%s</button>' % (esc(t.lower()), esc(t)) for t in topics_all), n))
     for x in sorted(episodes, key=lambda z: -z["n"]):
@@ -853,10 +937,10 @@ def render_index():
                                                 (m.get("new") or {}).get("section", "")) for m in x.get("lawMapping", [])),
                          " ".join(x.get("summary", [])[:1])])
         meta = " · ".join(v for v in (x.get("caseName"), fact(x, "Court"), fact(x, "Year")) if v)
-        out.append('<li class="card" data-n="%d" data-s="%s" data-t="|%s|"><a href="episodes/%s/">%s'
-                   '<span class="num">EP%03d</span><h3>%s</h3></a><p>%s</p><p class="meta">%s</p></li>\n' % (
-                       x["n"], esc(norm(blob)), esc("|".join(t.lower() for t in x.get("topics", []))), esc(x["slug"]), card_thumb(x), x["n"],
-                       esc(x["title"]), esc(short(outcome(x), 150)), esc(meta)))
+        out.append('<li class="card" data-n="%d" data-s="%s" data-t="|%s|" data-season="%d"><a href="episodes/%s/">%s'
+                   '<span class="num">EP%03d</span> <span class="sbadge">S%d · E%d</span><h3>%s</h3></a><p>%s</p><p class="meta">%s</p></li>\n' % (
+                       x["n"], esc(norm(blob)), esc("|".join(t.lower() for t in x.get("topics", []))), x["season"], esc(x["slug"]), card_thumb(x), x["n"],
+                       x["season"], x["sep"], esc(x["title"]), esc(short(outcome(x), 150)), esc(meta)))
     out.append('</ul><p id="none" class="small" hidden>No episodes match. Try fewer words.</p></section>\n')
     if TOPICS:
         out.append('<section class="wrap" id="topics-browse"><h2>Browse by topic</h2><p class="chips">%s</p></section>\n' % "".join(
@@ -891,6 +975,9 @@ def main():
     clean("laws", set(PAGES))
     clean("topics", set(TOPICS))
     clean("go", {x["id"] for x in episodes})
+    clean("seasons", {str(n) for n in SEASON_EPS})
+    for n in SEASON_EPS:
+        write("seasons/%d/index.html" % n, render_season(n))
     write("index.html", render_index())
     for i, x in enumerate(episodes):
         prev = episodes[i - 1] if i > 0 else None
@@ -917,6 +1004,7 @@ def main():
     urls += [(ep_url(x), "0.8", (x.get("audio") or {}).get("date")) for x in episodes]
     urls += [("%s/laws/%s/" % (BASE, s), "0.6", None) for s in PAGES]
     urls += [("%s/topics/%s/" % (BASE, s), "0.6", None) for s in TOPICS]
+    urls += [(season_url(n), "0.7", None) for n in SEASON_EPS]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join("  <url><loc>%s</loc>%s<priority>%s</priority></url>\n" % (
               esc(u), ("<lastmod>%s</lastmod>" % d) if d else "", pr) for u, pr, d in urls) + "</urlset>\n")
