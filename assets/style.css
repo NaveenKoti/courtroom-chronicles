@@ -211,3 +211,14 @@ ol.tl p{margin:2px 0 0;font-size:.95rem}
 .epimg-ph{margin:0 0 18px}
 .epimg-ph .thumb{margin:0;border-radius:12px}
 .latest .thumb.ph{margin:0 0 6px}
+
+/* season badge, season filter, floating feedback button */
+.sbadge{display:inline-block;margin-left:6px;padding:1px 8px;border-radius:999px;background:var(--tint);color:var(--accent);font-size:.7rem;font-weight:700;letter-spacing:.04em;vertical-align:middle}
+.kicker a{color:inherit;text-decoration:none;border-bottom:1px dotted currentColor}
+#seasons{margin-bottom:8px}
+.fab{position:fixed;right:18px;bottom:18px;z-index:20;display:inline-flex;align-items:center;gap:8px;padding:12px 14px;border-radius:999px;background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:700;font-size:.9rem;box-shadow:0 6px 20px rgba(0,0,0,.25);border:2px solid var(--accent)}
+.fab:hover{filter:brightness(1.1)}
+.fab span{max-width:0;overflow:hidden;white-space:nowrap;transition:max-width .25s ease}
+.fab:hover span,.fab:focus-visible span{max-width:120px}
+@media (min-width:700px){.fab span{max-width:120px}}
+@media print{.fab{display:none}}
