@@ -1,0 +1,252 @@
+{
+  "id": "ep061",
+  "title": "The Governor Who Became a Parliament and the End of Ordinance Raj",
+  "hook": "After a state kept hundreds of temporary emergency ordinances alive for up to fourteen years without a legislative vote, the Supreme Court struck down the practice as a fraud on the Constitution.",
+  "topics": [
+    "Constitutional law",
+    "Executive power",
+    "Separation of powers",
+    "Public interest litigation"
+  ],
+  "laws": [
+    "Constitution of India (Article 32, Article 123, Article 174, and Article 213)",
+    "Indian Evidence Act, 1872 (Section 81, Section 81A, and Section 114)",
+    "Indian Penal Code, 1860 (Section 166)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Five-Judge Constitution Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "December 20, 1986"
+    },
+    {
+      "label": "Scale of Practice",
+      "value": "Two hundred and fifty-six ordinances promulgated in Bihar between 1967 and 1981 and kept alive for one to fourteen years by mechanical re-promulgation"
+    },
+    {
+      "label": "Key Exhibit",
+      "value": "July 29, 1981 Parliamentary Affairs circular instructing departments to re-issue expiring ordinances without Cabinet approval if unchanged"
+    },
+    {
+      "label": "Outcome",
+      "value": "Five-judge bench struck down the surviving education ordinance as unconstitutional and awarded 10,000 rupees in costs to the lead petitioner"
+    }
+  ],
+  "summary": [
+    "Between 1967 and 1981, the Governor of Bihar promulgated two hundred and fifty-six temporary ordinances and kept them alive for one to fourteen years by mechanically re-issuing them whenever the state legislature adjourned. One sugarcane ordinance was re-promulgated thirty-nine times over nearly fourteen years, and on multiple occasions more than fifty ordinances were re-issued in a single day without ever being placed before elected lawmakers for a vote.",
+    "An economics professor from Pune uncovered the pattern in official state gazettes and teamed up with a Ranchi farmer, a Patna college student, and a brick-business owner to file writ petitions under Article 32. During the hearing, the petitioners produced a July 29, 1981 government circular instructing departments to re-issue expiring ordinances before August 11, 1981 and explicitly stating that Council of Ministers approval was unnecessary if the text remained unchanged.",
+    "On December 20, 1986, a five-judge Constitution Bench rejected the State's objections on legal standing and mootness, holding that every citizen has a right to be governed by laws enacted in accordance with the Constitution. Declaring that a constitutional authority cannot do indirectly what it is forbidden to do directly, the court condemned mechanical re-promulgation as a colourable exercise of power and a fraud on the Constitution, struck down the Bihar Intermediate Education Council Ordinance, and awarded 10,000 rupees in costs to the researcher."
+  ],
+  "timeline": [
+    {
+      "date": "1968-01-13",
+      "title": "Sugarcane Ordinance First Issued",
+      "text": "The Bihar Sugarcane Ordinance is promulgated for the first time, beginning a cycle of thirty-nine re-promulgations lasting nearly fourteen years.",
+      "key": false
+    },
+    {
+      "date": "1973-08-26",
+      "title": "Mass Re-Promulgation in a Single Day",
+      "text": "Fifty-four expiring ordinances are re-issued together in Bihar on a single day without legislative enactment.",
+      "key": false
+    },
+    {
+      "date": "1981-07-29",
+      "title": "Parliamentary Affairs Circular Issued",
+      "text": "A state official instructs all departments to re-issue expiring ordinances before August 11 without Cabinet approval if the text is unchanged.",
+      "key": false
+    },
+    {
+      "date": "1984-05-17",
+      "title": "Two Challenged Ordinances Replaced",
+      "text": "While the Supreme Court petitions are pending, the Bihar legislature enacts Acts replacing the forest produce and bricks supply ordinances.",
+      "key": false
+    },
+    {
+      "date": "1986-12-20",
+      "title": "Constitution Bench Strikes Down Ordinance Raj",
+      "text": "A five-judge bench declares mechanical re-promulgation a fraud on the Constitution, voids the education ordinance, and awards 10,000 rupees in costs.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petitions allowed; the Bihar Intermediate Education Council Ordinance, 1983 struck down as unconstitutional and void, with 10,000 rupees in costs awarded to the first petitioner.",
+    "points": [
+      "Under Article 213 read with Article 174, a Governor's ordinance is strictly an emergency measure with a maximum lifespan of seven and a half months unless replaced by an Act of the legislature within six weeks of its reassembly.",
+      "Mechanically re-promulgating expired ordinances without submitting them to the elected legislature is a colourable exercise of power and a fraud on the Constitution, because a constitutional authority cannot do indirectly what it is forbidden to do directly.",
+      "Every citizen has sufficient public-interest standing under Article 32 to challenge a systematic executive practice that subverts constitutional lawmaking limits.",
+      "While courts do not inquire into a Governor's subjective satisfaction for a single emergency ordinance, they have full authority to strike down successive re-promulgations that usurp legislative power."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Prohibition on Colourable Exercise of Power",
+      "meaning": "A constitutional authority cannot do indirectly what the Constitution forbids it from doing directly through a covert device or subterfuge.",
+      "inThisCase": "Re-issuing identical ordinances after each legislative session to bypass the six-week expiry limit under Article 213 was struck down as a fraud on the Constitution."
+    },
+    {
+      "name": "Legislative Supremacy in Lawmaking",
+      "meaning": "Under India's constitutional design, primary lawmaking belongs exclusively to the elected legislature, while executive ordinances are narrow emergency exceptions.",
+      "inThisCase": "The bench ruled that the executive cannot convert an emergency power into a permanent parallel legislature or establish rule by ordinance."
+    },
+    {
+      "name": "Citizen Standing to Enforce the Rule of Law",
+      "meaning": "Any member of the public has standing under Article 32 to challenge a systematic and flagrant violation of constitutional limits by the State.",
+      "inThisCase": "Even though the lead petitioner was an academic from Pune with no personal property affected, the court entertained his petition and awarded him costs."
+    }
+  ],
+  "takeaways": [
+    "Temporary ordinances cannot exceed roughly seven and a half months without legislative approval.",
+    "Re-issuing an expired ordinance verbatim to avoid a legislative vote is unconstitutional.",
+    "Citizens can invoke public interest litigation to stop systematic executive overreach."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 81",
+        "title": "Presumption as to Gazettes, newspapers, private Acts of Parliament and other documents",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 80",
+        "title": "Presumption as to Gazettes, newspapers, and other documents",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 80 of the Bharatiya Sakshya Adhiniyam, 2023, preserving the presumption of genuineness for printed Official Gazettes."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 81A",
+        "title": "Presumption as to Gazettes in electronic forms",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 81",
+        "title": "Presumption as to Gazettes in electronic or digital record",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 81 of the Bharatiya Sakshya Adhiniyam, 2023, extending the presumption of genuineness to Official Gazettes in electronic or digital form."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 114",
+        "title": "Court may presume existence of certain facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 119",
+        "title": "Court may presume existence of certain facts",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+      },
+      "change": "Re-enacted as Section 119 of the Bharatiya Sakshya Adhiniyam, 2023, preserving judicial presumptions regarding official acts unless rebutted by contrary proof."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 166",
+        "title": "Public servant disobeying law, with intent to cause injury to any person",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 198",
+        "title": "Public servant disobeying law, with intent to cause injury to any person",
+        "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+      },
+      "change": "Re-enacted as Section 198 of the Bharatiya Nyaya Sanhita, 2023, retaining penalties for public servants knowingly disobeying legal directions."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 213",
+        "title": "Power of Governor to promulgate Ordinances during recess of Legislature",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 174",
+        "title": "Sessions of the State Legislature, prorogation and dissolution",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 32",
+        "title": "Remedies for enforcement of rights conferred by this Part",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the ordinances and litigation occurred before July 1, 2024, any statutory evidentiary and public-duty provisions were governed by the Indian Evidence Act, 1872 and the Indian Penal Code, 1860.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, December 20, 1986",
+      "url": "https://indiankanoon.org/doc/504006/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Comparative Table (UP Police)",
+      "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
+    }
+  ],
+  "social": {
+    "hook": "How did one state keep temporary emergency ordinances alive for fourteen years without a single vote?",
+    "script": "How did one state keep temporary emergency ordinances alive for fourteen years without a single vote? Between 1967 and 1981, Bihar's Governor issued 256 ordinances, re-promulgating them mechanically every time the legislature adjourned. One sugarcane ordinance was re-issued thirty-nine times, and an internal circular even told departments Cabinet approval was unnecessary if nothing changed. An economics professor from Pune uncovered the scheme in official gazettes and took it to the Supreme Court alongside affected citizens. On December 20, 1986, a five-judge bench condemned this Ordinance Raj as a fraud on the Constitution, struck down the surviving education ordinance, and awarded the professor 10,000 rupees in costs. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "In 1986, a five-judge Constitution Bench struck down Bihar's practice of endlessly re-promulgating temporary ordinances without legislative approval as a fraud on the Constitution.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#ConstitutionalLaw",
+      "#Article213",
+      "#SeparationOfPowers",
+      "#RuleOfLaw",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "14 Years of Zombie Ordinances: The 1986 Ruling",
+    "carousel": [
+      {
+        "heading": "The Fourteen-Year Loophole",
+        "text": "Bihar kept 256 temporary ordinances alive for up to fourteen years by re-issuing them whenever the Assembly adjourned."
+      },
+      {
+        "heading": "The Smoking-Gun Circular",
+        "text": "A 1981 state memo told departments to copy expiring ordinances without Cabinet approval before the six-week deadline."
+      },
+      {
+        "heading": "The Constitutional Question",
+        "text": "Can a Governor repeatedly re-promulgate the same emergency ordinance to bypass the elected legislature under Article 213?"
+      },
+      {
+        "heading": "The Five-Judge Verdict",
+        "text": "On December 20, 1986, the Supreme Court declared mechanical re-promulgation a fraud on the Constitution and voided the ordinance."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The ruling protects parliamentary democracy by ensuring laws are debated by elected representatives, not photocopied by executives."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
