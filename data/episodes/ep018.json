@@ -185,5 +185,42 @@
       "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "When a young poet was murdered in her apartment, fetal DNA exposed a powerful cabinet minister's secret.",
+    "script": "When a young poet was murdered in her apartment, fetal DNA exposed a powerful cabinet minister's secret. Shot by two visitors in 2003, the victim was seven months pregnant. The minister denied any relationship, but scientists matched the unborn child's DNA to his blood, while call records linked his spouse to the shooters. Facing witness intimidation in the home state, the Supreme Court revoked his bail and transferred the trial to another state under Section 406. The special court convicted the minister, his spouse, and the shooters, sentencing them to life imprisonment. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After a seven-month pregnant poet was shot dead in 2003, fetal DNA profiling disproved a cabinet minister's denials and exposed the motive. See how the Supreme Court transferred the trial out of state under Section 406 to ensure a fair verdict.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#ForensicDNA",
+      "#Section406",
+      "#FairTrial",
+      "#CriminalConspiracy"
+    ],
+    "shortTitle": "Fetal DNA, political influence, and out-of-state trial transfer",
+    "carousel": [
+      {
+        "heading": "The unborn forensic witness",
+        "text": "When a young poet was murdered in her apartment, fetal DNA exposed a powerful cabinet minister's secret."
+      },
+      {
+        "heading": "What happened",
+        "text": "Forensic STR-DNA profiling proved the minister fathered the victim's unborn child, while phone records linked his spouse to hired shooters."
+      },
+      {
+        "heading": "The legal question",
+        "text": "When a powerful accused intimidates witnesses in the home state, can the Supreme Court transfer the criminal trial across state borders?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court revoked bail and transferred the trial under Section 406, resulting in life sentences for the conspirators and shooters."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Fetal genetic profiling provides unassailable proof of motive, and inter-state trial transfers protect fair trials from local political dominance."
+      }
+    ]
+  }
 }
