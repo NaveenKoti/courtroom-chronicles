@@ -1,0 +1,12 @@
+# Courtroom Chronicles
+
+> Indian court cases, explained in plain English. Courtroom Chronicles is an audio series that retells Indian court cases as stories, then breaks each one down: what happened, what the court decided, and the law behind it. Every episode has a page here with the case notes, so you can read, search and check the sources.
+
+A podcast about landmark Indian court cases, told as stories in plain English. Each episode page has a summary, the case citation, key legal principles and links to listen on Spotify, Apple Podcasts and YouTube.
+
+## Key pages
+- [All episodes](https://naveenkoti.github.io/courtroom-chronicles/)
+- [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
+- [RSS feed](https://anchor.fm/s/1180f6a90/podcast/rss)
+
+Not legal advice. Educational content only.
