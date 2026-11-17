@@ -401,6 +401,27 @@ def ga_snippet(noindex=False):
             "gtag('js',new Date());gtag('config','%(i)s');</script>\n" % {"i": GA_ID})
 
 
+def seo_meta():
+    """Author, keywords and geo meta tags (values come from site.json 'seo')."""
+    sc = site.get("seo") or {}
+    out = []
+    if sc.get("author"):
+        out.append('<meta name="author" content="%s">' % esc(sc["author"]))
+    if sc.get("keywords"):
+        out.append('<meta name="keywords" content="%s">' % esc(", ".join(sc["keywords"])))
+    g = sc.get("geo") or {}
+    if g.get("region"):
+        out.append('<meta name="geo.region" content="%s">' % esc(g["region"]))
+    if g.get("placename"):
+        out.append('<meta name="geo.placename" content="%s">' % esc(g["placename"]))
+    if g.get("position"):
+        out.append('<meta name="geo.position" content="%s">' % esc(g["position"]))
+        out.append('<meta name="ICBM" content="%s">' % esc(g["position"].replace(";", ", ")))
+    out.append('<meta name="distribution" content="global">')
+    out.append('<meta name="rating" content="general">')
+    return "\n".join(out) + "\n"
+
+
 def head(title, desc, canonical, depth, extra="", og_type="website", image_path=None, prev=None, nxt=None, noindex=False):
     root = "../" * depth
     img = ""
@@ -429,7 +450,9 @@ def head(title, desc, canonical, depth, extra="", og_type="website", image_path=
 <meta name="robots" content="%(robots)s">
 <meta name="theme-color" content="#7a1f2b">
 <meta name="color-scheme" content="light dark">
-<link rel="canonical" href="%(canon)s">
+%(seo)s<link rel="canonical" href="%(canon)s">
+<link rel="alternate" hreflang="en-IN" href="%(canon)s">
+<link rel="alternate" hreflang="x-default" href="%(canon)s">
 %(pn)s%(rss)s<meta property="og:site_name" content="%(site)s">
 <meta property="og:type" content="%(ogt)s">
 <meta property="og:title" content="%(title)s">
@@ -437,6 +460,7 @@ def head(title, desc, canonical, depth, extra="", og_type="website", image_path=
 <meta property="og:url" content="%(canon)s">
 <meta property="og:locale" content="en_IN">
 <meta name="twitter:card" content="%(card)s">
+<meta property="og:image:alt" content="%(site)s podcast cover art">
 <meta name="twitter:title" content="%(title)s">
 <meta name="twitter:description" content="%(desc)s">
 %(img)s<link rel="icon" type="image/svg+xml" href="%(fav)s">
@@ -444,7 +468,7 @@ def head(title, desc, canonical, depth, extra="", og_type="website", image_path=
 %(ga)s%(extra)s</head>
 """ % dict(lang=site.get("lang", "en"), title=esc(title), desc=esc(desc), canon=esc(canonical), site=esc(site["title"]),
            ogt=og_type, card="summary_large_image" if img else "summary", img=img, pn=pn, rss=rss_tag,
-           root=root, extra=extra, robots=robots, fav=FAVICON, ga=ga_snippet(noindex))
+           root=root, extra=extra, robots=robots, fav=FAVICON, ga=ga_snippet(noindex), seo=seo_meta())
 
 
 LOGO_SHAPES = (
@@ -1008,7 +1032,14 @@ def main():
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join("  <url><loc>%s</loc>%s<priority>%s</priority></url>\n" % (
               esc(u), ("<lastmod>%s</lastmod>" % d) if d else "", pr) for u, pr, d in urls) + "</urlset>\n")
-    write("robots.txt", "User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n" % BASE)
+    write("robots.txt", "User-agent: *\nAllow: /\n\n" + "".join(
+        "User-agent: %s\nAllow: /\n\n" % b for b in ("GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Web",
+        "anthropic-ai", "PerplexityBot", "Google-Extended", "Applebot-Extended", "CCBot", "cohere-ai", "Bingbot")) +
+        "Sitemap: %s/sitemap.xml\n" % BASE)
+    write("llms.txt", "# %s\n\n> %s. %s\n\nA podcast about landmark Indian court cases, told as stories in plain English. "
+          "Each episode page has a summary, the case citation, key legal principles and links to listen on Spotify, Apple Podcasts and YouTube.\n\n"
+          "## Key pages\n- [All episodes](%s/)\n- [Sitemap](%s/sitemap.xml)\n- [RSS feed](%s)\n\n"
+          "Not legal advice. Educational content only.\n" % (site["title"], site["tagline"], site.get("about", ""), BASE, BASE, LINKS.get("rss", BASE + "/")))
     write("404.html", head("Page not found | " + site["title"], "That page does not exist.", BASE + "/404.html", 0, noindex=True) +
           "<body>\n" + header(0) + '<main id="main" class="wrap ep"><h1>Page not found</h1>'
           '<p>That page does not exist. <a href="/">Go to all episodes</a>.</p></main>\n' + footer() + "</body>\n</html>\n")
