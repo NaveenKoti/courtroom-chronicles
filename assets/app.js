@@ -4,20 +4,36 @@
   function norm(s) { return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim(); }
   function store(k, v) { try { if (v === undefined) return localStorage.getItem(k); if (v === null) localStorage.removeItem(k); else localStorage.setItem(k, v); } catch (e) {} return null; }
 
+  /* ---------- analytics events (only if Google Analytics is switched on in site.json) ---------- */
+  function track(name, params) { try { if (window.gtag) window.gtag("event", name, params || {}); } catch (e) {} }
+  document.addEventListener("click", function (ev) {
+    var a = ev.target.closest && ev.target.closest("a[href]");
+    if (!a) return;
+    if (a.id === "feedback") { track("feedback_click", { page: location.pathname }); return; }
+    var h = a.getAttribute("href") || "", map = [["spotify.com", "spotify"], ["apple.com", "apple"], ["youtube.com", "youtube"], ["anchor.fm", "rss"]];
+    for (var i = 0; i < map.length; i++) if (h.indexOf(map[i][0]) > -1) { track("listen_click", { platform: map[i][1], page: location.pathname }); break; }
+  });
+  var searchTimer;
+  var qEl = document.getElementById("q");
+  if (qEl) qEl.addEventListener("input", function () { clearTimeout(searchTimer); searchTimer = setTimeout(function () { if (qEl.value.trim().length > 2) track("site_search", { term: qEl.value.trim().slice(0, 60) }); }, 1200); });
+
   /* ---------- index: search, topic filter, sort ---------- */
   var list = document.getElementById("list");
   if (list) {
     var q = document.getElementById("q"), sort = document.getElementById("sort"), cnt = document.getElementById("count"),
         none = document.getElementById("none"), chips = document.querySelectorAll("#topics .chip"),
-        cards = Array.prototype.slice.call(list.children), topic = "";
+        cards = Array.prototype.slice.call(list.children), topic = "", season = "",
+        seasonChips = document.querySelectorAll("#seasons .chip");
     var params = new URLSearchParams(location.search);
     if (params.get("q")) q.value = params.get("q");
     if (params.get("topic")) { topic = params.get("topic").toLowerCase(); }
+    if (params.get("season")) { season = params.get("season"); }
     function apply() {
       var terms = norm(q.value).split(" ").filter(Boolean), shown = 0;
       cards.forEach(function (c) {
         var s = c.getAttribute("data-s"), ok = terms.every(function (t) { return s.indexOf(t) > -1; });
         if (ok && topic) ok = c.getAttribute("data-t").indexOf("|" + topic + "|") > -1;
+        if (ok && season) ok = c.getAttribute("data-season") === season;
         c.hidden = !ok; if (ok) shown++;
       });
       cards.sort(function (a, b) { var d = a.getAttribute("data-n") - b.getAttribute("data-n"); return sort.value === "old" ? d : -d; })
@@ -25,8 +41,10 @@
       cnt.textContent = shown + (shown === 1 ? " episode" : " episodes");
       none.hidden = shown !== 0;
       chips.forEach(function (b) { b.classList.toggle("on", b.getAttribute("data-t") === topic); });
+      seasonChips.forEach(function (b) { b.classList.toggle("on", b.getAttribute("data-season") === season); });
     }
     q.addEventListener("input", apply); sort.addEventListener("change", apply);
+    seasonChips.forEach(function (b) { b.addEventListener("click", function () { season = b.getAttribute("data-season"); apply(); track("season_filter", { season: season || "all" }); }); });
     chips.forEach(function (b) { b.addEventListener("click", function () { topic = b.getAttribute("data-t"); apply(); }); });
     apply();
   }
