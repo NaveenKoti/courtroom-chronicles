@@ -1,0 +1,224 @@
+# Courtroom Chronicles
+
+> Indian court cases, explained in plain English. Courtroom Chronicles is an audio series that retells Indian court cases as stories, then breaks each one down: what happened, what the court decided, and the law behind it. Every episode has a page here with the case notes, so you can read, search and check the sources.
+
+Courtroom Chronicles is an English-language podcast from India that retells landmark Indian court cases as stories (criminal trials, constitutional law, civil and family disputes), then explains the law behind each one. Every episode has a web page with a summary, timeline, the court's holding, key principles and sources. Content is for education and is not legal advice.
+
+## Listen
+- [Spotify](https://open.spotify.com/show/6fCXO2BKUUPL6sx4agVMUN)
+- [Apple Podcasts](https://podcasts.apple.com/in/podcast/courtroom-chronicles/id6818802315)
+- [YouTube](https://youtube.com/playlist?list=PLd8jjXKA-Z-s)
+- [RSS feed](https://anchor.fm/s/1180f6a90/podcast/rss)
+
+## Site
+- [All episodes](https://naveenkoti.github.io/courtroom-chronicles/)
+- [Law finder: IPC/BNS, CrPC/BNSS, Evidence Act and Constitution sections](https://naveenkoti.github.io/courtroom-chronicles/laws/)
+- [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
+- [Feedback and questions](https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform)
+
+## Season 1 (48 episodes so far)
+
+Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one.
+
+- [Season 1 page](https://naveenkoti.github.io/courtroom-chronicles/seasons/1/)
+- [EP001: The Courtyard Casket and the Meaning of Life Imprisonment](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep001-the-courtyard-casket-and-the-meaning-of-life/): Three years after a wealthy landowner vanished from her estate, a video-recorded exhumation beneath her own patio forced the Supreme Court of India to redefine life imprisonment.
+  - Outcome: The Supreme Court of India commuted the death sentence to imprisonment for the remainder of the convict's natural life, directing that he shall not be granted executive remission.
+  - Topics: Criminal law, Sentencing, Evidence, Criminal procedure
+- [EP002: The Poison Without a Trace and the Pauper's Cremation](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep002-the-poison-without-a-trace-and-the-paupers-cremation/): When a physician registered a comatose widow under a false name and left her body to be cremated as a pauper, the Supreme Court decided whether murder by poison can be proved without chemical trace.
+  - Outcome: By a two-to-one majority, the Supreme Court of India upheld the murder conviction and confirmed the sentence of death.
+  - Topics: Criminal law, Evidence, Sentencing
+- [EP003: The Winter Courtyard Stove and the Conflicting Dying Declarations](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep003-the-winter-courtyard-stove-and-the-conflicting-dying/): When a pregnant bride burned in a freezing Delhi courtyard, the Supreme Court weighed her spontaneous cries to rescuing neighbours against a thumb-marked police statement claiming a stove accident.
+  - Outcome: The Supreme Court of India set aside the High Court's acquittal of the husband and mother-in-law, convicted them of murder read with common intention, and sentenced them to imprisonment for life while granting the brother-in-law the benefit of doubt.
+  - Topics: Criminal law, Evidence, Criminal procedure, Family law, Sentencing
+- [EP004: The Unfallen Bath Towel and the Cooling of Blood](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep004-the-unfallen-bath-towel-and-the-cooling-of-blood/): A naval officer shoots his spouse's lover, claiming an accidental discharge during a sudden struggle, but a perfectly undisturbed bath towel unravels his defense.
+  - Outcome: The Supreme Court of India dismissed the appeal, affirming the life sentence for murder and holding that the three-hour interval between disclosure and shooting provided ample time for passion to cool.
+  - Topics: Criminal law, Criminal procedure, Evidence, Sentencing, Constitutional law
+- [EP005: The Midnight Embers and the Genetic Blueprint](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep005-the-midnight-embers-and-the-genetic-blueprint/): When charred human remains are uncovered inside a hotel clay oven, pioneering DNA evidence and a second autopsy reconstruct an otherwise unidentifiable crime.
+  - Outcome: The Supreme Court of India affirmed the conviction for murder and destruction of evidence but commuted the death sentence to life imprisonment.
+  - Topics: Criminal law, Criminal procedure, Evidence, Sentencing
+- [EP006: The Midnight Shots and the Hostile Witness Box](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep006-the-midnight-shots-and-the-hostile-witness-box/): When thirty-two eyewitnesses recant their testimony and the murder weapon vanishes, appellate courts reconstruct a fatal late-night shooting through unbroken physical evidence.
+  - Outcome: The Supreme Court of India dismissed the appeals, upholding the high court's reversal of acquittal and confirming the life sentence for murder.
+  - Topics: Criminal law, Criminal procedure, Evidence, Sentencing
+- [EP007: Nineteen Shards and the DNA Blueprint](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep007-nineteen-shards-and-the-dna-blueprint/): When a law student is stalked and murdered in her apartment, nineteen broken visor shards and pioneering DNA evidence shatter an influential suspect's alibi.
+  - Outcome: The Supreme Court of India upheld the convictions for rape and murder but commuted the death sentence to life imprisonment.
+  - Topics: Criminal law, Criminal procedure, Evidence, Sentencing
+- [EP008: The Five Golden Principles of Circumstantial Proof](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep008-the-five-golden-principles-of-circumstantial-proof/): When a young chemist dies of potassium cyanide poisoning, the Supreme Court defines the definitive five golden principles governing circumstantial evidence.
+  - Outcome: The Supreme Court of India allowed the appeal, set aside the conviction and death sentence, and acquitted the accused of all charges.
+  - Topics: Criminal law, Evidence, Sentencing
+- [EP009: The Foggy Midnight Run and the Spectrum of Homicide](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep009-the-foggy-midnight-run-and-the-spectrum-of-homicide/): When a luxury sedan ploughs through a winter police checkpoint killing six people, the Supreme Court defines the boundary between rash driving and culpable homicide.
+  - Outcome: The Supreme Court of India set aside the high court's reduction to negligence, reinstated the conviction for culpable homicide not amounting to murder with knowledge, and directed substantial financial restitution and community service.
+  - Topics: Criminal law, Criminal procedure, Evidence, Sentencing
+- [EP010: The Forty-Storey Shadow on the Lawn](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep010-the-forty-storey-shadow-on-the-lawn/): When a commercial real estate conglomerate constructs twin forty-storey skyscrapers on a designated residential lawn, elderly homeowners take the battle to the Supreme Court.
+  - Outcome: The Supreme Court of India dismissed the appeals, affirmed the high court's demolition order, and directed full refunds with twelve percent interest to affected homebuyers.
+  - Topics: Property law, Commercial law, Environmental law, Natural justice
+- [EP011: The Locked Apartment and the Burden of the Unseen](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep011-the-locked-apartment-and-the-burden-of-the-unseen/): When a teenage girl and a domestic helper are murdered inside a suburban home, the high court overturns a conviction based on flawed circumstantial assumptions.
+  - Outcome: The high court allowed the appeals, set aside the convictions and life sentences, and acquitted both parents of all charges.
+  - Topics: Criminal law, Criminal procedure, Evidence
+- [EP012: The Camera in the Dust and the Boundary of Conspiracy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep012-the-camera-in-the-dust-and-the-boundary-of-conspiracy/): When a suicide bomber kills a former prime minister, ten miraculously preserved photographic exposures lead the Supreme Court to redefine criminal conspiracy.
+  - Outcome: The Supreme Court of India set aside the special anti-terrorism convictions, overturned twenty-two death sentences, confirmed capital punishment for four core conspirators, and acquitted nineteen of the murder conspiracy.
+  - Topics: Criminal law, Constitutional law, Evidence, Sentencing
+- [EP013: The Intercepted Call and the Shadow of Conspiracy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep013-the-intercepted-call-and-the-shadow-of-conspiracy/): When a university lecturer is sentenced to death based on an intercepted phone call, appellate courts expose a flawed translation and redefine electronic evidence.
+  - Outcome: The Supreme Court of India dismissed the state's appeal against the lecturer's acquittal, setting aside all charges against him while upholding convictions of core participants.
+  - Topics: Criminal law, Constitutional law, Evidence, Sentencing
+- [EP014: The Convent Well and the Solitary Witness](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep014-the-convent-well-and-the-solitary-witness/): When a young student nun is found dead inside a convent well, a twenty-eight-year legal struggle exposes systematic evidence tampering and institutional secrecy.
+  - Outcome: The special trial court convicted the accused priest and nun of murder and destruction of evidence, awarding life imprisonment, which remains subject to ongoing appellate proceedings.
+  - Topics: Criminal law, Criminal procedure, Evidence
+- [EP015: The Municipal Drain and the Collapsed Confession](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep015-the-municipal-drain-and-the-collapsed-confession/): When skeletal remains of children are unearthed from a suburban drain, the high court overturns capital convictions citing forced confessions and sham recoveries.
+  - Outcome: The high court allowed the appeals, set aside the death sentences and convictions, and acquitted the appellants of all capital murder charges.
+  - Topics: Criminal law, Criminal procedure, Evidence, Sentencing
+- [EP016: The Temple Ambush and the Limits of Circumstantial Conspiracy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep016-the-temple-ambush-and-the-limits-of-circumstantial/): When a music mogul is assassinated outside a suburban temple, the conviction of a gunman hinges on an injured eyewitness while conspiracy charges against music rivals crumble.
+  - Outcome: The High Court of Judicature at Bombay dismissed the convicted shooter's appeal against life imprisonment while dismissing state appeals against the acquittal of alleged co-conspirators.
+  - Topics: Criminal law, Evidence, Sentencing, Procedure
+- [EP017: The Concrete Graves and Forensic Craniofacial Superimposition](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep017-the-concrete-graves-and-forensic-craniofacial/): When multiple missing persons are traced to bodies entombed under concrete floors, forensic skull superimposition and custodial disclosures establish capital guilt.
+  - Outcome: The Supreme Court of India dismissed the appeals of the ringleader and primary henchman, upholding their death sentences, while commuting the death penalties of four other co-accused to life imprisonment.
+  - Topics: Criminal law, Evidence, Forensic science, Sentencing
+- [EP018: The Unborn Witness and the Power of Inter-State Transfer](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep018-the-unborn-witness-and-the-power-of-inter-state-transfer/): When a young poet is shot dead in her apartment, fetal DNA profiling exposes a powerful politician's motive while the Supreme Court transfers the trial to ensure a fair verdict.
+  - Outcome: The Supreme Court of India allowed the transfer petition under Section 406 CrPC, shifting the murder trial to a neighboring state, where the trial court convicted the minister and accomplices, subsequently affirmed by the appellate courts.
+  - Topics: Criminal law, Evidence, Forensic science, Constitutional law, Procedure
+- [EP019: The Highway Abduction and the Evidentiary Reach of Common Intention](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep019-the-highway-abduction-and-the-evidentiary-reach-of/): When two teenage siblings are abducted and slain in a secluded forest, forensic hair matching, latent prints, and joint liability doctrine secure capital punishment.
+  - Outcome: The Supreme Court of India dismissed the appeals and writ petitions filed by both convicts, upholding the confirmation of death sentences and affirming that presidential clemency under Article 72 is subject to judicial review.
+  - Topics: Criminal law, Evidence, Sentencing, Constitutional law
+- [EP020: The Forest Duffel Bags and the Provocation Exception in Homicide](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep020-the-forest-duffel-bags-and-the-provocation-exception-in/): When a television executive is slain in a residential flat and dismembered, the trial court navigates grave provocation exceptions and evidence disposal laws.
+  - Outcome: The Court of Sessions for Greater Mumbai acquitted both accused of murder and conspiracy, convicting the primary assailant of culpable homicide not amounting to murder under Section 304 Part I and convicting the co-accused solely under Section 201 IPC.
+  - Topics: Criminal law, Criminal procedure, Evidence, Sentencing
+- [EP021: The Bolted Balcony Door and the Doctrine of Direct Causation](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep021-the-bolted-balcony-door-and-the-doctrine-of-direct/): When fifty-nine moviegoers perish from toxic smoke in an auditorium, the Supreme Court defines corporate criminal negligence and proximate causation.
+  - Outcome: The Supreme Court of India upheld the criminal negligence convictions under Section 304A IPC, establishing that structural deviations and locked exits were the proximate causa causans of the asphyxiation deaths.
+  - Topics: Criminal law, Evidence, Sentencing, Commercial law
+- [EP022: The Forest Station Wagon and the Standards of Mob Identification](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep022-the-forest-station-wagon-and-the-standards-of-mob/): When an overseas missionary and his two young sons are burned inside a vehicle, appellate courts scrutinize test identification parades and co-accused confessions.
+  - Outcome: The Supreme Court of India dismissed appeals by the convicted ringleader and the prosecution, affirming life imprisonment for the primary perpetrators while upholding the acquittals of eleven co-accused.
+  - Topics: Criminal law, Evidence, Sentencing, Constitutional law
+- [EP023: The Temple Choultry and the Presumption of Unexplained Possession](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep023-the-temple-choultry-and-the-presumption-of-unexplained/): When a female serial predator lures devotees to temple rooms and poisons them for jewelry, forensic recoveries and Section 106 burdens establish guilt.
+  - Outcome: The High Court of Karnataka dismissed the convict's appeal against conviction, declined the murder reference, and commuted the death sentence to imprisonment for the remainder of her natural life without remission.
+  - Topics: Criminal law, Evidence, Sentencing
+- [EP024: The Padlocked Domestic Room and the Spousal Burden of Explanation](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep024-the-padlocked-domestic-room-and-the-spousal-burden-of/): When a mother and two infants are found strangled behind a locked door, the Supreme Court rules that an absconding husband's silence completes the circumstantial chain.
+  - Outcome: The Supreme Court of India allowed the state's criminal appeal, set aside the judgment of acquittal passed by the High Court, and convicted the respondent under Section 302 IPC, sentencing him to imprisonment for life.
+  - Topics: Criminal law, Criminal procedure, Evidence, Sentencing
+- [EP025: The Lake Drum and the Accomplice Dual-Test in Serial Homicide](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep025-the-lake-drum-and-the-accomplice-dual-test-in-serial/): When four commercial art students orchestrate a string of lethal burglaries using nylon ropes, an approver's confession and lake bed recoveries seal capital convictions.
+  - Outcome: The Supreme Court of India dismissed the writ petitions filed by the death-row convicts, affirming their capital sentences and holding that the gruesome nature of ten premeditated murders demanded the ultimate penalty.
+  - Topics: Criminal law, Evidence, Sentencing
+- [EP026: The Suburban Iron Bar and the Legal Boundary of Insanity](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep026-the-suburban-iron-bar-and-the-legal-boundary-of-insanity/): When a nomadic wanderer commits dozens of bludgeoning murders, appellate courts establish the crucial boundary separating medical psychosis from Section 84 legal insanity.
+  - Outcome: The High Court of Judicature at Bombay confirmed the murder conviction under Section 302 IPC, rejected the defense of legal insanity under Section 84, and commuted the death sentence to imprisonment for life.
+  - Topics: Criminal law, Evidence, Sentencing, Criminal procedure
+- [EP027: The Paddy Field Blaze and Corpus Delicti in Faked Death](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep027-the-paddy-field-blaze-and-corpus-delicti-in-faked-death/): When a burning sedan reveals a poisoned stranger staged to fake an insurance payout, appellate courts rule that proving the murder of a human being establishes corpus delicti.
+  - Outcome: The appellate courts dismissed the appeals of the convicted co-conspirators, affirming their convictions under Sections 302, 120B, and 201 IPC and upholding their life sentences.
+  - Topics: Criminal law, Evidence, Sentencing
+- [EP028: The Resurrected Ascetic and the Commonwealth Rule on Concurrent Findings](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep028-the-resurrected-ascetic-and-the-commonwealth-rule-on/): When an ash-smeared sadhu claims to be a prince believed dead for twelve years, colonial and appellate courts establish the conclusive finality of concurrent factual findings.
+  - Outcome: The Judicial Committee of the Privy Council dismissed the widow's appeal with costs, affirming the concurrent decrees of the trial court and the High Court declaring the claimant to be the living prince entitled to his estate.
+  - Topics: Family law, Property law, Evidence, Natural justice
+- [EP029: The Cancer Molecule and the Statutory Gatekeeper of Efficacy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep029-the-cancer-molecule-and-the-statutory-gatekeeper-of/): When a global pharmaceutical giant seeks a product patent for a leukemia drug's crystalline form, the Supreme Court defines therapeutic efficacy against evergreening.
+  - Outcome: The Supreme Court of India dismissed the appeals filed by the multinational patent applicant with costs, upholding the orders of the patent controller and appellate tribunal denying a product patent for the crystalline form.
+  - Topics: Commercial law, Constitutional law, Fundamental rights
+- [EP030: The Courtroom Witness and the Primacy of Democratic Basic Structure](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep030-the-courtroom-witness-and-the-primacy-of-democratic/): When a sitting Prime Minister's election is challenged over government assistance, appellate and constitutional rulings establish the right to know and democratic basic structure.
+  - Outcome: The Supreme Court of India unanimously struck down Clause (4) of Article 329A of the Constitution as violative of the basic structure, while upholding the Prime Minister's election on the merits under amended statutory provisions.
+  - Topics: Constitutional law, Fundamental rights, Evidence, Natural justice
+- [EP031: The Industrial Fume Leak and the Creation of Absolute Liability](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep031-the-industrial-fume-leak-and-the-creation-of-absolute/): When a toxic chemical gas plume blankets an urban metropolis, the Supreme Court formulates the doctrine of absolute liability with zero common law exceptions.
+  - Outcome: The Supreme Court of India established the doctrine of absolute liability for hazardous industries, directed the local legal aid board to file victim compensation claims before the district judge, and affirmed its remedial jurisdiction under Article 32 to grant damages for violations of Article 21.
+  - Topics: Environmental law, Constitutional law, Fundamental rights
+- [EP032: The Station Needle and the Curative Rule on Tainted Evidence](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep032-the-station-needle-and-the-curative-rule-on-tainted/): When a young nobleman is murdered via a plague-infected needle on a railway platform, the High Court invokes Section 167 of the Evidence Act to sustain conspiracy convictions.
+  - Outcome: The High Court dismissed the appeals against conviction, confirmed the finding of criminal conspiracy to murder, and commuted the capital sentences of both convicts to transportation for life.
+  - Topics: Criminal law, Evidence, Forensic science, Sentencing
+- [EP033: The Emergency Incarcerations and the Primacy of Natural Liberty](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep033-the-emergency-incarcerations-and-the-primacy-of-natural/): When executive emergency decrees purport to suspend habeas corpus, the Supreme Court's majority ruling yields to an immortal dissent vindicated by constitutional history.
+  - Outcome: The Supreme Court of India allowed the state appeals by a 4 to 1 majority, setting aside the judgments of the High Courts and holding that no person had locus standi to challenge preventive detentions during the emergency; this ruling was subsequently overruled by a nine-judge Constitution Bench…
+  - Topics: Constitutional law, Fundamental rights, Criminal procedure, Natural justice
+- [EP034: The Secular Guarantee of Maintenance Against Destitution](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep034-the-secular-guarantee-of-maintenance-against-destitution/): A landmark constitutional ruling established that statutory maintenance protections against vagrancy apply universally across personal laws.
+  - Topics: Criminal procedure, Constitutional law, Family law, Fundamental rights
+- [EP035: Custodial Disclosures and the Constitutional Bounds of Evidence](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep035-custodial-disclosures-and-the-constitutional-bounds-of/): A landmark constitutional ruling established that statutory rules admitting facts discovered from custodial disclosures do not violate the right to equality.
+  - Topics: Evidence, Criminal procedure, Constitutional law
+- [EP036: Personal Liberty, Natural Justice, and the Expanding Reach of Due Process](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep036-personal-liberty-natural-justice-and-the-expanding-reach/): A landmark constitutional ruling established that statutory procedures restricting personal liberty must be just, fair, and reasonable rather than arbitrary.
+  - Topics: Constitutional law, Fundamental rights, Natural justice, Administrative law
+- [EP037: Thirty-Three Bullets and the Circumstantial Proof of Conspiracy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep037-thirty-three-bullets-and-the-circumstantial-proof-of/): A landmark constitutional ruling established that capital conspiracy cannot rest on suspicion or innocent association without proof of an agreement.
+  - Outcome: Appeals of the surviving guard and the clerk dismissed with death sentences confirmed; appeal of the accused police officer allowed with complete acquittal.
+  - Topics: Criminal law, Criminal procedure, Evidence, Constitutional law, Sentencing
+- [EP038: The Toxic Cloud, Corporate Liability, and the Reinstatement of Prosecution](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep038-the-toxic-cloud-corporate-liability-and-the/): A landmark constitutional ruling established that court-assisted mass disaster settlements cannot extinguish criminal liability for corporate homicide.
+  - Outcome: Civil compensation settlement upheld with state shortfall guarantee; quashing of criminal prosecutions set aside and criminal proceedings revived.
+  - Topics: Environmental law, Criminal law, Constitutional law, Natural justice
+- [EP039: The Basic Structure of the Democratic Republic and the Limits of Amendment](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep039-the-basic-structure-of-the-democratic-republic-and-the/): A landmark constitutional ruling established that the legislative power to amend the constitution cannot abrogate its foundational framework.
+  - Outcome: Constitutional amendments upheld in part; statutory clause barring judicial review invalidated; basic structure doctrine established as an implied limitation on amending power.
+  - Topics: Constitutional law, Fundamental rights, Property law
+- [EP040: Thirty Million Friends and the Twenty-Four Thousand Crore Loophole](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep040-thirty-million-friends-and-the-twenty-four-thousand/): A landmark corporate ruling established that offering securities to fifty or more persons constitutes an inescapable public issue requiring statutory stock exchange listing.
+  - Outcome: Appeals dismissed; issuing companies directed to refund the entire mobilized capital of over twenty-four thousand crore rupees with fifteen percent interest per annum to the market regulator for investor verification and disbursement.
+  - Topics: Commercial law, Company law, Securities regulation, Corporate governance
+- [EP041: The Village Saathin and the Constitutional Canopy of Workplace Safety](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep041-the-village-saathin-and-the-constitutional-canopy-of/): A landmark constitutional ruling established binding national guidelines against workplace sexual harassment by bridging international treaty commitments into fundamental rights.
+  - Outcome: Writ petition allowed; binding national guidelines and norms against workplace sexual harassment formulated and declared enforceable under Article 141 of the Constitution pending statutory enactment.
+  - Topics: Constitutional law, Fundamental rights, Natural justice
+- [EP042: The Scaffolds of Retribution and the Rarest of Rare Framework](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep042-the-scaffolds-of-retribution-and-the-rarest-of-rare/): A landmark constitutional ruling established that capital punishment is constitutional only when the alternative of life imprisonment is unquestionably foreclosed.
+  - Outcome: Constitutional validity of death penalty for murder under Section 302 IPC and sentencing procedure under Section 354(3) CrPC upheld by four-to-one majority; individual appeal remitted for sentence reconsideration.
+  - Topics: Criminal law, Criminal procedure, Sentencing, Constitutional law, Fundamental rights
+- [EP043: The Midnight Custody for an Online Reaction and the Defense of Free Expression](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep043-the-midnight-custody-for-an-online-reaction-and-the/): A landmark constitutional judgment struck down digital censorship provisions to shield online speech from arbitrary criminal prosecution.
+  - Outcome: Writ petitions allowed in part; Section 66A of the Information Technology Act, 2000 struck down in its entirety as unconstitutional under Article 19(1)(a) and not saved by Article 19(2); Section 79(3)(b) read down to require court orders or government notices for intermediary content removal.
+  - Topics: Constitutional law, Freedom of speech, Information technology, Criminal procedure, Fundamental rights
+- [EP044: The Fabricated Rocket Conspiracy and the Constitutional Guarantee of Dignity](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep044-the-fabricated-rocket-conspiracy-and-the-constitutional/): A landmark constitutional ruling awarded substantial public law compensation to an aerospace scientist subjected to malicious prosecution and custodial torment.
+  - Outcome: Appeals allowed; state directed to pay fifty lakh rupees as public law compensation for mental cruelty and reputational ruin, alongside the constitution of a committee headed by a retired Supreme Court judge to recommend action against erring officers.
+  - Topics: Constitutional law, Malicious prosecution, Custodial torture, Human dignity, Article 21 jurisprudence
+- [EP045: Three Words in a Registered Envelope and the Constitutional Shield of Equality](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep045-three-words-in-a-registered-envelope-and-the/): A landmark constitutional judgment invalidated instant unilateral divorce to protect the fundamental rights and human dignity of married women.
+  - Outcome: Writ petitions allowed; the practice of Talaq-e-biddat (instant triple talaq) set aside and declared unconstitutional, null, and void by a 3:2 majority.
+  - Topics: Constitutional law, Gender justice, Fundamental rights, Personal law, Article 14 equality
+- [EP046: The Counterfeit Treasury Press, Organized Syndicate, and the Shield of Mental Privacy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep046-the-counterfeit-treasury-press-organized-syndicate-and/): A nationwide counterfeit revenue syndicate prompted historic legal reckonings over organized crime statutes and the constitutional boundaries of involuntary interrogation.
+  - Outcome: Special tribunal convictions and multi-crore penal fines affirmed under organized crime statutes; subsequent Constitution Bench ruling strictly invalidating involuntary narco-analysis, brain mapping, and polygraph tests as unconstitutional violations of Articles 20(3) and 21.
+  - Topics: Criminal law, Criminal procedure, Constitutional law, Privacy, Fundamental rights
+- [EP047: Thirty-Seven Years in Room Four and the Constitutional Frontiers of Dying with Dignity](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep047-thirty-seven-years-in-room-four-and-the-constitutional/): A historic constitutional judgment recognized passive euthanasia and affirmed that the fundamental right to life embraces a dignified death.
+  - Outcome: Writ petition dismissed regarding the specific patient; passive euthanasia recognized as legally permissible in India subject to strict High Court approval procedures and multi-disciplinary medical board evaluations.
+  - Topics: Constitutional law, Fundamental rights, Criminal law, Natural justice, Privacy
+- [EP048: The Handcuffs on the Railway Track and the Abolition of Sovereign Immunity in Custody](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep048-the-handcuffs-on-the-railway-track-and-the-abolition-of/): A landmark constitutional judgment dismantled the shield of sovereign immunity to hold the state strictly liable for custodial violence.
+  - Outcome: Writ petition allowed; State directed to pay one lakh fifty thousand rupees in monetary compensation to the deceased victim's mother, alongside directives to prosecute culpable police officers.
+  - Topics: Constitutional law, Fundamental rights, Criminal procedure, Criminal law, Human dignity
+
+## Topics
+
+- [Administrative law](https://naveenkoti.github.io/courtroom-chronicles/topics/administrative-law/): 1 episode
+- [Article 14 equality](https://naveenkoti.github.io/courtroom-chronicles/topics/article-14-equality/): 1 episode
+- [Article 21 jurisprudence](https://naveenkoti.github.io/courtroom-chronicles/topics/article-21-jurisprudence/): 1 episode
+- [Commercial law](https://naveenkoti.github.io/courtroom-chronicles/topics/commercial-law/): 4 episodes
+- [Company law](https://naveenkoti.github.io/courtroom-chronicles/topics/company-law/): 1 episode
+- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 24 episodes
+- [Corporate governance](https://naveenkoti.github.io/courtroom-chronicles/topics/corporate-governance/): 1 episode
+- [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 33 episodes
+- [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 21 episodes
+- [Custodial torture](https://naveenkoti.github.io/courtroom-chronicles/topics/custodial-torture/): 1 episode
+- [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 3 episodes
+- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 31 episodes
+- [Family law](https://naveenkoti.github.io/courtroom-chronicles/topics/family-law/): 3 episodes
+- [Forensic science](https://naveenkoti.github.io/courtroom-chronicles/topics/forensic-science/): 3 episodes
+- [Freedom of speech](https://naveenkoti.github.io/courtroom-chronicles/topics/freedom-of-speech/): 1 episode
+- [Fundamental rights](https://naveenkoti.github.io/courtroom-chronicles/topics/fundamental-rights/): 14 episodes
+- [Gender justice](https://naveenkoti.github.io/courtroom-chronicles/topics/gender-justice/): 1 episode
+- [Human dignity](https://naveenkoti.github.io/courtroom-chronicles/topics/human-dignity/): 2 episodes
+- [Information technology](https://naveenkoti.github.io/courtroom-chronicles/topics/information-technology/): 1 episode
+- [Malicious prosecution](https://naveenkoti.github.io/courtroom-chronicles/topics/malicious-prosecution/): 1 episode
+- [Natural justice](https://naveenkoti.github.io/courtroom-chronicles/topics/natural-justice/): 8 episodes
+- [Personal law](https://naveenkoti.github.io/courtroom-chronicles/topics/personal-law/): 1 episode
+- [Privacy](https://naveenkoti.github.io/courtroom-chronicles/topics/privacy/): 2 episodes
+- [Procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/procedure/): 2 episodes
+- [Property law](https://naveenkoti.github.io/courtroom-chronicles/topics/property-law/): 3 episodes
+- [Securities regulation](https://naveenkoti.github.io/courtroom-chronicles/topics/securities-regulation/): 1 episode
+- [Sentencing](https://naveenkoti.github.io/courtroom-chronicles/topics/sentencing/): 26 episodes
+
+## Laws covered
+
+- [Article 136 Constitution](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-136/)
+- [Article 142 Constitution (now Article 142 Constitution)](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-142/)
+- [Article 21 Constitution (now Article 21 Constitution)](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-21/)
+- [Section 10 Evidence Act (now Section 8 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-10/)
+- [Section 105 Evidence Act (now Section 108 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-105/)
+- [Section 106 Evidence Act (now Section 109 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-106/)
+- [Section 114 Evidence Act (now Section 119 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-114/)
+- [Section 154 Evidence Act (now Section 157 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-154/)
+- [Section 27 Evidence Act (now Section 23 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-27/)
+- [Section 3 Evidence Act (now Section 2 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-3/)
+- [Section 32 Evidence Act (now Section 26 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-32/)
+- [Section 45 Evidence Act (now Section 39 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-45/)
+- [Section 6 Evidence Act (now Section 4 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-6/)
+- [Section 8 Evidence Act (now Section 6 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-8/)
+- [Section 9 Evidence Act (now Section 7 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-9/)
+- [Section 120B IPC (now Section 61 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-120b/)
+- [Section 201 IPC (now Section 238 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-201/)
+- [Section 300 IPC (now Section 101 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-300/)
+- [Section 302 IPC (now Section 103 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-302/)
+- [Section 304 IPC (now Section 105 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-304/)
+- [Section 304A IPC (now Section 106 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-304a/)
+- [Section 307 IPC (now Section 109 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-307/)
+- [Section 34 IPC (now Section 3(5) BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-34/)
+- [Section 498A IPC (now Section 85 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-498a/)
+
+## Notes
+- This site and the episodes are prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. People named in criminal cases are presumed innocent unless a court has convicted them. Check every section and holding against the original judgment or bare act before relying on it.

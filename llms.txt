@@ -2,11 +2,130 @@
 
 > Indian court cases, explained in plain English. Courtroom Chronicles is an audio series that retells Indian court cases as stories, then breaks each one down: what happened, what the court decided, and the law behind it. Every episode has a page here with the case notes, so you can read, search and check the sources.
 
-A podcast about landmark Indian court cases, told as stories in plain English. Each episode page has a summary, the case citation, key legal principles and links to listen on Spotify, Apple Podcasts and YouTube.
+Courtroom Chronicles is an English-language podcast from India that retells landmark Indian court cases as stories (criminal trials, constitutional law, civil and family disputes), then explains the law behind each one. Every episode has a web page with a summary, timeline, the court's holding, key principles and sources. Content is for education and is not legal advice.
 
-## Key pages
-- [All episodes](https://naveenkoti.github.io/courtroom-chronicles/)
-- [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
+## Listen
+- [Spotify](https://open.spotify.com/show/6fCXO2BKUUPL6sx4agVMUN)
+- [Apple Podcasts](https://podcasts.apple.com/in/podcast/courtroom-chronicles/id6818802315)
+- [YouTube](https://youtube.com/playlist?list=PLd8jjXKA-Z-s)
 - [RSS feed](https://anchor.fm/s/1180f6a90/podcast/rss)
 
-Not legal advice. Educational content only.
+## Site
+- [All episodes](https://naveenkoti.github.io/courtroom-chronicles/)
+- [Law finder: IPC/BNS, CrPC/BNSS, Evidence Act and Constitution sections](https://naveenkoti.github.io/courtroom-chronicles/laws/)
+- [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
+- [Feedback and questions](https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform)
+
+## Season 1 (48 episodes so far)
+
+Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one.
+
+- [Season 1 page](https://naveenkoti.github.io/courtroom-chronicles/seasons/1/)
+- [EP001: The Courtyard Casket and the Meaning of Life Imprisonment](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep001-the-courtyard-casket-and-the-meaning-of-life/): Three years after a wealthy landowner vanished from her estate, a video-recorded exhumation beneath her own patio forced the Supreme Court of India to…
+- [EP002: The Poison Without a Trace and the Pauper's Cremation](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep002-the-poison-without-a-trace-and-the-paupers-cremation/): When a physician registered a comatose widow under a false name and left her body to be cremated as a pauper, the Supreme Court decided whether murder by…
+- [EP003: The Winter Courtyard Stove and the Conflicting Dying Declarations](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep003-the-winter-courtyard-stove-and-the-conflicting-dying/): When a pregnant bride burned in a freezing Delhi courtyard, the Supreme Court weighed her spontaneous cries to rescuing neighbours against a thumb-marked…
+- [EP004: The Unfallen Bath Towel and the Cooling of Blood](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep004-the-unfallen-bath-towel-and-the-cooling-of-blood/): A naval officer shoots his spouse's lover, claiming an accidental discharge during a sudden struggle, but a perfectly undisturbed bath towel unravels his…
+- [EP005: The Midnight Embers and the Genetic Blueprint](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep005-the-midnight-embers-and-the-genetic-blueprint/): When charred human remains are uncovered inside a hotel clay oven, pioneering DNA evidence and a second autopsy reconstruct an otherwise unidentifiable crime.
+- [EP006: The Midnight Shots and the Hostile Witness Box](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep006-the-midnight-shots-and-the-hostile-witness-box/): When thirty-two eyewitnesses recant their testimony and the murder weapon vanishes, appellate courts reconstruct a fatal late-night shooting through unbroken…
+- [EP007: Nineteen Shards and the DNA Blueprint](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep007-nineteen-shards-and-the-dna-blueprint/): When a law student is stalked and murdered in her apartment, nineteen broken visor shards and pioneering DNA evidence shatter an influential suspect's alibi.
+- [EP008: The Five Golden Principles of Circumstantial Proof](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep008-the-five-golden-principles-of-circumstantial-proof/): When a young chemist dies of potassium cyanide poisoning, the Supreme Court defines the definitive five golden principles governing circumstantial evidence.
+- [EP009: The Foggy Midnight Run and the Spectrum of Homicide](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep009-the-foggy-midnight-run-and-the-spectrum-of-homicide/): When a luxury sedan ploughs through a winter police checkpoint killing six people, the Supreme Court defines the boundary between rash driving and culpable…
+- [EP010: The Forty-Storey Shadow on the Lawn](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep010-the-forty-storey-shadow-on-the-lawn/): When a commercial real estate conglomerate constructs twin forty-storey skyscrapers on a designated residential lawn, elderly homeowners take the battle to…
+- [EP011: The Locked Apartment and the Burden of the Unseen](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep011-the-locked-apartment-and-the-burden-of-the-unseen/): When a teenage girl and a domestic helper are murdered inside a suburban home, the high court overturns a conviction based on flawed circumstantial assumptions.
+- [EP012: The Camera in the Dust and the Boundary of Conspiracy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep012-the-camera-in-the-dust-and-the-boundary-of-conspiracy/): When a suicide bomber kills a former prime minister, ten miraculously preserved photographic exposures lead the Supreme Court to redefine criminal conspiracy.
+- [EP013: The Intercepted Call and the Shadow of Conspiracy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep013-the-intercepted-call-and-the-shadow-of-conspiracy/): When a university lecturer is sentenced to death based on an intercepted phone call, appellate courts expose a flawed translation and redefine electronic…
+- [EP014: The Convent Well and the Solitary Witness](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep014-the-convent-well-and-the-solitary-witness/): When a young student nun is found dead inside a convent well, a twenty-eight-year legal struggle exposes systematic evidence tampering and institutional…
+- [EP015: The Municipal Drain and the Collapsed Confession](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep015-the-municipal-drain-and-the-collapsed-confession/): When skeletal remains of children are unearthed from a suburban drain, the high court overturns capital convictions citing forced confessions and sham…
+- [EP016: The Temple Ambush and the Limits of Circumstantial Conspiracy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep016-the-temple-ambush-and-the-limits-of-circumstantial/): When a music mogul is assassinated outside a suburban temple, the conviction of a gunman hinges on an injured eyewitness while conspiracy charges against…
+- [EP017: The Concrete Graves and Forensic Craniofacial Superimposition](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep017-the-concrete-graves-and-forensic-craniofacial/): When multiple missing persons are traced to bodies entombed under concrete floors, forensic skull superimposition and custodial disclosures establish capital…
+- [EP018: The Unborn Witness and the Power of Inter-State Transfer](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep018-the-unborn-witness-and-the-power-of-inter-state-transfer/): When a young poet is shot dead in her apartment, fetal DNA profiling exposes a powerful politician's motive while the Supreme Court transfers the trial to…
+- [EP019: The Highway Abduction and the Evidentiary Reach of Common Intention](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep019-the-highway-abduction-and-the-evidentiary-reach-of/): When two teenage siblings are abducted and slain in a secluded forest, forensic hair matching, latent prints, and joint liability doctrine secure capital…
+- [EP020: The Forest Duffel Bags and the Provocation Exception in Homicide](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep020-the-forest-duffel-bags-and-the-provocation-exception-in/): When a television executive is slain in a residential flat and dismembered, the trial court navigates grave provocation exceptions and evidence disposal laws.
+- [EP021: The Bolted Balcony Door and the Doctrine of Direct Causation](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep021-the-bolted-balcony-door-and-the-doctrine-of-direct/): When fifty-nine moviegoers perish from toxic smoke in an auditorium, the Supreme Court defines corporate criminal negligence and proximate causation.
+- [EP022: The Forest Station Wagon and the Standards of Mob Identification](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep022-the-forest-station-wagon-and-the-standards-of-mob/): When an overseas missionary and his two young sons are burned inside a vehicle, appellate courts scrutinize test identification parades and co-accused…
+- [EP023: The Temple Choultry and the Presumption of Unexplained Possession](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep023-the-temple-choultry-and-the-presumption-of-unexplained/): When a female serial predator lures devotees to temple rooms and poisons them for jewelry, forensic recoveries and Section 106 burdens establish guilt.
+- [EP024: The Padlocked Domestic Room and the Spousal Burden of Explanation](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep024-the-padlocked-domestic-room-and-the-spousal-burden-of/): When a mother and two infants are found strangled behind a locked door, the Supreme Court rules that an absconding husband's silence completes the…
+- [EP025: The Lake Drum and the Accomplice Dual-Test in Serial Homicide](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep025-the-lake-drum-and-the-accomplice-dual-test-in-serial/): When four commercial art students orchestrate a string of lethal burglaries using nylon ropes, an approver's confession and lake bed recoveries seal capital…
+- [EP026: The Suburban Iron Bar and the Legal Boundary of Insanity](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep026-the-suburban-iron-bar-and-the-legal-boundary-of-insanity/): When a nomadic wanderer commits dozens of bludgeoning murders, appellate courts establish the crucial boundary separating medical psychosis from Section 84…
+- [EP027: The Paddy Field Blaze and Corpus Delicti in Faked Death](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep027-the-paddy-field-blaze-and-corpus-delicti-in-faked-death/): When a burning sedan reveals a poisoned stranger staged to fake an insurance payout, appellate courts rule that proving the murder of a human being…
+- [EP028: The Resurrected Ascetic and the Commonwealth Rule on Concurrent Findings](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep028-the-resurrected-ascetic-and-the-commonwealth-rule-on/): When an ash-smeared sadhu claims to be a prince believed dead for twelve years, colonial and appellate courts establish the conclusive finality of concurrent…
+- [EP029: The Cancer Molecule and the Statutory Gatekeeper of Efficacy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep029-the-cancer-molecule-and-the-statutory-gatekeeper-of/): When a global pharmaceutical giant seeks a product patent for a leukemia drug's crystalline form, the Supreme Court defines therapeutic efficacy against…
+- [EP030: The Courtroom Witness and the Primacy of Democratic Basic Structure](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep030-the-courtroom-witness-and-the-primacy-of-democratic/): When a sitting Prime Minister's election is challenged over government assistance, appellate and constitutional rulings establish the right to know and…
+- [EP031: The Industrial Fume Leak and the Creation of Absolute Liability](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep031-the-industrial-fume-leak-and-the-creation-of-absolute/): When a toxic chemical gas plume blankets an urban metropolis, the Supreme Court formulates the doctrine of absolute liability with zero common law exceptions.
+- [EP032: The Station Needle and the Curative Rule on Tainted Evidence](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep032-the-station-needle-and-the-curative-rule-on-tainted/): When a young nobleman is murdered via a plague-infected needle on a railway platform, the High Court invokes Section 167 of the Evidence Act to sustain…
+- [EP033: The Emergency Incarcerations and the Primacy of Natural Liberty](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep033-the-emergency-incarcerations-and-the-primacy-of-natural/): When executive emergency decrees purport to suspend habeas corpus, the Supreme Court's majority ruling yields to an immortal dissent vindicated by…
+- [EP034: The Secular Guarantee of Maintenance Against Destitution](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep034-the-secular-guarantee-of-maintenance-against-destitution/): A landmark constitutional ruling established that statutory maintenance protections against vagrancy apply universally across personal laws.
+- [EP035: Custodial Disclosures and the Constitutional Bounds of Evidence](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep035-custodial-disclosures-and-the-constitutional-bounds-of/): A landmark constitutional ruling established that statutory rules admitting facts discovered from custodial disclosures do not violate the right to equality.
+- [EP036: Personal Liberty, Natural Justice, and the Expanding Reach of Due Process](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep036-personal-liberty-natural-justice-and-the-expanding-reach/): A landmark constitutional ruling established that statutory procedures restricting personal liberty must be just, fair, and reasonable rather than arbitrary.
+- [EP037: Thirty-Three Bullets and the Circumstantial Proof of Conspiracy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep037-thirty-three-bullets-and-the-circumstantial-proof-of/): A landmark constitutional ruling established that capital conspiracy cannot rest on suspicion or innocent association without proof of an agreement.
+- [EP038: The Toxic Cloud, Corporate Liability, and the Reinstatement of Prosecution](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep038-the-toxic-cloud-corporate-liability-and-the/): A landmark constitutional ruling established that court-assisted mass disaster settlements cannot extinguish criminal liability for corporate homicide.
+- [EP039: The Basic Structure of the Democratic Republic and the Limits of Amendment](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep039-the-basic-structure-of-the-democratic-republic-and-the/): A landmark constitutional ruling established that the legislative power to amend the constitution cannot abrogate its foundational framework.
+- [EP040: Thirty Million Friends and the Twenty-Four Thousand Crore Loophole](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep040-thirty-million-friends-and-the-twenty-four-thousand/): A landmark corporate ruling established that offering securities to fifty or more persons constitutes an inescapable public issue requiring statutory stock…
+- [EP041: The Village Saathin and the Constitutional Canopy of Workplace Safety](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep041-the-village-saathin-and-the-constitutional-canopy-of/): A landmark constitutional ruling established binding national guidelines against workplace sexual harassment by bridging international treaty commitments into…
+- [EP042: The Scaffolds of Retribution and the Rarest of Rare Framework](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep042-the-scaffolds-of-retribution-and-the-rarest-of-rare/): A landmark constitutional ruling established that capital punishment is constitutional only when the alternative of life imprisonment is unquestionably…
+- [EP043: The Midnight Custody for an Online Reaction and the Defense of Free Expression](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep043-the-midnight-custody-for-an-online-reaction-and-the/): A landmark constitutional judgment struck down digital censorship provisions to shield online speech from arbitrary criminal prosecution.
+- [EP044: The Fabricated Rocket Conspiracy and the Constitutional Guarantee of Dignity](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep044-the-fabricated-rocket-conspiracy-and-the-constitutional/): A landmark constitutional ruling awarded substantial public law compensation to an aerospace scientist subjected to malicious prosecution and custodial torment.
+- [EP045: Three Words in a Registered Envelope and the Constitutional Shield of Equality](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep045-three-words-in-a-registered-envelope-and-the/): A landmark constitutional judgment invalidated instant unilateral divorce to protect the fundamental rights and human dignity of married women.
+- [EP046: The Counterfeit Treasury Press, Organized Syndicate, and the Shield of Mental Privacy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep046-the-counterfeit-treasury-press-organized-syndicate-and/): A nationwide counterfeit revenue syndicate prompted historic legal reckonings over organized crime statutes and the constitutional boundaries of involuntary…
+- [EP047: Thirty-Seven Years in Room Four and the Constitutional Frontiers of Dying with Dignity](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep047-thirty-seven-years-in-room-four-and-the-constitutional/): A historic constitutional judgment recognized passive euthanasia and affirmed that the fundamental right to life embraces a dignified death.
+- [EP048: The Handcuffs on the Railway Track and the Abolition of Sovereign Immunity in Custody](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep048-the-handcuffs-on-the-railway-track-and-the-abolition-of/): A landmark constitutional judgment dismantled the shield of sovereign immunity to hold the state strictly liable for custodial violence.
+
+## Topics
+
+- [Administrative law](https://naveenkoti.github.io/courtroom-chronicles/topics/administrative-law/): 1 episode
+- [Article 14 equality](https://naveenkoti.github.io/courtroom-chronicles/topics/article-14-equality/): 1 episode
+- [Article 21 jurisprudence](https://naveenkoti.github.io/courtroom-chronicles/topics/article-21-jurisprudence/): 1 episode
+- [Commercial law](https://naveenkoti.github.io/courtroom-chronicles/topics/commercial-law/): 4 episodes
+- [Company law](https://naveenkoti.github.io/courtroom-chronicles/topics/company-law/): 1 episode
+- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 24 episodes
+- [Corporate governance](https://naveenkoti.github.io/courtroom-chronicles/topics/corporate-governance/): 1 episode
+- [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 33 episodes
+- [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 21 episodes
+- [Custodial torture](https://naveenkoti.github.io/courtroom-chronicles/topics/custodial-torture/): 1 episode
+- [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 3 episodes
+- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 31 episodes
+- [Family law](https://naveenkoti.github.io/courtroom-chronicles/topics/family-law/): 3 episodes
+- [Forensic science](https://naveenkoti.github.io/courtroom-chronicles/topics/forensic-science/): 3 episodes
+- [Freedom of speech](https://naveenkoti.github.io/courtroom-chronicles/topics/freedom-of-speech/): 1 episode
+- [Fundamental rights](https://naveenkoti.github.io/courtroom-chronicles/topics/fundamental-rights/): 14 episodes
+- [Gender justice](https://naveenkoti.github.io/courtroom-chronicles/topics/gender-justice/): 1 episode
+- [Human dignity](https://naveenkoti.github.io/courtroom-chronicles/topics/human-dignity/): 2 episodes
+- [Information technology](https://naveenkoti.github.io/courtroom-chronicles/topics/information-technology/): 1 episode
+- [Malicious prosecution](https://naveenkoti.github.io/courtroom-chronicles/topics/malicious-prosecution/): 1 episode
+- [Natural justice](https://naveenkoti.github.io/courtroom-chronicles/topics/natural-justice/): 8 episodes
+- [Personal law](https://naveenkoti.github.io/courtroom-chronicles/topics/personal-law/): 1 episode
+- [Privacy](https://naveenkoti.github.io/courtroom-chronicles/topics/privacy/): 2 episodes
+- [Procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/procedure/): 2 episodes
+- [Property law](https://naveenkoti.github.io/courtroom-chronicles/topics/property-law/): 3 episodes
+- [Securities regulation](https://naveenkoti.github.io/courtroom-chronicles/topics/securities-regulation/): 1 episode
+- [Sentencing](https://naveenkoti.github.io/courtroom-chronicles/topics/sentencing/): 26 episodes
+
+## Laws covered
+
+- [Article 136 Constitution](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-136/)
+- [Article 142 Constitution (now Article 142 Constitution)](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-142/)
+- [Article 21 Constitution (now Article 21 Constitution)](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-21/)
+- [Section 10 Evidence Act (now Section 8 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-10/)
+- [Section 105 Evidence Act (now Section 108 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-105/)
+- [Section 106 Evidence Act (now Section 109 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-106/)
+- [Section 114 Evidence Act (now Section 119 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-114/)
+- [Section 154 Evidence Act (now Section 157 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-154/)
+- [Section 27 Evidence Act (now Section 23 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-27/)
+- [Section 3 Evidence Act (now Section 2 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-3/)
+- [Section 32 Evidence Act (now Section 26 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-32/)
+- [Section 45 Evidence Act (now Section 39 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-45/)
+- [Section 6 Evidence Act (now Section 4 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-6/)
+- [Section 8 Evidence Act (now Section 6 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-8/)
+- [Section 9 Evidence Act (now Section 7 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-9/)
+- [Section 120B IPC (now Section 61 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-120b/)
+- [Section 201 IPC (now Section 238 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-201/)
+- [Section 300 IPC (now Section 101 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-300/)
+- [Section 302 IPC (now Section 103 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-302/)
+- [Section 304 IPC (now Section 105 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-304/)
+- [Section 304A IPC (now Section 106 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-304a/)
+- [Section 307 IPC (now Section 109 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-307/)
+- [Section 34 IPC (now Section 3(5) BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-34/)
+- [Section 498A IPC (now Section 85 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-498a/)
+
+## Notes
+- This site and the episodes are prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. People named in criminal cases are presumed innocent unless a court has convicted them. Check every section and holding against the original judgment or bare act before relying on it.
