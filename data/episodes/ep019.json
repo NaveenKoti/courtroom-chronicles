@@ -213,5 +213,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "When two teenage siblings vanished on their way to a radio studio, forensics unmasked two killers.",
+    "script": "When two teenage siblings vanished on their way to a radio studio, forensics unmasked two killers. Abducted in a stolen car in 1978, both youngsters fought back fiercely before being killed in a forest. Scientists matched hair fibers, bloodstains, and a mirror fingerprint inside the getaway car, and soldiers captured both fugitives on a train. One accused argued his partner alone wielded the weapon. The Supreme Court upheld both death sentences under Section 34, ruling that common intention makes joint abductors equally liable, and affirmed judicial review over Article 72 clemency. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After two teenage siblings were abducted on their way to a radio broadcast in 1978, hair microscopy, blood serology, and a mirror fingerprint sealed the case. See how the Supreme Court applied Section 34 common intention and reviewed Article 72 clemency.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#Section34",
+      "#ForensicScience",
+      "#Article72",
+      "#CriminalLaw"
+    ],
+    "shortTitle": "Forensic trace evidence and common intention under Section 34",
+    "carousel": [
+      {
+        "heading": "Vanished before the broadcast",
+        "text": "When two teenage siblings vanished on their way to a radio studio, forensics unmasked two killers."
+      },
+      {
+        "heading": "What happened",
+        "text": "Microscopic hair matching, blood serology, and a latent mirror fingerprint linked two career criminals to the getaway vehicle."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can a co-accused in a joint abduction escape capital liability by claiming his partner alone struck the fatal blows?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court confirmed both death sentences under Section 34 common intention and held Article 72 clemency subject to judicial scrutiny."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "When offenders act with a shared design, each is equally liable for the murder without dissecting who struck which blow."
+      }
+    ]
+  }
 }
