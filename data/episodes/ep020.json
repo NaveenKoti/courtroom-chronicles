@@ -188,5 +188,42 @@
       "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "After a fatal morning fight in a suburban flat, a couple spent twelve hours concealing the crime.",
+    "script": "After a fatal morning fight in a suburban flat, a couple spent twelve hours concealing the crime. When a naval officer flew in unannounced after a late night call, he confronted a television executive in his fiancee's apartment and fatally stabbed him with a kitchen knife. They bought duffel bags, burned the remains in a forest, and were traced through call records and bone DNA. In 2011, the court acquitted both of murder under Section 302, ruling that sudden provocation reduced the killing to culpable homicide while post death concealment fell under Section 201. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When an unannounced dawn confrontation in a suburban apartment ended in a fatal stabbing and a forest cover-up, the public expected a murder conviction. Discover why the trial court applied Exception 1 to Section 300 in 2011.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalLaw",
+      "#Section300",
+      "#Section201",
+      "#ForensicDNA",
+      "#EvidenceLaw"
+    ],
+    "shortTitle": "Sudden provocation vs. premeditated murder: The Section 300 test",
+    "carousel": [
+      {
+        "heading": "A fatal dawn confrontation",
+        "text": "After a fatal morning fight in a suburban flat, a couple spent twelve hours concealing the crime."
+      },
+      {
+        "heading": "What happened",
+        "text": "Arriving unannounced without a weapon, a naval officer fatally stabbed a visitor with a kitchen knife and burned the remains."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does post-offence disposal prove a pre-planned murder conspiracy, or did the killing occur under grave and sudden provocation?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The court acquitted both of murder, convicting the officer of culpable homicide under Section 304 Part I and his fiancee under Section 201."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Criminal intent is judged at the moment of the fatal strike, while concealing evidence afterward is a separate offense under Section 201."
+      }
+    ]
+  }
 }
