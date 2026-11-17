@@ -31,5 +31,23 @@
   "analytics": {
     "gaMeasurementId": "G-RDN8CGMRS9"
   },
-  "feedbackFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform"
+  "feedbackFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform",
+  "seo": {
+    "author": "Courtroom Chronicles",
+    "keywords": [
+      "Indian court cases",
+      "Supreme Court of India judgments",
+      "landmark judgments",
+      "Indian legal podcast",
+      "true crime India",
+      "law explained",
+      "constitutional law India",
+      "criminal trials India",
+      "Courtroom Chronicles"
+    ],
+    "geo": {
+      "region": "IN",
+      "placename": "India"
+    }
+  }
 }
