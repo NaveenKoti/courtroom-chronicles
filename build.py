@@ -981,6 +981,53 @@ def render_index():
     return "".join(out)
 
 
+def llms_text(full):
+    """llms.txt (index) and llms-full.txt (detail) for AI engines. Lists only published episodes."""
+    L = ["# %s" % site["title"], "", "> %s. %s" % (site["tagline"], site.get("about", "")), "",
+         "Courtroom Chronicles is an English-language podcast from India that retells landmark Indian court cases as stories "
+         "(criminal trials, constitutional law, civil and family disputes), then explains the law behind each one. "
+         "Every episode has a web page with a summary, timeline, the court's holding, key principles and sources. "
+         "Content is for education and is not legal advice.", "",
+         "## Listen", "- [Spotify](%s)" % LINKS.get("spotify", BASE + "/"),
+         "- [Apple Podcasts](%s)" % LINKS.get("apple", BASE + "/"), "- [YouTube](%s)" % LINKS.get("youtube", BASE + "/"),
+         "- [RSS feed](%s)" % LINKS.get("rss", BASE + "/"), "", "## Site",
+         "- [All episodes](%s/)" % BASE, "- [Law finder: IPC/BNS, CrPC/BNSS, Evidence Act and Constitution sections](%s/laws/)" % BASE,
+         "- [Sitemap](%s/sitemap.xml)" % BASE]
+    if FEEDBACK_URL:
+        L += ["- [Feedback and questions](%s)" % FEEDBACK_URL]
+    L.append("")
+    for num in sorted(SEASON_EPS):
+        eps = sorted(SEASON_EPS[num], key=lambda r: r["n"])
+        cfg = season_cfg(num)
+        L += ["## Season %d (%d episodes so far)" % (num, len(eps)), ""]
+        if cfg.get("blurb"):
+            L += [cfg["blurb"], ""]
+        L += ["- [Season %d page](%s)" % (num, season_url(num))]
+        for x in eps:
+            line = "- [EP%03d: %s](%s)" % (x["n"], label_with_case(x), ep_url(x))
+            hook = short(x["hook"], 220 if full else 160)
+            L.append(line + (": " + hook if hook else ""))
+            if full:
+                oc = (x.get("judgment") or {}).get("outcome")
+                if oc:
+                    L.append("  - Outcome: " + short(oc, 300))
+                pr = [p if isinstance(p, str) else (p.get("title") or p.get("text") or "") for p in (x.get("principles") or [])][:3]
+                pr = [p for p in pr if p]
+                if pr:
+                    L.append("  - Principles: " + "; ".join(short(p, 140) for p in pr))
+                if x.get("topics"):
+                    L.append("  - Topics: " + ", ".join(x["topics"]))
+        L.append("")
+    if TOPICS:
+        L += ["## Topics", ""] + ["- [%s](%s/topics/%s/): %d episode%s" % (
+            t["name"], BASE, t["slug"], len(t["eps"]), "" if len(t["eps"]) == 1 else "s")
+            for t in sorted(TOPICS.values(), key=lambda t: t["name"])] + [""]
+    if PAGES:
+        L += ["## Laws covered", ""] + ["- [%s](%s/laws/%s/)" % (prov_label(p), BASE, sl) for sl, p in sorted(PAGES.items())] + [""]
+    L += ["## Notes", "- " + site.get("disclaimer", "Educational content only; not legal advice."), ""]
+    return "\n".join(L)
+
+
 def write(path, text):
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -1036,10 +1083,8 @@ def main():
         "User-agent: %s\nAllow: /\n\n" % b for b in ("GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-Web",
         "anthropic-ai", "PerplexityBot", "Google-Extended", "Applebot-Extended", "CCBot", "cohere-ai", "Bingbot")) +
         "Sitemap: %s/sitemap.xml\n" % BASE)
-    write("llms.txt", "# %s\n\n> %s. %s\n\nA podcast about landmark Indian court cases, told as stories in plain English. "
-          "Each episode page has a summary, the case citation, key legal principles and links to listen on Spotify, Apple Podcasts and YouTube.\n\n"
-          "## Key pages\n- [All episodes](%s/)\n- [Sitemap](%s/sitemap.xml)\n- [RSS feed](%s)\n\n"
-          "Not legal advice. Educational content only.\n" % (site["title"], site["tagline"], site.get("about", ""), BASE, BASE, LINKS.get("rss", BASE + "/")))
+    write("llms.txt", llms_text(False))
+    write("llms-full.txt", llms_text(True))
     write("404.html", head("Page not found | " + site["title"], "That page does not exist.", BASE + "/404.html", 0, noindex=True) +
           "<body>\n" + header(0) + '<main id="main" class="wrap ep"><h1>Page not found</h1>'
           '<p>That page does not exist. <a href="/">Go to all episodes</a>.</p></main>\n' + footer() + "</body>\n</html>\n")
