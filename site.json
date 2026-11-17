@@ -13,5 +13,23 @@
     "youtube": "https://youtube.com/playlist?list=PLd8jjXKA-Z-s",
     "rss": "https://anchor.fm/s/1180f6a90/podcast/rss"
   },
-  "disclaimer": "This site and the episodes are prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. People named in criminal cases are presumed innocent unless a court has convicted them. Check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This site and the episodes are prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. People named in criminal cases are presumed innocent unless a court has convicted them. Check every section and holding against the original judgment or bare act before relying on it.",
+  "seasons": [
+    {
+      "number": 1,
+      "from": 1,
+      "to": 63,
+      "blurb": "Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one."
+    },
+    {
+      "number": 2,
+      "from": 64,
+      "to": null,
+      "blurb": "Season 2 of Courtroom Chronicles: three new Indian court cases a week, from constitutional landmarks to criminal trials and the odd case that is stranger than fiction, each with plain-English case notes."
+    }
+  ],
+  "analytics": {
+    "gaMeasurementId": "G-RDN8CGMRS9"
+  },
+  "feedbackFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform"
 }
