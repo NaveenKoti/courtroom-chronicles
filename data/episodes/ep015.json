@@ -180,5 +180,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "After human remains were found in a suburban drain, twelve death sentences collapsed on appeal.",
+    "script": "After human remains were found in a suburban drain, twelve death sentences collapsed on appeal. When municipal cleaners unearthed bones behind a bungalow in 2006, police arrested the owner and his domestic worker. Held in continuous police custody for sixty days, the worker recorded a magistrate confession, leading to multiple death sentences. In 2023, the High Court set aside the convictions, ruling that sixty days of police custody rendered the confession involuntary under Section 24 and that remains already dug up from an open public canal were invalid recoveries under Section 27. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When skeletal remains were unearthed from an open public drain in 2006, trial courts imposed multiple death sentences based on a confession recorded after sixty days in police custody. See why the High Court overturned the convictions in 2023.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#EvidenceLaw",
+      "#Section27",
+      "#Section24",
+      "#CriminalProcedure",
+      "#FairInvestigation"
+    ],
+    "shortTitle": "Sixty days in custody: Why twelve capital convictions collapsed",
+    "carousel": [
+      {
+        "heading": "Twelve death sentences overturned",
+        "text": "After human remains were found in a suburban drain, twelve death sentences collapsed on appeal."
+      },
+      {
+        "heading": "What happened",
+        "text": "Following sixty days of uninterrupted police custody, a domestic worker recorded a confession, and investigators claimed recoveries from an open municipal canal."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can a confession after sixty days of police custody and recoveries from an already excavated public drain sustain capital convictions?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The High Court acquitted both accused across twelve capital cases, holding the confession involuntary and the public drain recovery memos void."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Even in shocking crimes, prolonged police remand destroys a confession's voluntariness, and Section 27 requires exclusive knowledge of a hidden place."
+      }
+    ]
+  }
 }
