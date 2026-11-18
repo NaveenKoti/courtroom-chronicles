@@ -179,5 +179,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A music mogul was shot outside a neighborhood temple, sparking allegations of a corporate murder conspiracy.",
+    "script": "A music mogul was shot outside a neighborhood temple, sparking allegations of a corporate murder conspiracy. After gunmen fired sixteen rounds in 1997 and wounded his driver, police charged nineteen people, alleging commercial rivals financed the hit. At trial, the approver retracted his confession, but the wounded driver identified the primary gunman. In 2021, the High Court affirmed the shooter's life sentence and upheld the acquittals of the business rivals, ruling that injured eyewitness testimony carries exceptional weight while commercial animosity without independent proof cannot establish conspiracy under Section 120B. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a music entrepreneur was ambushed outside a temple in 1997, prosecutors alleged a corporate murder plot. Discover why the High Court relied on the wounded driver's testimony in 2021 while upholding the acquittals of business rivals.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalLaw",
+      "#EvidenceLaw",
+      "#Section120B",
+      "#EyewitnessTestimony",
+      "#AppellateLaw"
+    ],
+    "shortTitle": "Injured eyewitness proof vs. uncorroborated conspiracy claims",
+    "carousel": [
+      {
+        "heading": "Ambush outside the temple",
+        "text": "A music mogul was shot outside a neighborhood temple, sparking allegations of a corporate murder conspiracy."
+      },
+      {
+        "heading": "What happened",
+        "text": "Gunmen fired sixteen rounds at the producer and wounded his driver, while prosecutors charged nineteen people based on an approver's confession."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can a retracted approver statement and commercial rivalry prove conspiracy under Section 120B without independent corroboration?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The High Court affirmed the gunman's life sentence based on the injured driver's identification while upholding the acquittals of commercial rivals."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Injured eyewitness testimony carries strong evidentiary credibility, whereas business competition and retracted accomplice claims cannot substitute for proof of conspiracy."
+      }
+    ]
+  }
 }
