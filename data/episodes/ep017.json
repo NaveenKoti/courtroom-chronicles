@@ -179,5 +179,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "When police smashed through a bedroom's concrete floor, they uncovered human skeletons buried beneath the house.",
+    "script": "When police smashed through a bedroom's concrete floor, they uncovered human skeletons buried beneath the house. In 1988, an accomplice revealed that an illicit liquor syndicate had murdered six people and sealed their remains under residential cement floors. Before DNA profiling, how could prosecutors identify the skeletons? Forensic experts used craniofacial superimposition under Section 45, aligning the recovered skulls with photographs of the missing victims. In 1994, the Supreme Court upheld the Section 27 discoveries and confirmed death sentences for the ringleader and his chief executioner while commuting four co accused. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After police excavated human skeletons buried beneath concrete residential floors in 1988, forensic scientists used skull-photo superimposition to identify the missing victims. See how the Supreme Court upheld the discoveries in 1994.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#ForensicScience",
+      "#Section27",
+      "#CorpusDelicti",
+      "#CriminalLaw"
+    ],
+    "shortTitle": "Concrete graves, skull superimposition, and Section 27 recoveries",
+    "carousel": [
+      {
+        "heading": "Skeletons beneath the bedroom floor",
+        "text": "When police smashed through a bedroom's concrete floor, they uncovered human skeletons buried beneath the house."
+      },
+      {
+        "heading": "What happened",
+        "text": "An illicit liquor syndicate murdered rivals and acquaintances, burying their remains beneath freshly laid concrete floors inside residential homes."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can forensic skull-photo superimposition and accomplice disclosures under Section 27 establish corpus delicti when only skeletal remains survive?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court affirmed death sentences for the ringleader and primary executioner while commuting the sentences of four associates."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Craniofacial superimposition under Section 45 and physical recoveries from private floors provide reliable scientific corroboration in capital murder trials."
+      }
+    ]
+  }
 }
