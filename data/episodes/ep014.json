@@ -185,5 +185,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "When a student nun died in a convent well, dozens turned hostile while one petty thief stood firm.",
+    "script": "When a student nun died in a convent well, dozens turned hostile while one petty thief stood firm. Local police burned her clothes and called it suicide, even though the autopsy found six pre-drowning blows to her skull. Over twenty-eight years, forty-nine institutional witnesses recanted, yet a nocturnal wire thief refused bribes and testified he saw two senior figures inside the locked grounds. In 2020, a special court convicted a senior priest and a nun of murder and destroying evidence, holding that inmates of an enclosed dwelling must explain deaths within their exclusive knowledge. Even one credible witness can defeat an institutional cover-up. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After a student nun was found dead in a convent well in 1992, dozens of witnesses turned hostile while a petty thief stood firm. See how a special court applied Section 106 and medical evidence in 2020.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalLaw",
+      "#EvidenceLaw",
+      "#Section106",
+      "#HostileWitnesses",
+      "#ForensicScience"
+    ],
+    "shortTitle": "The convent well, hostile witnesses, and one sterling thief",
+    "carousel": [
+      {
+        "heading": "Silence inside the convent walls",
+        "text": "When a student nun died in a convent well, dozens turned hostile while one petty thief stood firm."
+      },
+      {
+        "heading": "What happened",
+        "text": "Local police called the 1992 drowning a suicide, but the autopsy revealed six pre-drowning skull injuries and a trespasser testified."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can circumstantial evidence and one humble eyewitness sustain a murder conviction when dozens of institutional witnesses turn hostile?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The special court convicted a senior priest and a nun of murder and destroying evidence, imposing life imprisonment."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Under Section 106, inmates of enclosed premises must explain suspicious deaths, and one sterling witness can outweigh institutional silence."
+      }
+    ]
+  }
 }
