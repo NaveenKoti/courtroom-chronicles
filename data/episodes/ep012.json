@@ -178,5 +178,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A battered camera survived a fatal rally blast, yielding ten photos that put twenty-six people on death row.",
+    "script": "A battered camera survived a fatal rally blast, yielding ten photos that put twenty-six people on death row. In 1991, a suicide bomber killed a former prime minister and seventeen others at an election rally. Investigators recovered a photographer's intact film roll showing the bomber and her handlers moments before the explosion. A special anti-terrorism court sentenced all twenty-six accused to death. In 1999, the Supreme Court overturned twenty-two death sentences and acquitted nineteen of murder conspiracy. Holding anti-terror laws inapplicable to a political assassination, the court ruled that offering shelter or buying supplies without knowing the murder plot is not conspiracy. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After ten preserved photos from a battered camera helped convict twenty-six people in a 1991 rally assassination, the Supreme Court overturned twenty-two death sentences in 1999. Here is how it drew the line on criminal conspiracy.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#CriminalConspiracy",
+      "#Section120B",
+      "#EvidenceLaw",
+      "#ForensicScience"
+    ],
+    "shortTitle": "Ten film frames, 26 death sentences, and the limits of conspiracy",
+    "carousel": [
+      {
+        "heading": "Ten photos from the blast crater",
+        "text": "A battered camera survived a fatal rally blast, yielding ten photos that put twenty-six people on death row."
+      },
+      {
+        "heading": "What happened",
+        "text": "An intact film roll from a 1991 election rally blast identified the bomber, leading a special court to sentence twenty-six accused to death."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does providing shelter, transport, or peripheral help without knowing the assassination plan make someone guilty of capital murder conspiracy?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court dropped anti-terror charges, overturned twenty-two death sentences, and acquitted nineteen accused who lacked knowledge of the murder plot."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Conspiracy requires an explicit agreement to commit the specific crime, protecting peripheral helpers from collective capital punishment."
+      }
+    ]
+  }
 }
