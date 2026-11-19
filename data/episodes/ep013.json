@@ -167,5 +167,42 @@
       "url": "https://thc.nic.in/Central%20Governmental%20Acts/Bharatiya%20Sakshya%20Adhiniyam,%202023.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A college lecturer was sentenced to death over a two-minute phone call, until experts heard the tape.",
+    "script": "A college lecturer was sentenced to death over a two-minute phone call, until experts heard the tape. After an armed attack on Parliament in 2001, police tapped his phone and produced a transcript claiming he celebrated the assault in a regional dialect. Relying on that translation and co-accused confessions, a special court condemned him to hang. On appeal, certified linguists played the cassette in open court and proved he had only asked his brother if the family was safe. In 2005, the Supreme Court affirmed his unconditional acquittal, ruling that unverified wiretap translations and co-accused police confessions cannot sustain conspiracy charges. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "Condemned to death over an intercepted two-minute phone call after the 2001 Parliament attack, a university lecturer won freedom when experts exposed a fabricated translation. See how the Supreme Court ruled in 2005.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#ElectronicEvidence",
+      "#CriminalConspiracy",
+      "#Section65B",
+      "#FairTrial"
+    ],
+    "shortTitle": "The mistranslated wiretap that nearly sent a scholar to death row",
+    "carousel": [
+      {
+        "heading": "Two minutes on a wiretap",
+        "text": "A college lecturer was sentenced to death over a two-minute phone call, until experts heard the tape."
+      },
+      {
+        "heading": "What happened",
+        "text": "Police claimed an intercepted call celebrated the 2001 Parliament attack, but independent linguists proved he only asked about family safety."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can an unverified wiretap translation and co-accused police confessions sustain a capital conviction for criminal conspiracy?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court affirmed the lecturer's unconditional acquittal, holding that casual phone calls do not prove conspiracy."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Wiretaps and electronic records require strict authentication, and suspicion during national crises can never replace legal proof."
+      }
+    ]
+  }
 }
