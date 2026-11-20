@@ -1,0 +1,215 @@
+{
+  "id": "ep062",
+  "title": "The Rain on the Footpath and the Right to Livelihood",
+  "hook": "When monsoon bulldozers tore down roadside shelters in Bombay, the Supreme Court held that stripping away a person's livelihood deprives them of life itself.",
+  "topics": [
+    "Constitutional law",
+    "Fundamental rights",
+    "Natural justice",
+    "Property law"
+  ],
+  "laws": [
+    "Constitution of India (Article 19(1)(e), Article 19(1)(g), Article 21, Article 32, Article 39(a), and Article 41)",
+    "Bombay Municipal Corporation Act, 1888 (Section 3(w), Section 61, Section 289, Section 312, Section 313, and Section 314)",
+    "Indian Penal Code, 1860 (Section 441 and Section 447)",
+    "Code of Criminal Procedure, 1973 (Section 133)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Five-Judge Constitution Bench)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "July 10, 1985"
+    },
+    {
+      "label": "Triggering Action",
+      "value": "Announcement on July 13, 1981 to evict and deport Bombay pavement and slum dwellers, followed by monsoon demolitions on July 23, 1981"
+    },
+    {
+      "label": "Preliminary Objection",
+      "value": "Municipal counsel argued an August 4, 1981 High Court undertaking estopped the petitioners from asserting fundamental rights"
+    },
+    {
+      "label": "Outcome",
+      "value": "Right to livelihood recognized under Article 21; statutory eviction power upheld subject to fair hearing and a post-monsoon stay until October 31, 1985"
+    }
+  ],
+  "summary": [
+    "On July 13, 1981, the Maharashtra government announced that all pavement and slum dwellers in Bombay would be evicted and deported outside the city, and municipal crews demolished roadside shelters along the Western Express Highway and Tulsi Pipe Road on July 23, 1981. After an interim High Court petition ended with a written undertaking to vacate by October 15, 1981, pavement dwellers, civil liberties groups, and two journalists moved the Supreme Court under Article 32.",
+    "Before addressing the merits, the five-judge Constitution Bench rejected the municipal corporation's plea that the High Court undertaking barred the petitioners under the doctrine of estoppel. Ruling that there can be no estoppel against the Constitution, the court held that fundamental rights serve the larger public interest and cannot be bartered away by a litigant's concession.",
+    "On July 10, 1985, the Supreme Court unanimously declared that the right to life under Article 21 includes the right to livelihood, because no person can live without the means of living. Balancing urban safety against human dignity, the bench held that while no one has a right to encroach on public footpaths, Section 314 of the Bombay Municipal Corporation Act requires fair notice and a hearing except in urgent cases, stayed evictions until October 31, 1985, and directed the state to honor its resettlement assurances."
+  ],
+  "timeline": [
+    {
+      "date": "1981-07-13",
+      "title": "State Announces Mass Eviction",
+      "text": "Maharashtra authorities announce plans to evict all pavement and slum dwellers in Bombay and move them out of the city.",
+      "key": false
+    },
+    {
+      "date": "1981-07-23",
+      "title": "Monsoon Demolitions Begin",
+      "text": "Municipal crews tear down roadside shelters along the Western Express Highway and Tulsi Pipe Road during heavy rains.",
+      "key": false
+    },
+    {
+      "date": "1981-08-04",
+      "title": "High Court Undertaking Filed",
+      "text": "Petitioners file an undertaking in the Bombay High Court to vacate huts by October 15, 1981 in exchange for a temporary pause.",
+      "key": false
+    },
+    {
+      "date": "1985-07-10",
+      "title": "Right to Livelihood Recognized",
+      "text": "A five-judge Constitution Bench rules Article 21 includes the right to livelihood and mandates fair notice before eviction.",
+      "key": true
+    },
+    {
+      "date": "1985-10-31",
+      "title": "Post-Monsoon Protection Ends",
+      "text": "The Supreme Court's stay on demolitions expires one month after the monsoon season, subject to resettlement assurances.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petitions disposed of with directions; right to livelihood affirmed under Article 21, Section 314 of the Bombay Municipal Corporation Act upheld as discretionary rather than arbitrary, and evictions stayed until October 31, 1985.",
+    "points": [
+      "There can be no estoppel or waiver against the Constitution; a citizen's concession in an earlier proceeding cannot bar them from enforcing fundamental rights.",
+      "The right to life under Article 21 encompasses the right to livelihood, read alongside the Directive Principles in Articles 39(a) and 41, so state action depriving a person of livelihood must follow fair, just, and reasonable procedure.",
+      "Footpaths and public streets are meant for pedestrian passage and safety, and destitute occupation out of helplessness is a civil trespass rather than criminal trespass under Section 441 of the Indian Penal Code.",
+      "Because Section 314 says the Municipal Commissioner 'may, without notice' remove encroachments, dispensing with notice is an exception for urgent dangers; ordinary removals require prior notice and an opportunity to be heard."
+    ]
+  },
+  "principles": [
+    {
+      "name": "No Estoppel Against Fundamental Rights",
+      "meaning": "An individual cannot waive or be estopped from asserting constitutional freedoms through an earlier concession or undertaking.",
+      "inThisCase": "Even though the petitioners had agreed in the High Court to vacate their huts by October 1981, the Supreme Court heard their Article 32 challenge on the merits."
+    },
+    {
+      "name": "Right to Livelihood Within Right to Life",
+      "meaning": "The constitutional guarantee of life protects more than mere physical survival and includes the means of earning a living.",
+      "inThisCase": "Accepting empirical studies that pavement dwellers lived near their workplaces to survive, the bench held that arbitrary eviction threatens both livelihood and life."
+    },
+    {
+      "name": "Fair Hearing and Natural Justice",
+      "latin": "Audi alteram partem",
+      "meaning": "Public authorities must give affected persons notice and a fair opportunity to be heard before taking adverse action.",
+      "inThisCase": "The court read Section 314 of the municipal statute as discretionary so that prior notice and a hearing remain the rule except in emergencies."
+    }
+  ],
+  "takeaways": [
+    "Fundamental rights cannot be waived or signed away under pressure.",
+    "State action that strips away a person's livelihood must follow fair and reasonable procedure under Article 21.",
+    "Even unauthorized occupants on public land are entitled to humane notice and a fair hearing before removal."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 441",
+        "title": "Criminal trespass",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNS2023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 329",
+        "title": "Criminal trespass and house-trespass",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNS2023.pdf"
+      },
+      "change": "Consolidated with Section 447 into Section 329 of the Bharatiya Nyaya Sanhita, 2023, preserving the requirement of intent to commit an offence or to intimidate, insult, or annoy."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 133",
+        "title": "Conditional order for removal of nuisance",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 152",
+        "title": "Conditional order for removal of nuisance",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "change": "Re-enacted as Section 152 of the Bharatiya Nagarik Suraksha Sanhita, 2023, retaining magistrate authority to remove unlawful obstructions from public ways subject to fair procedure."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 19",
+        "title": "Protection of certain rights regarding freedom of speech, etc.",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the evictions and litigation occurred before July 1, 2024, the statutory trespass, estoppel, and public-nuisance provisions were governed by the Indian Penal Code, 1860, the Indian Evidence Act, 1872, and the Code of Criminal Procedure, 1973.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, July 10, 1985",
+      "url": "https://indiankanoon.org/doc/709776/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 (Official NCRB Text and Comparative Table)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNS2023.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 (Official NCRB Text and Comparative Table)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+    }
+  ],
+  "social": {
+    "hook": "Can a city tear down roadside shelters in the middle of the monsoon without giving notice?",
+    "script": "Can a city tear down roadside shelters in the middle of the monsoon without giving notice? In July 1981, Bombay authorities demolished pavement huts and put migrant workers on buses out of town. When the dwellers moved the Supreme Court, the city pulled out an earlier High Court undertaking claiming they had already promised to leave. On July 10, 1985, a five-judge Constitution Bench ruled that fundamental rights can never be signed away by estoppel. It declared that the right to life under Article 21 includes the right to livelihood, required fair notice and a hearing before eviction, and stayed demolitions until after the monsoon. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "In 1985, a five-judge Constitution Bench ruled that the right to life under Article 21 includes the right to livelihood and mandated fair notice before evicting pavement dwellers.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#ConstitutionalLaw",
+      "#Article21",
+      "#RightToLivelihood",
+      "#NaturalJustice",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "Monsoon Evictions & Right to Livelihood: 1985 Ruling",
+    "carousel": [
+      {
+        "heading": "The 1981 Monsoon Demolitions",
+        "text": "Bombay authorities tore down roadside shelters during heavy rains and argued an earlier High Court undertaking barred any challenge."
+      },
+      {
+        "heading": "The Estoppel Trap",
+        "text": "Municipal lawyers claimed pavement dwellers had waived their rights by promising to vacate by October 1981."
+      },
+      {
+        "heading": "The Constitutional Question",
+        "text": "Does Article 21 protect the right to livelihood, and can officials evict dwellers without prior notice?"
+      },
+      {
+        "heading": "The Five-Judge Verdict",
+        "text": "On July 10, 1985, the Supreme Court held Article 21 includes livelihood, barred estoppel, and required fair hearings."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "The ruling anchored humane due process in urban evictions and proved fundamental rights cannot be bargained away."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
