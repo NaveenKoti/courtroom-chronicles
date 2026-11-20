@@ -185,5 +185,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Two people were killed inside a suburban apartment, and prosecutors blamed the parents under Section 106.",
+    "script": "Two people were killed inside a suburban apartment, and prosecutors blamed the parents under Section 106. When a teenage daughter and a domestic helper died in 2008, dozens trampled the unsealed crime scene before forensic teams arrived. A trial court convicted the parents of double murder, ruling that survivors inside a locked home must explain deaths within their knowledge. In 2017, the High Court acquitted both parents. Finding the outer mesh door unlatched, DNA exhibit labels swapped, and zero blood on seized items, it ruled that Section 106 cannot relieve prosecutors of proving guilt beyond reasonable doubt. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After a teenage daughter and a domestic helper were killed in a suburban apartment in 2008, a trial court convicted the parents under Section 106. See why the High Court acquitted them in 2017 over evidentiary gaps and contaminated forensics.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#EvidenceLaw",
+      "#Section106",
+      "#CriminalLaw",
+      "#ForensicScience",
+      "#BurdenOfProof"
+    ],
+    "shortTitle": "The unsealed apartment, swapped DNA labels, and Section 106",
+    "carousel": [
+      {
+        "heading": "Tragedy inside a suburban home",
+        "text": "Two people were killed inside a suburban apartment, and prosecutors blamed the parents under Section 106."
+      },
+      {
+        "heading": "What happened",
+        "text": "After a 2008 double homicide in an unsealed apartment, conflicting DNA labels and an unlatched outer door emerged, yet parents were convicted."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can surviving parents be convicted under Section 106 solely on presumption when the prosecution fails to prove an unbroken circumstantial chain?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The High Court set aside the life sentences and acquitted both parents, citing contaminated forensics and reasonable alternative hypotheses."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Section 106 cannot replace the prosecution's primary duty to prove guilt beyond reasonable doubt, and suspicion never equals legal proof."
+      }
+    ]
+  }
 }
