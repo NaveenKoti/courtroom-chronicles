@@ -138,5 +138,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Elderly retirees pooled their pensions to fight a real estate giant building forty-storey towers on their lawn.",
+    "script": "Elderly retirees pooled their pensions to fight a real estate giant building forty-storey towers on their lawn. Promised open skies and a green park, homebuyers watched excavators dig just nine meters from existing balconies, violating the sixteen meter fire separation norm. Municipal officials even asked the developer before answering residents' information requests. In 2021, the Supreme Court rejected the builder's plea that completed flats and investor funds justified sparing the buildings. Holding that public authorities act as trustees, the court ordered the controlled demolition of both illegal towers at the developer's cost and full refunds with twelve percent interest. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a developer secretly turned a residential complex's green lawn into twin forty-storey towers just nine meters from existing balconies, retirees took the fight to the Supreme Court. See how the 2021 ruling enforced the public trust doctrine.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#PropertyLaw",
+      "#UrbanPlanning",
+      "#PublicTrustDoctrine",
+      "#HomebuyerRights"
+    ],
+    "shortTitle": "Twin 40-storey towers, nine-meter gaps, and the wrecking ball",
+    "carousel": [
+      {
+        "heading": "Forty-storey towers on a lawn",
+        "text": "Elderly retirees pooled their pensions to fight a real estate giant building forty-storey towers on their lawn."
+      },
+      {
+        "heading": "What happened",
+        "text": "With planning officials' backing, a developer built twin skyscrapers nine meters from balconies, violating the sixteen-meter fire distance rule."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can completed high-rise towers built in violation of fire safety and distance norms be regularized because of financial investment?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court ordered the controlled demolition of both towers at the developer's expense and full buyer refunds with twelve percent interest."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Planning authorities hold urban land in public trust, and safety laws cannot be bypassed through collusion or fine-print buyer clauses."
+      }
+    ]
+  }
 }
