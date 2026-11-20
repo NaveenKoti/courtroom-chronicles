@@ -16,7 +16,7 @@ Courtroom Chronicles is an English-language podcast from India that retells land
 - [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
 - [Feedback and questions](https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform)
 
-## Season 1 (50 episodes so far)
+## Season 1 (51 episodes so far)
 
 Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one.
 
@@ -168,6 +168,9 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [EP050: Respectful Silence at Morning Assembly and the Constitutional Shield of Conscience](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep050-respectful-silence-at-morning-assembly-and-the/): A landmark constitutional judgment protected three expelled schoolchildren, holding that respectful silence during the national anthem violates no law.
   - Outcome: Appeal allowed; High Court judgments set aside and school authorities directed to readmit the three students and allow them to pursue their studies without hindrance.
   - Topics: Constitutional law, Fundamental rights, Natural justice
+- [EP051: The Fatal Overdose Prescription and the Landmark Reckoning in Medical Negligence](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep051-the-fatal-overdose-prescription-and-the-landmark/): A fifteen-year legal battle over a massive steroid overdose reshaped medical negligence accountability and produced a record compensation award.
+  - Outcome: Criminal appeals dismissed; civil appeals allowed with doctors and the private hospital held liable for medical negligence, culminating in a record compensation decree of over eleven crore rupees including six percent annual interest.
+  - Topics: Criminal law, Evidence, Natural justice
 
 ## Topics
 
@@ -178,11 +181,11 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Company law](https://naveenkoti.github.io/courtroom-chronicles/topics/company-law/): 1 episode
 - [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 26 episodes
 - [Corporate governance](https://naveenkoti.github.io/courtroom-chronicles/topics/corporate-governance/): 1 episode
-- [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 33 episodes
+- [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 34 episodes
 - [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 21 episodes
 - [Custodial torture](https://naveenkoti.github.io/courtroom-chronicles/topics/custodial-torture/): 1 episode
 - [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 3 episodes
-- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 31 episodes
+- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 32 episodes
 - [Family law](https://naveenkoti.github.io/courtroom-chronicles/topics/family-law/): 3 episodes
 - [Forensic science](https://naveenkoti.github.io/courtroom-chronicles/topics/forensic-science/): 3 episodes
 - [Freedom of speech](https://naveenkoti.github.io/courtroom-chronicles/topics/freedom-of-speech/): 1 episode
@@ -191,7 +194,7 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Human dignity](https://naveenkoti.github.io/courtroom-chronicles/topics/human-dignity/): 2 episodes
 - [Information technology](https://naveenkoti.github.io/courtroom-chronicles/topics/information-technology/): 1 episode
 - [Malicious prosecution](https://naveenkoti.github.io/courtroom-chronicles/topics/malicious-prosecution/): 1 episode
-- [Natural justice](https://naveenkoti.github.io/courtroom-chronicles/topics/natural-justice/): 10 episodes
+- [Natural justice](https://naveenkoti.github.io/courtroom-chronicles/topics/natural-justice/): 11 episodes
 - [Personal law](https://naveenkoti.github.io/courtroom-chronicles/topics/personal-law/): 1 episode
 - [Privacy](https://naveenkoti.github.io/courtroom-chronicles/topics/privacy/): 3 episodes
 - [Procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/procedure/): 2 episodes
