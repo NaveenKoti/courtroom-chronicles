@@ -153,5 +153,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202406281710564823BNS_IPC_Comparative.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A luxury sedan killed six people at a foggy checkpoint, then left an oil trail straight to a mansion.",
+    "script": "A luxury sedan killed six people at a foggy checkpoint, then left an oil trail straight to a mansion. In 1999, a speeding driver struck patrolling officers and night laborers in blinding winter fog and fled without stopping. Police followed leaking engine fluid to an upscale driveway where staff were washing the car, though delayed blood tests showed zero alcohol and eyewitnesses turned hostile. After a lower court reduced the offense to simple traffic negligence, the Supreme Court stepped in. In 2012, it reinstated culpable homicide with knowledge, ordering fifty lakh rupees in victim restitution and two years of community service. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a speeding luxury sedan killed six people at a foggy checkpoint in 1999, an oil trail led police to a mansion driveway. See why the Supreme Court reinstated culpable homicide with knowledge in 2012 and ordered victim restitution.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#CriminalLaw",
+      "#CulpableHomicide",
+      "#Section304",
+      "#RoadSafety"
+    ],
+    "shortTitle": "The midnight oil trail: Rash driving vs. culpable homicide",
+    "carousel": [
+      {
+        "heading": "Six killed in blinding winter fog",
+        "text": "A luxury sedan killed six people at a foggy checkpoint, then left an oil trail straight to a mansion."
+      },
+      {
+        "heading": "What happened",
+        "text": "Police traced leaking engine fluid to an upscale driveway where staff were washing the damaged car, though witnesses later turned hostile."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does driving at extreme speed in dense fog while intoxicated amount to culpable homicide with knowledge rather than simple negligence?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court reinstated culpable homicide with knowledge and ordered substantial victim restitution alongside two years of community service."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Reckless speeding in zero visibility carries legal knowledge of probable death, and flight from a crash cannot shield offenders under Section 304A."
+      }
+    ]
+  }
 }
