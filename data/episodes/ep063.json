@@ -1,0 +1,274 @@
+{
+  "id": "ep063",
+  "title": "The Eleven Commandments of the Lock-Up and Custodial Accountability",
+  "hook": "Prompted by a lawyer's letter about unexplained deaths in police lock-ups, the Supreme Court issued eleven mandatory arrest rules backed by contempt.",
+  "topics": [
+    "Constitutional law",
+    "Criminal procedure",
+    "Fundamental rights",
+    "Criminal law"
+  ],
+  "laws": [
+    "Constitution of India (Article 21, Article 22, Article 32, and Article 226)",
+    "Code of Criminal Procedure, 1973 (Section 41B, Section 41C, Section 41D, Section 54, and Section 57)",
+    "Indian Penal Code, 1860 (Section 330)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India (Criminal Writ Jurisdiction)"
+    },
+    {
+      "label": "Date of Decision",
+      "value": "December 18, 1996 (with compliance order on August 1, 1997)"
+    },
+    {
+      "label": "Trigger",
+      "value": "August 26, 1986 letter from a West Bengal legal-aid chairperson enclosing press reports of lock-up deaths, consolidated with a 1987 letter from Uttar Pradesh"
+    },
+    {
+      "label": "National Scope",
+      "value": "Notices issued on August 14, 1987 to all State Governments and the Law Commission of India"
+    },
+    {
+      "label": "Outcome",
+      "value": "Eleven mandatory arrest and detention safeguards issued with contempt sanctions and strict-liability public-law compensation"
+    }
+  ],
+  "summary": [
+    "On August 26, 1986, the chairperson of a legal-aid organization in Calcutta sent newspaper clippings of police lock-up deaths to the Chief Justice of India, asking the Supreme Court to treat the letter as a public interest petition. Consolidated with a 1987 letter reporting a custodial death in Aligarh, the court issued notices to every State Government and the Law Commission of India to examine why existing statutory rules failed to stop custodial torture.",
+    "On December 18, 1996, a two-judge bench held that fundamental rights under Articles 21 and 22 do not pause when handcuffs snap shut, and condemned custodial violence as an assault on human dignity committed by uniformed protectors behind closed doors. To eliminate unrecorded arrests and cover-ups, the court issued eleven mandatory requirements covering visible officer name tags, witnessed arrest memos, family notification within eight to twelve hours, injury inspection memos, forty-eight-hour medical checks, lawyer access during interrogation, and district police control rooms.",
+    "The bench declared that any officer violating these eleven rules would face both departmental action and contempt of court in the High Court, and reaffirmed that victims of custodial abuse are entitled to monetary compensation under public law without sovereign immunity. Parliament later codified these safeguards into the Code of Criminal Procedure in 2008, and they now continue in the Bharatiya Nagarik Suraksha Sanhita, 2023."
+  ],
+  "timeline": [
+    {
+      "date": "1986-08-26",
+      "title": "Legal-Aid Letter Sent to Supreme Court",
+      "text": "A West Bengal legal-aid chairperson writes to the Chief Justice enclosing press reports of lock-up deaths and seeking custodial safeguards.",
+      "key": false
+    },
+    {
+      "date": "1987-08-14",
+      "title": "Notices Issued Across India",
+      "text": "The Supreme Court consolidates a second custodial-death letter from Uttar Pradesh and seeks responses from all states and the Law Commission.",
+      "key": false
+    },
+    {
+      "date": "1996-12-18",
+      "title": "Eleven Arrest Safeguards Issued",
+      "text": "A two-judge bench lays down eleven mandatory arrest and detention rules backed by contempt of court and affirms public-law compensation.",
+      "key": true
+    },
+    {
+      "date": "1997-08-01",
+      "title": "Public Awareness Directives",
+      "text": "In a follow-up compliance order, the court directs translation and display of the eleven rules in every police station and court.",
+      "key": false
+    },
+    {
+      "date": "2008",
+      "title": "Parliament Codifies Safeguards",
+      "text": "Amendments to the Code of Criminal Procedure turn arrest memos, control rooms, and lawyer access into permanent statutory law.",
+      "key": false
+    }
+  ],
+  "judgment": {
+    "outcome": "Writ petitions disposed of with eleven binding preventive requirements governing all arrests and detentions across India, backed by contempt of court and public-law monetary compensation.",
+    "points": [
+      "A citizen does not shed fundamental rights under Articles 21 and 22 upon arrest; custodial torture violates human dignity and cannot be justified by investigative urgency.",
+      "Every arrest and detention must follow eleven transparent safeguards, including visible officer identification, a witnessed and countersigned arrest memo, family notification, an injury inspection memo, forty-eight-hour medical checks, magistrate copies, lawyer meetings, and control-room notice boards.",
+      "Non-compliance by police or other detaining agencies attracts departmental discipline as well as contempt of court proceedings in the jurisdictional High Court.",
+      "Monetary compensation under Articles 32 and 226 is a strict-liability public-law remedy for custodial violations, where sovereign immunity does not apply and civil or criminal remedies remain open."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Inviolability of Dignity in Custody",
+      "meaning": "Arrested persons, undertrials, and detainees retain their constitutional right to life, dignity, and protection against torture.",
+      "inThisCase": "The court barred third-degree interrogation methods and required continuous paper and medical trails from the moment of capture."
+    },
+    {
+      "name": "There Is No Wrong Without a Remedy",
+      "latin": "Ubi jus ibi remedium",
+      "meaning": "Whenever a legal or constitutional right is violated, the courts must provide an effective remedy rather than a mere declaration.",
+      "inThisCase": "The bench held that victims and families of custodial abuse must receive monetary compensation in public law alongside criminal prosecution of offenders."
+    },
+    {
+      "name": "Abolition of Sovereign Immunity for Fundamental Rights",
+      "meaning": "The State cannot escape financial liability for unconstitutional acts of its officials by invoking traditional sovereign immunity.",
+      "inThisCase": "The Supreme Court reaffirmed strict state liability under Articles 32 and 226 for custodial violence and deaths."
+    }
+  ],
+  "takeaways": [
+    "Every arrested person has the right to a witnessed arrest memo, an injury check, and notification of a relative or friend.",
+    "Police officers who conceal arrests or skip mandatory safeguards face contempt of court.",
+    "Sovereign immunity cannot shield the State from paying compensation for custodial torture or death."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 41B",
+        "title": "Procedure of arrest and duties of officer making arrest",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 36",
+        "title": "Procedure of arrest and duties of officer making arrest",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "change": "Re-enacted as Section 36 of the Bharatiya Nagarik Suraksha Sanhita, 2023, preserving visible officer identification, witnessed arrest memos, and family notification duties."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 41C",
+        "title": "Control room at districts",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 37",
+        "title": "Designated Police Officer",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "change": "Carried forward into Section 37 of the Bharatiya Nagarik Suraksha Sanhita, 2023, requiring district and state police control rooms and a designated officer to maintain and display arrest records."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 41D",
+        "title": "Right of arrested person to meet an advocate of his choice during interrogation",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 38",
+        "title": "Right of arrested person to meet an advocate of his choice during interrogation",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "change": "Re-enacted verbatim as Section 38 of the Bharatiya Nagarik Suraksha Sanhita, 2023."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 54",
+        "title": "Examination of arrested person by medical officer",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 53",
+        "title": "Examination of arrested person by medical officer",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "change": "Re-enacted as Section 53 of the Bharatiya Nagarik Suraksha Sanhita, 2023, retaining prompt medical examination to record injuries and adding express power for follow-up checks."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 57",
+        "title": "Person arrested not to be detained more than twenty-four hours",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 58",
+        "title": "Person arrested not to be detained more than twenty-four hours",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+      },
+      "change": "Re-enacted as Section 58 of the Bharatiya Nagarik Suraksha Sanhita, 2023, enforcing the twenty-four-hour limit before magistrate production."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 330",
+        "title": "Voluntarily causing hurt to extort confession, or to compel restoration of property",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNS2023.pdf"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 120",
+        "title": "Voluntarily causing hurt or grievous hurt to extort confession, or to compel restoration of property",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNS2023.pdf"
+      },
+      "change": "Consolidated into Section 120(1) of the Bharatiya Nyaya Sanhita, 2023, punishing custodial hurt to extort confessions with up to seven years imprisonment and fine."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 21",
+        "title": "Protection of life and personal liberty",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    },
+    {
+      "old": {
+        "act": "Constitution of India",
+        "section": "Article 22",
+        "title": "Protection against arrest and detention in certain cases",
+        "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+      },
+      "change": "Unchanged."
+    }
+  ],
+  "lawNote": "Because the petitions, judgment, and 2008 statutory codification occurred before July 1, 2024, they were governed by the Code of Criminal Procedure, 1973 and the Indian Penal Code, 1860.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, December 18, 1996",
+      "url": "https://indiankanoon.org/doc/501198/"
+    },
+    {
+      "label": "Constitution of India (Official Legislative Department Text)",
+      "url": "https://www.legislative.gov.in/static/uploads/2025/07/c9fe9c9b6840524844316f74bb1c556c.pdf"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 (Official NCRB Text and Comparative Table)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNSS2023.pdf"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 (Official NCRB Text and Comparative Table)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/DownloadPDF/BNS2023.pdf"
+    }
+  ],
+  "social": {
+    "hook": "How did one lawyer's letter about lock-up deaths rewrite every arrest rule in India?",
+    "script": "How did one lawyer's letter about lock-up deaths rewrite every arrest rule in India? In August 1986, a legal-aid chairperson in Calcutta sent newspaper clippings of custodial deaths to the Chief Justice of India, exposing how unrecorded arrests left families without proof. On December 18, 1996, a two-judge bench declared that fundamental rights do not stop at the police station door. The Supreme Court issued eleven mandatory rules for every arrest, including visible officer name tags, witnessed arrest memos, medical checks, lawyer access, and police control rooms, all backed by contempt of court and public-law compensation. Parliament later wrote these safeguards straight into criminal procedure. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "In 1996, the Supreme Court responded to a public-interest letter on custodial deaths by issuing eleven mandatory arrest and detention safeguards backed by contempt of court.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#CriminalProcedure",
+      "#CustodialRights",
+      "#Article21",
+      "#PoliceAccountability",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "11 Arrest Rules Every Citizen Should Know: 1996 Ruling",
+    "carousel": [
+      {
+        "heading": "The 1986 Lock-Up Letter",
+        "text": "A Calcutta lawyer sent press clippings of custodial deaths to the Supreme Court, exposing unrecorded arrests behind closed doors."
+      },
+      {
+        "heading": "The States' Defense",
+        "text": "State governments argued existing police manuals were enough, even as unrecorded detentions hid custodial abuse."
+      },
+      {
+        "heading": "The Constitutional Question",
+        "text": "How can courts enforce Article 21 and 22 protections from the exact moment an arrest takes place?"
+      },
+      {
+        "heading": "The Eleven Commandments",
+        "text": "On December 18, 1996, the Supreme Court mandated arrest memos, medical exams, family notice, lawyer access, and contempt sanctions."
+      },
+      {
+        "heading": "Why It Matters",
+        "text": "Those eleven rules entered Parliament's criminal procedure code and remain the bedrock of arrest rights across India."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
