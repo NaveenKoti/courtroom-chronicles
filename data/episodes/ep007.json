@@ -192,5 +192,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Nineteen broken visor shards and pioneering DNA tests shattered an influential stalker's alibi.",
+    "script": "Nineteen broken visor shards and pioneering DNA tests shattered an influential stalker's alibi. After a law student was assaulted and strangled in 1996, forensic physicists matched nineteen plastic fragments beside her body to a suspect's helmet, while molecular biologists matched scene swabs to his DNA. Despite this, a trial court acquitted him over police register lapses while lamenting its hands were tied. The High Court reversed the acquittal and imposed death. In 2010, the Supreme Court upheld his conviction, ruling that rigorous DNA science and physical fracture matching outweigh clerical police errors, while commuting death to life given his reform potential. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After nineteen helmet visor shards and DNA profiling linked a stalker to a 1996 murder, a trial court still acquitted him over police register lapses. Discover how the Supreme Court upheld his conviction in 2010 and commuted his sentence to life.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#ForensicDNA",
+      "#EvidenceLaw",
+      "#CriminalLaw",
+      "#RarestOfRare"
+    ],
+    "shortTitle": "Nineteen visor shards, DNA profiling, and police lapses",
+    "carousel": [
+      {
+        "heading": "Nineteen shards and a missing visor",
+        "text": "Nineteen broken visor shards and pioneering DNA tests shattered an influential stalker's alibi."
+      },
+      {
+        "heading": "What happened",
+        "text": "Nineteen acrylic fragments matched a stalker's helmet and DNA matched scene swabs, yet the trial court acquitted him over police register errors."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can rigorous DNA profiling and physical fracture matching sustain a conviction despite minor lapses in police custody logs?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court upheld the rape and murder convictions based on uncontaminated science, while commuting the death sentence to life imprisonment."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Valid scientific DNA proof and false alibis overcome clerical police lapses, and the case later helped criminalize stalking."
+      }
+    ]
+  }
 }
