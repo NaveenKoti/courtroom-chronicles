@@ -1,0 +1,45 @@
+# Makes a 16:9 YouTube video (cover art + moving waveform + title + chapter titles) for one episode.
+# Run it by hand: Actions > "Make episode video" > Run workflow > type the episode id, e.g. ep064.
+# The finished .mp4 appears under "Artifacts" at the bottom of the run page (kept for 30 days).
+name: Make episode video
+
+on:
+  workflow_dispatch:
+    inputs:
+      episode:
+        description: "Episode id, for example ep064"
+        required: true
+        default: "ep064"
+
+permissions:
+  contents: read
+
+jobs:
+  video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg, fonts and Pillow
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install pillow
+
+      - name: Refresh audio links from the RSS feed
+        run: python3 fetch_audio.py || true
+
+      - name: Make the video
+        run: python3 make_video.py "${{ github.event.inputs.episode }}"
+
+      - name: Keep the video
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.episode }}-video
+          path: video/*.mp4
+          retention-days: 30
