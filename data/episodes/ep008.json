@@ -169,5 +169,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Four months after an arranged marriage, a young chemist died of cyanide poisoning in her bedroom.",
+    "script": "Four months after an arranged marriage, a young chemist died of cyanide poisoning in her bedroom. Police accused her chemical engineer husband, pointing to his extramarital affair and industrial background. Both the trial court and High Court sentenced him to death. In 1984, the Supreme Court acquitted him and laid down the five golden principles of circumstantial evidence. Prosecutors had never proved he possessed potassium cyanide, and her personal letters revealed deep despair pointing equally to suicide. Holding that moral suspicion cannot replace legal proof, the court ruled that where two reasonable views exist, the accused must receive the benefit of doubt. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a young bride with a chemistry degree died of potassium cyanide poisoning in 1982, lower courts sentenced her husband to death. See how the Supreme Court acquitted him in 1984 and framed the five golden principles of circumstantial proof.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#EvidenceLaw",
+      "#CircumstantialEvidence",
+      "#CriminalLaw",
+      "#BenefitOfDoubt"
+    ],
+    "shortTitle": "Cyanide in the bedroom and the five golden principles of proof",
+    "carousel": [
+      {
+        "heading": "Cyanide in a locked bedroom",
+        "text": "Four months after an arranged marriage, a young chemist died of cyanide poisoning in her bedroom."
+      },
+      {
+        "heading": "What happened",
+        "text": "Lower courts convicted her chemical engineer husband of murder based on his affair, though police never found cyanide in his possession."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can circumstantial evidence sustain a poisoning conviction when the prosecution fails to prove poison possession or exclude suicide?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court acquitted the husband, ruling that personal letters showed possible suicide and the prosecution failed to prove poison possession."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "The verdict established the five golden principles of circumstantial evidence, ensuring moral outrage never replaces unbroken legal proof."
+      }
+    ]
+  }
 }
