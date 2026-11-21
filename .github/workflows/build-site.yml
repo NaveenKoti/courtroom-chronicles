@@ -72,3 +72,9 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
+
+      - name: Tell Bing and other search engines (IndexNow)
+        run: |
+          # Give Pages a minute to publish so the key file and pages are live when engines check.
+          sleep 90
+          python3 indexnow.py || true
