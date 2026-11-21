@@ -216,5 +216,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031502194192BNSS2023-20-45.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Thirty-two eyewitnesses turned hostile and the gun vanished, yet a murder acquittal was overturned.",
+    "script": "Thirty-two eyewitnesses turned hostile and the gun vanished, yet a murder acquittal was overturned. When a celebrity bartender refused a late-night drink after last call in 1999, a patron fired into the ceiling and shot her dead. At trial, thirty-two witnesses recanted, the firearm stayed missing, and all accused were acquitted. On appeal, the High Court reversed the acquittal, and the Supreme Court affirmed life imprisonment in 2010. Ruling that Indian law rejects false in one, false in all, the court relied on uncorrupted witness fragments, shattered SUV window glass matching the venue, and the shooter's flight to uphold guilt. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After thirty-two witnesses turned hostile and the firearm vanished following a 1999 late-night shooting, a trial court acquitted everyone. See how appellate courts separated truth from falsehood in 2010 to confirm a life sentence.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#HostileWitnesses",
+      "#EvidenceLaw",
+      "#CriminalLaw",
+      "#AppellateReview"
+    ],
+    "shortTitle": "Thirty-two hostile witnesses, a missing gun, and life in prison",
+    "carousel": [
+      {
+        "heading": "Thirty-two witnesses turned hostile",
+        "text": "Thirty-two eyewitnesses turned hostile and the gun vanished, yet a murder acquittal was overturned."
+      },
+      {
+        "heading": "What happened",
+        "text": "After a fatal 1999 party shooting, thirty-two witnesses recanted at trial and the firearm stayed missing, leading to a full acquittal."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can appellate courts overturn an acquittal when eyewitnesses turn hostile and the murder weapon is never recovered?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court upheld the High Court's reversal and life sentence, relying on matching vehicle glass, ballistics, and post-shooting flight."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Courts must separate truth from falsehood in hostile testimony, and hiding a weapon cannot erase an unbroken circumstantial chain."
+      }
+    ]
+  }
 }
