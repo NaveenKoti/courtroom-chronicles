@@ -203,5 +203,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s3ec044a11654ad1e1e48352252859ff30/uploads/2023/11/2023110156.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Beat constables spotted smoke behind a hotel and uncovered charred remains inside a clay oven.",
+    "script": "Beat constables spotted smoke behind a hotel and uncovered charred remains inside a clay oven. When an initial autopsy missed the cause of death, a second medical board used X-rays to extract two bullets from the skull, matching them to the restaurant operator's licensed revolver. Scientists then matched bone marrow DNA to the victim's parents in a landmark forensic breakthrough. Lower courts imposed the death penalty, citing the shocking disposal of the body. In 2013, the Supreme Court upheld the murder conviction but commuted death to life imprisonment, ruling that gruesome post-murder concealment cannot turn a domestic homicide into a rarest of rare case. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When charred remains were found in a hotel clay oven in 1995, bone marrow DNA and a second X-ray autopsy proved identity and guilt. See why the Supreme Court commuted the death sentence to life in 2013 under the rarest of rare test.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#ForensicDNA",
+      "#RarestOfRare",
+      "#CriminalLaw",
+      "#EvidenceLaw"
+    ],
+    "shortTitle": "Bone marrow DNA, a clay oven, and the rarest of rare boundary",
+    "carousel": [
+      {
+        "heading": "Smoke rising behind a hotel",
+        "text": "Beat constables spotted smoke behind a hotel and uncovered charred remains inside a clay oven."
+      },
+      {
+        "heading": "What happened",
+        "text": "A second X-ray autopsy extracted two bullets matching a seized revolver, and bone marrow DNA identified the missing victim."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Does grotesque post-murder disposal of a body automatically elevate a domestic homicide into a rarest of rare death-penalty case?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court affirmed the murder conviction via DNA and ballistics, but commuted the death sentence to life imprisonment."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Forensic DNA proves identity beyond visual loss, while post-murder concealment under Section 201 cannot replace capital sentencing standards."
+      }
+    ]
+  }
 }
