@@ -16,7 +16,7 @@ Courtroom Chronicles is an English-language podcast from India that retells land
 - [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
 - [Feedback and questions](https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform)
 
-## Season 1 (52 episodes so far)
+## Season 1 (53 episodes so far)
 
 Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one.
 
@@ -174,6 +174,9 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [EP052: The Apology of History and the Decriminalization of Consensual Adult Intimacy](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep052-the-apology-of-history-and-the-decriminalization-of/): A unanimous five-judge Constitution Bench struck down the colonial-era criminalization of consensual adult intimacy in private as unconstitutional.
   - Outcome: Writ petition allowed unanimously (5:0); Section 377 of the Indian Penal Code declared unconstitutional to the extent it criminalized consensual sexual conduct between adults in private, overruling the 2013 two-judge bench decision.
   - Topics: Constitutional law, Fundamental rights, Privacy, Criminal law
+- [EP053: The Poison Cloud of Kirti Nagar and the Birth of Absolute Industrial Liability](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep053-the-poison-cloud-of-kirti-nagar-and-the-birth-of/): Following a toxic gas leak in west Delhi, a Constitution Bench replaced nineteenth-century exceptions with absolute liability for hazardous industries.
+  - Outcome: Reference answered by the five-judge Constitution Bench; the court affirmed broad remedial powers under Article 32 and established absolute liability without exceptions for enterprises carrying on hazardous or inherently dangerous activities.
+  - Topics: Constitutional law, Environmental law, Tort law, Public interest litigation
 
 ## Topics
 
@@ -182,12 +185,12 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Article 21 jurisprudence](https://naveenkoti.github.io/courtroom-chronicles/topics/article-21-jurisprudence/): 1 episode
 - [Commercial law](https://naveenkoti.github.io/courtroom-chronicles/topics/commercial-law/): 4 episodes
 - [Company law](https://naveenkoti.github.io/courtroom-chronicles/topics/company-law/): 1 episode
-- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 27 episodes
+- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 28 episodes
 - [Corporate governance](https://naveenkoti.github.io/courtroom-chronicles/topics/corporate-governance/): 1 episode
 - [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 35 episodes
 - [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 21 episodes
 - [Custodial torture](https://naveenkoti.github.io/courtroom-chronicles/topics/custodial-torture/): 1 episode
-- [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 3 episodes
+- [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 4 episodes
 - [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 32 episodes
 - [Family law](https://naveenkoti.github.io/courtroom-chronicles/topics/family-law/): 3 episodes
 - [Forensic science](https://naveenkoti.github.io/courtroom-chronicles/topics/forensic-science/): 3 episodes
@@ -202,8 +205,10 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Privacy](https://naveenkoti.github.io/courtroom-chronicles/topics/privacy/): 4 episodes
 - [Procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/procedure/): 2 episodes
 - [Property law](https://naveenkoti.github.io/courtroom-chronicles/topics/property-law/): 3 episodes
+- [Public interest litigation](https://naveenkoti.github.io/courtroom-chronicles/topics/public-interest-litigation/): 1 episode
 - [Securities regulation](https://naveenkoti.github.io/courtroom-chronicles/topics/securities-regulation/): 1 episode
 - [Sentencing](https://naveenkoti.github.io/courtroom-chronicles/topics/sentencing/): 26 episodes
+- [Tort law](https://naveenkoti.github.io/courtroom-chronicles/topics/tort-law/): 1 episode
 
 ## Laws covered
 
@@ -212,6 +217,8 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Article 142 Constitution (now Article 142 Constitution)](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-142/)
 - [Article 19(1)(a) Constitution](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-19-1-a/)
 - [Article 21 Constitution (now Article 21 Constitution)](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-21/)
+- [Article 32 Constitution](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-32/)
+- [Section 133 CrPC (now Section 152 BNSS)](https://naveenkoti.github.io/courtroom-chronicles/laws/crpc-section-133/)
 - [Section 10 Evidence Act (now Section 8 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-10/)
 - [Section 105 Evidence Act (now Section 108 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-105/)
 - [Section 106 Evidence Act (now Section 109 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-106/)
@@ -231,6 +238,7 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Section 304 IPC (now Section 105 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-304/)
 - [Section 304A IPC (now Section 106 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-304a/)
 - [Section 307 IPC (now Section 109 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-307/)
+- [Section 336 IPC (now Section 125 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-336/)
 - [Section 34 IPC (now Section 3(5) BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-34/)
 - [Section 498A IPC (now Section 85 BNS)](https://naveenkoti.github.io/courtroom-chronicles/laws/ipc-section-498a/)
 
