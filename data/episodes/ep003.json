@@ -279,5 +279,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Rescuing neighbors heard a dying bride accuse her in-laws, yet police produced a thumb-marked stove accident statement.",
+    "script": "Rescuing neighbors heard a dying bride accuse her in-laws, yet police produced a thumb-marked stove accident statement. On a freezing December night in 1980, neighbors forced past a husband holding his front door shut and saved a pregnant bride from flames. She told them her mother-in-law set her ablaze, while police later recorded an uncertified hospital statement bearing a blurred thumbprint from the literate victim. Investigators found an unburst kerosene stove, a cold dry pan, and a working indoor gas stove. In 1985, the Supreme Court reversed the High Court's acquittal, sentencing the husband and mother-in-law to life and catalyzing India's modern anti-dowry laws. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a pregnant bride died of burns in a freezing courtyard in 1980, her dying words to rescuing neighbors clashed with a suspicious police stove-accident report. See how the Supreme Court reversed an acquittal in 1985 and reshaped anti-dowry law.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#DyingDeclaration",
+      "#EvidenceLaw",
+      "#AntiDowryLaw",
+      "#ResGestae"
+    ],
+    "shortTitle": "Cold milk pan, conflicting dying declarations, and anti-dowry law",
+    "carousel": [
+      {
+        "heading": "Conflicting words in a winter courtyard",
+        "text": "Rescuing neighbors heard a dying bride accuse her in-laws, yet police produced a thumb-marked stove accident statement."
+      },
+      {
+        "heading": "What happened",
+        "text": "Neighbors rescued a pregnant bride who accused her mother-in-law, while police later produced an uncertified thumbprint statement blaming a stove."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Should spontaneous oral dying declarations to independent neighbors outweigh a procedurally flawed police statement contradicted by physical forensics?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court reversed the acquittal, rejected the stove story as impossible, and sentenced the husband and mother-in-law to life."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Spontaneous oral declarations carry strong weight when physically corroborated, and this landmark verdict catalyzed India's statutory dowry-death laws."
+      }
+    ]
+  }
 }
