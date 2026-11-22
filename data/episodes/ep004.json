@@ -207,5 +207,42 @@
       "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A naval officer shot his wife's lover, claiming a struggle, but an intact bath towel unraveled his story.",
+    "script": "A naval officer shot his wife's lover, claiming a struggle, but an intact bath towel unraveled his story. After learning of the affair, he dropped his family at a cinema, obtained a revolver from his ship, and confronted the man in his bedroom three hours later. Although a jury acquitted him, the trial judge referred the verdict, and the High Court convicted him. In 1961, the Supreme Court upheld life imprisonment for murder, ruling that three hours gave passion ample time to cool and the undisturbed towel disproved any grapple. The verdict also hastened the end of jury trials in India. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a naval officer shot his spouse's lover in 1959 and claimed an accidental struggle, an undisturbed bath towel and a three-hour timeline told a different story. Discover how the Supreme Court defined the cooling-off period in 1961.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#CriminalLaw",
+      "#Provocation",
+      "#JuryTrial",
+      "#LegalHistory"
+    ],
+    "shortTitle": "The intact bath towel and the three-hour cooling-off rule",
+    "carousel": [
+      {
+        "heading": "The towel that never fell",
+        "text": "A naval officer shot his wife's lover, claiming a struggle, but an intact bath towel unraveled his story."
+      },
+      {
+        "heading": "What happened",
+        "text": "Three hours after learning of the affair, the officer secured a naval revolver and fired three shots, yet a jury acquitted him."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can a three-hour gap between a marital disclosure and a fatal shooting still qualify as grave and sudden provocation?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "The Supreme Court upheld the murder conviction, holding that three hours provided ample cooling time and the intact towel disproved any struggle."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Provocation requires sudden loss of control before passion cools, and the case accelerated the abolition of jury trials in India."
+      }
+    ]
+  }
 }
