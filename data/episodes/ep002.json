@@ -214,5 +214,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "A doctor registered his wealthy patient under a false name and left her body to be cremated unclaimed.",
+    "script": "A doctor registered his wealthy patient under a false name and left her body to be cremated unclaimed. After giving two injections to a healthy widow before an overnight train trip, the physician admitted her in a deep coma with a fictitious relative's address. An autopsy found zero known poisons. Meanwhile, he forged letters claiming she had remarried and liquidated her shares and bank funds. On appeal, the defense argued no corpus delicti existed without chemical proof. In 1959, a two-to-one Supreme Court majority upheld his death sentence, ruling that an accused whose fraud prevents forensic detection cannot hide behind missing poison traces. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After a family physician admitted a comatose widow under a fake name, abandoned her body for pauper cremation, and plundered her estate, chemical tests found zero poison. See how a 1959 Supreme Court majority still proved murder.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#CriminalLaw",
+      "#EvidenceLaw",
+      "#CircumstantialEvidence",
+      "#CorpusDelicti"
+    ],
+    "shortTitle": "The undetected poison, false hospital name, and corpus delicti",
+    "carousel": [
+      {
+        "heading": "Abandoned as an unclaimed pauper",
+        "text": "A doctor registered his wealthy patient under a false name and left her body to be cremated unclaimed."
+      },
+      {
+        "heading": "What happened",
+        "text": "After an autopsy found zero poison, the physician forged letters claiming she had remarried while liquidating her shares and bank funds."
+      },
+      {
+        "heading": "The legal question",
+        "text": "Can murder by poisoning be proved through circumstantial conduct when chemical analysis detects no poison in the body?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "By a two-to-one majority, the Supreme Court upheld the death sentence, holding that fraud cannot shield an accused from circumstantial proof."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "No one may profit from their own wrong; clinical progression and post-crime deception can establish corpus delicti without a chemical trace."
+      }
+    ]
+  }
 }
