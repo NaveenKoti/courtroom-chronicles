@@ -1,0 +1,364 @@
+{
+  "id": "ep065",
+  "title": "One Broken Tail Lamp Glass and the Evidence That Reversed an Acquittal",
+  "hook": "When a High Court acquitted four men in three ritual child murders, a tiny shard of red tail-lamp glass by a canal helped the Supreme Court rebuild the chain of proof.",
+  "topics": [
+    "Criminal law",
+    "Criminal procedure",
+    "Evidence",
+    "Sentencing"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 (Sections 302, 34, 120B, 364, 201)",
+    "Indian Evidence Act, 1872 (Sections 10, 27, 30)",
+    "Code of Criminal Procedure, 1973 (Sections 162, 164, 293, 313)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Bench",
+      "value": "Two-Judge Bench"
+    },
+    {
+      "label": "Decided On",
+      "value": "May 1, 2000"
+    },
+    {
+      "label": "Lower Courts",
+      "value": "Sessions Court; High Court of Bombay (Aurangabad Bench)"
+    },
+    {
+      "label": "Jurisdiction",
+      "value": "Chanda village, Newasa taluk, Ahmednagar district, Maharashtra"
+    },
+    {
+      "label": "Outcome",
+      "value": "High Court acquittal reversed; three surviving accused convicted and sentenced to life imprisonment"
+    }
+  ],
+  "summary": [
+    "Between March 1992 and February 1995, three young children disappeared from a village in Newasa taluk of Ahmednagar district, Maharashtra, and their bodies were recovered days later from a nearby canal. Investigators initially had few leads until an unrelated arrest in February 1995 led to the detention of four men, including a local landowner, an occult practitioner, and two associates. A fourth accused later gave a judicial confession—a formal statement recorded by a magistrate after ensuring the person is free from police pressure—revealing that the group believed sacrificing five children would unearth hidden treasure on the landowner's farm.",
+    "The prosecution backed that confession with physical and witness evidence. A five-year-old boy testified that he had escaped two separate luring attempts by the fourth accused, and an eleven-year-old playmate recalled seeing the first victim walk away with the same man. Police also recovered a blood-stained brass ritual vessel from the landowner's house and a tiny shard of red tail-lamp glass from the canal bank pointed out by the third accused, which fitted piece-for-piece into the broken tail lamp of the landowner's seized motorcycle.",
+    "The Sessions Court convicted all four men of criminal conspiracy, abduction, and murder and sentenced them to death. However, the Aurangabad Bench of the Bombay High Court acquitted all four accused. The High Court doubted the voluntariness of the confession because the sub-jail stood next to a police station, dismissed the child witnesses as unreliable, refused to treat the second child's death as homicidal because no post-mortem had been conducted, and rejected the canal-bank glass recovery as coming from a public place.",
+    "On appeal by the State—after the first accused died pending proceedings—the Supreme Court of India reversed the acquittal as a grave miscarriage of justice. The bench noted that the fourth accused had spent nearly a full month in judicial custody before confessing, removing any immediate police influence, and restored the natural testimonies of the child witnesses and the father who saw his second child's injuries. The Court also held that the landowner's flat false denial of the blood-stained vessel during his court examination supplied an additional link in the chain of circumstantial evidence (facts that together point to guilt without a direct eyewitness to the killing).",
+    "Crucially, the Supreme Court clarified two major evidence rules: under Section 27 of the Indian Evidence Act, 1872, a discovery includes the accused's exclusive knowledge of where an item like the tail-lamp shard lies even on a public canal bank; and under Section 10, once prima facie conspiracy is shown, one conspirator's proven statements bind co-conspirators as mutual agents. While excluding an unexamined handwriting expert's report under Section 293 of the Code of Criminal Procedure, 1973, the Court convicted all three surviving accused. Finding that the crimes sprang from ignorant superstition rather than ransom or personal hatred, the bench commuted the death sentences to life imprisonment."
+  ],
+  "timeline": [
+    {
+      "date": "c. 1970",
+      "title": "Gold Ring Unearthed on Farm Land",
+      "text": "An agricultural labourer tilling the landowner's field in Chanda village unearths an ancient gold ring, sparking a belief in buried treasure.",
+      "key": false
+    },
+    {
+      "date": "March 4, 1992",
+      "title": "First Child Disappears",
+      "text": "An eight-year-old girl vanishes while playing and is last seen by an eleven-year-old playmate walking away with the fourth accused; her body is found in a canal three days later.",
+      "key": true
+    },
+    {
+      "date": "February 1993",
+      "title": "First Failed Abduction Attempt",
+      "text": "The fourth accused offers sweets to a five-year-old village boy to lure him away, but the child feels uneasy, breaks free, and runs home.",
+      "key": false
+    },
+    {
+      "date": "February 9, 1994",
+      "title": "Second Child Disappears",
+      "text": "A five-year-old boy goes missing and is found dead in the Dedgaon canal three days later; his father buries him without a post-mortem out of grief and fear.",
+      "key": true
+    },
+    {
+      "date": "February 10, 1995",
+      "title": "Second Failed Abduction Near School",
+      "text": "The fourth accused catches the same surviving boy's hand near his primary school, but the boy escapes into the school and informs his father.",
+      "key": false
+    },
+    {
+      "date": "February 13, 1995",
+      "title": "Third Child Disappears",
+      "text": "A seven-year-old second-standard student vanishes and his body is recovered from the same canal three days later.",
+      "key": true
+    },
+    {
+      "date": "February 26, 1995",
+      "title": "Arrests Break the Case Open",
+      "text": "Police arrest the first accused in an unrelated matter, leading to the arrest of the remaining three co-accused and forensic seizures.",
+      "key": true
+    },
+    {
+      "date": "March 8, 1995",
+      "title": "Almanac Slip Seized",
+      "text": "Police recover an almanac with a handwritten herbal list from the fourth accused's home, though the resulting handwriting report is later excluded at law.",
+      "key": false
+    },
+    {
+      "date": "April 26, 1995",
+      "title": "Move to Judicial Custody",
+      "text": "The fourth accused is transferred from police custody to judicial custody in the Newasa sub-jail.",
+      "key": false
+    },
+    {
+      "date": "May 25–26, 1995",
+      "title": "Judicial Confession Recorded",
+      "text": "After nearly a month in judicial custody, the fourth accused gives a detailed confession before a Judicial Magistrate First Class in Ahmednagar.",
+      "key": true
+    },
+    {
+      "date": "1999",
+      "title": "High Court Reverses Death Sentences",
+      "text": "After the Sessions Court sentences all four men to death, the Bombay High Court acquits all four accused on appeal.",
+      "key": true
+    },
+    {
+      "date": "May 1, 2000",
+      "title": "Supreme Court Reinstates Convictions",
+      "text": "Noting the abatement of the appeal against the deceased first accused, the Supreme Court convicts the three surviving accused and sentences them to life imprisonment.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India allowed the State's appeal, set aside the High Court's acquittal, convicted the three surviving accused under Sections 302, 34, 120B, 364, and 201 of the Indian Penal Code, 1860, and commuted the Sessions Court's death sentence to life imprisonment.",
+    "points": [
+      "A nearly one-month interval in judicial custody before recording a confession dispelled any fear of immediate police pressure, and physical proximity between a sub-jail and a police station does not vitiate a magistrate's work.",
+      "Under Section 162 of the Code of Criminal Procedure, 1973, an investigating officer is not obliged to disclose the confidential source through which he learned an accused wished to confess.",
+      "The natural, untutored accounts of child witnesses and a father's direct observation of fatal injuries can establish both identity and homicidal death even without an autopsy.",
+      "Under Section 27 of the Indian Evidence Act, 1872, discovering a newly proven fact includes the accused's exclusive knowledge of a broken tail-lamp shard at a canal bank, even if the spot is publicly accessible.",
+      "A demonstrably false denial by an accused during examination under Section 313 of the Code of Criminal Procedure, 1973, regarding a seized blood-stained vessel supplies a missing link in circumstantial evidence.",
+      "A handwriting report by an Assistant State Examiner of Documents is inadmissible without oral testimony because that office is not exempted under Section 293 of the Code of Criminal Procedure, 1973.",
+      "While Section 30 of the Indian Evidence Act, 1872 limits a co-accused's confession to corroboration, Section 10 treats conspirators as mutual agents so proven statements in reference to common intention bind all conspirators.",
+      "Because the murders stemmed from ignorant superstition rather than ransom, robbery, or personal hatred, the rarest of rare threshold for the death penalty was not met."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Doctrine of Confirmation by Subsequent Events",
+      "meaning": "Information given by an accused in police custody is admissible to the extent it leads to the discovery of a previously unknown fact, because the physical discovery confirms the accused's exclusive knowledge.",
+      "inThisCase": "When the third accused led police to a canal embankment where a broken red tail-lamp shard matched the landowner's seized motorcycle, it proved the new fact that the motorcycle had been used at that disposal spot."
+    },
+    {
+      "name": "Agency Theory in Criminal Conspiracy",
+      "meaning": "Once reasonable ground exists to believe two or more persons conspired, anything said, done, or written by one conspirator in reference to their common intention is relevant against all co-conspirators.",
+      "inThisCase": "Because independent evidence established a prima facie conspiracy, the fourth accused's proven judicial confession recounting what his co-conspirators said and did bound the surviving accused."
+    },
+    {
+      "name": "Evidentiary Value of a Retracted Confession Against Its Maker",
+      "meaning": "A voluntary and true judicial confession can sustain a conviction against its maker even if retracted later, provided it receives general corroboration from independent evidence.",
+      "inThisCase": "The fourth accused's confession, recorded after nearly a month in judicial custody and corroborated by child witnesses and physical recoveries, stood as substantive evidence against him."
+    },
+    {
+      "name": "False Denial as a Link in Circumstantial Evidence",
+      "meaning": "When incriminating physical evidence is put to an accused during court questioning, a flatly false denial rather than an explanation can serve as an additional link completing a circumstantial chain.",
+      "inThisCase": "The landowner's false denial that a blood-stained brass pitcher was ever seized from his home supplied a missing link alongside the forensic blood finding."
+    },
+    {
+      "name": "Rarest of Rare Standard in Capital Sentencing",
+      "meaning": "The death penalty is reserved for exceptional cases where aggravating factors overwhelmingly outweigh mitigating circumstances and life imprisonment is unquestionably foreclosed.",
+      "inThisCase": "Despite the horrific killing of three children, the Supreme Court commuted the death sentences to life imprisonment because the accused acted out of gullible superstition rather than ransom or malice."
+    }
+  ],
+  "takeaways": [
+    "Under Indian evidence law, Section 27 protects the discovery of an accused's exclusive knowledge of a fact—not just an object—so a public location does not automatically bar a recovery.",
+    "Section 10 conspiracy agency is broader than Section 30 co-accused confession rules once prima facie conspiracy is established.",
+    "A one-month cooling-off period in judicial custody strongly supports the voluntariness of a magistrate-recorded confession.",
+    "A flatly false denial during Section 313 questioning can strengthen the prosecution's chain of circumstantial evidence.",
+    "Expert reports not expressly exempted by statute must be proved through oral testimony in court to be admissible."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "change": "Re-indexed in Bharatiya Nyaya Sanhita, 2023 with revised sub-sections for mob lynching while retaining death or life imprisonment for murder."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 34",
+        "title": "Acts done by several persons in furtherance of common intention.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 3(5)",
+        "title": "General explanations",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "change": "Consolidated into general explanations as Section 3(5) while preserving joint criminal liability for acts done in furtherance of common intention."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 120B",
+        "title": "Punishment of criminal conspiracy.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 61(2)",
+        "title": "Criminal conspiracy.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "change": "Consolidated with the definition of criminal conspiracy into Section 61 while retaining the substantive punishment framework."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 27",
+        "title": "How much of information received from accused may be proved.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 23 Proviso",
+        "title": "Confession to police officer.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "change": "Placed as the proviso to Section 23(2) while retaining admissibility of information distinctly relating to a discovered fact."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 10",
+        "title": "Things said or done by conspirator in reference to common design.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 8",
+        "title": "Things said or done by conspirator in reference to common design.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "change": "Re-indexed as Section 8 with the same rule on statements and acts of conspirators in reference to common design."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 30",
+        "title": "Consideration of proved confession affecting person making it and others jointly under trial for same offence.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 24",
+        "title": "Consideration of proved confession affecting person making it and others jointly under trial for same offence.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "change": "Re-indexed as Section 24 with an added explanation covering trials where an accused has absconded or failed to respond to a proclamation."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 164",
+        "title": "Recording of confessions and statements.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 183",
+        "title": "Recording of confessions and statements.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+      },
+      "change": "Re-indexed as Section 183 and expanded to permit recording confessions and statements by audio-video electronic means."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 313",
+        "title": "Power to examine the accused.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 351",
+        "title": "Power to examine accused.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+      },
+      "change": "Re-indexed as Section 351 while preserving the court's power to question the accused personally on incriminating circumstances."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 293",
+        "title": "Reports of certain Government scientific experts.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 329",
+        "title": "Reports of certain Government scientific experts.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+      },
+      "change": "Re-indexed as Section 329 while retaining the framework for admitting reports of specified government scientific experts."
+    }
+  ],
+  "lawNote": "Because the offences in this case occurred between 1992 and 1995—well before 1 July 2024—the Indian Penal Code, 1860, the Indian Evidence Act, 1872, and the Code of Criminal Procedure, 1973 applied to the trial and appeals.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 2000",
+      "url": "https://indiankanoon.org/doc/557368/"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Corresponding Section Table (NCRB)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Corresponding Section Table (NCRB)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 and Code of Criminal Procedure, 1973 Corresponding Section Table (NCRB)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+    }
+  ],
+  "social": {
+    "hook": "Four men were acquitted of murdering three children until one broken piece of red glass changed everything.",
+    "script": "Four men were acquitted of murdering three children until one broken piece of red glass changed everything. Between 1992 and 1995, three young children vanished from a Maharashtra village and were found dead in a canal. Police uncovered a gruesome superstition-driven plot to find hidden treasure. A trial court sentenced four men to death, but the High Court acquitted them all, doubting a retracted confession, child witnesses, and a canal-bank recovery. The Supreme Court reversed the acquittal. It held that a glass shard fitting a seized motorcycle proved exclusive knowledge under evidence law, and conspiracy rules bound all surviving accused to life imprisonment. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "After a High Court acquitted four men in three ritual child murders, a single piece of broken tail-lamp glass helped the Supreme Court rebuild the chain of proof and explain how discovery and conspiracy evidence work together.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#EvidenceLaw",
+      "#CriminalLaw",
+      "#SupremeCourtOfIndia",
+      "#CriminalConspiracy",
+      "#LegalEducation"
+    ],
+    "shortTitle": "One Broken Tail Lamp Glass That Reversed an Acquittal",
+    "carousel": [
+      {
+        "heading": "One Shard Changed Everything",
+        "text": "Four men were acquitted of murdering three children until one broken piece of red glass changed everything."
+      },
+      {
+        "heading": "Three Children Vanish in Maharashtra",
+        "text": "Between 1992 and 1995, three village children were abducted and killed in a ritual plot to uncover supposed buried treasure."
+      },
+      {
+        "heading": "Can a Canal Shard Convict?",
+        "text": "After the High Court rejected a retracted confession, child witnesses, and a canal-bank glass shard, could the Supreme Court convict?"
+      },
+      {
+        "heading": "Supreme Court Reverses the Acquittal",
+        "text": "The Supreme Court convicted the three surviving accused, ruling the matching motorcycle glass and conspiracy agency completed the evidentiary chain."
+      },
+      {
+        "heading": "Why This Ruling Still Matters",
+        "text": "It clarifies discovery of facts in public spaces, conspiracy agency, and false denials under Indian criminal evidence law."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
