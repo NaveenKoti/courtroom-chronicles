@@ -271,5 +271,42 @@
       "url": "https://uppolice.gov.in/site/writereaddata/siteContent/Three%20New%20Major%20Acts/202407031507276576BSA2023-9-25.pdf"
     }
   ],
-  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it.",
+  "social": {
+    "hook": "Guests danced at backyard parties for three years, unaware a wooden casket lay buried beneath the patio.",
+    "script": "Guests danced at backyard parties for three years, unaware a wooden casket lay buried beneath the patio. After a wealthy landowner vanished in 1991, her husband claimed she was traveling abroad while liquidating 34 plots of her land. When her daughter found her unused passport, police interrogated the husband. Under Section 27, he led investigators to an eight-foot pit beneath cemented courtyard slabs containing a box and remains matched by DNA. Splitting on the death penalty, the case reached a three-judge Supreme Court bench. In 2008, it commuted death to imprisonment for natural life without remission, bridging the gap between fourteen years and death. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "For three years, guests partied over a cemented courtyard hiding a wooden casket eight feet below. Discover how a 1994 exhumation under Section 27 led the Supreme Court in 2008 to redefine life imprisonment as natural life without remission.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#SupremeCourt",
+      "#SentencingLaw",
+      "#Section27",
+      "#LifeImprisonment",
+      "#CriminalLaw"
+    ],
+    "shortTitle": "The courtyard casket and life imprisonment without remission",
+    "carousel": [
+      {
+        "heading": "Buried beneath the backyard patio",
+        "text": "Guests danced at backyard parties for three years, unaware a wooden casket lay buried beneath the patio."
+      },
+      {
+        "heading": "What happened",
+        "text": "After liquidating his missing wife's land, the husband led police under Section 27 to an eight-foot pit beneath cemented courtyard slabs."
+      },
+      {
+        "heading": "The legal question",
+        "text": "When commuting a death sentence, can a court order imprisonment for the convict's entire natural life without executive remission?"
+      },
+      {
+        "heading": "The ruling",
+        "text": "A three-judge Supreme Court bench commuted the death penalty to imprisonment for natural life, barring any statutory remission."
+      },
+      {
+        "heading": "Why it matters",
+        "text": "Life imprisonment legally means natural life, giving courts a middle sentencing option between fourteen-year release and capital punishment."
+      }
+    ]
+  }
 }
