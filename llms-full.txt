@@ -16,7 +16,7 @@ Courtroom Chronicles is an English-language podcast from India that retells land
 - [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
 - [Feedback and questions](https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform)
 
-## Season 1 (54 episodes so far)
+## Season 1 (55 episodes so far)
 
 Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one.
 
@@ -180,6 +180,9 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [EP054: The Lone Survivor at Arthur Road and Constitutional Due Process in a Terror Trial](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep054-the-lone-survivor-at-arthur-road-and-constitutional-due/): Even in the prosecution of the sole surviving gunman of the 2008 Mumbai terror attacks, the Supreme Court enforced strict constitutional and evidentiary standards.
   - Outcome: Appeals dismissed; the Supreme Court confirmed the death sentences imposed by the special trial court and affirmed by the Bombay High Court, while laying down binding constitutional rules on pre-trial legal aid.
   - Topics: Criminal law, Constitutional law, Evidence, Natural justice
+- [EP055: The Burning Bakery of Hanuman Tekri and the Duty of a Trial Judge](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep055-the-burning-bakery-of-hanuman-tekri-and-the-duty-of-a/): After thirty-seven witnesses turned hostile in a massacre trial, the Supreme Court ordered an unprecedented out-of-state retrial and jailed a perjuring witness.
+  - Outcome: Acquittals quashed and de novo retrial transferred to Maharashtra (2004); star witness later convicted of criminal contempt and sentenced to one year of simple imprisonment and a fifty-thousand-rupee fine (2006).
+  - Topics: Criminal law, Criminal procedure, Evidence, Constitutional law
 
 ## Topics
 
@@ -188,13 +191,13 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Article 21 jurisprudence](https://naveenkoti.github.io/courtroom-chronicles/topics/article-21-jurisprudence/): 1 episode
 - [Commercial law](https://naveenkoti.github.io/courtroom-chronicles/topics/commercial-law/): 4 episodes
 - [Company law](https://naveenkoti.github.io/courtroom-chronicles/topics/company-law/): 1 episode
-- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 29 episodes
+- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 30 episodes
 - [Corporate governance](https://naveenkoti.github.io/courtroom-chronicles/topics/corporate-governance/): 1 episode
-- [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 36 episodes
-- [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 21 episodes
+- [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 37 episodes
+- [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 22 episodes
 - [Custodial torture](https://naveenkoti.github.io/courtroom-chronicles/topics/custodial-torture/): 1 episode
 - [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 4 episodes
-- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 33 episodes
+- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 34 episodes
 - [Family law](https://naveenkoti.github.io/courtroom-chronicles/topics/family-law/): 3 episodes
 - [Forensic science](https://naveenkoti.github.io/courtroom-chronicles/topics/forensic-science/): 3 episodes
 - [Freedom of speech](https://naveenkoti.github.io/courtroom-chronicles/topics/freedom-of-speech/): 1 episode
@@ -223,6 +226,7 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Article 32 Constitution](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-32/)
 - [Section 133 CrPC (now Section 152 BNSS)](https://naveenkoti.github.io/courtroom-chronicles/laws/crpc-section-133/)
 - [Section 164 CrPC (now Section 183 BNSS)](https://naveenkoti.github.io/courtroom-chronicles/laws/crpc-section-164/)
+- [Section 406 CrPC (now Section 447 BNSS)](https://naveenkoti.github.io/courtroom-chronicles/laws/crpc-section-406/)
 - [Section 10 Evidence Act (now Section 8 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-10/)
 - [Section 105 Evidence Act (now Section 108 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-105/)
 - [Section 106 Evidence Act (now Section 109 BSA)](https://naveenkoti.github.io/courtroom-chronicles/laws/iea-section-106/)
