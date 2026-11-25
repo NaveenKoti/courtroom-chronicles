@@ -1,0 +1,299 @@
+{
+  "id": "ep066",
+  "title": "The Missing Brass Jug and the Broken Chain of Forensic Custody",
+  "hook": "After two courts convicted four men in a robbery-murder, the key brass jug carrying the main fingerprint never reached the trial courtroom.",
+  "topics": [
+    "Criminal law",
+    "Criminal procedure",
+    "Evidence"
+  ],
+  "laws": [
+    "Indian Penal Code, 1860 (Sections 302, 380, 460)",
+    "Indian Evidence Act, 1872 (Sections 27, 114)",
+    "Code of Criminal Procedure, 1973 (Section 162)",
+    "Identification of Prisoners Act, 1920 (Sections 4, 5)"
+  ],
+  "facts": [
+    {
+      "label": "Court",
+      "value": "Supreme Court of India"
+    },
+    {
+      "label": "Bench",
+      "value": "Two-Judge Bench"
+    },
+    {
+      "label": "Decided On",
+      "value": "May 8, 1997"
+    },
+    {
+      "label": "Lower Courts",
+      "value": "Sessions Court; High Court of Rajasthan"
+    },
+    {
+      "label": "Jurisdiction",
+      "value": "Nagaur, Rajasthan"
+    },
+    {
+      "label": "Outcome",
+      "value": "Appeals allowed; High Court convictions set aside and all three appellants acquitted"
+    }
+  ],
+  "summary": [
+    "On the morning of April 13, 1983, a niece bringing daily food to her elderly, childless widower relative in Nagaur, Rajasthan, found his front door open and his body inside a ransacked room. A relative immediately lodged a First Information Report—the initial police record of a cognizable offence—without any list of stolen ornaments. The next day, investigators inspected the scene and seized sixteen items, including a brass jug believed to bear chance fingerprints.",
+    "A week later, police arrested four men based on statements from two neighbours who claimed to have seen them near the house at night. Following police questioning, investigators reported recovering silver anklets and blood-stained trousers linked to one accused, and four silver rings and a blood-stained knife linked to another. Ten days after the initial search, while the accused were in custody, police revisited the locked house and claimed to find footprints and a glass tumbler bearing fingerprints.",
+    "With no eyewitnesses inside the house, the Sessions Court convicted all four men of house-breaking by night, theft, and murder based on circumstantial evidence—facts that together point to guilt without a direct witness. On appeal, the Rajasthan High Court rejected the neighbours' night-sighting testimony as unreliable, yet upheld the convictions. Relying on Section 114, Illustration (a) of the Indian Evidence Act, 1872, the High Court presumed from the recovered silver ornaments that the accused had committed both robbery and murder.",
+    "Three of the four convicted men appealed to the Supreme Court of India, which set aside their convictions and acquitted them in May 1997. Against the first appellant, the only remaining link was a fingerprint match on the brass jug, which collapsed completely: the seized items sat at the police station for five days without proof of seal marks, the Investigating Officer kept the seal in his personal custody, the dispatch date was overwritten, specimen fingerprints were taken three times without a magistrate's order under the Identification of Prisoners Act, 1920, and the brass jug was never produced at trial.",
+    "The Supreme Court also dismantled the remaining links against the other two appellants. The glass tumbler and footprints surfaced ten days after an exhaustive search and the tumbler was never produced in court, while footprint science was held too undeveloped to stand alone without independent proof. A post-investigation written list of stolen ornaments was ruled inadmissible under Section 162 of the Code of Criminal Procedure, 1973, leaving no proof that the silver items were stolen during the murder, and the third appellant's alleged recovery witness turned hostile at trial."
+  ],
+  "timeline": [
+    {
+      "date": "April 12–13, 1983",
+      "title": "Robbery and Murder in Nagaur",
+      "text": "An elderly widower is killed inside his home during the night and his house is ransacked; his niece discovers the body the next morning and a First Information Report is lodged without listing stolen items.",
+      "key": true
+    },
+    {
+      "date": "April 14, 1983",
+      "title": "Initial Crime-Scene Seizure",
+      "text": "Police inspect the house and seize sixteen items, including a brass jug, though the Investigating Officer retains the seal and no seal mark is later proved at trial.",
+      "key": true
+    },
+    {
+      "date": "April 19–20, 1983",
+      "title": "Delayed Forensic Dispatch and Arrests",
+      "text": "After five days at the police station, the seized items reach the Finger Print Bureau on April 20—the same day police arrest four men.",
+      "key": false
+    },
+    {
+      "date": "April 24, 1983",
+      "title": "Second Search While Accused in Custody",
+      "text": "Ten days after the first search, police revisit the house while the accused are in custody and report finding footprints and a glass tumbler.",
+      "key": false
+    },
+    {
+      "date": "May 1, 1983",
+      "title": "House Returned to Relatives",
+      "text": "Police unlock and return possession of the deceased's house to relatives after keeping it sealed since April 13.",
+      "key": false
+    },
+    {
+      "date": "May 24 – June 30, 1983",
+      "title": "Repeated Specimen Fingerprinting",
+      "text": "A head constable takes specimen fingerprints from the first accused three times in police custody without an order from a Judicial Magistrate.",
+      "key": true
+    },
+    {
+      "date": "1985–1996",
+      "title": "Trial Conviction and High Court Affirmance",
+      "text": "The Sessions Court convicts all four accused; the Rajasthan High Court discards the night-sighting witnesses but affirms the convictions using a theft-to-murder presumption.",
+      "key": true
+    },
+    {
+      "date": "May 8, 1997",
+      "title": "Supreme Court Acquits Appellants",
+      "text": "The Supreme Court of India sets aside the convictions of all three appellants due to broken chain of custody, missing physical exhibits, and statutory violations.",
+      "key": true
+    }
+  ],
+  "judgment": {
+    "outcome": "The Supreme Court of India allowed both appeals, set aside the convictions and sentences recorded against the three appellants under Sections 302, 380, and 460 of the Indian Penal Code, 1860, and ordered their immediate release.",
+    "points": [
+      "The prosecution failed to prove an unbroken chain of custody for the brass jug: it sat at the police station for five days, the seal remained with the Investigating Officer, seal marks were unproved, the dispatch date was overwritten, and the jug itself was never produced in court.",
+      "Although police have competence under Section 4 of the Identification of Prisoners Act, 1920, taking specimen fingerprints three times in custody without a Magistrate's order under Section 5 cast serious mistrust on their genuineness.",
+      "Discovering a glass tumbler and footprints ten days after a thorough initial search while the accused were in police custody created a risk of fabrication, and the tumbler was also never produced at trial.",
+      "The science of footprint identification is not a fully developed science and can only reinforce a conclusion of identity already reached on stronger independent evidence.",
+      "A written list of stolen ornaments handed to police during investigation was barred from substantive use by Section 162 of the Code of Criminal Procedure, 1973, and relatives lacked access to the locked house until May 1, 1983.",
+      "Without proof that the recovered silver rings and anklets were stolen at the time of the murder, no presumption of robbery or murder could be drawn under Section 114, Illustration (a) of the Indian Evidence Act, 1872.",
+      "Once unreliable recoveries, unproved prints, and a hostile recovery witness were set aside, a blood-stained knife recovered after fifteen days and undated simple injuries raised only suspicion, not legal proof."
+    ]
+  },
+  "principles": [
+    {
+      "name": "Unbroken Chain of Custody",
+      "meaning": "Physical evidence seized during an investigation must be accounted for continuously from seizure to courtroom production, with intact seals proved, to rule out tampering or substitution.",
+      "inThisCase": "A five-day station delay, personal retention of the seal by the Investigating Officer, an overwritten dispatch date, and failure to produce the brass jug and glass tumbler at trial destroyed the forensic link."
+    },
+    {
+      "name": "Best Evidence Rule for Physical Exhibits",
+      "meaning": "The original physical article bearing forensic marks should be produced and exhibited before the trial court so the judge and defence can inspect it directly.",
+      "inThisCase": "Because neither the brass jug nor the glass tumbler was ever produced in court, the prosecution withheld the best evidence of seizure and fingerprint examination."
+    },
+    {
+      "name": "Judicial Oversight of Custodial Identification Measurements",
+      "meaning": "When investigators repeatedly take specimen fingerprints or measurements from an accused in custody, obtaining a Magistrate's order under statutory safeguards prevents suspicion of fabrication.",
+      "inThisCase": "Taking the first appellant's specimen fingerprints three times without a Magistrate's order under Section 5 of the Identification of Prisoners Act, 1920 undermined confidence in the Bureau match."
+    },
+    {
+      "name": "Corroborative Limit of Footprint Evidence",
+      "meaning": "Because footprint comparison is not an exact or fully developed science, it cannot serve as the sole or primary basis for a criminal conviction and may only reinforce independent proof.",
+      "inThisCase": "With no other reliable link connecting the second appellant to the house, the disputed footprint impressions could not sustain a murder conviction."
+    },
+    {
+      "name": "Foundational Facts for Presumption of Recent Possession",
+      "meaning": "Before a court presumes theft or murder from possession of stolen property under Section 114, Illustration (a), the prosecution must prove ownership and that the items were taken during the crime.",
+      "inThisCase": "Because no admissible evidence proved when the silver rings and anklets disappeared from the locked house, the High Court's presumption of robbery-murder failed."
+    },
+    {
+      "name": "Bar on Police Statements as Substantive Evidence",
+      "meaning": "Statements recorded by police during an investigation cannot be used as substantive proof at trial and may only be used to contradict a witness in the manner permitted by law.",
+      "inThisCase": "A supplementary written list of stolen ornaments handed to the Investigating Officer weeks after the initial report was inadmissible under Section 162 of the Code of Criminal Procedure, 1973."
+    }
+  ],
+  "takeaways": [
+    "Forensic matches mean little in court if investigators cannot prove an unbroken, tamper-proof chain of custody and produce the original physical exhibit.",
+    "Repeated custodial fingerprinting without a Magistrate's order invites serious judicial skepticism over authenticity.",
+    "Footprint identification is only corroborative and cannot replace independent proof of guilt.",
+    "Presumptions from possession of stolen goods require strict proof that the items belonged to the victim and were stolen during the offence.",
+    "Suspicion—even strong suspicion from delayed recoveries or minor injuries—can never take the place of legal proof beyond reasonable doubt."
+  ],
+  "lawMapping": [
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 302",
+        "title": "Punishment for murder.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 103",
+        "title": "Punishment for murder.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "change": "Re-indexed in Bharatiya Nyaya Sanhita, 2023 with revised sub-sections for mob lynching while retaining death or life imprisonment for murder."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 380",
+        "title": "Theft in dwelling house, etc.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 305",
+        "title": "Theft in a dwelling house, or means of transportation or place of worship, etc.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "change": "Re-indexed as Section 305 and expanded to expressly cover means of transportation, place of worship, and idol or icon theft."
+    },
+    {
+      "old": {
+        "act": "Indian Penal Code, 1860",
+        "section": "Section 460",
+        "title": "All persons jointly concerned in lurking house-trespass or house-breaking by night punishable where death or grievous hurt caused by one of them.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nyaya Sanhita, 2023",
+        "section": "Section 331(8)",
+        "title": "Punishment for house-trespass or house-breaking.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+      },
+      "change": "Consolidated into Section 331(8) while preserving joint liability where death or grievous hurt is caused during lurking house-trespass or house-breaking by night."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 27",
+        "title": "How much of information received from accused may be proved.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 23 Proviso",
+        "title": "Confession to police officer.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "change": "Placed as the proviso to Section 23(2) while retaining admissibility of information distinctly relating to a discovered fact."
+    },
+    {
+      "old": {
+        "act": "Indian Evidence Act, 1872",
+        "section": "Section 114",
+        "title": "Court may presume existence of certain facts.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "new": {
+        "act": "Bharatiya Sakshya Adhiniyam, 2023",
+        "section": "Section 119",
+        "title": "Court may presume existence of certain facts.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+      },
+      "change": "Re-indexed as Section 119 with the same discretionary presumptions, including possession of stolen goods."
+    },
+    {
+      "old": {
+        "act": "Code of Criminal Procedure, 1973",
+        "section": "Section 162",
+        "title": "Statements to police not to be signed: Use of statements in evidence.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+      },
+      "new": {
+        "act": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+        "section": "Section 181",
+        "title": "Statements to police and use thereof.",
+        "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+      },
+      "change": "Re-indexed as Section 181 while retaining the bar on signing police statements and using them as substantive evidence."
+    }
+  ],
+  "lawNote": "Because the offence occurred in April 1983—before 1 July 2024—the Indian Penal Code, 1860, the Indian Evidence Act, 1872, the Code of Criminal Procedure, 1973, and the Identification of Prisoners Act, 1920 (since replaced by the Criminal Procedure (Identification) Act, 2022) applied to the case.",
+  "sources": [
+    {
+      "label": "Judgment of the Supreme Court of India, 1997",
+      "url": "https://indiankanoon.org/doc/729191/"
+    },
+    {
+      "label": "Bharatiya Nyaya Sanhita, 2023 and Indian Penal Code, 1860 Corresponding Section Table (NCRB)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNS.html"
+    },
+    {
+      "label": "Bharatiya Sakshya Adhiniyam, 2023 and Indian Evidence Act, 1872 Corresponding Section Table (NCRB)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBSA.html"
+    },
+    {
+      "label": "Bharatiya Nagarik Suraksha Sanhita, 2023 and Code of Criminal Procedure, 1973 Corresponding Section Table (NCRB)",
+      "url": "https://www.ncrb.mha.gov.in/uploads/SankalanPortal/SectionTableBNSS.html"
+    }
+  ],
+  "social": {
+    "hook": "Two courts convicted four men of murder, until the brass jug carrying the key fingerprint vanished before trial.",
+    "script": "Two courts convicted four men of murder, until the brass jug carrying the key fingerprint vanished before trial. In 1983, an elderly widower was found dead in his ransacked home in Rajasthan. Police arrested four men and matched a fingerprint on a seized brass jug, footprints, and silver ornaments to convict them. Yet the Supreme Court acquitted all three appellants. Why? The brass jug sat at the police station for five days, the officer kept the seal, specimen prints were taken three times without a magistrate, and the jug never reached court. Without an unbroken chain of custody, suspicion cannot replace proof. You be the judge. Full case notes are on the Courtroom Chronicles website.",
+    "caption": "When a key brass jug carrying a fingerprint never reached the trial court and police kept the evidence seal, the Supreme Court overturned three murder convictions. Here is why chain of custody matters.",
+    "hashtags": [
+      "#CourtroomChronicles",
+      "#IndianLaw",
+      "#ChainOfCustody",
+      "#ForensicEvidence",
+      "#CriminalLaw",
+      "#EvidenceLaw",
+      "#SupremeCourtOfIndia"
+    ],
+    "shortTitle": "The Missing Brass Jug That Overturned a Murder Conviction",
+    "carousel": [
+      {
+        "heading": "The Missing Brass Jug",
+        "text": "Two courts convicted four men of murder, until the brass jug carrying the key fingerprint vanished before trial."
+      },
+      {
+        "heading": "A Ransacked Home in 1983",
+        "text": "An elderly widower was killed in Rajasthan, and police built a circumstantial case on prints, footprints, and recovered silver."
+      },
+      {
+        "heading": "Can Flawed Forensics Sustain Guilt?",
+        "text": "With unsealed delays, repeated unmagistrated fingerprinting, and missing physical exhibits, could the murder convictions stand?"
+      },
+      {
+        "heading": "Supreme Court Acquits All Appellants",
+        "text": "The Supreme Court set aside the convictions, ruling broken custody, missing exhibits, and inadmissible lists destroyed the chain of proof."
+      },
+      {
+        "heading": "Why This Ruling Matters Today",
+        "text": "Forensic evidence is only as strong as its documented chain of custody, statutory safeguards, and production in court."
+      }
+    ]
+  },
+  "disclaimer": "This episode and its case notes were prepared with the help of AI from public court records and legal sources. They are for education only and are not legal advice. Statute and source links point to official or primary sources, but please check every section and holding against the original judgment or bare act before relying on it."
+}
