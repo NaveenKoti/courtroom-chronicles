@@ -16,7 +16,7 @@ Courtroom Chronicles is an English-language podcast from India that retells land
 - [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
 - [Feedback and questions](https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform)
 
-## Season 1 (55 episodes so far)
+## Season 1 (56 episodes so far)
 
 Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one.
 
@@ -183,6 +183,9 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [EP055: The Burning Bakery of Hanuman Tekri and the Duty of a Trial Judge](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep055-the-burning-bakery-of-hanuman-tekri-and-the-duty-of-a/): After thirty-seven witnesses turned hostile in a massacre trial, the Supreme Court ordered an unprecedented out-of-state retrial and jailed a perjuring witness.
   - Outcome: Acquittals quashed and de novo retrial transferred to Maharashtra (2004); star witness later convicted of criminal contempt and sentenced to one year of simple imprisonment and a fifty-thousand-rupee fine (2006).
   - Topics: Criminal law, Criminal procedure, Evidence, Constitutional law
+- [EP056: The Paternity Test of a Titan and the Right to Know One's Origins](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep056-the-paternity-test-of-a-titan-and-the-right-to-know-ones/): In a civil paternity suit against a former state chief minister, the Delhi High Court separated legal legitimacy from biological truth and enforced DNA testing.
+  - Outcome: DNA testing directed (2010) and enforced with police assistance (2012); following Supreme Court dismissal of the challenge, forensic testing confirmed biological paternity, leading to a final declaratory decree in April 2014.
+  - Topics: Evidence, Constitutional law, Family law, Privacy
 
 ## Topics
 
@@ -191,14 +194,14 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Article 21 jurisprudence](https://naveenkoti.github.io/courtroom-chronicles/topics/article-21-jurisprudence/): 1 episode
 - [Commercial law](https://naveenkoti.github.io/courtroom-chronicles/topics/commercial-law/): 4 episodes
 - [Company law](https://naveenkoti.github.io/courtroom-chronicles/topics/company-law/): 1 episode
-- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 30 episodes
+- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 31 episodes
 - [Corporate governance](https://naveenkoti.github.io/courtroom-chronicles/topics/corporate-governance/): 1 episode
 - [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 37 episodes
 - [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 22 episodes
 - [Custodial torture](https://naveenkoti.github.io/courtroom-chronicles/topics/custodial-torture/): 1 episode
 - [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 4 episodes
-- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 34 episodes
-- [Family law](https://naveenkoti.github.io/courtroom-chronicles/topics/family-law/): 3 episodes
+- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 35 episodes
+- [Family law](https://naveenkoti.github.io/courtroom-chronicles/topics/family-law/): 4 episodes
 - [Forensic science](https://naveenkoti.github.io/courtroom-chronicles/topics/forensic-science/): 3 episodes
 - [Freedom of speech](https://naveenkoti.github.io/courtroom-chronicles/topics/freedom-of-speech/): 1 episode
 - [Fundamental rights](https://naveenkoti.github.io/courtroom-chronicles/topics/fundamental-rights/): 17 episodes
@@ -208,7 +211,7 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Malicious prosecution](https://naveenkoti.github.io/courtroom-chronicles/topics/malicious-prosecution/): 1 episode
 - [Natural justice](https://naveenkoti.github.io/courtroom-chronicles/topics/natural-justice/): 12 episodes
 - [Personal law](https://naveenkoti.github.io/courtroom-chronicles/topics/personal-law/): 1 episode
-- [Privacy](https://naveenkoti.github.io/courtroom-chronicles/topics/privacy/): 4 episodes
+- [Privacy](https://naveenkoti.github.io/courtroom-chronicles/topics/privacy/): 5 episodes
 - [Procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/procedure/): 2 episodes
 - [Property law](https://naveenkoti.github.io/courtroom-chronicles/topics/property-law/): 3 episodes
 - [Public interest litigation](https://naveenkoti.github.io/courtroom-chronicles/topics/public-interest-litigation/): 1 episode
@@ -224,6 +227,7 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Article 19(1)(a) Constitution](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-19-1-a/)
 - [Article 21 Constitution (now Article 21 Constitution)](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-21/)
 - [Article 32 Constitution](https://naveenkoti.github.io/courtroom-chronicles/laws/constitution-article-32/)
+- [Section 125 CrPC (now Section 144 BNSS)](https://naveenkoti.github.io/courtroom-chronicles/laws/crpc-section-125/)
 - [Section 133 CrPC (now Section 152 BNSS)](https://naveenkoti.github.io/courtroom-chronicles/laws/crpc-section-133/)
 - [Section 164 CrPC (now Section 183 BNSS)](https://naveenkoti.github.io/courtroom-chronicles/laws/crpc-section-164/)
 - [Section 406 CrPC (now Section 447 BNSS)](https://naveenkoti.github.io/courtroom-chronicles/laws/crpc-section-406/)
