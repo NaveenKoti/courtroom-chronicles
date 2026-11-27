@@ -16,7 +16,7 @@ Courtroom Chronicles is an English-language podcast from India that retells land
 - [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
 - [Feedback and questions](https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform)
 
-## Season 1 (56 episodes so far)
+## Season 1 (57 episodes so far)
 
 Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one.
 
@@ -186,6 +186,9 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [EP056: The Paternity Test of a Titan and the Right to Know One's Origins](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep056-the-paternity-test-of-a-titan-and-the-right-to-know-ones/): In a civil paternity suit against a former state chief minister, the Delhi High Court separated legal legitimacy from biological truth and enforced DNA testing.
   - Outcome: DNA testing directed (2010) and enforced with police assistance (2012); following Supreme Court dismissal of the challenge, forensic testing confirmed biological paternity, leading to a final declaratory decree in April 2014.
   - Topics: Evidence, Constitutional law, Family law, Privacy
+- [EP057: The Man Who Died on Paper and the Struggle for Legal Personhood](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep057-the-man-who-died-on-paper-and-the-struggle-for-legal/): Declared dead in village land records through a petty bribe, a living weaver fought for eighteen years to prove his existence and expose an entire underworld.
+  - Outcome: Suo motu public interest petition disposed of on January 7, 2000 by referring the systemic land-record fraud to the National Human Rights Commission and directing criminal and departmental proceedings; a subsequent writ claim for state compensation was dismissed in February 2023.
+  - Topics: Constitutional law, Property law, Criminal law, Natural justice
 
 ## Topics
 
@@ -194,9 +197,9 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Article 21 jurisprudence](https://naveenkoti.github.io/courtroom-chronicles/topics/article-21-jurisprudence/): 1 episode
 - [Commercial law](https://naveenkoti.github.io/courtroom-chronicles/topics/commercial-law/): 4 episodes
 - [Company law](https://naveenkoti.github.io/courtroom-chronicles/topics/company-law/): 1 episode
-- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 31 episodes
+- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 32 episodes
 - [Corporate governance](https://naveenkoti.github.io/courtroom-chronicles/topics/corporate-governance/): 1 episode
-- [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 37 episodes
+- [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 38 episodes
 - [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 22 episodes
 - [Custodial torture](https://naveenkoti.github.io/courtroom-chronicles/topics/custodial-torture/): 1 episode
 - [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 4 episodes
@@ -209,11 +212,11 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Human dignity](https://naveenkoti.github.io/courtroom-chronicles/topics/human-dignity/): 2 episodes
 - [Information technology](https://naveenkoti.github.io/courtroom-chronicles/topics/information-technology/): 1 episode
 - [Malicious prosecution](https://naveenkoti.github.io/courtroom-chronicles/topics/malicious-prosecution/): 1 episode
-- [Natural justice](https://naveenkoti.github.io/courtroom-chronicles/topics/natural-justice/): 12 episodes
+- [Natural justice](https://naveenkoti.github.io/courtroom-chronicles/topics/natural-justice/): 13 episodes
 - [Personal law](https://naveenkoti.github.io/courtroom-chronicles/topics/personal-law/): 1 episode
 - [Privacy](https://naveenkoti.github.io/courtroom-chronicles/topics/privacy/): 5 episodes
 - [Procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/procedure/): 2 episodes
-- [Property law](https://naveenkoti.github.io/courtroom-chronicles/topics/property-law/): 3 episodes
+- [Property law](https://naveenkoti.github.io/courtroom-chronicles/topics/property-law/): 4 episodes
 - [Public interest litigation](https://naveenkoti.github.io/courtroom-chronicles/topics/public-interest-litigation/): 1 episode
 - [Securities regulation](https://naveenkoti.github.io/courtroom-chronicles/topics/securities-regulation/): 1 episode
 - [Sentencing](https://naveenkoti.github.io/courtroom-chronicles/topics/sentencing/): 26 episodes
