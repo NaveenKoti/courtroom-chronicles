@@ -16,7 +16,7 @@ Courtroom Chronicles is an English-language podcast from India that retells land
 - [Sitemap](https://naveenkoti.github.io/courtroom-chronicles/sitemap.xml)
 - [Feedback and questions](https://docs.google.com/forms/d/e/1FAIpQLScopKmh7wA0qeyvCUbzYnbFhcIORl8H058YTsOzEVPW-F3Dfg/viewform)
 
-## Season 1 (57 episodes so far)
+## Season 1 (58 episodes so far)
 
 Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with case notes, timelines and the law behind each one.
 
@@ -189,6 +189,9 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [EP057: The Man Who Died on Paper and the Struggle for Legal Personhood](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep057-the-man-who-died-on-paper-and-the-struggle-for-legal/): Declared dead in village land records through a petty bribe, a living weaver fought for eighteen years to prove his existence and expose an entire underworld.
   - Outcome: Suo motu public interest petition disposed of on January 7, 2000 by referring the systemic land-record fraud to the National Human Rights Commission and directing criminal and departmental proceedings; a subsequent writ claim for state compensation was dismissed in February 2023.
   - Topics: Constitutional law, Property law, Criminal law, Natural justice
+- [EP058: The Truth Serum in the Vein and the Right to Mental Silence](https://naveenkoti.github.io/courtroom-chronicles/episodes/ep058-the-truth-serum-in-the-vein-and-the-right-to-mental/): When police sought to inject sodium pentothal into murder suspects without consent, the Supreme Court drew a constitutional line at the human mind.
+  - Outcome: Appeals allowed; involuntary administration of narco-analysis, polygraph, and brain electrical activation profile tests declared unconstitutional under Articles 20(3) and 21.
+  - Topics: Constitutional law, Criminal procedure, Evidence, Human rights
 
 ## Topics
 
@@ -197,19 +200,20 @@ Season 1 of Courtroom Chronicles: 63 Indian court cases retold as stories, with 
 - [Article 21 jurisprudence](https://naveenkoti.github.io/courtroom-chronicles/topics/article-21-jurisprudence/): 1 episode
 - [Commercial law](https://naveenkoti.github.io/courtroom-chronicles/topics/commercial-law/): 4 episodes
 - [Company law](https://naveenkoti.github.io/courtroom-chronicles/topics/company-law/): 1 episode
-- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 32 episodes
+- [Constitutional law](https://naveenkoti.github.io/courtroom-chronicles/topics/constitutional-law/): 33 episodes
 - [Corporate governance](https://naveenkoti.github.io/courtroom-chronicles/topics/corporate-governance/): 1 episode
 - [Criminal law](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-law/): 38 episodes
-- [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 22 episodes
+- [Criminal procedure](https://naveenkoti.github.io/courtroom-chronicles/topics/criminal-procedure/): 23 episodes
 - [Custodial torture](https://naveenkoti.github.io/courtroom-chronicles/topics/custodial-torture/): 1 episode
 - [Environmental law](https://naveenkoti.github.io/courtroom-chronicles/topics/environmental-law/): 4 episodes
-- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 35 episodes
+- [Evidence](https://naveenkoti.github.io/courtroom-chronicles/topics/evidence/): 36 episodes
 - [Family law](https://naveenkoti.github.io/courtroom-chronicles/topics/family-law/): 4 episodes
 - [Forensic science](https://naveenkoti.github.io/courtroom-chronicles/topics/forensic-science/): 3 episodes
 - [Freedom of speech](https://naveenkoti.github.io/courtroom-chronicles/topics/freedom-of-speech/): 1 episode
 - [Fundamental rights](https://naveenkoti.github.io/courtroom-chronicles/topics/fundamental-rights/): 17 episodes
 - [Gender justice](https://naveenkoti.github.io/courtroom-chronicles/topics/gender-justice/): 1 episode
 - [Human dignity](https://naveenkoti.github.io/courtroom-chronicles/topics/human-dignity/): 2 episodes
+- [Human rights](https://naveenkoti.github.io/courtroom-chronicles/topics/human-rights/): 1 episode
 - [Information technology](https://naveenkoti.github.io/courtroom-chronicles/topics/information-technology/): 1 episode
 - [Malicious prosecution](https://naveenkoti.github.io/courtroom-chronicles/topics/malicious-prosecution/): 1 episode
 - [Natural justice](https://naveenkoti.github.io/courtroom-chronicles/topics/natural-justice/): 13 episodes
